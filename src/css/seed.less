@@ -2,6 +2,13 @@
 
 @import "seattletimes";
 
+
+.data-source, .art-credit {
+	@media @mobile {
+		float: none;
+	}
+}
+
 @redFill: #D15959;
 @redStroke: #B51818;
 @orangeFill: #D8894E;
@@ -22,8 +29,16 @@ main.interactive {
 	font-family: @df-sans;
 	font-size: 0.8em;
 	font-style: italic;
-	margin: 4px 0 20px 0;
+	margin: 4px 0 10px 0;
 	text-align: center;
+
+	&.totals {
+		margin: 0;
+		font-size: 1.1em;
+		span { font-weight: bold; }
+	}
+
+
 }
 
 .flexbox {
@@ -82,6 +97,7 @@ main.interactive {
 #toggle2 {
 	margin-bottom: 15px;
 	text-align: center;
+	margin-top: 20px;
 }
 
 #toggle3 {
@@ -259,11 +275,19 @@ main.interactive {
 
 
 .headerC {
-	font-size: 22px;
+	font-size: 25px;
+
+	@media @mobile {
+		font-size: 35px;
+	}
 }
 
 .valueC {
-	font-size: 20px;
+	font-size: 23px;
+
+	@media @mobile {
+		font-size: 32px;
+	}
 }
 
 #countyMapGraphic {
@@ -276,4 +300,9 @@ main.interactive {
   width: 100%;
   margin: auto;
 
+}
+
+.unassigned {
+	font-family: @df-sans;
+	span { font-weight: bold; }
 }

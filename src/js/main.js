@@ -7,9 +7,9 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var county_counts = window.case_data["waCountyCases319"];
-var county_deaths = window.case_data["waCountyDeaths319"];
-var day_var = "320";
+var county_counts = window.case_data["waCountyCases324"];
+var county_deaths = window.case_data["waCountyDeaths324"];
+var day_var = "324";
 /////////
 
 
@@ -26,7 +26,6 @@ if($('#countyMapGraphic').length >0 ){
 
   console.log(lastest_deaths);
 
-  var colors = ['#460900', '#5f2300', '#7a3a00', '#955017', '#b2682f', '#cf8146', '#ec9a5e', '#fdba7c', '#ffdf9f'];
   var countyMap = document.getElementById("svg3071");
   var counties = countyMap.getElementsByClassName("county");
 
@@ -42,11 +41,14 @@ if($('#countyMapGraphic').length >0 ){
            ];
 
        		var circle = svgCounty.selectAll('g').append('text')
-            .attr("class", "county_cases")
+           .attr("class", "county_cases")
        		 .attr("font-weight","bold")
        		 .attr("text-anchor", "middle")
        		 .html(function () {
-         	 	return ( case_value > 0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + centroid[1] + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + 21) + "'>" + case_value + "</tspan>" : "");
+            countyName = countyName.replace(/_/g, ' ');
+            var pushVar = (countyName === "Walla Walla") ? 40 : 0;
+            console.log(pushVar);
+         	 	return ( case_value > 0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar) + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 25) + "'>" + case_value + "</tspan>" : "");
        		 });
 
 
@@ -55,7 +57,9 @@ if($('#countyMapGraphic').length >0 ){
        			.attr("font-weight","bold")
        			.attr("text-anchor", "middle")
        			.html(function () {
-       			 return ( death_value > 0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + centroid[1] + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + 21) + "'>" + death_value + "</tspan>" : "");
+             countyName = countyName.replace(/_/g, ' ');
+             var pushVar = (countyName === "Walla Walla") ? 40 : 0;
+       			 return ( death_value > 0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar)  + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 25) + "'>" + death_value + "</tspan>" : "");
        			});
 
 
@@ -63,9 +67,7 @@ if($('#countyMapGraphic').length >0 ){
 
        death_value > 0 ? counties[i].classList.add("deathColor") : counties[i].classList.add("noColor");
        case_value > 0 ? counties[i].classList.add("caseColor") : "";
-       		 // .text( function() {
-        	   //  return ( value > 0 ?  countyName );
-        	   // });
+
 
 
   } // for loop end
@@ -81,6 +83,8 @@ if($('#countyMapGraphic').length >0 ){
 
   		if ( document.getElementById('casesCounty').checked ) {
 
+        document.getElementById('unassigned').style.visibility = "inherit";
+
   			for (i = 0; i < countyCases.length; i++) {
   					 countyCases[i].style.display = "block";
   			}
@@ -92,6 +96,8 @@ if($('#countyMapGraphic').length >0 ){
   			}
 
   		} else {
+        document.getElementById('unassigned').style.visibility = "hidden";
+
 
   			for (i = 0; i < countyCases.length; i++) {
   					 countyCases[i].style.display = "none";
@@ -130,15 +136,14 @@ if($('#countyMapGraphic').length >0 ){
 
 if($('#countyTrendGraphic').length >0 ){
   var conWidth = $("#countyTrendGraphic").width();
-  console.log(conWidth);
 
  var margin = {top: 20, right: 20, bottom: 30, left: 40},
      width = conWidth - margin.left - margin.right,
      height = 500 - margin.top - margin.bottom;
 
- var x0 = d3.scaleBand().range([0, width]);
+ var x0 = d3.scaleBand().range([0, width]).padding(.05);
 
- var x1 = d3.scaleBand();
+ var x1 = d3.scaleBand().padding(.05);
 
  var y = d3.scaleLinear()
      .range([height, 0]);
@@ -150,8 +155,6 @@ if($('#countyTrendGraphic').length >0 ){
      .scale(y)
      .tickFormat(d3.format(".2s"));
 
- var color = d3.scaleOrdinal().range(
-     ["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
  var svg = d3.select("#barChart").append("svg")
      .attr("width", width + margin.left + margin.right)
@@ -162,13 +165,12 @@ if($('#countyTrendGraphic').length >0 ){
  var yBegin;
 
  var innerColumns = {
-   "column1" : ["Benton","Chelan","Clallam","Clark","Columbia","Franklin","Grant","Grays_Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Pierce","Skagit","Snohomish","Spokane","Thurston","Whatcom","Yakima","Unassigned"],
+   "column1" : ["Adams","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Franklin","Grant","Grays_Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Pierce","San_Juan","Skagit","Snohomish","Spokane","Stevens","Thurston","Walla_Walla","Whatcom","Whitman","Yakima","Unassigned"],
  }
 
- d3.csv("../assets/waCountyCases320.csv").then(
+ d3.csv("assets/waCountyCases324.csv").then(
   function(data) {
    var columnHeaders = d3.keys(data[0]).filter(function(key) { return key !== "Date"; });
-   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Date"; }));
 
    data.forEach(function(d) {
      var yColumn = new Array();
@@ -232,9 +234,9 @@ if($('#countyTrendGraphic').length >0 ){
          tooltip.style("display", "none");
        });
 
-   project_stackedbar.selectAll("rect")
+   var bars = project_stackedbar.selectAll("rect")
        .data(function(d) { return d.columnDetails; })
-     .enter().append("rect")
+       .enter().append("rect")
        .attr("width", x1.bandwidth())
        .attr("x", function(d) {
          return x1(d.column);
@@ -250,20 +252,139 @@ if($('#countyTrendGraphic').length >0 ){
            return "orange";
          } else if ( d.name === "Snohomish" ) {
            return "red";
-         } else if ( d.name === "Unassigned" )
+         } else if ( d.name === "Unassigned" ) {
            return "black";
-        else { return "blue"; }
-      });
+        } else { return "blue"; }
+      })
+      .style("stroke", function(d) {
+        if (d.name === "King") {
+          return "orange";
+        } else if ( d.name === "Snohomish" ) {
+          return "red";
+        } else if ( d.name === "Unassigned" ) {
+          return "black";
+       } else { return "blue"; }
+     });
+
+
+
+
+
 
 });
 
 var myFunction = function(updateData) {
-  console.log("im running");
 
   d3.csv(updateData).then(
     function(data) {
 
-      console.log(data);
+      var columnHeaders = d3.keys(data[0]).filter(function(key) { return key !== "Date"; });
+
+      data.forEach(function(d) {
+        var yColumn = new Array();
+        d.columnDetails = columnHeaders.map(function(name) {
+          for (ic in innerColumns) {
+            if($.inArray(name, innerColumns[ic]) >= 0){
+              if (!yColumn[ic]){
+                yColumn[ic] = 0;
+              }
+              yBegin = yColumn[ic];
+              yColumn[ic] += +d[name];
+              return {name: name, column: ic, yBegin: yBegin, yEnd: +d[name] + yBegin,};
+            }
+          }
+        });
+        d.total = d3.max(d.columnDetails, function(d) {
+          return d.yEnd;
+        });
+      });
+
+      x0.domain(data.map(function(d) { return d.Date; }));
+      x1.domain(d3.keys(innerColumns)).range([0, x0.bandwidth()]);
+
+      y.domain([0, d3.max(data, function(d) {
+        return d.total;
+      })]);
+
+      svg.selectAll(".axis").remove();
+
+      svg.append("g")
+          .attr("class", "x axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(xAxis);
+
+      svg.append("g")
+          .attr("class", "y axis")
+          .call(yAxis)
+        .append("text")
+          .attr("transform", "rotate(-90)")
+          .attr("y", 6)
+          .attr("dy", ".7em")
+          .style("text-anchor", "end")
+          .text("");
+
+
+      svg.selectAll(".g").remove();
+
+      var project_stackedbar = svg.selectAll(".project_stackedbar")
+          .data(data)
+        .enter().append("g")
+          .attr("class", "g")
+          .attr("transform", function(d) { return "translate(" + x0(d.Date) + ",0)"; })
+          .on("mouseover", function(d) {
+            tooltip.style("display", null);
+
+            for (const key of Object.keys(d)) {
+              if (d[key] > 0) {
+                var tspan1 = tooltip.select(".toolData").append("tspan");
+                tspan1.html(key + ": " + d[key] );
+                tspan1.attr('x', 0).attr('dy', '1em');
+              } else {}
+            }
+          })
+          .on("mouseout", function(d) {
+            tooltip.selectAll("tspan").remove();
+            tooltip.style("display", "none");
+          });
+
+      var bars = project_stackedbar.selectAll("rect")
+          .exit()
+          .remove()
+          .data(function(d) {
+            return d.columnDetails;
+          })
+          .enter().append("rect")
+          .attr("width", x1.bandwidth())
+          .transition()
+          .duration(600)
+          .attr("x", function(d) {
+            return x1(d.column);
+             })
+          .attr("y", function(d) {
+            return y(d.yEnd);
+          })
+          .attr("height", function(d) {
+            return y(d.yBegin) - y(d.yEnd);
+          })
+          .style("fill", function(d) {
+            if (d.name === "King") {
+              return "orange";
+            } else if ( d.name === "Snohomish" ) {
+              return "red";
+            } else if ( d.name === "Unassigned" ) {
+              return "black";
+           } else { return "blue"; }
+         })
+         .style("stroke", function(d) {
+           if (d.name === "King") {
+             return "orange";
+           } else if ( d.name === "Snohomish" ) {
+             return "red";
+           } else if ( d.name === "Unassigned" ) {
+             return "black";
+          } else { return "blue"; }
+        });
+
 
   });
 
@@ -300,15 +421,15 @@ var myFunction = function(updateData) {
 
 
 
- var radioClick = document.getElementsByClassName("radioButton2");
 
- for (var i = 0; i < radioClick.length; i++) {
-     var dataSet = radioClick[i].getAttribute('data-type');
-     dataSet  = '../assets/' + dataSet + day_var + '.csv';
-     console.log(dataSet);
-     radioClick[i].addEventListener('click', myFunction(dataSet), false);
- }
+ var dataSet;
 
- // myFunction();
+ $( ".radioButton2" ).click(function() {
+   dataSet = this.getAttribute('data-type');
+   dataSet  = 'assets/' + dataSet + day_var + '.csv';
+   myFunction(dataSet);
+});
+
+ // myFunction("../assets/waCountyCases323.csv");
 
 } else {}

@@ -18,7 +18,10 @@
     <responsive-child>
           <main class="interactive" id="countyMapGraphic">
             <h1 class="graphic-hed">Washington coronavirus cases and deaths</h1>
-            <p class="note">Total cases as of March 17, 2020 | Updated at the end of each day </p>
+            <p class="note">Total cases as of 6:43 p.m. on March 24, 2020 | Updated at the end of each day </p>
+
+            <p class="note totals" id="casesTotal"><span>2,469</span> total cases | <span>123</span> total deaths</p>
+
 
             <form id="toggle2">
               <input type="radio" id="casesCounty" name="toggleCounty" class="radioButton1" value="casesCounty" checked>
@@ -29,10 +32,11 @@
 
             <div class="CountyMap">
               <%= t.include("assets/countyMap.svg") %>
+              <p class="unassigned" id="unassigned"><span>65</span> cases have not been identified by county.</p>
             </div>
 
             <div class="caption-container">
-              <p class="caption">*Total confirmed cases includes deaths.</p>
+              <p class="caption">*Total confirmed cases include deaths.</p>
               <p class="data-source">Source: <a href="https://www.doh.wa.gov/Emergencies/Coronavirus" target="_blank" rel="noreferrer nofollow">Washington State Department of Health</a></p>
               <p class="art-credit">Lauren Flannery and Hilary Fung / The Seattle Times</p>
             </div>
