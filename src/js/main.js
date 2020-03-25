@@ -135,9 +135,27 @@ if($('#countyMapGraphic').length >0 ){
 
 
 if($('#countyTrendGraphic').length >0 ){
-  var conWidth = $("#countyTrendGraphic").width();
+  var conWidth = $("#barChart").width();
+  var commaFormat = d3.format(',');
 
- var margin = {top: 20, right: 20, bottom: 30, left: 40},
+
+  var tooltip = d3.select(".counter .body");
+  var dateBox = d3.select(".counter .head .date");
+
+  var textBox = tooltip.append("g")
+               .attr("transform", "translate(10,0)")
+
+
+  textBox.append("text")
+          .attr("x", 0)
+          .attr("y", 20)
+          .style("text-anchor", "start")
+          .attr("transform", "translate(10,0)")
+          .attr("class","toolData")
+          .text("");
+
+
+ var margin = {top: 20, right: 10, bottom: 30, left: 40},
      width = conWidth - margin.left - margin.right,
      height = 500 - margin.top - margin.bottom;
 
@@ -156,10 +174,19 @@ if($('#countyTrendGraphic').length >0 ){
      .tickFormat(d3.format(".2s"));
 
 
+     // var ticks = d3.selectAll(".x .tick");
+     //  ticks.each(
+     //      if(i%3 !== 0) { d3.select(this).remove() } ;
+     //  );
+
+
+
+
  var svg = d3.select("#barChart").append("svg")
      .attr("width", width + margin.left + margin.right)
      .attr("height", height + margin.top + margin.bottom)
    .append("g")
+     .attr("class","mainG")
      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
  var yBegin;
@@ -217,22 +244,46 @@ if($('#countyTrendGraphic').length >0 ){
        .data(data)
      .enter().append("g")
        .attr("class", "g")
+       .attr("id", function(d,i) {
+         // console.log(data.length);
+         // console.log(i);
+        if (i === (data.length - 1)) { return "gLast" } else { return ("g" + i) };
+       })
        .attr("transform", function(d) { return "translate(" + x0(d.Date) + ",0)"; })
-       .on("mouseover", function(d) {
+       .style("cursor","pointer")
+       .on("click", function(d) {
          tooltip.style("display", null);
+         tooltip.selectAll("tspan").remove();
+         dateBox.text(" - " + d.Date)
 
          for (const key of Object.keys(d)) {
            if (d[key] > 0) {
-             var tspan1 = tooltip.select(".toolData").append("tspan");
-             tspan1.html(key + ": " + d[key] );
+             var tspan1 = tooltip.select(".toolData").append("tspan").attr("class","entry");
+             var countyName = key;
+             countyName = countyName.replace(/_/g, ' ');
+             var countyCount = commaFormat(d[key]);
+             var colorKey;
+
+             if (countyName === "King") {
+               colorKey = "<span class='colorKey King'></span>";
+             } else if ( countyName === "Snohomish" ) {
+               colorKey = "<span class='colorKey Sno'></span>";
+             } else if ( countyName === "Unassigned" ) {
+               colorKey = "<span class='colorKey Unna'></span>";
+            } else if ( countyName === "total" ) {
+              countyName = "Total";
+              colorKey = "";
+            } else { colorKey = "<span class='colorKey else'></span>"; }
+
+             tspan1.html(colorKey + "<span class='count'>" + countyName + ": " + countyCount + "</span>" );
              tspan1.attr('x', 0).attr('dy', '1em');
            } else {}
          }
-       })
-       .on("mouseout", function(d) {
-         tooltip.selectAll("tspan").remove();
-         tooltip.style("display", "none");
        });
+       // .on("mouseout", function(d) {
+       //   tooltip.selectAll("tspan").remove();
+       //   tooltip.style("display", "none");
+       // });
 
    var bars = project_stackedbar.selectAll("rect")
        .data(function(d) { return d.columnDetails; })
@@ -268,12 +319,20 @@ if($('#countyTrendGraphic').length >0 ){
 
 
 
+     $( document ).ready(function() {
+         console.log( "ready!" );
+         d3.select('#gLast').dispatch('click');
+
+     });
+
 
 
 
 });
 
-var myFunction = function(updateData) {
+
+
+var myFunction = function(updateData, idClicked) {
 
   d3.csv(updateData).then(
     function(data) {
@@ -330,21 +389,42 @@ var myFunction = function(updateData) {
           .data(data)
         .enter().append("g")
           .attr("class", "g")
+          .attr("id", function(d,i) {
+           if (i === (data.length - 1)) {
+             var barID = (idClicked === "casesCounty2") ? "gLast" : "gLast2";
+             return barID;
+           } else { return ("g" + i) };
+          })
           .attr("transform", function(d) { return "translate(" + x0(d.Date) + ",0)"; })
-          .on("mouseover", function(d) {
+          .style("cursor","pointer")
+          .on("click", function(d) {
             tooltip.style("display", null);
+            tooltip.selectAll("tspan").remove();
+            dateBox.text(" - " + d.Date)
 
             for (const key of Object.keys(d)) {
               if (d[key] > 0) {
-                var tspan1 = tooltip.select(".toolData").append("tspan");
-                tspan1.html(key + ": " + d[key] );
+                var tspan1 = tooltip.select(".toolData").append("tspan").attr("class","entry");
+                var countyName = key;
+                countyName = countyName.replace(/_/g, ' ');
+                var countyCount = commaFormat(d[key]);
+                var colorKey;
+
+                if (countyName === "King") {
+                  colorKey = "<span class='colorKey King'></span>";
+                } else if ( countyName === "Snohomish" ) {
+                  colorKey = "<span class='colorKey Sno'></span>";
+                } else if ( countyName === "Unassigned" ) {
+                  colorKey = "<span class='colorKey Unna'></span>";
+               } else if ( countyName === "total" ) {
+                 countyName = "Total";
+                 colorKey = "";
+               } else { colorKey = "<span class='colorKey else'></span>"; }
+
+                tspan1.html(colorKey + "<span class='count'>" + countyName + ": " + countyCount + "</span>" );
                 tspan1.attr('x', 0).attr('dy', '1em');
               } else {}
             }
-          })
-          .on("mouseout", function(d) {
-            tooltip.selectAll("tspan").remove();
-            tooltip.style("display", "none");
           });
 
       var bars = project_stackedbar.selectAll("rect")
@@ -385,39 +465,27 @@ var myFunction = function(updateData) {
           } else { return "blue"; }
         });
 
+        if (idClicked === "casesCounty2") {
+          d3.select('#gLast').dispatch('click');
+        } else {
+          d3.select('#gLast2').dispatch('click');
+        }
+        // d3.select('#gLast').dispatch('click');
+       //  $( ".radioButton2" ).click(function() {
+       //    var thisID = $(this).attr("id");
+       //    console.log(thisID);
+       //    // d3.select('#gLast').dispatch('click');
+       // });
+
 
   });
 
 }
 
 
-   // Prep the tooltip bits, initial display is hidden
-  var tooltip = svg.append("g")
-    .attr("class", "tooltip")
-    .style("display", "none");
 
 
-  var textBox = tooltip.append("g")
-               .attr("transform", "translate(10,0)")
 
-  textBox.append("text")
-          .attr("x", 0)
-          .attr("dy", "1.2em")
-          .style("text-anchor", "start")
-          .attr("font-size", "16px")
-          .attr("font-weight","bold")
-          .attr("transform", "translate(10,0)")
-          .attr("class","toolHeader")
-          .text("County Counts");
-
-  textBox.append("text")
-          .attr("x", 0)
-          .attr("y", 20)
-          .style("text-anchor", "start")
-          .attr("font-size", "16px")
-          .attr("transform", "translate(10,0)")
-          .attr("class","toolData")
-          .text("");
 
 
 
@@ -427,7 +495,12 @@ var myFunction = function(updateData) {
  $( ".radioButton2" ).click(function() {
    dataSet = this.getAttribute('data-type');
    dataSet  = 'assets/' + dataSet + day_var + '.csv';
-   myFunction(dataSet);
+
+   var thisID = $(this).attr("id");
+
+   myFunction(dataSet, thisID);
+
+
 });
 
  // myFunction("../assets/waCountyCases323.csv");

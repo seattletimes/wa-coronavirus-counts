@@ -296,10 +296,93 @@ main.interactive {
 }
 
 #countyTrendGraphic {
-  max-width: 960px;
-  width: 100%;
-  margin: auto;
+  max-width: 980px;
+	margin: auto;
 
+
+}
+
+#barChart {
+	width: 70%;
+	display: inline-block;
+	@media @mobile {
+		display: block;
+		width: 100%;
+	}
+
+	.x {
+		.tick {
+			display: inherit;
+			@media @mobile {
+				display: none;
+			}
+		}
+
+		.tick:nth-child(2) {
+			@media @mobile {
+				display: inherit;
+			}
+		}
+
+		.tick:last-child {
+			@media @mobile {
+				display: inherit;
+			}
+		}
+	}
+}
+
+.counter {
+	width: 29%;
+	display: inline-block;
+	vertical-align: top;
+
+	@media @mobile {
+		display: block;
+		width: 100%;
+	}
+
+	.head {
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.body {
+		.intro {
+			text-align: center;
+			font-size: 18px;
+		}
+
+		.entry {
+			display: inline-block;
+			width: 50%;
+			font-size: 16px;
+
+			.colorKey {
+				display: inline-block;
+				margin-right: 5px;
+				width: 10px;
+				height: 10px;
+				background-color: blue;
+
+				&.King { background-color: orange; }
+				&.Sno { background-color: red; }
+				&.Unna { background-color: black; }
+
+
+			}
+		}
+
+		.entry:last-child {
+			margin-top: 7px;
+			font-weight: bold;
+			padding-top: 5px;
+			border-top: 3px solid black;
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+	}
 }
 
 .unassigned {
