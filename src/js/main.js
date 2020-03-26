@@ -144,16 +144,8 @@ if($('#countyTrendGraphic').length >0 ){
   var dateBox = d3.select(".counter .head .date");
 
   var textBox = tooltip.append("div");
-               // .attr("transform", "translate(10,0)")
-
-
   var toolData = textBox.append("div").attr("class","toolData");
 
-          // .attr("x", 0)
-          // .attr("y", 20)
-          // .style("text-anchor", "start")
-          // .attr("transform", "translate(10,0)")
-          // .text("");
 
  var margin = {top: 20, right: 10, bottom: 30, left: 40},
      width = conWidth - margin.left - margin.right,
@@ -173,13 +165,6 @@ if($('#countyTrendGraphic').length >0 ){
      .scale(y);
 
 
-     // var ticks = d3.selectAll(".x .tick");
-     //  ticks.each(
-     //      if(i%3 !== 0) { d3.select(this).remove() } ;
-     //  );
-
-
-
 
  var svg = d3.select("#barChart").append("svg")
      .attr("width", width + margin.left + margin.right)
@@ -195,6 +180,8 @@ if($('#countyTrendGraphic').length >0 ){
  }
 
  var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ var caseColors = ['#531800', '#914c14', '#d28449', '#ffc88a'];
+ var deathColors = ['#4a0000', '#931f2b', '#d05858', '#ff9894'];
 
  d3.csv("assets/waCountyCases324.csv").then(
   function(data) {
@@ -271,15 +258,15 @@ if($('#countyTrendGraphic').length >0 ){
              var colorKey;
 
              if (countyName === "King") {
-               colorKey = "<span class='colorKey King'></span>";
+               colorKey = "<span class='colorKey KingCase'></span>";
              } else if ( countyName === "Snohomish" ) {
-               colorKey = "<span class='colorKey Sno'></span>";
+               colorKey = "<span class='colorKey SnoCase'></span>";
              } else if ( countyName === "Unassigned" ) {
-               colorKey = "<span class='colorKey Unna'></span>";
+               colorKey = "<span class='colorKey UnnaCase'></span>";
             } else if ( countyName === "total" ) {
               countyName = "Total";
               colorKey = "";
-            } else { colorKey = "<span class='colorKey else'></span>"; }
+            } else { colorKey = "<span class='colorKey elseCase'></span>"; }
 
              tspan1.html(colorKey + "<span class='count'>" + countyName + ": " + countyCount + "</span>" );
              tspan1.attr('x', 0).attr('y', 6);
@@ -303,21 +290,21 @@ if($('#countyTrendGraphic').length >0 ){
        })
        .style("fill", function(d) {
          if (d.name === "King") {
-           return "orange";
+           return caseColors[0];
          } else if ( d.name === "Snohomish" ) {
-           return "red";
+           return caseColors[1];
          } else if ( d.name === "Unassigned" ) {
-           return "black";
-        } else { return "blue"; }
+           return caseColors[3];
+        } else { return caseColors[2]; }
       })
       .style("stroke", function(d) {
         if (d.name === "King") {
-          return "orange";
+          return caseColors[0];
         } else if ( d.name === "Snohomish" ) {
-          return "red";
+          return caseColors[1];
         } else if ( d.name === "Unassigned" ) {
-          return "black";
-       } else { return "blue"; }
+          return caseColors[3];
+       } else { return caseColors[2]; }
      });
 
 
@@ -407,6 +394,9 @@ var myFunction = function(updateData, idClicked) {
             var clickedMonth = parseInt(clickedDate[0]) - 1;
             dateBox.text(" - " + months[clickedMonth] + " " + clickedDate[1]);
 
+            d3.selectAll('.g').style("opacity","0.5");
+            d3.select(this).style("opacity","1");
+
             for (const key of Object.keys(d)) {
               if (d[key] > 0) {
                 var tspan1 = tooltip.select(".toolData").append("div").attr("class","entry");
@@ -414,17 +404,18 @@ var myFunction = function(updateData, idClicked) {
                 countyName = countyName.replace(/_/g, ' ');
                 var countyCount = commaFormat(d[key]);
                 var colorKey;
+                var colorSet = (idClicked === "casesCounty2") ? "Case" : "Death";
 
                 if (countyName === "King") {
-                  colorKey = "<span class='colorKey King'></span>";
+                  colorKey = "<span class='colorKey King" + colorSet + "'></span>";
                 } else if ( countyName === "Snohomish" ) {
-                  colorKey = "<span class='colorKey Sno'></span>";
+                  colorKey = "<span class='colorKey Sno" + colorSet + "'></span>";
                 } else if ( countyName === "Unassigned" ) {
-                  colorKey = "<span class='colorKey Unna'></span>";
+                  colorKey = "<span class='colorKey Unna" + colorSet + "'></span>";
                } else if ( countyName === "total" ) {
                  countyName = "Total";
                  colorKey = "";
-               } else { colorKey = "<span class='colorKey else'></span>"; }
+               } else { colorKey = "<span class='colorKey else" + colorSet + "'></span>"; }
 
                 tspan1.html(colorKey + "<span class='count'>" + countyName + ": " + countyCount + "</span>" );
                 tspan1.attr('x', 0).attr('dy', '1em');
@@ -452,22 +443,24 @@ var myFunction = function(updateData, idClicked) {
             return y(d.yBegin) - y(d.yEnd);
           })
           .style("fill", function(d) {
+            var colorSet = (idClicked === "casesCounty2") ? caseColors : deathColors;
             if (d.name === "King") {
-              return "orange";
+              return colorSet[0];
             } else if ( d.name === "Snohomish" ) {
-              return "red";
+              return colorSet[1];
             } else if ( d.name === "Unassigned" ) {
-              return "black";
-           } else { return "blue"; }
+              return colorSet[3];
+           } else { return colorSet[2]; }
          })
          .style("stroke", function(d) {
+           var colorSet = (idClicked === "casesCounty2") ? caseColors : deathColors;
            if (d.name === "King") {
-             return "orange";
+             return colorSet[0];
            } else if ( d.name === "Snohomish" ) {
-             return "red";
+             return colorSet[1];
            } else if ( d.name === "Unassigned" ) {
-             return "black";
-          } else { return "blue"; }
+             return colorSet[3];
+          } else { return colorSet[2]; }
         });
 
         if (idClicked === "casesCounty2") {
