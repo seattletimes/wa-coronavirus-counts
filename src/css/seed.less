@@ -310,27 +310,45 @@ main.interactive {
 		width: 100%;
 	}
 
+
+
 	.x {
 		.tick {
 			display: inherit;
 			@media @mobile {
 				display: none;
 			}
-		}
 
-		.tick:nth-child(2) {
-			@media @mobile {
-				display: inherit;
+			line { display: none; }
+
+			text {
+			 transform:translateY(-5px);
 			}
 		}
 
-		.tick:last-child {
-			@media @mobile {
-				display: inherit;
-			}
+		.tick:nth-child(odd) {
+			display: none;
+			// @media @mobile {
+			// 	display: inherit;
+			// }
 		}
+
+		// .tick:last-child {
+		// 	@media @mobile {
+		// 		display: inherit;
+		// 	}
+		// }
 	}
 }
+
+.y {
+
+	.domain {
+		stroke: white;
+	}
+
+}
+
 
 .counter {
 	width: 29%;
@@ -345,6 +363,12 @@ main.interactive {
 	.head {
 		font-weight: bold;
 		text-align: center;
+
+		.title {
+			display: none;
+
+			&.showMe { display: inline-block; }
+		}
 	}
 
 	.body {
@@ -353,10 +377,22 @@ main.interactive {
 			font-size: 18px;
 		}
 
+		.toolData {
+			line-height: 1em;
+			@media @mobile {
+				line-height: 0.8em;
+			}
+		}
+
+
 		.entry {
 			display: inline-block;
 			width: 50%;
 			font-size: 16px;
+
+			.count {
+				display: inline-block;
+			}
 
 			.colorKey {
 				display: inline-block;
