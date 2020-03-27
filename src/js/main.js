@@ -7,9 +7,9 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var county_counts = window.case_data["waCountyCases324"];
-var county_deaths = window.case_data["waCountyDeaths324"];
-var day_var = "324";
+var county_counts = window.case_data["waCountyCases326"];
+var county_deaths = window.case_data["waCountyDeaths326"];
+var day_var = "326";
 /////////
 
 
@@ -147,7 +147,7 @@ if($('#countyTrendGraphic').length >0 ){
   var toolData = textBox.append("div").attr("class","toolData");
 
 
- var margin = {top: 20, right: 10, bottom: 30, left: 40},
+ var margin = {top: 20, right: 10, bottom: 30, left: 60},
      width = conWidth - margin.left - margin.right,
      height = conHeight - margin.top - margin.bottom;
 
@@ -164,6 +164,8 @@ if($('#countyTrendGraphic').length >0 ){
  var yAxis = d3.axisLeft()
      .scale(y);
 
+     xAxis.tickSizeOuter(0);
+
 
 
  var svg = d3.select("#barChart").append("svg")
@@ -176,14 +178,14 @@ if($('#countyTrendGraphic').length >0 ){
  var yBegin;
 
  var innerColumns = {
-   "column1" : ["Adams","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Franklin","Grant","Grays_Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Pierce","San_Juan","Skagit","Snohomish","Spokane","Stevens","Thurston","Walla_Walla","Whatcom","Whitman","Yakima","Unassigned"],
+   "column1" : ["Adams","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Ferry","Franklin","Grant","Grays_Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Okanogan","Pierce","San_Juan","Skagit","Snohomish","Spokane","Stevens","Thurston","Walla_Walla","Whatcom","Whitman","Yakima","Unassigned"],
  }
 
  var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
- var caseColors = ['#531800', '#914c14', '#d28449', '#ffc88a'];
- var deathColors = ['#4a0000', '#931f2b', '#d05858', '#ff9894'];
+ var caseColors = ["#F3C882", "#E98729", "#B75317", "#7b2003", '#aaa'];
+ var deathColors = ['#f6cac1', '#db8f87', '#ae5c5c', '#7c2f38', '#aaa'];
 
- d3.csv("assets/waCountyCases324.csv").then(
+ d3.csv("assets/waCountyCases326.csv").then(
   function(data) {
    var columnHeaders = d3.keys(data[0]).filter(function(key) { return key !== "Date"; });
 
@@ -245,7 +247,10 @@ if($('#countyTrendGraphic').length >0 ){
 
          dateBox.text(" - " + months[clickedMonth] + " " + clickedDate[1]);
 
-         // console.log( this );
+         var asteriskInfo = ((months[clickedMonth] === "March") && (clickedDate[1] === "25") ) ? "The state Department of Health did not provide county breakdowns this day. King, Snohomish and Pierce numbers were confirmed through the county departments. All other cases are grouped as unassigned.": "";
+
+         console.log( asteriskInfo );
+
          d3.selectAll('.g').style("opacity","0.5");
          d3.select(this).style("opacity","1");
 
@@ -263,15 +268,23 @@ if($('#countyTrendGraphic').length >0 ){
                colorKey = "<span class='colorKey SnoCase'></span>";
              } else if ( countyName === "Unassigned" ) {
                colorKey = "<span class='colorKey UnnaCase'></span>";
-            } else if ( countyName === "total" ) {
+            } else if ( countyName === "Pierce" ) {
+              colorKey = "<span class='colorKey PierceCase'></span>";
+           } else if ( countyName === "total" ) {
               countyName = "Total";
               colorKey = "";
             } else { colorKey = "<span class='colorKey elseCase'></span>"; }
 
              tspan1.html(colorKey + "<span class='count'>" + countyName + ": " + countyCount + "</span>" );
              tspan1.attr('x', 0).attr('y', 6);
-           } else {}
+           } else {
+
+           }
          }
+         tooltip.selectAll(".asterisk").remove();
+         var tspan2 = tooltip.append("div").attr("class","asterisk");
+         tspan2.html("<span class='asteriskInfo'>" + asteriskInfo + "</span>" );
+         tspan2.attr('x', 0).attr('y', 6);
        });
 
 
@@ -292,19 +305,23 @@ if($('#countyTrendGraphic').length >0 ){
          if (d.name === "King") {
            return caseColors[0];
          } else if ( d.name === "Snohomish" ) {
+           return caseColors[2];
+         } else if ( d.name === "Pierce" ) {
            return caseColors[1];
          } else if ( d.name === "Unassigned" ) {
-           return caseColors[3];
-        } else { return caseColors[2]; }
+           return caseColors[4];
+        } else { return caseColors[3]; }
       })
       .style("stroke", function(d) {
         if (d.name === "King") {
           return caseColors[0];
         } else if ( d.name === "Snohomish" ) {
+          return caseColors[2];
+        } else if ( d.name === "Pierce" ) {
           return caseColors[1];
         } else if ( d.name === "Unassigned" ) {
-          return caseColors[3];
-       } else { return caseColors[2]; }
+          return caseColors[4];
+       } else { return caseColors[3]; }
      });
 
 
@@ -394,6 +411,8 @@ var myFunction = function(updateData, idClicked) {
             var clickedMonth = parseInt(clickedDate[0]) - 1;
             dateBox.text(" - " + months[clickedMonth] + " " + clickedDate[1]);
 
+            var asteriskInfo = ((months[clickedMonth] === "March") && (clickedDate[1] === "25") ) ? "The state Department of Health did not provide county breakdowns this day. King, Snohomish and Pierce numbers were confirmed through the county departments. All other cases are grouped as unassigned.": "";
+
             d3.selectAll('.g').style("opacity","0.5");
             d3.select(this).style("opacity","1");
 
@@ -410,6 +429,8 @@ var myFunction = function(updateData, idClicked) {
                   colorKey = "<span class='colorKey King" + colorSet + "'></span>";
                 } else if ( countyName === "Snohomish" ) {
                   colorKey = "<span class='colorKey Sno" + colorSet + "'></span>";
+                } else if ( countyName === "Pierce" ) {
+                  colorKey = "<span class='colorKey Pierce" + colorSet + "'></span>";
                 } else if ( countyName === "Unassigned" ) {
                   colorKey = "<span class='colorKey Unna" + colorSet + "'></span>";
                } else if ( countyName === "total" ) {
@@ -421,6 +442,10 @@ var myFunction = function(updateData, idClicked) {
                 tspan1.attr('x', 0).attr('dy', '1em');
               } else {}
             }
+            tooltip.selectAll(".asterisk").remove();
+            var tspan2 = tooltip.append("div").attr("class","asterisk");
+            tspan2.html("<span class='asteriskInfo'>" + asteriskInfo + "</span>" );
+            tspan2.attr('x', 0).attr('y', 6);
           });
 
       var bars = project_stackedbar.selectAll("rect")
@@ -447,20 +472,24 @@ var myFunction = function(updateData, idClicked) {
             if (d.name === "King") {
               return colorSet[0];
             } else if ( d.name === "Snohomish" ) {
+              return colorSet[2];
+            } else if ( d.name === "Pierce" ) {
               return colorSet[1];
-            } else if ( d.name === "Unassigned" ) {
-              return colorSet[3];
-           } else { return colorSet[2]; }
+           } else if ( d.name === "Unassigned" ) {
+              return colorSet[4];
+           } else { return colorSet[3]; }
          })
          .style("stroke", function(d) {
            var colorSet = (idClicked === "casesCounty2") ? caseColors : deathColors;
            if (d.name === "King") {
              return colorSet[0];
            } else if ( d.name === "Snohomish" ) {
+             return colorSet[2];
+           } else if ( d.name === "Pierce" ) {
              return colorSet[1];
-           } else if ( d.name === "Unassigned" ) {
-             return colorSet[3];
-          } else { return colorSet[2]; }
+          } else if ( d.name === "Unassigned" ) {
+             return colorSet[4];
+          } else { return colorSet[3]; }
         });
 
         if (idClicked === "casesCounty2") {

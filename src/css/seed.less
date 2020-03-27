@@ -323,6 +323,7 @@ main.interactive {
 
 			text {
 			 transform:translateY(-5px);
+			 font-size: 1.4em;
 			}
 		}
 
@@ -345,6 +346,13 @@ main.interactive {
 
 	.domain {
 		stroke: white;
+	}
+
+	.tick {
+
+		text {
+			font-size: 1.4em;
+		}
 	}
 
 }
@@ -377,6 +385,13 @@ main.interactive {
 			font-size: 18px;
 		}
 
+		.asterisk {
+			font-size: 17px;
+			margin-top: 2em;
+			line-height: 1.2em;
+		}
+
+
 		.toolData {
 			line-height: 1em;
 			@media @mobile {
@@ -401,15 +416,19 @@ main.interactive {
 				height: 10px;
 				background-color: blue;
 
-				&.elseCase { background-color: #d28449; }
-				&.KingCase { background-color: #531800; }
-				&.SnoCase { background-color: #914c14; }
-				&.UnnaCase { background-color: #ffc88a; }
 
-				&.elseDeath { background-color: #d05858; }
-				&.KingDeath { background-color: #4a0000; }
-				&.SnoDeath { background-color: #931f2b; }
-				&.UnnaDeath { background-color: #ff9894; }
+				&.KingCase { background-color: #F3C882; }
+				&.PierceCase { background-color: #E98729; }
+				&.SnoCase { background-color: #B75317; }
+				&.elseCase { background-color: #7b2003; }
+				&.UnnaCase { background-color: #aaa; }
+
+				&.KingDeath { background-color: #f6cac1; }
+				&.PierceDeath { background-color: #db8f87; }
+				&.SnoDeath { background-color: #ae5c5c; }
+				&.elseDeath { background-color: #7c2f38; }
+				&.UnnaDeath { background-color: #aaa; }
+
 
 
 			}
