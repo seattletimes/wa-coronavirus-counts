@@ -7,9 +7,9 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var county_counts = window.case_data["waCountyCases327"];
-var county_deaths = window.case_data["waCountyDeaths327"];
-var day_var = "327";
+var county_counts = window.case_data["waCountyCases328"];
+var county_deaths = window.case_data["waCountyDeaths328"];
+var day_var = "328";
 /////////
 
 
@@ -185,7 +185,7 @@ if($('#countyTrendGraphic').length >0 ){
  var caseColors = ["#F3C882", "#E98729", "#B75317", "#7b2003", '#aaa'];
  var deathColors = ['#f6cac1', '#db8f87', '#ae5c5c', '#7c2f38', '#aaa'];
 
- d3.csv("assets/waCountyCases327.csv").then(
+ d3.csv("assets/waCountyCases328.csv").then(
   function(data) {
    var columnHeaders = d3.keys(data[0]).filter(function(key) { return key !== "Date"; });
 
