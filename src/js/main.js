@@ -7,9 +7,9 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var county_counts = window.case_data["waCountyCases326"];
-var county_deaths = window.case_data["waCountyDeaths326"];
-var day_var = "326";
+var county_counts = window.case_data["waCountyCases327"];
+var county_deaths = window.case_data["waCountyDeaths327"];
+var day_var = "327";
 /////////
 
 
@@ -178,14 +178,14 @@ if($('#countyTrendGraphic').length >0 ){
  var yBegin;
 
  var innerColumns = {
-   "column1" : ["Adams","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Ferry","Franklin","Grant","Grays_Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Okanogan","Pierce","San_Juan","Skagit","Snohomish","Spokane","Stevens","Thurston","Walla_Walla","Whatcom","Whitman","Yakima","Unassigned"],
+   "column1" : ["Adams","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Ferry","Franklin","Grant","Grays_Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Okanogan","Pierce","San_Juan","Skagit","Skamania","Snohomish","Spokane","Stevens","Thurston","Walla_Walla","Whatcom","Whitman","Yakima","Unassigned"],
  }
 
  var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
  var caseColors = ["#F3C882", "#E98729", "#B75317", "#7b2003", '#aaa'];
  var deathColors = ['#f6cac1', '#db8f87', '#ae5c5c', '#7c2f38', '#aaa'];
 
- d3.csv("assets/waCountyCases326.csv").then(
+ d3.csv("assets/waCountyCases327.csv").then(
   function(data) {
    var columnHeaders = d3.keys(data[0]).filter(function(key) { return key !== "Date"; });
 
