@@ -7,10 +7,14 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var county_counts = window.case_data["waCountyCases329"];
-var county_deaths = window.case_data["waCountyDeaths329"];
-var day_var = "329";
+var day_var = "331";
 /////////
+
+
+var commaFormat = d3.format(',');
+var county_counts = window.case_data[`waCountyCases${day_var}`];
+var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
+
 
 
 if($('#countyMapGraphic').length >0 ){
@@ -24,15 +28,25 @@ if($('#countyMapGraphic').length >0 ){
   var svgCounty = d3.select("#svg3071"),
         gCounty = svgCounty.append("g");
 
-  console.log(lastest_deaths);
+  // console.log(lastest_deaths);
+  unnCases = parseInt( lastest_day["Unassigned"] );
+  unnDeaths = parseInt( lastest_deaths["Unassigned"] );
+
+  $('#unassigned span').empty().append(unnCases);
+  $('#unassignedD span').empty().append(unnDeaths);
+
 
   var countyMap = document.getElementById("svg3071");
   var counties = countyMap.getElementsByClassName("county");
+  var caseTotals = 0;
+  var deathTotals = 0;
 
   for (var i = 0; i < counties.length; i++) {
       var countyName = counties[i].id;
-      var case_value = lastest_day[countyName];
-      var death_value = lastest_deaths[countyName];
+      var case_value = parseInt( lastest_day[countyName] );
+      var death_value = parseInt( lastest_deaths[countyName] );
+      caseTotals = caseTotals + parseInt(case_value);
+      deathTotals = deathTotals + parseInt(death_value);
       var bbox = d3.select("#" + countyName).node().getBBox();
 
            var centroid = [
@@ -47,8 +61,7 @@ if($('#countyMapGraphic').length >0 ){
        		 .html(function () {
             countyName = countyName.replace(/_/g, ' ');
             var pushVar = (countyName === "Walla Walla") ? 40 : 0;
-            console.log(pushVar);
-         	 	return ( case_value > 0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar) + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 25) + "'>" + case_value + "</tspan>" : "");
+         	 	return ( case_value > 0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar) + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 25) + "'>" + commaFormat(case_value) + "</tspan>" : "");
        		 });
 
 
@@ -59,7 +72,7 @@ if($('#countyMapGraphic').length >0 ){
        			.html(function () {
              countyName = countyName.replace(/_/g, ' ');
              var pushVar = (countyName === "Walla Walla") ? 40 : 0;
-       			 return ( death_value > 0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar)  + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 25) + "'>" + death_value + "</tspan>" : "");
+       			 return ( death_value > 0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar)  + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 25) + "'>" + commaFormat(death_value) + "</tspan>" : "");
        			});
 
 
@@ -79,11 +92,18 @@ if($('#countyMapGraphic').length >0 ){
   var countyDeaths = document.getElementsByClassName("county_deaths");
   var radioClick = document.getElementsByClassName("radioButton1");
 
+  console.log(caseTotals + unnCases);
+  console.log(deathTotals + unnDeaths);
+
+  $('#casesTotal span:first').empty().append(commaFormat(caseTotals + unnCases));
+  $('#casesTotal span:nth-child(2)').empty().append(commaFormat(deathTotals + unnDeaths));
+
   var myFunction = function() {
 
   		if ( document.getElementById('casesCounty').checked ) {
 
-        document.getElementById('unassigned').style.visibility = "inherit";
+        document.getElementById('unassigned').style.display = "block";
+        document.getElementById('unassignedD').style.display = "none";
 
   			for (i = 0; i < countyCases.length; i++) {
   					 countyCases[i].style.display = "block";
@@ -96,8 +116,8 @@ if($('#countyMapGraphic').length >0 ){
   			}
 
   		} else {
-        document.getElementById('unassigned').style.visibility = "hidden";
-
+        document.getElementById('unassigned').style.display = "none";
+        document.getElementById('unassignedD').style.display = (unnDeaths > 0) ? "block" : "none";
 
   			for (i = 0; i < countyCases.length; i++) {
   					 countyCases[i].style.display = "none";
@@ -136,7 +156,7 @@ if($('#countyMapGraphic').length >0 ){
 
 if($('#countyTrendGraphic').length >0 ){
   var conWidth = $("#barChart").width();
-  var commaFormat = d3.format(',');
+
   var conHeight = (conWidth > 500) ? 500 : 300;
 
 
@@ -184,159 +204,6 @@ if($('#countyTrendGraphic').length >0 ){
  var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
  var caseColors = ["#F3C882", "#E98729", "#B75317", "#7b2003", '#aaa'];
  var deathColors = ['#f6cac1', '#db8f87', '#ae5c5c', '#7c2f38', '#aaa'];
-
- d3.csv("assets/waCountyCases329.csv").then(
-  function(data) {
-   var columnHeaders = d3.keys(data[0]).filter(function(key) { return key !== "Date"; });
-
-   data.forEach(function(d) {
-     var yColumn = new Array();
-     d.columnDetails = columnHeaders.map(function(name) {
-       for (ic in innerColumns) {
-         if($.inArray(name, innerColumns[ic]) >= 0){
-           if (!yColumn[ic]){
-             yColumn[ic] = 0;
-           }
-           yBegin = yColumn[ic];
-           yColumn[ic] += +d[name];
-           return {name: name, column: ic, yBegin: yBegin, yEnd: +d[name] + yBegin,};
-         }
-       }
-     });
-     d.total = d3.max(d.columnDetails, function(d) {
-       return d.yEnd;
-     });
-   });
-
-   x0.domain(data.map(function(d) { return d.Date; }));
-   x1.domain(d3.keys(innerColumns)).range([0, x0.bandwidth()]);
-
-   y.domain([0, d3.max(data, function(d) {
-     return d.total;
-   })]);
-
-   svg.append("g")
-       .attr("class", "x axis")
-       .attr("transform", "translate(0," + height + ")")
-       .call(xAxis);
-
-   svg.append("g")
-       .attr("class", "y axis")
-       .call(yAxis)
-     .append("text")
-       .attr("transform", "rotate(-90)")
-       .attr("y", 6)
-       .attr("dy", ".7em")
-       .style("text-anchor", "end")
-       .text("");
-
-   var project_stackedbar = svg.selectAll(".project_stackedbar")
-       .data(data)
-     .enter().append("g")
-       .attr("class", "g")
-       .attr("id", function(d,i) {
-        if (i === (data.length - 1)) { return "gLast" } else { return ("g" + i) };
-       })
-       .attr("transform", function(d) { return "translate(" + x0(d.Date) + ",0)"; })
-       .style("cursor","pointer")
-       .on("click", function(d) {
-         toolData.selectAll("div").remove();
-         clickedDate = d.Date;
-         clickedDate = clickedDate.split("/");
-         var clickedMonth = parseInt(clickedDate[0]) - 1;
-
-         dateBox.text(" - " + months[clickedMonth] + " " + clickedDate[1]);
-
-         var asteriskInfo = ((months[clickedMonth] === "March") && (clickedDate[1] === "25") ) ? "The state Department of Health did not provide county breakdowns this day. King, Snohomish and Pierce numbers were confirmed through the county departments. All other cases are grouped as unassigned.": "";
-
-         console.log( asteriskInfo );
-
-         d3.selectAll('.g').style("opacity","0.5");
-         d3.select(this).style("opacity","1");
-
-         for (const key of Object.keys(d)) {
-           if (d[key] > 0) {
-             var tspan1 = tooltip.select(".toolData").append("div").attr("class","entry");
-             var countyName = key;
-             countyName = countyName.replace(/_/g, ' ');
-             var countyCount = commaFormat(d[key]);
-             var colorKey;
-
-             if (countyName === "King") {
-               colorKey = "<span class='colorKey KingCase'></span>";
-             } else if ( countyName === "Snohomish" ) {
-               colorKey = "<span class='colorKey SnoCase'></span>";
-             } else if ( countyName === "Unassigned" ) {
-               colorKey = "<span class='colorKey UnnaCase'></span>";
-            } else if ( countyName === "Pierce" ) {
-              colorKey = "<span class='colorKey PierceCase'></span>";
-           } else if ( countyName === "total" ) {
-              countyName = "Total";
-              colorKey = "";
-            } else { colorKey = "<span class='colorKey elseCase'></span>"; }
-
-             tspan1.html(colorKey + "<span class='count'>" + countyName + ": " + countyCount + "</span>" );
-             tspan1.attr('x', 0).attr('y', 6);
-           } else {
-
-           }
-         }
-         tooltip.selectAll(".asterisk").remove();
-         var tspan2 = tooltip.append("div").attr("class","asterisk");
-         tspan2.html("<span class='asteriskInfo'>" + asteriskInfo + "</span>" );
-         tspan2.attr('x', 0).attr('y', 6);
-       });
-
-
-   var bars = project_stackedbar.selectAll("rect")
-       .data(function(d) { return d.columnDetails; })
-       .enter().append("rect")
-       .attr("width", x1.bandwidth())
-       .attr("x", function(d) {
-         return x1(d.column);
-          })
-       .attr("y", function(d) {
-         return y(d.yEnd);
-       })
-       .attr("height", function(d) {
-         return y(d.yBegin) - y(d.yEnd);
-       })
-       .style("fill", function(d) {
-         if (d.name === "King") {
-           return caseColors[0];
-         } else if ( d.name === "Snohomish" ) {
-           return caseColors[2];
-         } else if ( d.name === "Pierce" ) {
-           return caseColors[1];
-         } else if ( d.name === "Unassigned" ) {
-           return caseColors[4];
-        } else { return caseColors[3]; }
-      })
-      .style("stroke", function(d) {
-        if (d.name === "King") {
-          return caseColors[0];
-        } else if ( d.name === "Snohomish" ) {
-          return caseColors[2];
-        } else if ( d.name === "Pierce" ) {
-          return caseColors[1];
-        } else if ( d.name === "Unassigned" ) {
-          return caseColors[4];
-       } else { return caseColors[3]; }
-     });
-
-
-
-     $( document ).ready(function() {
-         console.log( "ready!" );
-         d3.select('#gLast').dispatch('click');
-
-     });
-
-
-
-
-});
-
 
 
 var myFunction = function(updateData, idClicked) {
@@ -497,12 +364,7 @@ var myFunction = function(updateData, idClicked) {
         } else {
           d3.select('#gLast2').dispatch('click');
         }
-        // d3.select('#gLast').dispatch('click');
-       //  $( ".radioButton2" ).click(function() {
-       //    var thisID = $(this).attr("id");
-       //    console.log(thisID);
-       //    // d3.select('#gLast').dispatch('click');
-       // });
+
 
 
   });
@@ -531,7 +393,7 @@ var myFunction = function(updateData, idClicked) {
 
 
 });
-
- // myFunction("../assets/waCountyCases323.csv");
+ //
+ myFunction(`assets/waCountyCases${day_var}.csv`, "casesCounty2");
 
 } else {}
