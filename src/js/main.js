@@ -7,7 +7,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var day_var = "41";
+var day_var = "42";
 /////////
 
 
