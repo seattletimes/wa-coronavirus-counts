@@ -6,14 +6,21 @@ var $ = require('jquery');
 const d3 = require("d3");
 
 
+
 ////CHANGE ME WHEN DAY CHANGES /////
-var day_var = "42";
+var day_var = "412";
 /////////
 
 
 var commaFormat = d3.format(',');
 var county_counts = window.case_data[`waCountyCases${day_var}`];
 var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
+
+var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+var dataMonth = day_var.slice(0, 1);
+var dataDay = day_var.slice(1, 3);
+dataMonth = parseInt(dataMonth) - 1;
+var dateNew = months[dataMonth] + " " + dataDay;
 
 
 
@@ -32,8 +39,10 @@ if($('#countyMapGraphic').length >0 ){
   unnCases = parseInt( lastest_day["Unassigned"] );
   unnDeaths = parseInt( lastest_deaths["Unassigned"] );
 
-  $('#unassigned span').empty().append(unnCases);
+  $('#unassigned span').empty().append(commaFormat(unnCases));
   $('#unassignedD span').empty().append(unnDeaths);
+
+  $('#date').empty().text(dateNew);
 
 
   var countyMap = document.getElementById("svg3071");
@@ -92,8 +101,6 @@ if($('#countyMapGraphic').length >0 ){
   var countyDeaths = document.getElementsByClassName("county_deaths");
   var radioClick = document.getElementsByClassName("radioButton1");
 
-  console.log(caseTotals + unnCases);
-  console.log(deathTotals + unnDeaths);
 
   $('#casesTotal span:first').empty().append(commaFormat(caseTotals + unnCases));
   $('#casesTotal span:nth-child(2)').empty().append(commaFormat(deathTotals + unnDeaths));
@@ -188,6 +195,7 @@ if($('#countyTrendGraphic').length >0 ){
 
 
 
+
  var svg = d3.select("#barChart").append("svg")
      .attr("width", width + margin.left + margin.right)
      .attr("height", height + margin.top + margin.bottom)
@@ -201,9 +209,12 @@ if($('#countyTrendGraphic').length >0 ){
    "column1" : ["Adams","Asotin","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Ferry","Franklin","Garfield","Grant","Grays_Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Okanogan","Pacific","Pend_Oreille","Pierce","San_Juan","Skagit","Skamania","Snohomish","Spokane","Stevens","Thurston","Wahkiakum","Walla_Walla","Whatcom","Whitman","Yakima","Unassigned"],
  }
 
- var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
  var caseColors = ["#F3C882", "#E98729", "#B75317", "#7b2003", '#aaa'];
  var deathColors = ['#f6cac1', '#db8f87', '#ae5c5c', '#7c2f38', '#aaa'];
+
+
+ $('#date').empty().text(dateNew);
 
 
 var myFunction = function(updateData, idClicked) {
@@ -379,6 +390,7 @@ var myFunction = function(updateData, idClicked) {
 
 
 
+
  var dataSet;
 
  $( ".radioButton2" ).click(function() {
@@ -393,7 +405,9 @@ var myFunction = function(updateData, idClicked) {
 
 
 });
- //
+
+
  myFunction(`assets/waCountyCases${day_var}.csv`, "casesCounty2");
+
 
 } else {}
