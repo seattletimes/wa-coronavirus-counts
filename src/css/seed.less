@@ -59,9 +59,9 @@ main.interactive {
 	cursor: pointer;
 	display: inline-block;
 	text-align: center;
-	opacity: 20%;
+	opacity: 30%;
 	padding: 5px 20px;
-	margin: 1;
+	line-height: 1em;
 	width: auto;
 
 
@@ -89,6 +89,8 @@ main.interactive {
 	border-radius: 3px;
 }
 
+
+
 #toggle {
 	margin-bottom: 15px;
 	text-align: center;
@@ -97,7 +99,7 @@ main.interactive {
 #toggle2 {
 	margin-bottom: 15px;
 	text-align: center;
-	margin-top: 20px;
+	// margin-top: 20px;
 }
 
 #toggle3 {
@@ -156,104 +158,55 @@ main.interactive {
 	margin: 0;
 }
 
-
-
-
-
-/////
-
-
-@keyframes ripple {
-  0% {
-    transform: scale(0, 0);
-    opacity: 1;
-  }
-  20% {
-    transform: scale(25, 25);
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: scale(40, 40);
-  }
-}
-
-
-.zoom-controls {
-    cursor: pointer;
-    pointer-events: all;
-}
-
-.zoom-button {
-	border: 1px solid @df-dark-gray;
-	background-color: #fff;
+.radioHeader {
 	font-weight: bold;
-	width: 40px;
-	height: 30px;
-	text-align: center;
-	position: relative;
-	overflow: hidden;
-	&:hover {
-		background-color: #efefef;
+	// text-transform: uppercase;
+
+	margin-top: 10px;
+}
+
+.col {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+
+	@media @mobile {
+		width: 100%;
+	}
+
+	.toggle__label {
+		width: 100%;
+		margin: 2px 1px;
 	}
 }
 
-.zoom-button:first-child {
-	border-bottom: none;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
+
+.caseKey, .deathKey {
+	height: 75px;
+	line-height: 1em;
+
+	@media @desktop-up {
+		height: 50px;
+	}
+
+	.hed {
+		font-weight: bold;
+		line-height: 0.9em;
+	}
+	.eachKey {
+		font-size: 16px;
+		line-height: 0.9em;
+		display: inline-block;
+		margin-right: 15px;
+
+		.key {
+			width: 10px;
+			height: 10px;
+			display: inline-block;
+		}
+	}
 }
 
-.zoom-button:last-child {
-	border-bottom-left-radius: 3px;
-	border-bottom-right-radius: 3px;
-}
-
-.zoom-button:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 5px;
-  height: 5px;
-  background: rgba(255, 255, 255, .5);
-  opacity: 0;
-  border-radius: 100%;
-  transform: scale(1, 1) translate(-50%);
-  transform-origin: 50% 50%;
-}
-
-
-
-.zoom-button:active::after {
-  animation: ripple 1s ease-out;
-}
-
-#tooltip {
-      position: absolute;
-      width: 250px;
-      height: auto;
-      padding: 10px;
-      background-color: white;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      border-radius: 10px;
-      -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-      -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-      pointer-events: none;
-    }
-
-#tooltip.hidden {
-  display: none;
-}
-
-#tooltip p {
-  margin: 0;
-  font-family: Futura;
-  font-size: 16px;
-  line-height: 20px;
-}
 
 
 
@@ -278,7 +231,7 @@ main.interactive {
 	font-size: 25px;
 
 	@media @mobile {
-		font-size: 35px;
+		font-size: 30px;
 	}
 }
 
@@ -305,7 +258,7 @@ main.interactive {
 #barChart {
 	width: 70%;
 	display: inline-block;
-	@media @mobile {
+	@media @tablet {
 		display: block;
 		width: 100%;
 	}
@@ -314,10 +267,7 @@ main.interactive {
 
 	.x {
 		.tick {
-			display: inherit;
-			@media @mobile {
 				display: none;
-			}
 
 			line { display: none; }
 
@@ -327,18 +277,14 @@ main.interactive {
 			}
 		}
 
-		.tick:nth-child(odd) {
-			display: none;
-			// @media @mobile {
-			// 	display: inherit;
-			// }
+		// .tick:nth-child(odd) {
+		// 	display: none;
+		// }
+
+		.tick:nth-child(3n) {
+			display: inherit;
 		}
 
-		// .tick:last-child {
-		// 	@media @mobile {
-		// 		display: inherit;
-		// 	}
-		// }
 	}
 }
 
@@ -363,7 +309,7 @@ main.interactive {
 	display: inline-block;
 	vertical-align: top;
 
-	@media @mobile {
+	@media @tablet {
 		display: block;
 		width: 100%;
 	}

@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var day_var = "412";
+var day_var = "415";
 /////////
 
 
@@ -16,11 +16,19 @@ var commaFormat = d3.format(',');
 var county_counts = window.case_data[`waCountyCases${day_var}`];
 var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 
+var county_pops = window.case_data['countyPop2019'];
+
+var popColors = ['#531800', '#914c14', '#d28449', '#ffc88a'];
+var popDeathColors = ['#4a0000', '#931f2b', '#d05858', '#ff9894'];
+
+// console.log(county_pops);
+
 var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 var dataMonth = day_var.slice(0, 1);
 var dataDay = day_var.slice(1, 3);
 dataMonth = parseInt(dataMonth) - 1;
 var dateNew = months[dataMonth] + " " + dataDay;
+var stateTotal = 7546410;
 
 
 
@@ -58,6 +66,16 @@ if($('#countyMapGraphic').length >0 ){
       deathTotals = deathTotals + parseInt(death_value);
       var bbox = d3.select("#" + countyName).node().getBBox();
 
+      var countyObj = county_pops[i];
+      var countyPop = parseInt(countyObj["pop_2019"]);
+
+      var popAdjCase = (case_value / countyPop) * 10000;
+      popAdjCase = popAdjCase.toFixed(1);
+      var popAdjDeath = (death_value / countyPop) * 10000;
+      popAdjDeath = popAdjDeath.toFixed(1);
+
+
+
            var centroid = [
                bbox.x + bbox.width/2,
                bbox.y + bbox.height/2
@@ -84,6 +102,26 @@ if($('#countyMapGraphic').length >0 ){
        			 return ( death_value > 0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar)  + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 25) + "'>" + commaFormat(death_value) + "</tspan>" : "");
        			});
 
+            var circleAdjCases = svgCounty.selectAll('g').append('text')
+             .attr("class", "adj_cases")
+             .attr("font-weight","bold")
+             .attr("text-anchor", "middle")
+             .html(function () {
+              countyName = countyName.replace(/_/g, ' ');
+              var pushVar = (countyName === "Walla Walla") ? 40 : 0;
+              return ( case_value > 0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar)  + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 25) + "'>" + popAdjCase + "</tspan>" : "");
+             });
+
+             var circleAdjDeaths = svgCounty.selectAll('g').append('text')
+              .attr("class", "adj_deaths")
+              .attr("font-weight","bold")
+              .attr("text-anchor", "middle")
+              .html(function () {
+               countyName = countyName.replace(/_/g, ' ');
+               var pushVar = (countyName === "Walla Walla") ? 40 : 0;
+               return ( popAdjDeath > 0.0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar)  + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 25) + "'>" + popAdjDeath + "</tspan>" : "");
+              });
+
 
 
 
@@ -99,11 +137,24 @@ if($('#countyMapGraphic').length >0 ){
   var casesColors = document.getElementsByClassName("caseColor");
   var deathColors = document.getElementsByClassName("deathColor");
   var countyDeaths = document.getElementsByClassName("county_deaths");
+  var countyAdjCases = document.getElementsByClassName("adj_cases");
+  var countyAdjDeaths = document.getElementsByClassName("adj_deaths");
   var radioClick = document.getElementsByClassName("radioButton1");
 
 
-  $('#casesTotal span:first').empty().append(commaFormat(caseTotals + unnCases));
-  $('#casesTotal span:nth-child(2)').empty().append(commaFormat(deathTotals + unnDeaths));
+  // $('#casesTotal span:first').empty().append(commaFormat(caseTotals + unnCases));
+  // $('#casesTotal span:nth-child(2)').empty().append(commaFormat(deathTotals + unnDeaths));
+
+  $('#casesTotal').empty().append(commaFormat(caseTotals + unnCases));
+  $('#deathsTotal').empty().append(commaFormat(deathTotals + unnDeaths));
+
+  var num = (caseTotals + unnCases) / stateTotal * 10000;
+  num = num.toFixed(1);
+  var num2 = (deathTotals + unnDeaths) / stateTotal * 10000;
+  num2 = num2.toFixed(1);
+
+  $('#casesAdj').empty().append(num);
+  $('#deathsAdj').empty().append(num2);
 
   var myFunction = function() {
 
@@ -111,6 +162,10 @@ if($('#countyMapGraphic').length >0 ){
 
         document.getElementById('unassigned').style.display = "block";
         document.getElementById('unassignedD').style.display = "none";
+        document.getElementById('deathKey').style.display = "none";
+        document.getElementById('deathKeyTotal').style.display = "none";
+        document.getElementById('caseKey').style.display = "none";
+        document.getElementById('caseKeyTotal').style.display = "block";
 
   			for (i = 0; i < countyCases.length; i++) {
   					 countyCases[i].style.display = "block";
@@ -121,10 +176,114 @@ if($('#countyMapGraphic').length >0 ){
   			for (i = 0; i < countyDeaths.length; i++) {
   					 countyDeaths[i].style.display = "none";
   			}
+        for (i = 0; i < countyAdjCases.length; i++) {
+             countyAdjCases[i].style.display = "none";
+        }
+        for (i = 0; i < countyAdjDeaths.length; i++) {
+             countyAdjDeaths[i].style.display = "none";
+        }
 
-  		} else {
+  		}
+      else if ( document.getElementById('casesPop').checked ) {
+
+        document.getElementById('unassigned').style.display = "block";
+        document.getElementById('unassignedD').style.display = "none";
+        document.getElementById('deathKey').style.display = "none";
+        document.getElementById('deathKeyTotal').style.display = "none";
+        document.getElementById('caseKey').style.display = "block";
+        document.getElementById('caseKeyTotal').style.display = "none";
+
+        for (i = 0; i < countyCases.length; i++) {
+             countyCases[i].style.display = "none";
+        }
+        for (i = 0; i < countyDeaths.length; i++) {
+             countyDeaths[i].style.display = "none";
+        }
+        for (i = 0; i < countyAdjCases.length; i++) {
+             countyAdjCases[i].style.display = "block";
+        }
+        for (i = 0; i < countyAdjDeaths.length; i++) {
+             countyAdjDeaths[i].style.display = "none";
+        }
+
+
+        for (var i = 0; i < counties.length; i++) {
+          var countyName = counties[i].id;
+          var countyObj = county_pops[i];
+          var countyPop = parseInt(countyObj["pop_2019"]);
+          var case_value = parseInt( lastest_day[countyName] );
+
+          var popBucket = (case_value / countyPop) * 10000;
+
+          // console.log( countyName + " " + countyPop + " " + case_value);
+
+          if( (popBucket < 30.1) && (popBucket > 20.0) ){
+            counties[i].style.fill = popColors[1];
+          } else if ( (popBucket < 20.1) && (popBucket > 10.0) ) {
+            counties[i].style.fill = popColors[2];
+          } else if ( (popBucket < 10.1) && (popBucket > 0.1) ) {
+            counties[i].style.fill = popColors[3];
+          } else { counties[i].style.fill = "#e2e2e2"; }
+
+
+        }
+
+      }
+      else if ( document.getElementById('deathsPop').checked ) {
+
         document.getElementById('unassigned').style.display = "none";
         document.getElementById('unassignedD').style.display = (unnDeaths > 0) ? "block" : "none";
+        document.getElementById('deathKey').style.display = "block";
+        document.getElementById('deathKeyTotal').style.display = "none";
+        document.getElementById('caseKey').style.display = "none";
+        document.getElementById('caseKeyTotal').style.display = "none";
+
+        for (i = 0; i < countyCases.length; i++) {
+             countyCases[i].style.display = "none";
+        }
+        for (i = 0; i < countyDeaths.length; i++) {
+             countyDeaths[i].style.display = "none";
+        }
+        for (i = 0; i < countyAdjCases.length; i++) {
+             countyAdjCases[i].style.display = "none";
+        }
+        for (i = 0; i < countyAdjDeaths.length; i++) {
+             countyAdjDeaths[i].style.display = "block";
+        }
+
+
+        for (var i = 0; i < counties.length; i++) {
+          var countyName = counties[i].id;
+          var countyObj = county_pops[i];
+          var countyPop = parseInt(countyObj["pop_2019"]);
+          var death_value = parseInt( lastest_deaths[countyName] );
+
+          var popBucket = (death_value / countyPop) * 10000;
+          //
+          // console.log( countyName + " " + countyPop + " " + case_value);
+          if( (popBucket <= 0.20) && (popBucket >= 0.16) ) {
+            counties[i].style.fill = popDeathColors[0];
+          } else if( (popBucket <= 1.50) && (popBucket >= 1.10) ){
+            counties[i].style.fill = popDeathColors[1];
+          } else if ( (popBucket <= 1.00) && (popBucket >= 0.60) ) {
+            counties[i].style.fill = popDeathColors[2];
+          } else if ( (popBucket <= 0.50) && (popBucket >= 0.1) ) {
+            counties[i].style.fill = popDeathColors[3];
+          } else { counties[i].style.fill = "#e2e2e2"; }
+
+
+
+
+        }
+
+      }
+      else {
+        document.getElementById('unassigned').style.display = "none";
+        document.getElementById('unassignedD').style.display = (unnDeaths > 0) ? "block" : "none";
+        document.getElementById('deathKey').style.display = "none";
+        document.getElementById('deathKeyTotal').style.display = "block";
+        document.getElementById('caseKey').style.display = "none";
+        document.getElementById('caseKeyTotal').style.display = "none";
 
   			for (i = 0; i < countyCases.length; i++) {
   					 countyCases[i].style.display = "none";
@@ -138,6 +297,12 @@ if($('#countyMapGraphic').length >0 ){
   			for (i = 0; i < countyDeaths.length; i++) {
   					 countyDeaths[i].style.display = "block";
   			}
+        for (i = 0; i < countyAdjCases.length; i++) {
+             countyAdjCases[i].style.display = "none";
+        }
+        for (i = 0; i < countyAdjDeaths.length; i++) {
+             countyAdjDeaths[i].style.display = "none";
+        }
   		}
 
   }
@@ -381,10 +546,6 @@ var myFunction = function(updateData, idClicked) {
   });
 
 }
-
-
-
-
 
 
 
