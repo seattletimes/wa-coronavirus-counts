@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var day_var = "415";
+var day_var = "418";
 /////////
 
 
@@ -219,6 +219,8 @@ if($('#countyMapGraphic').length >0 ){
 
           if( (popBucket < 30.1) && (popBucket > 20.0) ){
             counties[i].style.fill = popColors[1];
+          } else if ( (popBucket < 40.1) && (popBucket > 30.0) ) {
+            counties[i].style.fill = popColors[0];
           } else if ( (popBucket < 20.1) && (popBucket > 10.0) ) {
             counties[i].style.fill = popColors[2];
           } else if ( (popBucket < 10.1) && (popBucket > 0.1) ) {
@@ -259,13 +261,17 @@ if($('#countyMapGraphic').length >0 ){
           var death_value = parseInt( lastest_deaths[countyName] );
 
           var popBucket = (death_value / countyPop) * 10000;
+
+          popBucket = popBucket.toFixed(1);
+
+          console.log(countyName + " " + popBucket);
           //
           // console.log( countyName + " " + countyPop + " " + case_value);
-          if( (popBucket <= 0.20) && (popBucket >= 0.16) ) {
+          if( (popBucket <= 2.0) && (popBucket >= 1.6) ) {
             counties[i].style.fill = popDeathColors[0];
-          } else if( (popBucket <= 1.50) && (popBucket >= 1.10) ){
+          } else if( (popBucket <= 1.5) && (popBucket >= 1.1) ){
             counties[i].style.fill = popDeathColors[1];
-          } else if ( (popBucket <= 1.00) && (popBucket >= 0.60) ) {
+          } else if ( (popBucket <= 1.0) && (popBucket >= 0.6) ) {
             counties[i].style.fill = popDeathColors[2];
           } else if ( (popBucket <= 0.50) && (popBucket >= 0.1) ) {
             counties[i].style.fill = popDeathColors[3];
@@ -508,6 +514,7 @@ var myFunction = function(updateData, idClicked) {
             return y(d.yEnd);
           })
           .attr("height", function(d) {
+            console.log(d.yBegin + " " + d.yEnd);
             return y(d.yBegin) - y(d.yEnd);
           })
           .style("fill", function(d) {
@@ -569,6 +576,218 @@ var myFunction = function(updateData, idClicked) {
 
 
  myFunction(`assets/waCountyCases${day_var}.csv`, "casesCounty2");
+
+
+} else {}
+
+
+
+if($('#newbarChart').length >0 ){
+  console.log("hi mom");
+
+  var conWidth = $("#newbarChart").width();
+
+  var conHeight = (conWidth > 500) ? 500 : 300;
+
+
+ var margin = {top: 20, right: 10, bottom: 30, left: 60},
+     width = conWidth - margin.left - margin.right,
+     height = conHeight - margin.top - margin.bottom;
+
+ var x0 = d3.scaleBand().range([0, width]).padding(.05);
+
+ var x1 = d3.scaleBand().padding(.05);
+
+ var y = d3.scaleLinear()
+     .range([height, 0]);
+
+ var xAxis = d3.axisBottom()
+     .scale(x0);
+
+ var yAxis = d3.axisLeft()
+     .scale(y);
+
+     xAxis.tickSizeOuter(0);
+
+
+
+
+ var svg1 = d3.select("#newbarChart").append("svg")
+     .attr("width", width + margin.left + margin.right)
+     .attr("height", height + margin.top + margin.bottom)
+   .append("g")
+     .attr("class","mainGraphic")
+     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+ var yBegin;
+
+
+ var myFunction1 = function(updateData, idClicked) {
+
+   d3.csv(updateData).then(
+     function(data) {
+
+       var prevDayData = 0;
+
+       var columnHeaders = d3.keys(data[0]).filter(function(key) { return key !== "Date"; });
+
+       data.forEach(function(d) {
+
+         var totalCases = 0;
+         var netCases = 0;
+         var thisThing;
+
+         var yColumn = new Array();
+         d.columnDetails = columnHeaders.map(function(name) {
+           for (ic in innerColumns) {
+             if($.inArray(name, innerColumns[ic]) >= 0){
+               if (!yColumn[ic]){
+                 console.log("I get called");
+                 yColumn[ic] = 0;
+               }
+               yBegin = yColumn[ic];
+               yColumn[ic] += +d[name];
+
+              totalCases = totalCases + parseInt(d[name]);
+
+
+
+              thisThing = ic;
+
+               return {name: name, column: ic, yBegin: yBegin, yEnd: +d[name] + yBegin};
+             }
+           }
+         });
+
+         if (totalCases === 0) {
+           netCases = 0;
+         } else {
+           netCases = totalCases - prevDayData;
+           prevDayData = totalCases;
+         }
+
+
+         d.total = netCases;
+         d.column = thisThing;
+
+
+
+
+       });
+
+       x0.domain(data.map(function(d) { return d.Date; }));
+       x1.domain(d3.keys(innerColumns)).range([0, x0.bandwidth()]);
+
+       y.domain([0, d3.max(data, function(d) {
+         return d.total;
+       })]);
+
+       svg1.selectAll(".axis").remove();
+
+       svg1.append("g")
+           .attr("class", "x axis")
+           .attr("transform", "translate(0," + height + ")")
+           .call(xAxis);
+
+       svg1.append("g")
+           .attr("class", "y axis")
+           .call(yAxis)
+         .append("text")
+           .attr("transform", "rotate(-90)")
+           .attr("y", 6)
+           .attr("dy", ".7em")
+           .style("text-anchor", "end")
+           .text("");
+
+
+           svg1.selectAll(".g").remove();
+
+
+           var project_stackedbar1 = svg1.selectAll(".project_stackedbar")
+               .data(data)
+             .enter().append("rect")
+               .attr("class", "g")
+               .attr("id", function(d,i) {
+                if (i === (data.length - 1)) {
+                  var barID = (idClicked === "casesCounty3") ? "gLast" : "gLast2";
+                  return barID;
+                } else { return ("g" + i) };
+               })
+               .attr("transform", function(d) { return "translate(" + x0(d.Date) + ",0)"; })
+               .attr("width", x1.bandwidth())
+               .transition()
+               .duration(600)
+               .attr("x", function(d) {
+                 return x1(d.column);
+                })
+               .attr("y", function(d) {
+                 // console.log( d.Date + " " + d.total);
+                 return y(d.total);
+               })
+               .attr("height", function(d) {
+                 // console.log(y(0) - y(d.total));
+                 if (d.total > 0) {
+                   return y(0) - y(d.total);
+                 } else {
+                   return y(d.total) - y(0);
+                 }
+
+               })
+               .style("fill", function(d) {
+                return ((idClicked === "casesCounty3") ? "goldenrod" : "red");
+               })
+               .style("stroke", "goldenrod");
+
+
+               // var bars1 = project_stackedbar1.selectAll("rect")
+               //     .exit()
+               //     .remove()
+               //     .data(data)
+               //     .enter().append("rect")
+               //     .attr("width", x1.bandwidth())
+               //     .transition()
+               //     .duration(600)
+               //     .attr("x", function(d) {
+               //       return x1(d.column);
+               //      })
+               //     .attr("y", function(d) {
+               //       return y(d.total);
+               //     })
+               //     .attr("height", function(d) {
+               //       return y(0) - y(d.total);
+               //     })
+               //     .style("fill", "goldenrod")
+               //     .style("stroke", "goldenrod");
+
+
+
+
+
+
+
+         });
+
+       }
+
+
+
+  $( ".radioButton3" ).click(function() {
+          var dataSet = this.getAttribute('data-type');
+          dataSet  = 'assets/' + dataSet + day_var + '.csv';
+
+          var thisID = $(this).attr("id");
+
+          $('.title').toggleClass("showMe");
+
+          myFunction1(dataSet, thisID);
+
+
+  });
+
+
+        myFunction1(`assets/waCountyCases${day_var}.csv`, "casesCounty3");
+
+
 
 
 } else {}
