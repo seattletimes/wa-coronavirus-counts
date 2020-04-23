@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var day_var = "418";
+var day_var = "421";
 /////////
 
 
@@ -514,7 +514,6 @@ var myFunction = function(updateData, idClicked) {
             return y(d.yEnd);
           })
           .attr("height", function(d) {
-            console.log(d.yBegin + " " + d.yEnd);
             return y(d.yBegin) - y(d.yEnd);
           })
           .style("fill", function(d) {
@@ -585,47 +584,47 @@ var myFunction = function(updateData, idClicked) {
 if($('#newbarChart').length >0 ){
   console.log("hi mom");
 
-  var conWidth = $("#newbarChart").width();
-
-  var conHeight = (conWidth > 500) ? 500 : 300;
-
-
- var margin = {top: 20, right: 10, bottom: 30, left: 60},
-     width = conWidth - margin.left - margin.right,
-     height = conHeight - margin.top - margin.bottom;
-
- var x0 = d3.scaleBand().range([0, width]).padding(.05);
-
- var x1 = d3.scaleBand().padding(.05);
-
- var y = d3.scaleLinear()
-     .range([height, 0]);
-
- var xAxis = d3.axisBottom()
-     .scale(x0);
-
- var yAxis = d3.axisLeft()
-     .scale(y);
-
-     xAxis.tickSizeOuter(0);
-
-
-
-
- var svg1 = d3.select("#newbarChart").append("svg")
-     .attr("width", width + margin.left + margin.right)
-     .attr("height", height + margin.top + margin.bottom)
-   .append("g")
-     .attr("class","mainGraphic")
-     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
- var yBegin;
 
 
  var myFunction1 = function(updateData, idClicked) {
 
    d3.csv(updateData).then(
      function(data) {
+
+       $('#graph').empty();
+
+       var conWidth = $("#newbarChart").width();
+
+       var conHeight = (conWidth > 500) ? 500 : 300;
+
+      var margin = {top: 20, right: 30, bottom: 30, left: 60},
+          width = conWidth - margin.left - margin.right,
+          height = conHeight - margin.top - margin.bottom;
+
+      var x0 = d3.scaleBand().range([0, width]).padding(.05);
+
+      var x1 = d3.scaleBand().padding(.05);
+
+      var y = d3.scaleLinear()
+          .range([height, 0]);
+
+      var xAxis = d3.axisBottom()
+          .scale(x0);
+
+      var yAxis = d3.axisLeft()
+          .scale(y);
+
+          xAxis.tickSizeOuter(0);
+
+
+      var svg1 = d3.select("#newbarChart #graph").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+          .attr("class","mainGraphic")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      var yBegin;
 
        var prevDayData = 0;
 
@@ -642,7 +641,6 @@ if($('#newbarChart').length >0 ){
            for (ic in innerColumns) {
              if($.inArray(name, innerColumns[ic]) >= 0){
                if (!yColumn[ic]){
-                 console.log("I get called");
                  yColumn[ic] = 0;
                }
                yBegin = yColumn[ic];
@@ -700,13 +698,13 @@ if($('#newbarChart').length >0 ){
            .text("");
 
 
-           svg1.selectAll(".g").remove();
+           svg1.selectAll(".gBar").remove();
 
 
            var project_stackedbar1 = svg1.selectAll(".project_stackedbar")
                .data(data)
              .enter().append("rect")
-               .attr("class", "g")
+               .attr("class", "gBar")
                .attr("id", function(d,i) {
                 if (i === (data.length - 1)) {
                   var barID = (idClicked === "casesCounty3") ? "gLast" : "gLast2";
@@ -715,6 +713,16 @@ if($('#newbarChart').length >0 ){
                })
                .attr("transform", function(d) { return "translate(" + x0(d.Date) + ",0)"; })
                .attr("width", x1.bandwidth())
+               .attr("data-total", function(d) {
+                 return d.total;
+               })
+               .attr("data-date", function(d) {
+                 clickedDate = d.Date;
+                 clickedDate = clickedDate.split("/");
+                 var clickedMonth = parseInt(clickedDate[0]) - 1;
+
+                 return (months[clickedMonth] + " " + clickedDate[1]);
+               })
                .transition()
                .duration(600)
                .attr("x", function(d) {
@@ -722,7 +730,14 @@ if($('#newbarChart').length >0 ){
                 })
                .attr("y", function(d) {
                  // console.log( d.Date + " " + d.total);
-                 return y(d.total);
+
+
+
+                 if (d.total > 0) {
+                   return y(d.total);
+                 } else {
+                   return y( d.total + Math.abs(d.total) );
+                 }
                })
                .attr("height", function(d) {
                  // console.log(y(0) - y(d.total));
@@ -734,31 +749,34 @@ if($('#newbarChart').length >0 ){
 
                })
                .style("fill", function(d) {
-                return ((idClicked === "casesCounty3") ? "goldenrod" : "red");
-               })
-               .style("stroke", "goldenrod");
+                return ((idClicked === "casesCounty3") ? "#D8894E" : "#D15959");
+              });
 
 
-               // var bars1 = project_stackedbar1.selectAll("rect")
-               //     .exit()
-               //     .remove()
-               //     .data(data)
-               //     .enter().append("rect")
-               //     .attr("width", x1.bandwidth())
-               //     .transition()
-               //     .duration(600)
-               //     .attr("x", function(d) {
-               //       return x1(d.column);
-               //      })
-               //     .attr("y", function(d) {
-               //       return y(d.total);
-               //     })
-               //     .attr("height", function(d) {
-               //       return y(0) - y(d.total);
-               //     })
-               //     .style("fill", "goldenrod")
-               //     .style("stroke", "goldenrod");
 
+              $( ".gBar" ).click(function() {
+                  var dailyTotal = $(this).attr("data-total");
+                  var dailyDate = $(this).attr("data-date");
+
+                  $( ".gBar" ).css("opacity",0.5);
+                  $( this ).css("opacity",1);
+
+                  dailyTotal = commaFormat( parseInt(dailyTotal) );
+
+                  var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
+
+                  $('.newTooltip #date').empty().append(dailyDate);
+                  $('.newTooltip #total').empty().append(dailyTotal + follow);
+
+                  console.log(dailyDate + " " + dailyTotal);
+                });
+
+
+
+                setTimeout(function(){
+                  var barID = (idClicked === "casesCounty3") ? "gLast" : "gLast2";
+                    $(`#${barID}`).click();
+                },1);
 
 
 
@@ -783,6 +801,11 @@ if($('#newbarChart').length >0 ){
 
 
   });
+
+
+  window.onresize = function(event) {
+    myFunction1(`assets/waCountyCases${day_var}.csv`, "casesCounty3");
+  };
 
 
         myFunction1(`assets/waCountyCases${day_var}.csv`, "casesCounty3");
