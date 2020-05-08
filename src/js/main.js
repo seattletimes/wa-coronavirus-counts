@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var day_var = "421";
+var day_var = "56";
 /////////
 
 
@@ -19,13 +19,15 @@ var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 var county_pops = window.case_data['countyPop2019'];
 
 var popColors = ['#531800', '#914c14', '#d28449', '#ffc88a'];
-var popDeathColors = ['#4a0000', '#931f2b', '#d05858', '#ff9894'];
+var popDeathColors = ['#4a0000', '#931f2b', '#d05858', '#ff9894', '#ffd9d7'];
 
 // console.log(county_pops);
 
 var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 var dataMonth = day_var.slice(0, 1);
 var dataDay = day_var.slice(1, 3);
+
+
 dataMonth = parseInt(dataMonth) - 1;
 var dateNew = months[dataMonth] + " " + dataDay;
 var stateTotal = 7546410;
@@ -219,7 +221,7 @@ if($('#countyMapGraphic').length >0 ){
 
           if( (popBucket < 30.1) && (popBucket > 20.0) ){
             counties[i].style.fill = popColors[1];
-          } else if ( (popBucket < 40.1) && (popBucket > 30.0) ) {
+          } else if ( (popBucket < 70.1) && (popBucket > 30.0) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
             counties[i].style.fill = popColors[0];
           } else if ( (popBucket < 20.1) && (popBucket > 10.0) ) {
             counties[i].style.fill = popColors[2];
@@ -264,17 +266,19 @@ if($('#countyMapGraphic').length >0 ){
 
           popBucket = popBucket.toFixed(1);
 
-          console.log(countyName + " " + popBucket);
+          // console.log(countyName + " " + popBucket);
           //
           // console.log( countyName + " " + countyPop + " " + case_value);
-          if( (popBucket <= 2.0) && (popBucket >= 1.6) ) {
+          if( (popBucket <= 2.5) && (popBucket >= 2.1) ) {
             counties[i].style.fill = popDeathColors[0];
-          } else if( (popBucket <= 1.5) && (popBucket >= 1.1) ){
+          } else if( (popBucket <= 2.0) && (popBucket >= 1.6) ) {
             counties[i].style.fill = popDeathColors[1];
-          } else if ( (popBucket <= 1.0) && (popBucket >= 0.6) ) {
+          } else if( (popBucket <= 1.5) && (popBucket >= 1.1) ){
             counties[i].style.fill = popDeathColors[2];
-          } else if ( (popBucket <= 0.50) && (popBucket >= 0.1) ) {
+          } else if ( (popBucket <= 1.0) && (popBucket >= 0.6) ) {
             counties[i].style.fill = popDeathColors[3];
+          } else if ( (popBucket <= 0.50) && (popBucket >= 0.1) ) {
+            counties[i].style.fill = popDeathColors[4];
           } else { counties[i].style.fill = "#e2e2e2"; }
 
 
@@ -582,7 +586,6 @@ var myFunction = function(updateData, idClicked) {
 
 
 if($('#newbarChart').length >0 ){
-  console.log("hi mom");
 
 
 
@@ -768,7 +771,7 @@ if($('#newbarChart').length >0 ){
                   $('.newTooltip #date').empty().append(dailyDate);
                   $('.newTooltip #total').empty().append(dailyTotal + follow);
 
-                  console.log(dailyDate + " " + dailyTotal);
+                  // console.log(dailyDate + " " + dailyTotal);
                 });
 
 
