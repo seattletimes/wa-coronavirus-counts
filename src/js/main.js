@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES /////
-var day_var = "56";
+var day_var = "513";
 /////////
 
 
@@ -18,7 +18,7 @@ var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 
 var county_pops = window.case_data['countyPop2019'];
 
-var popColors = ['#531800', '#914c14', '#d28449', '#ffc88a'];
+var popColors = ['#730505', '#914c14', '#d28449', '#ffc88a'];
 var popDeathColors = ['#4a0000', '#931f2b', '#d05858', '#ff9894', '#ffd9d7'];
 
 // console.log(county_pops);
@@ -219,13 +219,13 @@ if($('#countyMapGraphic').length >0 ){
 
           // console.log( countyName + " " + countyPop + " " + case_value);
 
-          if( (popBucket < 30.1) && (popBucket > 20.0) ){
+          if( (popBucket < 45.1) && (popBucket > 30.0) ){
             counties[i].style.fill = popColors[1];
-          } else if ( (popBucket < 70.1) && (popBucket > 30.0) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
+          } else if ( (popBucket < 100.1) && (popBucket > 45.0) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
             counties[i].style.fill = popColors[0];
-          } else if ( (popBucket < 20.1) && (popBucket > 10.0) ) {
+          } else if ( (popBucket < 30.1) && (popBucket > 15.0) ) {
             counties[i].style.fill = popColors[2];
-          } else if ( (popBucket < 10.1) && (popBucket > 0.1) ) {
+          } else if ( (popBucket < 15.1) && (popBucket > 0.1) ) {
             counties[i].style.fill = popColors[3];
           } else { counties[i].style.fill = "#e2e2e2"; }
 
@@ -269,16 +269,12 @@ if($('#countyMapGraphic').length >0 ){
           // console.log(countyName + " " + popBucket);
           //
           // console.log( countyName + " " + countyPop + " " + case_value);
-          if( (popBucket <= 2.5) && (popBucket >= 2.1) ) {
-            counties[i].style.fill = popDeathColors[0];
-          } else if( (popBucket <= 2.0) && (popBucket >= 1.6) ) {
+          if( (popBucket <= 3.0) && (popBucket >= 2.1) ){
             counties[i].style.fill = popDeathColors[1];
-          } else if( (popBucket <= 1.5) && (popBucket >= 1.1) ){
+          } else if ( (popBucket <= 2.0) && (popBucket >= 1.1) ) {
             counties[i].style.fill = popDeathColors[2];
-          } else if ( (popBucket <= 1.0) && (popBucket >= 0.6) ) {
+          } else if ( (popBucket <= 1.0) && (popBucket >= 0.1) ) {
             counties[i].style.fill = popDeathColors[3];
-          } else if ( (popBucket <= 0.50) && (popBucket >= 0.1) ) {
-            counties[i].style.fill = popDeathColors[4];
           } else { counties[i].style.fill = "#e2e2e2"; }
 
 
@@ -385,8 +381,8 @@ if($('#countyTrendGraphic').length >0 ){
  }
 
 
- var caseColors = ["#F3C882", "#E98729", "#B75317", "#7b2003", '#aaa'];
- var deathColors = ['#f6cac1', '#db8f87', '#ae5c5c', '#7c2f38', '#aaa'];
+ var caseColors = ["#F3C882", "#E98729", "#B75317", "#7b2003", "#360d01", '#aaa'];
+ var deathColors = ['#f6cac1', '#db8f87', '#ae5c5c', '#7c2f38', "#330107", '#aaa'];
 
 
  $('#date').empty().text(dateNew);
@@ -482,6 +478,8 @@ var myFunction = function(updateData, idClicked) {
                   colorKey = "<span class='colorKey King" + colorSet + "'></span>";
                 } else if ( countyName === "Snohomish" ) {
                   colorKey = "<span class='colorKey Sno" + colorSet + "'></span>";
+                } else if ( countyName === "Yakima" ) {
+                  colorKey = "<span class='colorKey Yak" + colorSet + "'></span>";
                 } else if ( countyName === "Pierce" ) {
                   colorKey = "<span class='colorKey Pierce" + colorSet + "'></span>";
                 } else if ( countyName === "Unassigned" ) {
@@ -528,9 +526,11 @@ var myFunction = function(updateData, idClicked) {
               return colorSet[2];
             } else if ( d.name === "Pierce" ) {
               return colorSet[1];
-           } else if ( d.name === "Unassigned" ) {
-              return colorSet[4];
-           } else { return colorSet[3]; }
+           } else if ( d.name === "Yakima" ) {
+             return colorSet[3];
+          } else if ( d.name === "Unassigned" ) {
+              return colorSet[5];
+           } else { return colorSet[4]; }
          })
          .style("stroke", function(d) {
            var colorSet = (idClicked === "casesCounty2") ? caseColors : deathColors;
@@ -540,9 +540,11 @@ var myFunction = function(updateData, idClicked) {
              return colorSet[2];
            } else if ( d.name === "Pierce" ) {
              return colorSet[1];
-          } else if ( d.name === "Unassigned" ) {
-             return colorSet[4];
-          } else { return colorSet[3]; }
+          } else if ( d.name === "Yakima" ) {
+             return colorSet[3];
+           } else if ( d.name === "Unassigned" ) {
+             return colorSet[5];
+          } else { return colorSet[4]; }
         });
 
         if (idClicked === "casesCounty2") {
