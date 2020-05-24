@@ -7,8 +7,8 @@ const d3 = require("d3");
 
 
 
-////CHANGE ME WHEN DAY CHANGES /////
-var day_var = "517";
+////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
+var day_var = "522";
 /////////
 
 
@@ -221,7 +221,7 @@ if($('#countyMapGraphic').length >0 ){
 
           if( (popBucket < 45.1) && (popBucket > 30.0) ){
             counties[i].style.fill = popColors[1];
-          } else if ( (popBucket < 100.1) && (popBucket > 45.0) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
+          } else if ( (popBucket < 200.1) && (popBucket > 45.0) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
             counties[i].style.fill = popColors[0];
           } else if ( (popBucket < 30.1) && (popBucket > 15.0) ) {
             counties[i].style.fill = popColors[2];
