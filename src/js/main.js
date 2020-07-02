@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "613";
+var day_var = "630";
 /////////
 
 
@@ -18,7 +18,7 @@ var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 
 var county_pops = window.case_data['countyPop2019'];
 
-var popColors = ['#730505', '#914c14', '#d28449', '#ffc88a'];
+var popColors = ['#730505', '#914c14', '#d28449', '#ffc88a',"#FFE9CF"];
 var popDeathColors = ['#61000a', '#931f2b', '#d05858', '#ff9894', '#ffd9d7'];
 
 // console.log(county_pops);
@@ -218,15 +218,16 @@ if($('#countyMapGraphic').length >0 ){
           var popBucket = (case_value / countyPop) * 10000;
 
           // console.log( countyName + " " + countyPop + " " + case_value);
-
-          if( (popBucket < 45.1) && (popBucket > 30.0) ){
-            counties[i].style.fill = popColors[1];
-          } else if ( (popBucket < 200.1) && (popBucket > 45.0) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
+          if ( (popBucket < 500.1) && (popBucket > 60.0) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
             counties[i].style.fill = popColors[0];
-          } else if ( (popBucket < 30.1) && (popBucket > 15.0) ) {
+          } else if ( (popBucket < 60.1) && (popBucket > 45.0) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
+            counties[i].style.fill = popColors[1];
+          } else if( (popBucket < 45.1) && (popBucket > 30.0) ){
             counties[i].style.fill = popColors[2];
-          } else if ( (popBucket < 15.1) && (popBucket > 0.1) ) {
+          } else if ( (popBucket < 30.1) && (popBucket > 15.0) ) {
             counties[i].style.fill = popColors[3];
+          } else if ( (popBucket < 15.1) && (popBucket > 0.1) ) {
+            counties[i].style.fill = popColors[4];
           } else { counties[i].style.fill = "#e2e2e2"; }
 
 
@@ -269,7 +270,7 @@ if($('#countyMapGraphic').length >0 ){
           // console.log(countyName + " " + popBucket);
           //
           // console.log( countyName + " " + countyPop + " " + case_value);
-          if( (popBucket <= 5.0) && (popBucket >= 4.1) ){
+          if( (popBucket <= 10.0) && (popBucket >= 4.1) ){
             counties[i].style.fill = popDeathColors[0];
           } else if( (popBucket <= 4.0) && (popBucket >= 3.1) ){
             counties[i].style.fill = popDeathColors[1];
@@ -382,6 +383,10 @@ if($('#countyTrendGraphic').length >0 ){
 
  var innerColumns = {
    "column1" : ["Adams","Asotin","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Ferry","Franklin","Garfield","Grant","Grays_Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Okanogan","Pacific","Pend_Oreille","Pierce","San_Juan","Skagit","Skamania","Snohomish","Spokane","Stevens","Thurston","Wahkiakum","Walla_Walla","Whatcom","Whitman","Yakima","Unassigned"],
+ }
+
+ var innerColumns2 = {
+   "column1" : ["New"],
  }
 
 
@@ -629,7 +634,7 @@ if($('#newbarChart').length >0 ){
           .scale(x0);
 
       var yAxis = d3.axisLeft()
-          .scale(y);
+          .scale(y).ticks(6);
 
           xAxis.tickSizeOuter(0);
 
@@ -645,7 +650,7 @@ if($('#newbarChart').length >0 ){
 
        var prevDayData = 0;
 
-       var columnHeaders = d3.keys(data[0]).filter(function(key) { return (key !== "Date") && (key !== "New") && (key !== "Roll_avg") });
+       var columnHeaders = d3.keys(data[0]).filter(function(key) { return (key !== "Date") && (key == "New") && (key !== "Roll_avg") });
 
        data.forEach(function(d) {
 
@@ -655,8 +660,8 @@ if($('#newbarChart').length >0 ){
 
          var yColumn = new Array();
          d.columnDetails = columnHeaders.map(function(name) {
-           for (ic in innerColumns) {
-             if($.inArray(name, innerColumns[ic]) >= 0){
+           for (ic in innerColumns2) {
+             if($.inArray(name, innerColumns2[ic]) >= 0){
                if (!yColumn[ic]){
                  yColumn[ic] = 0;
                }
@@ -664,6 +669,8 @@ if($('#newbarChart').length >0 ){
                yColumn[ic] += +d[name];
 
               totalCases = totalCases + parseInt(d[name]);
+
+              console.log(totalCases);
 
 
 
@@ -674,20 +681,20 @@ if($('#newbarChart').length >0 ){
            }
          });
 
-         if (totalCases === 0) {
-           netCases = 0;
-         } else {
-           netCases = totalCases - prevDayData;
-           prevDayData = totalCases;
-         }
-         d.total = netCases;
+         // if (totalCases === 0) {
+         //   netCases = 0;
+         // } else {
+         //   netCases = totalCases - prevDayData;
+         //   prevDayData = totalCases;
+         // }
+         d.total = totalCases;
          d.column = thisThing;
        });
 
 
 
        x0.domain(data.map(function(d) { return d.Date; }));
-       x1.domain(d3.keys(innerColumns)).range([0, x0.bandwidth()]);
+       x1.domain(d3.keys(innerColumns2)).range([0, x0.bandwidth()]);
 
        y.domain([0, d3.max(data, function(d) {
          return d.total;
