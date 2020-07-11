@@ -8,8 +8,11 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "630";
+var day_var = "79";
 /////////
+
+//// change me every month ////
+var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1"];
 
 
 var commaFormat = d3.format(',');
@@ -362,7 +365,8 @@ if($('#countyTrendGraphic').length >0 ){
      .range([height, 0]);
 
  var xAxis = d3.axisBottom()
-     .scale(x0);
+     .scale(x0)
+     .tickValues(monthTicks);
 
  var yAxis = d3.axisLeft()
      .scale(y);
@@ -631,7 +635,9 @@ if($('#newbarChart').length >0 ){
           .range([height, 0]);
 
       var xAxis = d3.axisBottom()
-          .scale(x0);
+          .scale(x0)
+          .tickValues(monthTicks);
+
 
       var yAxis = d3.axisLeft()
           .scale(y).ticks(6);
@@ -669,8 +675,6 @@ if($('#newbarChart').length >0 ){
                yColumn[ic] += +d[name];
 
               totalCases = totalCases + parseInt(d[name]);
-
-              console.log(totalCases);
 
 
 

@@ -150,7 +150,6 @@ main.interactive {
 
 .radioHeader {
 	font-weight: bold;
-	// text-transform: uppercase;
 
 	margin-top: 10px;
 }
@@ -257,7 +256,6 @@ main.interactive {
 
 	.x {
 		.tick {
-				display: none;
 
 			line { display: none; }
 
@@ -266,61 +264,19 @@ main.interactive {
 			 font-size: 1.4em;
 			}
 		}
-
-		// .tick:nth-child(odd) {
-		// 	display: none;
-		// }
-
-
-
-
-
-
-
-
-
-
-		// .tick:nth-child(5n) {
-		// 	display: inherit;
-		// 	@media @mobile {
-		// 		display: none;
-		// 	}
-		// }
-
-		.tick:nth-child(15n) {
-			display: inherit;
-
-			// @media @mobile {
-			// 	display: inherit;
-			// }
-
-		}
-
-
-
-
-
-
-
-
-
-
 	}
 }
 
 .y {
-
 	.domain {
 		stroke: white;
 	}
 
 	.tick {
-
 		text {
 			font-size: 1.4em;
 		}
 	}
-
 }
 
 
@@ -461,33 +417,12 @@ main.interactive {
 
 	.x {
 		.tick {
-				display: none;
-
 			line { display: none; }
 
 			text {
 			 transform:translateY(-5px);
 			 font-size: 1.4em;
 			}
-		}
-
-		// .tick:nth-child(odd) {
-		// 	display: none;
-		// }
-
-		.tick:nth-child(7n) {
-			display: inherit;
-			@media @mobile {
-				display: none;
-			}
-		}
-
-		.tick:nth-child(20n) {
-
-			@media @mobile {
-				display: inherit;
-			}
-
 		}
 
 	}
