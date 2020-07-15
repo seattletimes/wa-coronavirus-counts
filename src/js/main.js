@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "712";
+var day_var = "713";
 /////////
 
 //// change me every month ////
@@ -621,9 +621,9 @@ if($('#newbarChart').length >0 ){
 
        var conWidth = $("#newbarChart").width();
 
-       var conHeight = (conWidth > 500) ? 500 : 300;
+       var conHeight = (conWidth > 500) ? 600 : 300;
 
-      var margin = {top: 20, right: 30, bottom: 30, left: 60},
+      var margin = {top: 20, right: 15, bottom: 40, left: 50},
           width = conWidth - margin.left - margin.right,
           height = conHeight - margin.top - margin.bottom;
 
@@ -640,7 +640,7 @@ if($('#newbarChart').length >0 ){
 
 
       var yAxis = d3.axisLeft()
-          .scale(y).ticks(6);
+          .scale(y).ticks(5);
 
           xAxis.tickSizeOuter(0);
 
@@ -700,15 +700,13 @@ if($('#newbarChart').length >0 ){
        x0.domain(data.map(function(d) { return d.Date; }));
        x1.domain(d3.keys(innerColumns2)).range([0, x0.bandwidth()]);
 
-       y.domain([0, d3.max(data, function(d) {
-         return d.total;
-       })]);
+       y.domain([d3.min(data, function(d) { return d.total; }), d3.max(data, function(d) { return d.total; })]);
 
        svg1.selectAll(".axis").remove();
 
        svg1.append("g")
            .attr("class", "x axis")
-           .attr("transform", "translate(0," + height + ")")
+           .attr("transform", "translate(0," + (height + 15) + ")")
            .call(xAxis);
 
        svg1.append("g")
