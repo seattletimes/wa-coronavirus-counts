@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "713";
+var day_var = "723";
 /////////
 
 //// change me every month ////
@@ -19,7 +19,7 @@ var commaFormat = d3.format(',');
 var county_counts = window.case_data[`waCountyCases${day_var}`];
 var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 
-var county_pops = window.case_data['countyPop2019'];
+var county_pops = window.case_data['countyPop2020'];
 
 var popColors = ['#730505', '#914c14', '#d28449', '#ffc88a',"#FFE9CF"];
 var popDeathColors = ['#61000a', '#931f2b', '#d05858', '#ff9894', '#ffd9d7'];
@@ -72,7 +72,7 @@ if($('#countyMapGraphic').length >0 ){
       var bbox = d3.select("#" + countyName).node().getBBox();
 
       var countyObj = county_pops[i];
-      var countyPop = parseInt(countyObj["pop_2019"]);
+      var countyPop = countyObj["pop_2020"];
 
       var popAdjCase = (case_value / countyPop) * 10000;
       popAdjCase = popAdjCase.toFixed(1);
@@ -215,7 +215,7 @@ if($('#countyMapGraphic').length >0 ){
         for (var i = 0; i < counties.length; i++) {
           var countyName = counties[i].id;
           var countyObj = county_pops[i];
-          var countyPop = parseInt(countyObj["pop_2019"]);
+          var countyPop = countyObj["pop_2020"];
           var case_value = parseInt( lastest_day[countyName] );
 
           var popBucket = (case_value / countyPop) * 10000;
@@ -263,7 +263,7 @@ if($('#countyMapGraphic').length >0 ){
         for (var i = 0; i < counties.length; i++) {
           var countyName = counties[i].id;
           var countyObj = county_pops[i];
-          var countyPop = parseInt(countyObj["pop_2019"]);
+          var countyPop = countyObj["pop_2020"];
           var death_value = parseInt( lastest_deaths[countyName] );
 
           var popBucket = (death_value / countyPop) * 10000;
