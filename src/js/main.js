@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "723";
+var day_var = "729";
 /////////
 
 //// change me every month ////
@@ -221,15 +221,15 @@ if($('#countyMapGraphic').length >0 ){
           var popBucket = (case_value / countyPop) * 10000;
 
           // console.log( countyName + " " + countyPop + " " + case_value);
-          if ( (popBucket < 500.1) && (popBucket > 60.0) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
+          if ( (popBucket < 500.1) && (popBucket > 120.04) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
             counties[i].style.fill = popColors[0];
-          } else if ( (popBucket < 60.1) && (popBucket > 45.0) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
+          } else if ( (popBucket < 120.1) && (popBucket > 90.04) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
             counties[i].style.fill = popColors[1];
-          } else if( (popBucket < 45.1) && (popBucket > 30.0) ){
+          } else if( (popBucket < 90.1) && (popBucket > 60.04) ){
             counties[i].style.fill = popColors[2];
-          } else if ( (popBucket < 30.1) && (popBucket > 15.0) ) {
+          } else if ( (popBucket < 60.1) && (popBucket > 30.04) ) {
             counties[i].style.fill = popColors[3];
-          } else if ( (popBucket < 15.1) && (popBucket > 0.1) ) {
+          } else if ( (popBucket < 30.1) && (popBucket > 0.1) ) {
             counties[i].style.fill = popColors[4];
           } else { counties[i].style.fill = "#e2e2e2"; }
 
