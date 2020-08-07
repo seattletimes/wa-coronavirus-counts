@@ -8,11 +8,11 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "729";
+var day_var = "84";
 /////////
 
 //// change me every month ////
-var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1"];
+var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1","8/1"];
 
 
 var commaFormat = d3.format(',');
@@ -20,6 +20,9 @@ var county_counts = window.case_data[`waCountyCases${day_var}`];
 var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 
 var county_pops = window.case_data['countyPop2020'];
+
+
+console.log(county_counts);
 
 var popColors = ['#730505', '#914c14', '#d28449', '#ffc88a',"#FFE9CF"];
 var popDeathColors = ['#61000a', '#931f2b', '#d05858', '#ff9894', '#ffd9d7'];
@@ -33,7 +36,7 @@ var dataDay = day_var.slice(1, 3);
 
 dataMonth = parseInt(dataMonth) - 1;
 var dateNew = months[dataMonth] + " " + dataDay;
-var stateTotal = 7546410;
+var stateTotal = 7656200;
 
 
 
@@ -145,6 +148,8 @@ if($('#countyMapGraphic').length >0 ){
   var countyAdjCases = document.getElementsByClassName("adj_cases");
   var countyAdjDeaths = document.getElementsByClassName("adj_deaths");
   var radioClick = document.getElementsByClassName("radioButton1");
+
+  // document.querySelectorAll('.class1, .class2, .class3, .class4').forEach(el => el.classList.add('active'));
 
 
   // $('#casesTotal span:first').empty().append(commaFormat(caseTotals + unnCases));
@@ -319,7 +324,12 @@ if($('#countyMapGraphic').length >0 ){
         }
   		}
 
-  }
+  } // end of Laurens awful myFunction
+
+
+  // var myFunction = function() {
+  // 
+  // };
 
    for (var i = 0; i < radioClick.length; i++) {
        radioClick[i].addEventListener('click', myFunction, false);
@@ -728,10 +738,7 @@ if($('#newbarChart').length >0 ){
              .enter().append("rect")
                .attr("class", "gBar")
                .attr("id", function(d,i) {
-                if (i === (data.length - 1)) {
-                  var barID = (idClicked === "casesCounty3") ? "gLast" : "gLast2";
-                  return barID;
-                } else { return ("g" + i) };
+                 return ("g" + i);
                })
                .attr("transform", function(d) { return "translate(" + x0(d.Date) + ",0)"; })
                .attr("width", x1.bandwidth())
@@ -754,15 +761,7 @@ if($('#newbarChart').length >0 ){
                  return x1(d.column);
                 })
                .attr("y", function(d) {
-                 // console.log( d.Date + " " + d.total);
-
-
-
-                 if (d.total > 0) {
-                   return y(d.total);
-                 } else {
-                   return y( d.total + Math.abs(d.total) );
-                 }
+                 return ((d.total > 0) ? y(d.total) : y( d.total + Math.abs(d.total) ));
                })
                .attr("height", function(d) {
                  // console.log(y(0) - y(d.total));
@@ -786,31 +785,72 @@ if($('#newbarChart').length >0 ){
 
 
 
-              $( ".gBar" ).click(function() {
-                  var dailyTotal = $(this).attr("data-total");
-                  var dailyDate = $(this).attr("data-date");
-                  var dailyAvg = $(this).attr("data-avg");
+              // $( ".gBar" ).click(function() {
+              //     var dailyTotal = $(this).attr("data-total");
+              //     var dailyDate = $(this).attr("data-date");
+              //     var dailyAvg = $(this).attr("data-avg");
+              //
+              //     $( ".gBar" ).css("opacity",0.5);
+              //     $( this ).css("opacity",1);
+              //
+              //     dailyTotal = commaFormat( parseInt(dailyTotal) );
+              //
+              //     var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
+              //
+              //     $('.newTooltip #date').empty().append(dailyDate);
+              //     $('.newTooltip #total').empty().append(dailyTotal + follow);
+              //     $('.newTooltip #avg').empty().append("14-day average: " + dailyAvg);
+              //
+              //     // console.log(dailyDate + " " + dailyTotal);
+              //   });
 
-                  $( ".gBar" ).css("opacity",0.5);
-                  $( this ).css("opacity",1);
+                var allBars = document.getElementsByClassName('gBar');
+                var lastBar = allBars[allBars.length - 1];
+                var lastID = lastBar.id;
+                var selID = lastID.split("g");
+                selID = parseInt( selID[1] );
+                var endNum = selID;
 
-                  dailyTotal = commaFormat( parseInt(dailyTotal) );
+              $( ".caret" ).click(function() {
+                if ( this.id === "left" && selID > 0 ){
+                  $( "#right" ).css("opacity",0.8) ;
+                  selID === 1 ? $( "#left" ).css("opacity",0.1) : $( "#left" ).css("opacity",0.9) ;
+                  selID -= 1;
+                  selectBar( selID );
+                } else if ( this.id === "right" && (selID < endNum) ) {
+                  $( "#left" ).css("opacity",0.8) ;
+                  selID === (endNum - 1) ? $( "#right" ).css("opacity",0.1) : $( "#right" ).css("opacity",0.9) ;
+                  selID += 1;
+                  selectBar( selID );
+                } else {}
+              });
 
-                  var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
+              var selectBar = function(prevID){
+                var newSel = "#g" + prevID;
 
-                  $('.newTooltip #date').empty().append(dailyDate);
-                  $('.newTooltip #total').empty().append(dailyTotal + follow);
-                  $('.newTooltip #avg').empty().append("14-day average: " + dailyAvg);
+                var dailyTotal = $(newSel).attr("data-total");
+                var dailyDate = $(newSel).attr("data-date");
+                var dailyAvg = $(newSel).attr("data-avg");
 
-                  // console.log(dailyDate + " " + dailyTotal);
-                });
+                $( ".gBar" ).css("opacity",0.5);
+                $( newSel ).css("opacity",1);
+
+                dailyTotal = commaFormat( parseInt(dailyTotal) );
+
+                var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
+                $('.newTooltip #date').empty().append(dailyDate);
+                $('.newTooltip #total').empty().append(dailyTotal + follow);
+                $('.newTooltip #avg').empty().append("14-day average: " + dailyAvg);
+              };
+
+              selectBar( selID );
+              $( "#right" ).css("opacity",0.1) ;
 
 
 
-                setTimeout(function(){
-                  var barID = (idClicked === "casesCounty3") ? "gLast" : "gLast2";
-                    $(`#${barID}`).click();
-                },1);
+                // setTimeout(function(){
+                //     $(`#${lastID}`).click();
+                // },1);
 
 
                 //define the line
