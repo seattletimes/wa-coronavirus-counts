@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "84";
+var day_var = "88";
 /////////
 
 //// change me every month ////
@@ -21,13 +21,19 @@ var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 
 var county_pops = window.case_data['countyPop2020'];
 
+let colors = {
+  cases: ["#D8894E"],
+  deaths: ["#D15959"],
+  casesPop: ["#FFE9CF",'#ffc88a','#d28449','#914c14','#730505'],
+  deathsPop: ['#ffd9d7','#ff9894','#d05858','#931f2b','#61000a']
+}
 
-console.log(county_counts);
-
-var popColors = ['#730505', '#914c14', '#d28449', '#ffc88a',"#FFE9CF"];
-var popDeathColors = ['#61000a', '#931f2b', '#d05858', '#ff9894', '#ffd9d7'];
-
-// console.log(county_pops);
+let buckets = {
+  cases: [1],
+  deaths: [0.1],
+  casesPop: [0.1, 30.1, 60.1, 90.1,120.1],
+  deathsPop: [0.1, 1.1, 2.1, 3.1, 4.1]
+}
 
 var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 var dataMonth = day_var.slice(0, 1);
@@ -55,18 +61,19 @@ if($('#countyMapGraphic').length >0 ){
   unnCases = parseInt( lastest_day["Unassigned"] );
   unnDeaths = parseInt( lastest_deaths["Unassigned"] );
 
-  $('#unassigned span').empty().append(commaFormat(unnCases));
-  $('#unassignedD span').empty().append(unnDeaths);
+  $('.unassigned.cases.casesPop span').empty().append(commaFormat(unnCases));
+  $('.unassigned.deaths.deathsPop span').empty().append(unnDeaths);
 
   $('#date').empty().text(dateNew);
 
 
+
   var countyMap = document.getElementById("svg3071");
   var counties = countyMap.getElementsByClassName("county");
-  var caseTotals = 0;
-  var deathTotals = 0;
+  let caseTotals = 0;
+  let deathTotals = 0;
 
-  for (var i = 0; i < counties.length; i++) {
+  for (let i = 0; i < counties.length; i++) {
       var countyName = counties[i].id;
       var case_value = parseInt( lastest_day[countyName] );
       var death_value = parseInt( lastest_deaths[countyName] );
@@ -82,7 +89,14 @@ if($('#countyMapGraphic').length >0 ){
       var popAdjDeath = (death_value / countyPop) * 10000;
       popAdjDeath = popAdjDeath.toFixed(1);
 
+      let dataset = {
+        cases: case_value,
+        casesPop: popAdjCase,
+        deaths: death_value,
+        deathsPop: popAdjDeath
+      };
 
+      counties[i].numbers = dataset;
 
            var centroid = [
                bbox.x + bbox.width/2,
@@ -90,7 +104,7 @@ if($('#countyMapGraphic').length >0 ){
            ];
 
        		var circle = svgCounty.selectAll('g').append('text')
-           .attr("class", "county_cases")
+           .attr("class", "covidNum cases")
        		 .attr("font-weight","bold")
        		 .attr("text-anchor", "middle")
        		 .html(function () {
@@ -101,7 +115,7 @@ if($('#countyMapGraphic').length >0 ){
 
 
        		 var circleDeaths = svgCounty.selectAll('g').append('text')
-       			.attr("class", "county_deaths")
+       			.attr("class", "covidNum deaths")
        			.attr("font-weight","bold")
        			.attr("text-anchor", "middle")
        			.html(function () {
@@ -111,7 +125,7 @@ if($('#countyMapGraphic').length >0 ){
        			});
 
             var circleAdjCases = svgCounty.selectAll('g').append('text')
-             .attr("class", "adj_cases")
+             .attr("class", "covidNum casesPop")
              .attr("font-weight","bold")
              .attr("text-anchor", "middle")
              .html(function () {
@@ -121,7 +135,7 @@ if($('#countyMapGraphic').length >0 ){
              });
 
              var circleAdjDeaths = svgCounty.selectAll('g').append('text')
-              .attr("class", "adj_deaths")
+              .attr("class", "covidNum deathsPop")
               .attr("font-weight","bold")
               .attr("text-anchor", "middle")
               .html(function () {
@@ -130,30 +144,10 @@ if($('#countyMapGraphic').length >0 ){
                return ( popAdjDeath > 0.0 ? "<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar)  + "'>" + countyName + "</tspan>" + "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 25) + "'>" + popAdjDeath + "</tspan>" : "");
               });
 
-
-
-
-       death_value > 0 ? counties[i].classList.add("deathColor") : counties[i].classList.add("noColor");
-       case_value > 0 ? counties[i].classList.add("caseColor") : "";
-
-
-
   } // for loop end
 
 
-  var countyCases = document.getElementsByClassName("county_cases");
-  var casesColors = document.getElementsByClassName("caseColor");
-  var deathColors = document.getElementsByClassName("deathColor");
-  var countyDeaths = document.getElementsByClassName("county_deaths");
-  var countyAdjCases = document.getElementsByClassName("adj_cases");
-  var countyAdjDeaths = document.getElementsByClassName("adj_deaths");
-  var radioClick = document.getElementsByClassName("radioButton1");
 
-  // document.querySelectorAll('.class1, .class2, .class3, .class4').forEach(el => el.classList.add('active'));
-
-
-  // $('#casesTotal span:first').empty().append(commaFormat(caseTotals + unnCases));
-  // $('#casesTotal span:nth-child(2)').empty().append(commaFormat(deathTotals + unnDeaths));
 
   $('#casesTotal').empty().append(commaFormat(caseTotals + unnCases));
   $('#deathsTotal').empty().append(commaFormat(deathTotals + unnDeaths));
@@ -166,176 +160,34 @@ if($('#countyMapGraphic').length >0 ){
   $('#casesAdj').empty().append(num);
   $('#deathsAdj').empty().append(num2);
 
-  var myFunction = function() {
+  var myFunction = function(chosenID) {
+    document.querySelectorAll('.caseKey, .covidNum, .unassigned').forEach(el => el.classList.remove('active'));
+    document.getElementById(chosenID).classList.add('active');
+    document.querySelectorAll(`.${chosenID}`).forEach(el => el.classList.add('active'));
 
-  		if ( document.getElementById('casesCounty').checked ) {
+    colorMap(chosenID);
+  };
 
-        document.getElementById('unassigned').style.display = "block";
-        document.getElementById('unassignedD').style.display = "none";
-        document.getElementById('deathKey').style.display = "none";
-        document.getElementById('deathKeyTotal').style.display = "none";
-        document.getElementById('caseKey').style.display = "none";
-        document.getElementById('caseKeyTotal').style.display = "block";
+  var colorMap = function(chosenColor) {
+    for (let i = 0; i < counties.length; i++) {
+      counties[i].style.fill = "#e2e2e2";
 
-  			for (i = 0; i < countyCases.length; i++) {
-  					 countyCases[i].style.display = "block";
-  			}
-  			for (i = 0; i < casesColors.length; i++) {
-  					 casesColors[i].style.fill = "#D8894E";
-  			}
-  			for (i = 0; i < countyDeaths.length; i++) {
-  					 countyDeaths[i].style.display = "none";
-  			}
-        for (i = 0; i < countyAdjCases.length; i++) {
-             countyAdjCases[i].style.display = "none";
+      for (let h = 0; h < buckets[chosenColor].length; h++) {
+        let bucketArray = buckets[chosenColor];
+        let colorArray = colors[chosenColor];
+        if ( counties[i].numbers[chosenColor] >= bucketArray[h]  ) {
+           counties[i].style.fill = colorArray[h];
         }
-        for (i = 0; i < countyAdjDeaths.length; i++) {
-             countyAdjDeaths[i].style.display = "none";
-        }
-
-  		}
-      else if ( document.getElementById('casesPop').checked ) {
-
-        document.getElementById('unassigned').style.display = "block";
-        document.getElementById('unassignedD').style.display = "none";
-        document.getElementById('deathKey').style.display = "none";
-        document.getElementById('deathKeyTotal').style.display = "none";
-        document.getElementById('caseKey').style.display = "block";
-        document.getElementById('caseKeyTotal').style.display = "none";
-
-        for (i = 0; i < countyCases.length; i++) {
-             countyCases[i].style.display = "none";
-        }
-        for (i = 0; i < countyDeaths.length; i++) {
-             countyDeaths[i].style.display = "none";
-        }
-        for (i = 0; i < countyAdjCases.length; i++) {
-             countyAdjCases[i].style.display = "block";
-        }
-        for (i = 0; i < countyAdjDeaths.length; i++) {
-             countyAdjDeaths[i].style.display = "none";
-        }
-
-
-        for (var i = 0; i < counties.length; i++) {
-          var countyName = counties[i].id;
-          var countyObj = county_pops[i];
-          var countyPop = countyObj["pop_2020"];
-          var case_value = parseInt( lastest_day[countyName] );
-
-          var popBucket = (case_value / countyPop) * 10000;
-
-          // console.log( countyName + " " + countyPop + " " + case_value);
-          if ( (popBucket < 500.1) && (popBucket > 120.04) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
-            counties[i].style.fill = popColors[0];
-          } else if ( (popBucket < 120.1) && (popBucket > 90.04) ) { // CHANGE ME WHEN YAKIMA SLOWS DOWN
-            counties[i].style.fill = popColors[1];
-          } else if( (popBucket < 90.1) && (popBucket > 60.04) ){
-            counties[i].style.fill = popColors[2];
-          } else if ( (popBucket < 60.1) && (popBucket > 30.04) ) {
-            counties[i].style.fill = popColors[3];
-          } else if ( (popBucket < 30.1) && (popBucket > 0.1) ) {
-            counties[i].style.fill = popColors[4];
-          } else { counties[i].style.fill = "#e2e2e2"; }
-
-
-        }
-
-      }
-      else if ( document.getElementById('deathsPop').checked ) {
-
-        document.getElementById('unassigned').style.display = "none";
-        document.getElementById('unassignedD').style.display = (unnDeaths > 0) ? "block" : "none";
-        document.getElementById('deathKey').style.display = "block";
-        document.getElementById('deathKeyTotal').style.display = "none";
-        document.getElementById('caseKey').style.display = "none";
-        document.getElementById('caseKeyTotal').style.display = "none";
-
-        for (i = 0; i < countyCases.length; i++) {
-             countyCases[i].style.display = "none";
-        }
-        for (i = 0; i < countyDeaths.length; i++) {
-             countyDeaths[i].style.display = "none";
-        }
-        for (i = 0; i < countyAdjCases.length; i++) {
-             countyAdjCases[i].style.display = "none";
-        }
-        for (i = 0; i < countyAdjDeaths.length; i++) {
-             countyAdjDeaths[i].style.display = "block";
-        }
-
-
-        for (var i = 0; i < counties.length; i++) {
-          var countyName = counties[i].id;
-          var countyObj = county_pops[i];
-          var countyPop = countyObj["pop_2020"];
-          var death_value = parseInt( lastest_deaths[countyName] );
-
-          var popBucket = (death_value / countyPop) * 10000;
-
-          popBucket = popBucket.toFixed(1);
-
-          // console.log(countyName + " " + popBucket);
-          //
-          // console.log( countyName + " " + countyPop + " " + case_value);
-          if( (popBucket <= 10.0) && (popBucket >= 4.1) ){
-            counties[i].style.fill = popDeathColors[0];
-          } else if( (popBucket <= 4.0) && (popBucket >= 3.1) ){
-            counties[i].style.fill = popDeathColors[1];
-          } else if( (popBucket <= 3.0) && (popBucket >= 2.1) ){
-            counties[i].style.fill = popDeathColors[2];
-          } else if ( (popBucket <= 2.0) && (popBucket >= 1.1) ) {
-            counties[i].style.fill = popDeathColors[3];
-          } else if ( (popBucket <= 1.0) && (popBucket >= 0.1) ) {
-            counties[i].style.fill = popDeathColors[4];
-          } else { counties[i].style.fill = "#e2e2e2"; }
+      };
+    };
+  };
 
 
 
-
-        }
-
-      }
-      else {
-        document.getElementById('unassigned').style.display = "none";
-        document.getElementById('unassignedD').style.display = (unnDeaths > 0) ? "block" : "none";
-        document.getElementById('deathKey').style.display = "none";
-        document.getElementById('deathKeyTotal').style.display = "block";
-        document.getElementById('caseKey').style.display = "none";
-        document.getElementById('caseKeyTotal').style.display = "none";
-
-  			for (i = 0; i < countyCases.length; i++) {
-  					 countyCases[i].style.display = "none";
-  			}
-  			for (i = 0; i < casesColors.length; i++) {
-  					 casesColors[i].style.fill = "#e2e2e2";
-  			}
-  			for (i = 0; i < deathColors.length; i++) {
-  					 deathColors[i].style.fill = "#D15959";
-  			}
-  			for (i = 0; i < countyDeaths.length; i++) {
-  					 countyDeaths[i].style.display = "block";
-  			}
-        for (i = 0; i < countyAdjCases.length; i++) {
-             countyAdjCases[i].style.display = "none";
-        }
-        for (i = 0; i < countyAdjDeaths.length; i++) {
-             countyAdjDeaths[i].style.display = "none";
-        }
-  		}
-
-  } // end of Laurens awful myFunction
+  document.querySelectorAll(".radioButton1").forEach(el => el.addEventListener('click', () => myFunction(el.value)) );
 
 
-  // var myFunction = function() {
-  // 
-  // };
-
-   for (var i = 0; i < radioClick.length; i++) {
-       radioClick[i].addEventListener('click', myFunction, false);
-   }
-
-   myFunction();
+   myFunction('cases');
 
 } else {}
 
@@ -778,31 +630,6 @@ if($('#newbarChart').length >0 ){
 
 
 
-
-
-
-
-
-
-
-              // $( ".gBar" ).click(function() {
-              //     var dailyTotal = $(this).attr("data-total");
-              //     var dailyDate = $(this).attr("data-date");
-              //     var dailyAvg = $(this).attr("data-avg");
-              //
-              //     $( ".gBar" ).css("opacity",0.5);
-              //     $( this ).css("opacity",1);
-              //
-              //     dailyTotal = commaFormat( parseInt(dailyTotal) );
-              //
-              //     var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
-              //
-              //     $('.newTooltip #date').empty().append(dailyDate);
-              //     $('.newTooltip #total').empty().append(dailyTotal + follow);
-              //     $('.newTooltip #avg').empty().append("14-day average: " + dailyAvg);
-              //
-              //     // console.log(dailyDate + " " + dailyTotal);
-              //   });
 
                 var allBars = document.getElementsByClassName('gBar');
                 var lastBar = allBars[allBars.length - 1];

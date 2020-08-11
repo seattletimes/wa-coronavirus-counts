@@ -174,9 +174,12 @@ main.interactive {
 }
 
 
-.caseKey, .deathKey {
+.caseKey {
 	height: 75px;
 	line-height: 1em;
+	display: none;
+
+	&.active { display: block; }
 
 	@media @desktop-up {
 		height: 50px;
@@ -201,7 +204,10 @@ main.interactive {
 }
 
 
-
+.covidNum {
+	display: none;
+	&.active { display: block; }
+}
 
 
 // county map stuff
@@ -218,13 +224,17 @@ main.interactive {
 	fill: @orangeFill;
 }
 
+.county {
+	fill: #e2e2e2;
+}
+
 
 
 .headerC {
-	font-size: 25px;
+	font-size: 23px;
 
 	@media @mobile {
-		font-size: 30px;
+		font-size: 27px;
 	}
 }
 
@@ -232,7 +242,7 @@ main.interactive {
 	font-size: 23px;
 
 	@media @mobile {
-		font-size: 32px;
+		font-size: 29px;
 	}
 }
 
@@ -376,6 +386,9 @@ main.interactive {
 
 .unassigned {
 	font-family: @df-sans;
+	display: none;
+
+	&.active { display: block; }
 	span { font-weight: bold; }
 }
 
@@ -391,6 +404,7 @@ main.interactive {
 .arrows {
 	.caret {
 		display: inline-block;
+		cursor: pointer;
 		font-size: 2em;
 		// width: 14%;
 		text-align: right;
@@ -405,6 +419,12 @@ main.interactive {
 			opacity: 0.1;
 		}
 	}
+
+	// .caret:active {
+	// 	opacity: 0.1;
+	//   // box-shadow: 0 5px #666;
+	//   transform: translateY(4px);
+	// }
 
 
 	.caret:hover { transform: scale(1.1); opacity: 1; }
