@@ -8,11 +8,11 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "917";
+var day_var = "1015";
 /////////
 
 //// change me every month ////
-var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1","8/1","9/1"];
+var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1","8/1","9/1","10/1"];
 
 
 var commaFormat = d3.format(',');
@@ -36,8 +36,8 @@ let buckets = {
 }
 
 var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-var dataMonth = day_var.slice(0, 1);
-var dataDay = day_var.slice(1, 3);
+var dataMonth = day_var.slice(0, 2);
+var dataDay = day_var.slice(2, 4);
 
 
 dataMonth = parseInt(dataMonth) - 1;
