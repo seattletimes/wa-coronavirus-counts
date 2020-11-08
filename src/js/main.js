@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "111";
+var day_var = "115";
 /////////
 
 //// change me every month ////
@@ -31,7 +31,7 @@ let colors = {
 let buckets = {
   cases: [1],
   deaths: [0.1],
-  casesPop: [0.1, 30.1, 60.1, 90.1,120.1],
+  casesPop: [0.1, 50.1, 100.1, 150.1,200.1],
   deathsPop: [0.1, 1.1, 2.1, 3.1, 4.1]
 }
 

@@ -175,25 +175,35 @@ main.interactive {
 
 
 .caseKey {
-	height: 75px;
+	height: 80px;
 	line-height: 1em;
 	display: none;
+	text-align: left;
+
 
 	&.active { display: block; }
 
 	@media @desktop-up {
-		height: 50px;
+		height: 60px;
+		text-align: center;
 	}
 
 	.hed {
 		font-weight: bold;
 		line-height: 0.9em;
+		margin-bottom: 5px;
 	}
 	.eachKey {
 		font-size: 16px;
 		line-height: 0.9em;
 		display: inline-block;
 		margin-right: 15px;
+		vertical-align: top;
+
+		@media @mobile {
+			width: 49%;
+			margin-right: 0;
+		}
 
 		.key {
 			width: 10px;
