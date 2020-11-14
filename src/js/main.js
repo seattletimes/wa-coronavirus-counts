@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "1110";
+var day_var = "1111";
 /////////
 
 //// change me every month ////
@@ -485,7 +485,7 @@ if($('#newbarChart').length >0 ){
 
        var conWidth = $("#newbarChart").width();
 
-       var conHeight = (conWidth > 500) ? 600 : 300;
+       var conHeight = (conWidth > 500) ? 450 : 220;
 
       var margin = {top: 20, right: 15, bottom: 40, left: 50},
           width = conWidth - margin.left - margin.right,
@@ -525,11 +525,19 @@ if($('#newbarChart').length >0 ){
        // console.log(columnHeaders);
        var totalCases = 0;
        var prevDay = 0;
+       var allCoun = 0;
+       var kingNew = 0;
+       var kingPrev = 0;
 
        data.forEach(function(d) {
 
+         //
 
-         var netCases = 0;
+         kingNew = parseInt(d.King) - kingPrev;
+         kingPrev = parseInt(d.King);
+
+
+         allCoun = (countyLabel === "New") ? parseInt(d.New) : kingNew;
          var thisThing;
 
          var yColumn = new Array();
@@ -543,11 +551,14 @@ if($('#newbarChart').length >0 ){
                yBegin = yColumn[ic];
                yColumn[ic] += +d[name];
 
+               // console.log(name);
+
 
 
                if (name === "New") {
 
                  totalCases = parseInt(d[name]);
+                 // allCoun = parseInt(d[name]);
                  // newCases = parseInt(d[name]);
                } else {
                  // console.log(parseInt(d[name]));
@@ -583,7 +594,9 @@ if($('#newbarChart').length >0 ){
          //   prevDayData = totalCases;
          // }
          d.total = totalCases;
+         d.allCoun = allCoun;
          d.column = thisThing;
+         console.log(allCoun);
        });
 
 
@@ -591,7 +604,8 @@ if($('#newbarChart').length >0 ){
        x0.domain(data.map(function(d) { return d.Date; }));
        x1.domain(d3.keys(innerColumns2)).range([0, x0.bandwidth()]);
 
-       y.domain([d3.min(data, function(d) { return d.total; }), d3.max(data, function(d) { return d.total; })]);
+       y.domain([d3.min(data, function(d) { return d.allCoun; }), d3.max(data, function(d) { return d.allCoun;  })]);
+
 
        svg1.selectAll(".axis").remove();
 
@@ -697,7 +711,7 @@ if($('#newbarChart').length >0 ){
                 var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
                 $('.newTooltip #date').empty().append(dailyDate);
                 $('.newTooltip #total').empty().append(dailyTotal + follow);
-                $('.newTooltip #avg').empty().append("14-day average: " + dailyAvg);
+                $('.newTooltip #avg').empty().append("State 14-day average: " + dailyAvg);
               };
 
               selectBar( selID );
@@ -717,14 +731,18 @@ if($('#newbarChart').length >0 ){
                       return y(d.Roll_avg);
                     });
 
-                    // Add the valueline path.
-                // svg1.append("path")
-                //     .data([data])
-                //     .attr("class", "line")
-                //     .attr("fill", "none")
-                //     .attr("stroke", "#aaa")
-                //     .attr("stroke-width", 2)
-                //     .attr("d", valueline);
+              if (countyLabel === "New") {
+                // Add the valueline path.
+                svg1.append("path")
+                    .data([data])
+                    .attr("class", "line")
+                    .attr("fill", "none")
+                    .attr("stroke", "#aaa")
+                    .attr("stroke-width", 2)
+                    .attr("d", valueline);
+              }
+
+
 
 
 
@@ -755,15 +773,34 @@ if($('#newbarChart').length >0 ){
 
   });
 
-  document.querySelector(".dropdownItems").addEventListener('click', () => {
-    document.querySelectorAll(".county").forEach(el => el.classList.add('show'));
+  document.querySelector(".dropdownCon").addEventListener('click', () => {
+    if (document.querySelector(".dropdownCon").classList.contains('show')) {
+      document.querySelector(".dropdownCon").classList.remove('show');
+      document.querySelector(".dropdownItems").classList.remove('show');
+      document.querySelector(".dropdownCon .fa-caret-down").classList.add('show');
+      document.querySelector(".dropdownCon .fa-caret-up").classList.remove('show');
+    } else {
+      document.querySelector(".dropdownCon").classList.add('show');
+      document.querySelector(".dropdownItems").classList.add('show');
+      document.querySelector(".dropdownCon .fa-caret-up").classList.add('show');
+      document.querySelector(".dropdownCon .fa-caret-down").classList.remove('show');
+    }
+
 });
 
 document.querySelectorAll(".county").forEach(el => el.addEventListener('click', () => {
   document.querySelectorAll(".county").forEach(el => el.classList.remove('active'));
+  document.querySelector(".dropdownItems").classList.remove('show');
+  document.querySelector(".dropdownCon .fa-caret-up").classList.remove('show');
+  document.querySelector(".dropdownCon .fa-caret-down").classList.add('show');
   el.classList.add('active');
   var county = el.getAttribute('data-county');
+  county = county.replace(/_/g, ' ');
   var caseOrDeath = document.querySelector('input[name="toggleCounty2"]:checked').value;
+
+  document.getElementById("fillCounty").innerHTML = (county === "New" ? "All" : county);
+
+
 
 
   let dataSet2 = document.querySelector('input[name="toggleCounty2"]:checked').getAttribute('data-type');

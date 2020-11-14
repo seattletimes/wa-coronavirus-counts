@@ -25,8 +25,6 @@
 
             <p class="note center"><b>The DOH announced it is ending the publication of COVID-19 death counts over weekends, starting Aug. 28-30. Regular publishing of death data will take place Mondays-Fridays, and the number of weekend deaths will be added to Monday and Tuesday reports.</b></p>
 
-            <p class="note center"><b>Nov. 11, 2020: No updates for the Veterans Day holiday. Updates will be back tomorrow.</b></p>
-
             <form id="toggle3">
               <input type="radio" data-type="waCountyCases" id="casesCounty3" name="toggleCounty2" class="radioButton3" value="casesCounty3" checked>
               <label class="toggle__label label--cases" for="casesCounty3">Confirmed cases*</label>
@@ -50,16 +48,26 @@
                 </div>
 
                 <div class="dropdown">
-                  <div class="dropdownMenu">Select a County</div>
+                  <div class="dropdownMenu">
+                    <span>Select a county</span>
+                    <span class="dropdownCon">
+                      <span id="fillCounty">All</span>
+                      <i class="fas fa-caret-down caret show"></i>
+                      <i class="fas fa-caret-up caret"></i>
+                    </span>
+                  </div>
                   <div class="dropdownItems">
                         <div class="county active show" data-county='New'>All</div>
                     <% var caseData = grunt.data.csv.countyPop2020;
-                      for (let i = 0; i < caseData.length; i++) {  %>
-                        <div class="county" data-county='<%= caseData[i].County %>'><%= caseData[i].County %></div>
+                      for (let i = 0; i < caseData.length; i++) {
+                        var noSpaceCounty = caseData[i].County.replace(/ /g,"_");
+
+                    %>
+                        <div class="county" data-county='<%= noSpaceCounty %>'><%= caseData[i].County %></div>
                     <% } %>
-                    <i class="fas fa-caret-down caret"></i>
                   </div>
                 </div>
+
 
               <div id="graph"></div>
 
