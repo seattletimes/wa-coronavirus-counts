@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "1112";
+var day_var = "1115";
 /////////
 
 //// change me every month ////
@@ -663,6 +663,7 @@ if($('#newbarChart').length >0 ){
                 $( newSel ).css("opacity",1);
 
                 dailyTotal = commaFormat( parseInt(dailyTotal) );
+                dailyAvg = commaFormat( parseInt(dailyAvg) );
 
                 var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
                 $('.newTooltip #date').empty().append(dailyDate);
