@@ -20,6 +20,7 @@ var county_counts = window.case_data[`waCountyCases${day_var}`];
 var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 
 var county_pops = window.case_data['countyPop2020'];
+var stateTotal = 7656200;
 
 let colors = {
   cases: ["#D8894E"],
@@ -42,7 +43,7 @@ var dataDay = day_var.slice(2, 4);
 
 dataMonth = parseInt(dataMonth) - 1;
 var dateNew = months[dataMonth] + " " + dataDay;
-var stateTotal = 7656200;
+
 
 
 
@@ -474,6 +475,8 @@ if($('#newbarChart').length >0 ){
 
  var myFunction1 = function(updateData, idClicked, countyLabel) {
 
+
+
    var conWidth = $("#newbarChart").width();
    var conHeight = (conWidth > 500) ? 450 : 220;
 
@@ -532,7 +535,7 @@ if($('#newbarChart').length >0 ){
 
        data.forEach(function(d) {
 
-         //
+
 
          kingNew = parseInt(d.King) - kingPrev;
          kingPrev = parseInt(d.King);
@@ -552,28 +555,13 @@ if($('#newbarChart').length >0 ){
                yBegin = yColumn[ic];
                yColumn[ic] += +d[name];
 
-               // console.log(name);
-
-
 
                if (name === "New") {
-
                  totalCases = parseInt(d[name]);
-                 // allCoun = parseInt(d[name]);
-                 // newCases = parseInt(d[name]);
                } else {
-                 // console.log(parseInt(d[name]));
-                 // console.log( parseInt(d[name]) + " " + totalCases);
                  totalCases = parseInt(d[name]) - prevDay;
                  prevDay = parseInt(d[name]);
-
-
                }
-
-
-
-
-
 
 
               thisThing = ic;
@@ -586,18 +574,9 @@ if($('#newbarChart').length >0 ){
            }
          });
 
-
-         // console.log( totalCases);
-         // if (totalCases === 0) {
-         //   netCases = 0;
-         // } else {
-         //   netCases = totalCases - prevDayData;
-         //   prevDayData = totalCases;
-         // }
          d.total = totalCases;
          d.allCoun = allCoun;
          d.column = thisThing;
-         console.log(allCoun);
        });
 
 
@@ -720,17 +699,26 @@ if($('#newbarChart').length >0 ){
 
 
 
-                // setTimeout(function(){
-                //     $(`#${lastID}`).click();
-                // },1);
-
-
                 //define the line
                 var valueline = d3.line()
                     .x(function(d) { return x0(d.Date) + (x0.bandwidth() / 2); })
                     .y(function(d) {
                       return y(d.Roll_avg);
                     });
+
+                var zeroLine = d3.line()
+                    .x(function(d) { return x0(d.Date) + (x0.bandwidth() / 2); })
+                    .y(function(d) {
+                      return y(0);
+                    });
+
+                svg1.append("path")
+                    .data([data])
+                    .attr("class", "line")
+                    .attr("fill", "none")
+                    .attr("stroke", "#bbb")
+                    .attr("stroke-width", 1)
+                    .attr("d", zeroLine);
 
               if (countyLabel === "New") {
                 // Add the valueline path.
@@ -742,14 +730,6 @@ if($('#newbarChart').length >0 ){
                     .attr("stroke-width", 2)
                     .attr("d", valueline);
               }
-
-
-
-
-
-
-
-
 
 
          });
@@ -797,17 +777,15 @@ document.querySelectorAll(".county").forEach(el => el.addEventListener('click', 
   document.querySelector(".dropdownCon .fa-caret-down").classList.add('show');
   el.classList.add('active');
   var county = el.getAttribute('data-county');
-  county = county.replace(/_/g, ' ');
+  var countyWSpace = county.replace(/_/g, ' ');
   var caseOrDeath = document.querySelector('input[name="toggleCounty2"]:checked').value;
 
-  document.getElementById("fillCounty").innerHTML = (county === "New" ? "All" : county);
-
-
+  document.getElementById("fillCounty").innerHTML = (county === "New" ? "All" : countyWSpace);
 
 
   let dataSet2 = document.querySelector('input[name="toggleCounty2"]:checked').getAttribute('data-type');
   dataSet2  = 'assets/' + dataSet2 + day_var + '.csv';
-  console.log(dataSet2);
+  // console.log(dataSet2);
 
   myFunction1(`${dataSet2}`, `${caseOrDeath}`, `${county}`);
 
