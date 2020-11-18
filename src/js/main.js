@@ -474,6 +474,9 @@ if($('#newbarChart').length >0 ){
 
  var myFunction1 = function(updateData, idClicked, countyLabel) {
 
+   var conWidth = $("#newbarChart").width();
+   var conHeight = (conWidth > 500) ? 450 : 220;
+
    var innerColumns2 = {
      "column1" : [`${countyLabel}`],
    }
@@ -483,9 +486,7 @@ if($('#newbarChart').length >0 ){
 
        $('#graph').empty();
 
-       var conWidth = $("#newbarChart").width();
 
-       var conHeight = (conWidth > 500) ? 450 : 220;
 
       var margin = {top: 20, right: 15, bottom: 40, left: 50},
           width = conWidth - margin.left - margin.right,
@@ -791,6 +792,7 @@ if($('#newbarChart').length >0 ){
 document.querySelectorAll(".county").forEach(el => el.addEventListener('click', () => {
   document.querySelectorAll(".county").forEach(el => el.classList.remove('active'));
   document.querySelector(".dropdownItems").classList.remove('show');
+  document.querySelector(".dropdownCon").classList.remove('show');
   document.querySelector(".dropdownCon .fa-caret-up").classList.remove('show');
   document.querySelector(".dropdownCon .fa-caret-down").classList.add('show');
   el.classList.add('active');
