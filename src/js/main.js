@@ -19,6 +19,9 @@ var commaFormat = d3.format(',');
 var county_counts = window.case_data[`waCountyCases${day_var}`];
 var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 
+console.log(county_counts);
+console.log(window.case_dataTwo);
+
 var county_pops = window.case_data['countyPop2020'];
 var stateTotal = 7656200;
 
