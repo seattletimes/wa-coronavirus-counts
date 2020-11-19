@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
       window.case_data = <%= JSON.stringify(grunt.data.csv) %>;
+      window.case_dataTwo = <%= JSON.stringify(grunt.data.json) %>;
+      // console.log(window.case_dataTwo);
     </script>
   </head>
   <body>
@@ -23,8 +25,6 @@
             <p class="note center"><b>The state no longer reports deaths on the weekend.</b></p>
 
             <p class="note center">Nov. 5, 2020: After a third of counties hit over 120 cases per 10,000 residents, we have adjusted the cases per capita color key to every 50 cases to better reflect the differences among counties.</p>
-
-
 
 
             <form id="toggle2">

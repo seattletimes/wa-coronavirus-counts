@@ -47,6 +47,28 @@
                   </div>
                 </div>
 
+                <div class="dropdown">
+                  <div class="dropdownMenu">
+                    <span>Select a county</span>
+                    <span class="dropdownCon">
+                      <span id="fillCounty">All</span>
+                      <i class="fas fa-caret-down caret show"></i>
+                      <i class="fas fa-caret-up caret"></i>
+                    </span>
+                  </div>
+                  <div class="dropdownItems">
+                        <div class="county active show" data-county='New'>All</div>
+                    <% var caseData = grunt.data.csv.countyPop2020;
+                      for (let i = 0; i < caseData.length; i++) {
+                        var noSpaceCounty = caseData[i].County.replace(/ /g,"_");
+
+                    %>
+                        <div class="county" data-county='<%= noSpaceCounty %>'><%= caseData[i].County %></div>
+                    <% } %>
+                  </div>
+                </div>
+
+
               <div id="graph"></div>
 
             </div>

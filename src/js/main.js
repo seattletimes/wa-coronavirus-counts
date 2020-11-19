@@ -9,7 +9,6 @@ const d3 = require("d3");
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
 var day_var = "1116";
-/////////
 
 //// change me every month ////
 var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1","8/1","9/1","10/1","11/1"];
@@ -19,7 +18,11 @@ var commaFormat = d3.format(',');
 var county_counts = window.case_data[`waCountyCases${day_var}`];
 var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 
+console.log(county_counts);
+console.log(window.case_dataTwo);
+
 var county_pops = window.case_data['countyPop2020'];
+var stateTotal = 7656200;
 
 let colors = {
   cases: ["#D8894E"],
@@ -42,7 +45,7 @@ var dataDay = day_var.slice(2, 4);
 
 dataMonth = parseInt(dataMonth) - 1;
 var dateNew = months[dataMonth] + " " + dataDay;
-var stateTotal = 7656200;
+
 
 
 
@@ -251,9 +254,7 @@ if($('#countyTrendGraphic').length >0 ){
    "column1" : ["Adams","Asotin","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Ferry","Franklin","Garfield","Grant","Grays_Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Okanogan","Pacific","Pend_Oreille","Pierce","San_Juan","Skagit","Skamania","Snohomish","Spokane","Stevens","Thurston","Wahkiakum","Walla_Walla","Whatcom","Whitman","Yakima","Unassigned"],
  }
 
- var innerColumns2 = {
-   "column1" : ["New"],
- }
+
 
 
  var caseColors = ["#F3C882", "#E98729", "#B75317", "#7b2003", "#360d01", '#aaa'];
@@ -474,16 +475,23 @@ if($('#newbarChart').length >0 ){
 
 
 
- var myFunction1 = function(updateData, idClicked) {
+ var myFunction1 = function(updateData, idClicked, countyLabel) {
+
+
+
+   var conWidth = $("#newbarChart").width();
+   var conHeight = (conWidth > 500) ? 450 : 220;
+
+   var innerColumns2 = {
+     "column1" : [`${countyLabel}`],
+   }
 
    d3.csv(updateData).then(
      function(data) {
 
        $('#graph').empty();
 
-       var conWidth = $("#newbarChart").width();
 
-       var conHeight = (conWidth > 500) ? 600 : 300;
 
       var margin = {top: 20, right: 15, bottom: 40, left: 50},
           width = conWidth - margin.left - margin.right,
@@ -518,42 +526,58 @@ if($('#newbarChart').length >0 ){
 
        var prevDayData = 0;
 
-       var columnHeaders = d3.keys(data[0]).filter(function(key) { return (key !== "Date") && (key == "New") && (key !== "Roll_avg") });
+       var columnHeaders = d3.keys(data[0]).filter(function(key) { return (key !== "Date") && (key == `${countyLabel}`) && (key !== "Roll_avg") });
+
+       // console.log(columnHeaders);
+       var totalCases = 0;
+       var prevDay = 0;
+       var allCoun = 0;
+       var kingNew = 0;
+       var kingPrev = 0;
 
        data.forEach(function(d) {
 
-         var totalCases = 0;
-         var netCases = 0;
+
+
+         kingNew = parseInt(d.King) - kingPrev;
+         kingPrev = parseInt(d.King);
+
+
+         allCoun = (countyLabel === "New") ? parseInt(d.New) : kingNew;
          var thisThing;
 
          var yColumn = new Array();
          d.columnDetails = columnHeaders.map(function(name) {
            for (ic in innerColumns2) {
              if($.inArray(name, innerColumns2[ic]) >= 0){
+               // console.log(innerColumns2[ic]);
                if (!yColumn[ic]){
                  yColumn[ic] = 0;
                }
                yBegin = yColumn[ic];
                yColumn[ic] += +d[name];
 
-              totalCases = totalCases + parseInt(d[name]);
 
+               if (name === "New") {
+                 totalCases = parseInt(d[name]);
+               } else {
+                 totalCases = parseInt(d[name]) - prevDay;
+                 prevDay = parseInt(d[name]);
+               }
 
 
               thisThing = ic;
 
+
+
                return {name: name, column: ic, yBegin: yBegin, yEnd: +d[name] + yBegin};
+
              }
            }
          });
 
-         // if (totalCases === 0) {
-         //   netCases = 0;
-         // } else {
-         //   netCases = totalCases - prevDayData;
-         //   prevDayData = totalCases;
-         // }
          d.total = totalCases;
+         d.allCoun = allCoun;
          d.column = thisThing;
        });
 
@@ -562,7 +586,8 @@ if($('#newbarChart').length >0 ){
        x0.domain(data.map(function(d) { return d.Date; }));
        x1.domain(d3.keys(innerColumns2)).range([0, x0.bandwidth()]);
 
-       y.domain([d3.min(data, function(d) { return d.total; }), d3.max(data, function(d) { return d.total; })]);
+       y.domain([d3.min(data, function(d) { return d.allCoun; }), d3.max(data, function(d) { return d.allCoun;  })]);
+
 
        svg1.selectAll(".axis").remove();
 
@@ -668,17 +693,12 @@ if($('#newbarChart').length >0 ){
                 var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
                 $('.newTooltip #date').empty().append(dailyDate);
                 $('.newTooltip #total').empty().append(dailyTotal + follow);
-                $('.newTooltip #avg').empty().append("14-day average: " + dailyAvg);
+                $('.newTooltip #avg').empty().append("State 14-day average: " + dailyAvg);
               };
 
               selectBar( selID );
               $( "#right" ).css("opacity",0.1) ;
 
-
-
-                // setTimeout(function(){
-                //     $(`#${lastID}`).click();
-                // },1);
 
 
                 //define the line
@@ -688,7 +708,22 @@ if($('#newbarChart').length >0 ){
                       return y(d.Roll_avg);
                     });
 
-                    // Add the valueline path.
+                var zeroLine = d3.line()
+                    .x(function(d) { return x0(d.Date) + (x0.bandwidth() / 2); })
+                    .y(function(d) {
+                      return y(0);
+                    });
+
+                svg1.append("path")
+                    .data([data])
+                    .attr("class", "line")
+                    .attr("fill", "none")
+                    .attr("stroke", "#bbb")
+                    .attr("stroke-width", 1)
+                    .attr("d", zeroLine);
+
+              if (countyLabel === "New") {
+                // Add the valueline path.
                 svg1.append("path")
                     .data([data])
                     .attr("class", "line")
@@ -696,12 +731,7 @@ if($('#newbarChart').length >0 ){
                     .attr("stroke", "#aaa")
                     .attr("stroke-width", 2)
                     .attr("d", valueline);
-
-
-
-
-
-
+              }
 
 
          });
@@ -716,20 +746,60 @@ if($('#newbarChart').length >0 ){
 
           var thisID = $(this).attr("id");
 
+          let thiscounty = document.querySelector(".county.active").getAttribute('data-county');
+          console.log(thiscounty);
+
           $('.title').toggleClass("showMe");
 
-          myFunction1(dataSet, thisID);
+          myFunction1(dataSet, thisID, thiscounty);
 
 
   });
 
+  document.querySelector(".dropdownCon").addEventListener('click', () => {
+    if (document.querySelector(".dropdownCon").classList.contains('show')) {
+      document.querySelector(".dropdownCon").classList.remove('show');
+      document.querySelector(".dropdownItems").classList.remove('show');
+      document.querySelector(".dropdownCon .fa-caret-down").classList.add('show');
+      document.querySelector(".dropdownCon .fa-caret-up").classList.remove('show');
+    } else {
+      document.querySelector(".dropdownCon").classList.add('show');
+      document.querySelector(".dropdownItems").classList.add('show');
+      document.querySelector(".dropdownCon .fa-caret-up").classList.add('show');
+      document.querySelector(".dropdownCon .fa-caret-down").classList.remove('show');
+    }
+
+});
+
+document.querySelectorAll(".county").forEach(el => el.addEventListener('click', () => {
+  document.querySelectorAll(".county").forEach(el => el.classList.remove('active'));
+  document.querySelector(".dropdownItems").classList.remove('show');
+  document.querySelector(".dropdownCon").classList.remove('show');
+  document.querySelector(".dropdownCon .fa-caret-up").classList.remove('show');
+  document.querySelector(".dropdownCon .fa-caret-down").classList.add('show');
+  el.classList.add('active');
+  var county = el.getAttribute('data-county');
+  var countyWSpace = county.replace(/_/g, ' ');
+  var caseOrDeath = document.querySelector('input[name="toggleCounty2"]:checked').value;
+
+  document.getElementById("fillCounty").innerHTML = (county === "New" ? "All" : countyWSpace);
+
+
+  let dataSet2 = document.querySelector('input[name="toggleCounty2"]:checked').getAttribute('data-type');
+  dataSet2  = 'assets/' + dataSet2 + day_var + '.csv';
+  // console.log(dataSet2);
+
+  myFunction1(`${dataSet2}`, `${caseOrDeath}`, `${county}`);
+
+}));
+
 
   window.onresize = function(event) {
-    myFunction1(`assets/waCountyCases${day_var}.csv`, "casesCounty3");
+    myFunction1(`assets/waCountyCases${day_var}.csv`, "casesCounty3", "New");
   };
 
 
-        myFunction1(`assets/waCountyCases${day_var}.csv`, "casesCounty3");
+        myFunction1(`assets/waCountyCases${day_var}.csv`, "casesCounty3", "New");
 
 
 
