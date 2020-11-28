@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_dataLayer.html") %>
+      <%= t.include("partials/_gtm.html") %>
+    <% } %>
+    <script src="https://kit.fontawesome.com/14ba6787d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+      window.case_data = <%= JSON.stringify(grunt.data.csv) %>;
+    </script>
+  </head>
+  <body>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtmNoScript.html") %>
+    <% } %>
+    <responsive-child>
+          <main class="interactive" id="graphicNotes">
+            <div class="graphic-hed">Data notes for Washington state graphics</div>
+
+            <div class="note">
+              <p><b>LATEST:</b></p>
+              <p>Data is as of 11:59 p.m. Nov. 24 and is preliminary, as duplicate new cases may be included due to unprecedentedly high testing volumes.</p>
+
+
+              <p><b>CONFIRMED CASES:</b></p>
+              <p>"Total confirmed cases" data includes deaths. Number of recoveries is not recorded by the DOH.</p>
+
+              <br>
+
+              <p><b>DEATHS:</b></p>
+              <p>As of Aug. 29, the DOH stopped reporting deaths on the weekends. Those deaths are added to Monday's and Tuesday's counts.</p>
+              <p>The daily total shows the net change per day in the state’s death count. DOH reports new deaths while removing deaths from the total when the primary cause of death is not the coronavirus.</p>
+
+              <br>
+
+              <div class="toggleOpen">
+
+              <p><b>Daily updates were not provided for:</b></p>
+              <ul>
+                <li>July 10, 30</li>
+                <li>Sept. 7</li>
+                <li>Oct. 10, 11</li>
+                <li>Nov. 10, 21</li>
+              </ul>
+
+              <p><b>These days contained previous day's case data and are not included in the 'All counties' view of the new cases graph:</b></p>
+              <ul>
+                <li>March 28</li>
+                <!-- <li>July 11, 31</li>
+                <li>Oct. 12</li> -->
+                <li>Nov. 22</li>
+              </ul>
+
+              <p><b>Data backlogs increased death counts on these days:</b></p>
+              <ul>
+                <li>July 27</li>
+                <li>Sept. 8, 28</li>
+                <li>Nov. 22</li>
+              </ul>
+
+              <p><b>Other notable anomalies:</b></p>
+              <ul>
+                <li>Data for Aug. 16 is as of 4:30 p.m., not 11:59 p.m., because routine maintenance interrupted lab-report processing at the DOH on that day. This likely caused a lower count of cases and deaths for Aug. 16.</li>
+                <li>DOH data cleaning on April 18 removed 190 confirmed cases that were discovered to be out-of-state residents.</li>
+              </ul>
+
+            </div>
+
+            <div class="accordian">
+              <i class="fas fa-plus-circle"></i>
+              <div class="hr"></div>
+              <i class="fas fa-minus-circle"></i>
+            </div>
+
+
+            </div>
+          </main>
+        </responsive-child>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

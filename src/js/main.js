@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "1116";
+var day_var = "1124";
 
 //// change me every month ////
 var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1","8/1","9/1","10/1","11/1"];
@@ -18,8 +18,8 @@ var commaFormat = d3.format(',');
 var county_counts = window.case_data[`waCountyCases${day_var}`];
 var county_deaths = window.case_data[`waCountyDeaths${day_var}`];
 
-console.log(county_counts);
-console.log(window.case_dataTwo);
+// console.log(county_counts);
+// console.log(window.case_dataTwo);
 
 var county_pops = window.case_data['countyPop2020'];
 var stateTotal = 7656200;
@@ -803,5 +803,15 @@ document.querySelectorAll(".county").forEach(el => el.addEventListener('click', 
 
 
 
+
+} else {}
+
+if($('#graphicNotes').length >0 ){
+
+  $( ".accordian" ).click(function() {
+    $( ".toggleOpen" ).slideToggle();
+    $( ".accordian" ).toggleClass('opened');
+
+  });
 
 } else {}

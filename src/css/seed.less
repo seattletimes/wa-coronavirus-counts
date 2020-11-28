@@ -2,6 +2,47 @@
 
 @import "seattletimes";
 
+.toggleOpen {
+	display: none;
+}
+
+
+.accordian {
+	cursor: pointer;
+	padding-bottom: 10px;
+
+	.hr {
+		width: 100%;
+		height: 3px;
+		border-bottom: 2px solid black;
+
+	}
+
+	i {
+		display: block;
+		text-align: center;
+		font-size: 2em;
+		color: black;
+		padding: 7px;
+	}
+
+	.fa-minus-circle { display: none; }
+	.fa-plus-circle { display: block; }
+
+	&.opened {
+		.fa-minus-circle { display: block; }
+		.fa-plus-circle { display: none; }
+	}
+}
+
+.accordian:hover {
+	.hr { border-bottom: 2px solid @df-blue; }
+	i { color: @df-blue; }
+}
+
+
+
+
 
 .data-source, .art-credit {
 	@media @mobile {
