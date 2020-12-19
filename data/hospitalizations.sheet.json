@@ -1,1345 +1,1690 @@
 [
   {
     "date": "5/11",
-    "percent licensed beds": 0.509,
-    "ALL license beds": 7401,
-    "license beds (not including covid)": 6839,
-    "covid-beds": 562
+    "percent filled acute beds": 0.511,
+    "total adult beds": "",
+    "a": 4839
   },
   {
     "date": "5/12",
-    "percent licensed beds": 0.55,
-    "ALL license beds": 7997,
-    "license beds (not including covid)": 7352,
-    "covid-beds": 645
+    "percent filled acute beds": 0.5819,
+    "total adult beds": "",
+    "a": 5511
   },
   {
     "date": "5/13",
-    "percent licensed beds": 0.563,
-    "ALL license beds": 8186,
-    "license beds (not including covid)": 7560,
-    "covid-beds": 626
+    "percent filled acute beds": 0.5983,
+    "total adult beds": "",
+    "a": 5666
   },
   {
     "date": "5/14",
-    "percent licensed beds": 0.56,
-    "ALL license beds": 8142,
-    "license beds (not including covid)": 7479,
-    "covid-beds": 663
+    "percent filled acute beds": 0.6592,
+    "total adult beds": "",
+    "a": 6243
   },
   {
     "date": "5/15",
-    "percent licensed beds": 0.556,
-    "ALL license beds": 8084,
-    "license beds (not including covid)": 7503,
-    "covid-beds": 581
+    "percent filled acute beds": 0.6579,
+    "total adult beds": "",
+    "a": 6230
   },
   {
     "date": "5/16",
-    "percent licensed beds": 0.542,
-    "ALL license beds": 7881,
-    "license beds (not including covid)": 7323,
-    "covid-beds": 558
+    "percent filled acute beds": 0.6677,
+    "total adult beds": "",
+    "a": 6323
   },
   {
     "date": "5/17",
-    "percent licensed beds": 0.526,
-    "ALL license beds": 7648,
-    "license beds (not including covid)": 7109,
-    "covid-beds": 539
+    "percent filled acute beds": 0.6497,
+    "total adult beds": "",
+    "a": 6153
   },
   {
     "date": "5/18",
-    "percent licensed beds": 0.525,
-    "ALL license beds": 7634,
-    "license beds (not including covid)": 7130,
-    "covid-beds": 504
+    "percent filled acute beds": 0.644,
+    "total adult beds": "",
+    "a": 6099
   },
   {
     "date": "5/19",
-    "percent licensed beds": 0.55,
-    "ALL license beds": 7997,
-    "license beds (not including covid)": 7479,
-    "covid-beds": 518
+    "percent filled acute beds": 0.6562,
+    "total adult beds": "",
+    "a": 6214
   },
   {
     "date": "5/20",
-    "percent licensed beds": 0.572,
-    "ALL license beds": 8317,
-    "license beds (not including covid)": 7745,
-    "covid-beds": 572
+    "percent filled acute beds": 0.645,
+    "total adult beds": "",
+    "a": 6108
   },
   {
     "date": "5/21",
-    "percent licensed beds": 0.578,
-    "ALL license beds": 8404,
-    "license beds (not including covid)": 7851,
-    "covid-beds": 553
+    "percent filled acute beds": 0.6555,
+    "total adult beds": "",
+    "a": 6208
   },
   {
     "date": "5/22",
-    "percent licensed beds": 0.578,
-    "ALL license beds": 8404,
-    "license beds (not including covid)": 7844,
-    "covid-beds": 560
+    "percent filled acute beds": 0.6501,
+    "total adult beds": "",
+    "a": 6156
   },
   {
     "date": "5/23",
-    "percent licensed beds": 0.575,
-    "ALL license beds": 8361,
-    "license beds (not including covid)": 7825,
-    "covid-beds": 536
+    "percent filled acute beds": 0.6782,
+    "total adult beds": "",
+    "a": 6423
   },
   {
     "date": "5/24",
-    "percent licensed beds": 0.547,
-    "ALL license beds": 7953,
-    "license beds (not including covid)": 7444,
-    "covid-beds": 509
+    "percent filled acute beds": 0.6303,
+    "total adult beds": "",
+    "a": 5969
   },
   {
     "date": "5/25",
-    "percent licensed beds": 0.545,
-    "ALL license beds": 7924,
-    "license beds (not including covid)": 7403,
-    "covid-beds": 521
+    "percent filled acute beds": 0.6469,
+    "total adult beds": "",
+    "a": 6126
   },
   {
     "date": "5/26",
-    "percent licensed beds": 0.526,
-    "ALL license beds": 7648,
-    "license beds (not including covid)": 7124,
-    "covid-beds": 524
+    "percent filled acute beds": 0.6262,
+    "total adult beds": "",
+    "a": 5930
   },
   {
     "date": "5/27",
-    "percent licensed beds": 0.573,
-    "ALL license beds": 8331,
-    "license beds (not including covid)": 7784,
-    "covid-beds": 547
+    "percent filled acute beds": 0.6775,
+    "total adult beds": "",
+    "a": 6416
   },
   {
     "date": "5/28",
-    "percent licensed beds": 0.612,
-    "ALL license beds": 8898,
-    "license beds (not including covid)": 8357,
-    "covid-beds": 541
+    "percent filled acute beds": 0.7233,
+    "total adult beds": "",
+    "a": 6850
   },
   {
     "date": "5/29",
-    "percent licensed beds": 0.584,
-    "ALL license beds": 8491,
-    "license beds (not including covid)": 7955,
-    "covid-beds": 536
+    "percent filled acute beds": 0.6669,
+    "total adult beds": "",
+    "a": 6316
   },
   {
     "date": "5/30",
-    "percent licensed beds": 0.568,
-    "ALL license beds": 8259,
-    "license beds (not including covid)": 7762,
-    "covid-beds": 497
+    "percent filled acute beds": 0.6579,
+    "total adult beds": "",
+    "a": 6230
   },
   {
     "date": "5/31",
-    "percent licensed beds": 0.549,
-    "ALL license beds": 7982,
-    "license beds (not including covid)": 7509,
-    "covid-beds": 473
+    "percent filled acute beds": 0.6417,
+    "total adult beds": "",
+    "a": 6077
   },
   {
     "date": "6/1",
-    "percent licensed beds": 0.536,
-    "ALL license beds": 7793,
-    "license beds (not including covid)": 7319,
-    "covid-beds": 474
+    "percent filled acute beds": 0.6262,
+    "total adult beds": "",
+    "a": 5930
   },
   {
     "date": "6/2",
-    "percent licensed beds": 0.574,
-    "ALL license beds": 8346,
-    "license beds (not including covid)": 7862,
-    "covid-beds": 484
+    "percent filled acute beds": 0.6699,
+    "total adult beds": "",
+    "a": 6344
   },
   {
     "date": "6/3",
-    "percent licensed beds": 0.588,
-    "ALL license beds": 8550,
-    "license beds (not including covid)": 8031,
-    "covid-beds": 519
+    "percent filled acute beds": 0.6796,
+    "total adult beds": "",
+    "a": 6436
   },
   {
     "date": "6/4",
-    "percent licensed beds": 0.586,
-    "ALL license beds": 8520,
-    "license beds (not including covid)": 8041,
-    "covid-beds": 479
+    "percent filled acute beds": 0.6741,
+    "total adult beds": "",
+    "a": 6384
   },
   {
     "date": "6/5",
-    "percent licensed beds": 0.584,
-    "ALL license beds": 8491,
-    "license beds (not including covid)": 8045,
-    "covid-beds": 446
+    "percent filled acute beds": 0.6795,
+    "total adult beds": "",
+    "a": 6435
   },
   {
     "date": "6/6",
-    "percent licensed beds": 0.569,
-    "ALL license beds": 8273,
-    "license beds (not including covid)": 7923,
-    "covid-beds": 350
+    "percent filled acute beds": 0.6639,
+    "total adult beds": "",
+    "a": 6287
   },
   {
     "date": "6/7",
-    "percent licensed beds": 0.562,
-    "ALL license beds": 8171,
-    "license beds (not including covid)": 7799,
-    "covid-beds": 372
+    "percent filled acute beds": 0.6463,
+    "total adult beds": "",
+    "a": 6120
   },
   {
     "date": "6/8",
-    "percent licensed beds": 0.554,
-    "ALL license beds": 8055,
-    "license beds (not including covid)": 7705,
-    "covid-beds": 350
+    "percent filled acute beds": 0.6412,
+    "total adult beds": "",
+    "a": 6072
   },
   {
     "date": "6/9",
-    "percent licensed beds": 0.585,
-    "ALL license beds": 8506,
-    "license beds (not including covid)": 8122,
-    "covid-beds": 384
+    "percent filled acute beds": 0.6773,
+    "total adult beds": "",
+    "a": 6414
   },
   {
     "date": "6/10",
-    "percent licensed beds": 0.689,
-    "ALL license beds": 10018,
-    "license beds (not including covid)": 9632,
-    "covid-beds": 386
+    "percent filled acute beds": 0.695,
+    "total adult beds": "",
+    "a": 6582
   },
   {
     "date": "6/11",
-    "percent licensed beds": 0.655,
-    "ALL license beds": 9524,
-    "license beds (not including covid)": 9152,
-    "covid-beds": 372
+    "percent filled acute beds": 0.678,
+    "total adult beds": "",
+    "a": 6421
   },
   {
     "date": "6/12",
-    "percent licensed beds": 0.591,
-    "ALL license beds": 8593,
-    "license beds (not including covid)": 8243,
-    "covid-beds": 350
+    "percent filled acute beds": 0.6763,
+    "total adult beds": "",
+    "a": 6405
   },
   {
     "date": "6/13",
-    "percent licensed beds": 0.55,
-    "ALL license beds": 7997,
-    "license beds (not including covid)": 7640,
-    "covid-beds": 357
+    "percent filled acute beds": 0.644,
+    "total adult beds": "",
+    "a": 6099
   },
   {
     "date": "6/14",
-    "percent licensed beds": 0.494,
-    "ALL license beds": 7183,
-    "license beds (not including covid)": 6841,
-    "covid-beds": 342
+    "percent filled acute beds": 0.6218,
+    "total adult beds": "",
+    "a": 5888
   },
   {
     "date": "6/15",
-    "percent licensed beds": 0.483,
-    "ALL license beds": 7023,
-    "license beds (not including covid)": 6664,
-    "covid-beds": 359
+    "percent filled acute beds": 0.6146,
+    "total adult beds": "",
+    "a": 5820
   },
   {
     "date": "6/16",
-    "percent licensed beds": 0.517,
-    "ALL license beds": 7517,
-    "license beds (not including covid)": 7144,
-    "covid-beds": 373
+    "percent filled acute beds": 0.6671,
+    "total adult beds": "",
+    "a": 6317
   },
   {
     "date": "6/17",
-    "percent licensed beds": 0.522,
-    "ALL license beds": 7590,
-    "license beds (not including covid)": 7194,
-    "covid-beds": 396
+    "percent filled acute beds": 0.677,
+    "total adult beds": "",
+    "a": 6411
   },
   {
     "date": "6/18",
-    "percent licensed beds": 0.524,
-    "ALL license beds": 7619,
-    "license beds (not including covid)": 7260,
-    "covid-beds": 359
+    "percent filled acute beds": 0.6674,
+    "total adult beds": "",
+    "a": 6320
   },
   {
     "date": "6/19",
-    "percent licensed beds": 0.523,
-    "ALL license beds": 7604,
-    "license beds (not including covid)": 7233,
-    "covid-beds": 371
+    "percent filled acute beds": 0.6701,
+    "total adult beds": "",
+    "a": 6346
   },
   {
     "date": "6/20",
-    "percent licensed beds": 0.519,
-    "ALL license beds": 7546,
-    "license beds (not including covid)": 7184,
+    "percent filled acute beds": 0.6607,
+    "total adult beds": "",
+    "a": 6257,
+    "license beds (not including covid)": 5895,
     "covid-beds": 362
   },
   {
     "date": "6/21",
-    "percent licensed beds": 0.521,
-    "ALL license beds": 7575,
-    "license beds (not including covid)": 7203,
+    "percent filled acute beds": 0.6715,
+    "total adult beds": "",
+    "a": 6359,
+    "license beds (not including covid)": 5987,
     "covid-beds": 372
   },
   {
     "date": "6/22",
-    "percent licensed beds": 0.469,
-    "ALL license beds": 6819,
-    "license beds (not including covid)": 6433,
+    "percent filled acute beds": 0.5975,
+    "total adult beds": "",
+    "a": 5658,
+    "license beds (not including covid)": 5272,
     "covid-beds": 386
   },
   {
     "date": "6/23",
-    "percent licensed beds": 0.506,
-    "ALL license beds": 7357,
-    "license beds (not including covid)": 6955,
+    "percent filled acute beds": 0.6516,
+    "total adult beds": "",
+    "a": 6171,
+    "license beds (not including covid)": 5769,
     "covid-beds": 402
   },
   {
     "date": "6/24",
-    "percent licensed beds": 0.545,
-    "ALL license beds": 7924,
-    "license beds (not including covid)": 7552,
+    "percent filled acute beds": 0.6987,
+    "total adult beds": "",
+    "a": 6617,
+    "license beds (not including covid)": 6245,
     "covid-beds": 372
   },
   {
     "date": "6/25",
-    "percent licensed beds": 0.54,
-    "ALL license beds": 7852,
-    "license beds (not including covid)": 7466,
+    "percent filled acute beds": 0.6911,
+    "total adult beds": "",
+    "a": 6545,
+    "license beds (not including covid)": 6159,
     "covid-beds": 386
   },
   {
     "date": "6/26",
-    "percent licensed beds": 0.536,
-    "ALL license beds": 7793,
-    "license beds (not including covid)": 7393,
+    "percent filled acute beds": 0.6766,
+    "total adult beds": "",
+    "a": 6407,
+    "license beds (not including covid)": 6007,
     "covid-beds": 400
   },
   {
     "date": "6/27",
-    "percent licensed beds": 0.523,
-    "ALL license beds": 7604,
-    "license beds (not including covid)": 7217,
+    "percent filled acute beds": 0.6571,
+    "total adult beds": "",
+    "a": 6223,
+    "license beds (not including covid)": 5836,
     "covid-beds": 387
   },
   {
     "date": "6/28",
-    "percent licensed beds": 0.513,
-    "ALL license beds": 7459,
-    "license beds (not including covid)": 7064,
+    "percent filled acute beds": 0.644,
+    "total adult beds": "",
+    "a": 6099,
+    "license beds (not including covid)": 5704,
     "covid-beds": 395
   },
   {
     "date": "6/29",
-    "percent licensed beds": 0.501,
-    "ALL license beds": 7285,
-    "license beds (not including covid)": 6858,
+    "percent filled acute beds": 0.6332,
+    "total adult beds": "",
+    "a": 5996,
+    "license beds (not including covid)": 5569,
     "covid-beds": 427
   },
   {
     "date": "6/30",
-    "percent licensed beds": 0.528,
-    "ALL license beds": 7677,
-    "license beds (not including covid)": 7247,
+    "percent filled acute beds": 0.6715,
+    "total adult beds": "",
+    "a": 6359,
+    "license beds (not including covid)": 5929,
     "covid-beds": 430
   },
   {
     "date": "7/1",
-    "percent licensed beds": 0.607,
-    "ALL license beds": 8826,
-    "license beds (not including covid)": 8366,
+    "percent filled acute beds": 0.6798,
+    "total adult beds": "",
+    "a": 6438,
+    "license beds (not including covid)": 5978,
     "covid-beds": 460
   },
   {
     "date": "7/2",
-    "percent licensed beds": 0.605,
-    "ALL license beds": 8797,
-    "license beds (not including covid)": 8351,
+    "percent filled acute beds": 0.6737,
+    "total adult beds": "",
+    "a": 6380,
+    "license beds (not including covid)": 5934,
     "covid-beds": 446
   },
   {
     "date": "7/3",
-    "percent licensed beds": 0.603,
-    "ALL license beds": 8768,
-    "license beds (not including covid)": 8356,
+    "percent filled acute beds": 0.6778,
+    "total adult beds": "",
+    "a": 6419,
+    "license beds (not including covid)": 6007,
     "covid-beds": 412
   },
   {
     "date": "7/4",
-    "percent licensed beds": 0.58,
-    "ALL license beds": 8433,
-    "license beds (not including covid)": 8035,
+    "percent filled acute beds": 0.6516,
+    "total adult beds": "",
+    "a": 6171,
+    "license beds (not including covid)": 5773,
     "covid-beds": 398
   },
   {
     "date": "7/5",
-    "percent licensed beds": 0.563,
-    "ALL license beds": 8186,
-    "license beds (not including covid)": 7779,
+    "percent filled acute beds": 0.6337,
+    "total adult beds": "",
+    "a": 6001,
+    "license beds (not including covid)": 5594,
     "covid-beds": 407
   },
   {
     "date": "7/6",
-    "percent licensed beds": 0.556,
-    "ALL license beds": 8084,
-    "license beds (not including covid)": 7659,
+    "percent filled acute beds": 0.6247,
+    "total adult beds": "",
+    "a": 5916,
+    "license beds (not including covid)": 5491,
     "covid-beds": 425
   },
   {
     "date": "7/7",
-    "percent licensed beds": 0.586,
-    "ALL license beds": 8520,
-    "license beds (not including covid)": 8051,
-    "covid-beds": 469
+    "percent filled acute beds": 0.6573,
+    "total adult beds": "",
+    "a": 6225,
+    "license beds (not including covid)": 5757,
+    "covid-beds": 468
   },
   {
     "date": "7/8",
-    "percent licensed beds": 0.607,
-    "ALL license beds": 8826,
-    "license beds (not including covid)": 8365,
-    "covid-beds": 461
+    "percent filled acute beds": 0.6839,
+    "total adult beds": "",
+    "a": 6477,
+    "license beds (not including covid)": 6017,
+    "covid-beds": 460
   },
   {
     "date": "7/9",
-    "percent licensed beds": 0.61,
-    "ALL license beds": 8869,
-    "license beds (not including covid)": 8422,
+    "percent filled acute beds": 0.6861,
+    "total adult beds": "",
+    "a": 6497,
+    "license beds (not including covid)": 6050,
     "covid-beds": 447
   },
   {
     "date": "7/10",
-    "percent licensed beds": 0.614,
-    "ALL license beds": 8928,
-    "license beds (not including covid)": 8481,
+    "percent filled acute beds": 0.6895,
+    "total adult beds": "",
+    "a": 6530,
+    "license beds (not including covid)": 6083,
     "covid-beds": 447
   },
   {
     "date": "7/11",
-    "percent licensed beds": 0.593,
-    "ALL license beds": 8622,
-    "license beds (not including covid)": 8179,
+    "percent filled acute beds": 0.672,
+    "total adult beds": "",
+    "a": 6364,
+    "license beds (not including covid)": 5921,
     "covid-beds": 443
   },
   {
     "date": "7/12",
-    "percent licensed beds": 0.575,
-    "ALL license beds": 8361,
-    "license beds (not including covid)": 7916,
+    "percent filled acute beds": 0.6439,
+    "total adult beds": "",
+    "a": 6098,
+    "license beds (not including covid)": 5653,
     "covid-beds": 445
   },
   {
     "date": "7/13",
-    "percent licensed beds": 0.565,
-    "ALL license beds": 8215,
-    "license beds (not including covid)": 7718,
+    "percent filled acute beds": 0.6328,
+    "total adult beds": "",
+    "a": 5993,
+    "license beds (not including covid)": 5496,
     "covid-beds": 497
   },
   {
     "date": "7/14",
-    "percent licensed beds": 0.601,
-    "ALL license beds": 8739,
-    "license beds (not including covid)": 8212,
+    "percent filled acute beds": 0.677,
+    "total adult beds": "",
+    "a": 6411,
+    "license beds (not including covid)": 5884,
     "covid-beds": 527
   },
   {
     "date": "7/15",
-    "percent licensed beds": 0.613,
-    "ALL license beds": 8913,
-    "license beds (not including covid)": 8377,
+    "percent filled acute beds": 0.6847,
+    "total adult beds": "",
+    "a": 6484,
+    "license beds (not including covid)": 5948,
     "covid-beds": 536
   },
   {
     "date": "7/16",
-    "percent licensed beds": 0.607,
-    "ALL license beds": 8826,
-    "license beds (not including covid)": 8302,
+    "percent filled acute beds": 0.6777,
+    "total adult beds": "",
+    "a": 6418,
+    "license beds (not including covid)": 5894,
     "covid-beds": 524
   },
   {
     "date": "7/17",
-    "percent licensed beds": 0.606,
-    "ALL license beds": 8811,
-    "license beds (not including covid)": 8277,
+    "percent filled acute beds": 0.678,
+    "total adult beds": "",
+    "a": 6421,
+    "license beds (not including covid)": 5887,
     "covid-beds": 534
   },
   {
     "date": "7/18",
-    "percent licensed beds": 0.596,
-    "ALL license beds": 8666,
-    "license beds (not including covid)": 8155,
+    "percent filled acute beds": 0.6731,
+    "total adult beds": "",
+    "a": 6374,
+    "license beds (not including covid)": 5863,
     "covid-beds": 511
   },
   {
     "date": "7/19",
-    "percent licensed beds": 0.579,
-    "ALL license beds": 8419,
-    "license beds (not including covid)": 7925,
+    "percent filled acute beds": 0.6485,
+    "total adult beds": "",
+    "a": 6141,
+    "license beds (not including covid)": 5647,
     "covid-beds": 494
   },
   {
     "date": "7/20",
-    "percent licensed beds": 0.569,
-    "ALL license beds": 8273,
-    "license beds (not including covid)": 7727,
+    "percent filled acute beds": 0.6325,
+    "total adult beds": "",
+    "a": 5990,
+    "license beds (not including covid)": 5444,
     "covid-beds": 546
   },
   {
     "date": "7/21",
-    "percent licensed beds": 0.612,
-    "ALL license beds": 8898,
-    "license beds (not including covid)": 8371,
+    "percent filled acute beds": 0.6866,
+    "total adult beds": "",
+    "a": 6502,
+    "license beds (not including covid)": 5975,
     "covid-beds": 527
   },
   {
     "date": "7/22",
-    "percent licensed beds": 0.627,
-    "ALL license beds": 9117,
-    "license beds (not including covid)": 8600,
+    "percent filled acute beds": 0.7108,
+    "total adult beds": "",
+    "a": 6731,
+    "license beds (not including covid)": 6214,
     "covid-beds": 517
   },
   {
     "date": "7/23",
-    "percent licensed beds": 0.615,
-    "ALL license beds": 8942,
-    "license beds (not including covid)": 8422,
+    "percent filled acute beds": 0.7719,
+    "total adult beds": "",
+    "a": 7310,
+    "license beds (not including covid)": 6790,
     "covid-beds": 520
   },
   {
     "date": "7/24",
-    "percent licensed beds": 0.62,
-    "ALL license beds": 9015,
-    "license beds (not including covid)": 8521,
+    "percent filled acute beds": 0.7718,
+    "total adult beds": "",
+    "a": 7309,
+    "license beds (not including covid)": 6815,
     "covid-beds": 494
   },
   {
     "date": "7/25",
-    "percent licensed beds": 0.607,
-    "ALL license beds": 8826,
-    "license beds (not including covid)": 8345,
+    "percent filled acute beds": 0.7681,
+    "total adult beds": "",
+    "a": 7274,
+    "license beds (not including covid)": 6793,
     "covid-beds": 481
   },
   {
     "date": "7/26",
-    "percent licensed beds": 0.573,
-    "ALL license beds": 8331,
-    "license beds (not including covid)": 7853,
+    "percent filled acute beds": 0.7206,
+    "total adult beds": "",
+    "a": 6824,
+    "license beds (not including covid)": 6346,
     "covid-beds": 478
   },
   {
     "date": "7/27",
-    "percent licensed beds": 0.564,
-    "ALL license beds": 8201,
-    "license beds (not including covid)": 7692,
+    "percent filled acute beds": 0.698,
+    "total adult beds": "",
+    "a": 6610,
+    "license beds (not including covid)": 6101,
     "covid-beds": 509
   },
   {
     "date": "7/28",
-    "percent licensed beds": 0.602,
-    "ALL license beds": 8753,
-    "license beds (not including covid)": 8223,
+    "percent filled acute beds": 0.7439,
+    "total adult beds": "",
+    "a": 7045,
+    "license beds (not including covid)": 6515,
     "covid-beds": 530
   },
   {
     "date": "7/29",
-    "percent licensed beds": 0.609,
-    "ALL license beds": 8855,
-    "license beds (not including covid)": 8329,
+    "percent filled acute beds": 0.7542,
+    "total adult beds": "",
+    "a": 7142,
+    "license beds (not including covid)": 6616,
     "covid-beds": 526
   },
   {
     "date": "7/30",
-    "percent licensed beds": 0.609,
-    "ALL license beds": 8855,
-    "license beds (not including covid)": 8323,
+    "percent filled acute beds": 0.7523,
+    "total adult beds": "",
+    "a": 7124,
+    "license beds (not including covid)": 6592,
     "covid-beds": 532
   },
   {
     "date": "7/31",
-    "percent licensed beds": 0.616,
-    "ALL license beds": 8957,
-    "license beds (not including covid)": 8427,
+    "percent filled acute beds": 0.7648,
+    "total adult beds": "",
+    "a": 7243,
+    "license beds (not including covid)": 6713,
     "covid-beds": 530
   },
   {
     "date": "8/1",
-    "percent licensed beds": 0.583,
-    "ALL license beds": 8477,
-    "license beds (not including covid)": 7965,
+    "percent filled acute beds": 0.7397,
+    "total adult beds": "",
+    "a": 7005,
+    "license beds (not including covid)": 6493,
     "covid-beds": 512
   },
   {
     "date": "8/2",
-    "percent licensed beds": 0.562,
-    "ALL license beds": 8171,
-    "license beds (not including covid)": 7653,
+    "percent filled acute beds": 0.7141,
+    "total adult beds": "",
+    "a": 6763,
+    "license beds (not including covid)": 6245,
     "covid-beds": 518
   },
   {
     "date": "8/3",
-    "percent licensed beds": 0.566,
-    "ALL license beds": 8230,
-    "license beds (not including covid)": 7705,
+    "percent filled acute beds": 0.7049,
+    "total adult beds": "",
+    "a": 6675,
+    "license beds (not including covid)": 6150,
     "covid-beds": 525
   },
   {
     "date": "8/4",
-    "percent licensed beds": 0.605,
-    "ALL license beds": 8797,
-    "license beds (not including covid)": 8279,
+    "percent filled acute beds": 0.7569,
+    "total adult beds": "",
+    "a": 7168,
+    "license beds (not including covid)": 6650,
     "covid-beds": 518
   },
   {
     "date": "8/5",
-    "percent licensed beds": 0.608,
-    "ALL license beds": 8840,
-    "license beds (not including covid)": 8335,
+    "percent filled acute beds": 0.7498,
+    "total adult beds": "",
+    "a": 7101,
+    "license beds (not including covid)": 6596,
     "covid-beds": 505
   },
   {
     "date": "8/6",
-    "percent licensed beds": 0.614,
-    "ALL license beds": 8928,
-    "license beds (not including covid)": 8377,
+    "percent filled acute beds": 0.7624,
+    "total adult beds": "",
+    "a": 7220,
+    "license beds (not including covid)": 6669,
     "covid-beds": 551
   },
   {
     "date": "8/7",
-    "percent licensed beds": 0.604,
-    "ALL license beds": 8782,
-    "license beds (not including covid)": 8251,
+    "percent filled acute beds": 0.7535,
+    "total adult beds": "",
+    "a": 7136,
+    "license beds (not including covid)": 6605,
     "covid-beds": 531
   },
   {
     "date": "8/8",
-    "percent licensed beds": 0.589,
-    "ALL license beds": 8564,
-    "license beds (not including covid)": 8032,
+    "percent filled acute beds": 0.7326,
+    "total adult beds": "",
+    "a": 6938,
+    "license beds (not including covid)": 6406,
     "covid-beds": 532
   },
   {
     "date": "8/9",
-    "percent licensed beds": 0.576,
-    "ALL license beds": 8375,
-    "license beds (not including covid)": 7880,
+    "percent filled acute beds": 0.7065,
+    "total adult beds": "",
+    "a": 6691,
+    "license beds (not including covid)": 6196,
     "covid-beds": 495
   },
   {
     "date": "8/10",
-    "percent licensed beds": 0.563,
-    "ALL license beds": 8186,
-    "license beds (not including covid)": 7706,
+    "percent filled acute beds": 0.6978,
+    "total adult beds": "",
+    "a": 6608,
+    "license beds (not including covid)": 6128,
     "covid-beds": 480
   },
   {
     "date": "8/11",
-    "percent licensed beds": 0.609,
-    "ALL license beds": 8855,
-    "license beds (not including covid)": 8342,
+    "percent filled acute beds": 0.7615,
+    "total adult beds": "",
+    "a": 7211,
+    "license beds (not including covid)": 6698,
     "covid-beds": 513
   },
   {
     "date": "8/12",
-    "percent licensed beds": 0.623,
-    "ALL license beds": 9058,
-    "license beds (not including covid)": 8539,
+    "percent filled acute beds": 0.7793,
+    "total adult beds": "",
+    "a": 7380,
+    "license beds (not including covid)": 6861,
     "covid-beds": 519
   },
   {
     "date": "8/13",
-    "percent licensed beds": 0.621,
-    "ALL license beds": 9029,
-    "license beds (not including covid)": 8500,
+    "percent filled acute beds": 0.7723,
+    "total adult beds": "",
+    "a": 7314,
+    "license beds (not including covid)": 6785,
     "covid-beds": 529
   },
   {
     "date": "8/14",
-    "percent licensed beds": 0.614,
-    "ALL license beds": 8928,
-    "license beds (not including covid)": 8424,
+    "percent filled acute beds": 0.7628,
+    "total adult beds": "",
+    "a": 7224,
+    "license beds (not including covid)": 6720,
     "covid-beds": 504
   },
   {
     "date": "8/15",
-    "percent licensed beds": 0.604,
-    "ALL license beds": 8782,
-    "license beds (not including covid)": 8295,
+    "percent filled acute beds": 0.7477,
+    "total adult beds": "",
+    "a": 7081,
+    "license beds (not including covid)": 6594,
     "covid-beds": 487
   },
   {
     "date": "8/16",
-    "percent licensed beds": 0.589,
-    "ALL license beds": 8564,
-    "license beds (not including covid)": 8089,
+    "percent filled acute beds": 0.7277,
+    "total adult beds": "",
+    "a": 6891,
+    "license beds (not including covid)": 6416,
     "covid-beds": 475
   },
   {
     "date": "8/17",
-    "percent licensed beds": 0.552,
-    "ALL license beds": 8026,
-    "license beds (not including covid)": 7545,
+    "percent filled acute beds": 0.7041,
+    "total adult beds": "",
+    "a": 6668,
+    "license beds (not including covid)": 6187,
     "covid-beds": 481
   },
   {
     "date": "8/18",
-    "percent licensed beds": 0.607,
-    "ALL license beds": 8826,
-    "license beds (not including covid)": 8328,
+    "percent filled acute beds": 0.7554,
+    "total adult beds": "",
+    "a": 7154,
+    "license beds (not including covid)": 6656,
     "covid-beds": 498
   },
   {
     "date": "8/19",
-    "percent licensed beds": 0.628,
-    "ALL license beds": 9131,
-    "license beds (not including covid)": 8650,
+    "percent filled acute beds": 0.7797,
+    "total adult beds": "",
+    "a": 7384,
+    "license beds (not including covid)": 6903,
     "covid-beds": 481
   },
   {
     "date": "8/20",
-    "percent licensed beds": 0.628,
-    "ALL license beds": 9131,
-    "license beds (not including covid)": 8662,
+    "percent filled acute beds": 0.7765,
+    "total adult beds": "",
+    "a": 7353,
+    "license beds (not including covid)": 6884,
     "covid-beds": 469
   },
   {
     "date": "8/21",
-    "percent licensed beds": 0.629,
-    "ALL license beds": 9146,
-    "license beds (not including covid)": 8691,
+    "percent filled acute beds": 0.7686,
+    "total adult beds": "",
+    "a": 7279,
+    "license beds (not including covid)": 6824,
     "covid-beds": 455
   },
   {
     "date": "8/22",
-    "percent licensed beds": 0.615,
-    "ALL license beds": 8942,
-    "license beds (not including covid)": 8488,
+    "percent filled acute beds": 0.7578,
+    "total adult beds": "",
+    "a": 7176,
+    "license beds (not including covid)": 6722,
     "covid-beds": 454
   },
   {
     "date": "8/23",
-    "percent licensed beds": 0.597,
-    "ALL license beds": 8680,
-    "license beds (not including covid)": 8259,
+    "percent filled acute beds": 0.7463,
+    "total adult beds": "",
+    "a": 7067,
+    "license beds (not including covid)": 6646,
     "covid-beds": 421
   },
   {
     "date": "8/24",
-    "percent licensed beds": 0.576,
-    "ALL license beds": 8375,
-    "license beds (not including covid)": 7934,
+    "percent filled acute beds": 0.7194,
+    "total adult beds": "",
+    "a": 6813,
+    "license beds (not including covid)": 6372,
     "covid-beds": 441
   },
   {
     "date": "8/25",
-    "percent licensed beds": 0.608,
-    "ALL license beds": 8840,
-    "license beds (not including covid)": 8381,
+    "percent filled acute beds": 0.7422,
+    "total adult beds": "",
+    "a": 7029,
+    "license beds (not including covid)": 6570,
     "covid-beds": 459
   },
   {
     "date": "8/26",
-    "percent licensed beds": 0.628,
-    "ALL license beds": 9131,
-    "license beds (not including covid)": 8688,
+    "percent filled acute beds": 0.7771,
+    "total adult beds": "",
+    "a": 7359,
+    "license beds (not including covid)": 6916,
     "covid-beds": 443
   },
   {
     "date": "8/27",
-    "percent licensed beds": 0.623,
-    "ALL license beds": 9058,
-    "license beds (not including covid)": 8633,
+    "percent filled acute beds": 0.7658,
+    "total adult beds": "",
+    "a": 7252,
+    "license beds (not including covid)": 6827,
     "covid-beds": 425
   },
   {
     "date": "8/28",
-    "percent licensed beds": 0.611,
-    "ALL license beds": 8884,
-    "license beds (not including covid)": 8469,
+    "percent filled acute beds": 0.7573,
+    "total adult beds": "",
+    "a": 7172,
+    "license beds (not including covid)": 6757,
     "covid-beds": 415
   },
   {
     "date": "8/29",
-    "percent licensed beds": 0.61,
-    "ALL license beds": 8869,
-    "license beds (not including covid)": 8458,
+    "percent filled acute beds": 0.7566,
+    "total adult beds": "",
+    "a": 7165,
+    "license beds (not including covid)": 6754,
     "covid-beds": 411
   },
   {
     "date": "8/30",
-    "percent licensed beds": 0.574,
-    "ALL license beds": 8346,
-    "license beds (not including covid)": 7954,
+    "percent filled acute beds": 0.7308,
+    "total adult beds": "",
+    "a": 6921,
+    "license beds (not including covid)": 6529,
     "covid-beds": 392
   },
   {
     "date": "8/31",
-    "percent licensed beds": 0.561,
-    "ALL license beds": 8157,
-    "license beds (not including covid)": 7741,
+    "percent filled acute beds": 0.7031,
+    "total adult beds": "",
+    "a": 6658,
+    "license beds (not including covid)": 6242,
     "covid-beds": 416
   },
   {
     "date": "9/1",
-    "percent licensed beds": 0.586,
-    "ALL license beds": 8520,
-    "license beds (not including covid)": 8112,
+    "percent filled acute beds": 0.7378,
+    "total adult beds": "",
+    "a": 6987,
+    "license beds (not including covid)": 6579,
     "covid-beds": 408
   },
   {
     "date": "9/2",
-    "percent licensed beds": 0.608,
-    "ALL license beds": 8840,
-    "license beds (not including covid)": 8441,
+    "percent filled acute beds": 0.761,
+    "total adult beds": "",
+    "a": 7207,
+    "license beds (not including covid)": 6808,
     "covid-beds": 399
   },
   {
     "date": "9/3",
-    "percent licensed beds": 0.628,
-    "ALL license beds": 9131,
-    "license beds (not including covid)": 8714,
+    "percent filled acute beds": 0.791,
+    "total adult beds": "",
+    "a": 7491,
+    "license beds (not including covid)": 7074,
     "covid-beds": 417
   },
   {
     "date": "9/4",
-    "percent licensed beds": 0.605,
-    "ALL license beds": 8797,
-    "license beds (not including covid)": 8394,
+    "percent filled acute beds": 0.7611,
+    "total adult beds": "",
+    "a": 7208,
+    "license beds (not including covid)": 6805,
     "covid-beds": 403
   },
   {
     "date": "9/5",
-    "percent licensed beds": 0.593,
-    "ALL license beds": 8622,
-    "license beds (not including covid)": 8238,
+    "percent filled acute beds": 0.743,
+    "total adult beds": "",
+    "a": 7036,
+    "license beds (not including covid)": 6652,
     "covid-beds": 384
   },
   {
     "date": "9/6",
-    "percent licensed beds": 0.573,
-    "ALL license beds": 8331,
-    "license beds (not including covid)": 7955,
+    "percent filled acute beds": 0.7182,
+    "total adult beds": "",
+    "a": 6801,
+    "license beds (not including covid)": 6425,
     "covid-beds": 376
   },
   {
     "date": "9/7",
-    "percent licensed beds": 0.558,
-    "ALL license beds": 8113,
-    "license beds (not including covid)": 7755,
+    "percent filled acute beds": 0.7002,
+    "total adult beds": "",
+    "a": 6631,
+    "license beds (not including covid)": 6273,
     "covid-beds": 358
   },
   {
     "date": "9/8",
-    "percent licensed beds": 0.564,
-    "ALL license beds": 8201,
-    "license beds (not including covid)": 7819,
+    "percent filled acute beds": 0.7051,
+    "total adult beds": "",
+    "a": 6677,
+    "license beds (not including covid)": 6295,
     "covid-beds": 382
   },
   {
     "date": "9/9",
-    "percent licensed beds": 0.601,
-    "ALL license beds": 8739,
-    "license beds (not including covid)": 8347,
+    "percent filled acute beds": 0.7459,
+    "total adult beds": "",
+    "a": 7064,
+    "license beds (not including covid)": 6672,
     "covid-beds": 392
   },
   {
     "date": "9/10",
-    "percent licensed beds": 0.61,
-    "ALL license beds": 8869,
-    "license beds (not including covid)": 8485,
+    "percent filled acute beds": 0.7578,
+    "total adult beds": "",
+    "a": 7176,
+    "license beds (not including covid)": 6792,
     "covid-beds": 384
   },
   {
     "date": "9/11",
-    "percent licensed beds": 0.606,
-    "ALL license beds": 8811,
-    "license beds (not including covid)": 8440,
+    "percent filled acute beds": 0.762,
+    "total adult beds": "",
+    "a": 7216,
+    "license beds (not including covid)": 6845,
     "covid-beds": 371
   },
   {
     "date": "9/12",
-    "percent licensed beds": 0.596,
-    "ALL license beds": 8666,
-    "license beds (not including covid)": 8281,
+    "percent filled acute beds": 0.7514,
+    "total adult beds": "",
+    "a": 7116,
+    "license beds (not including covid)": 6731,
     "covid-beds": 385
   },
   {
     "date": "9/13",
-    "percent licensed beds": 0.576,
-    "ALL license beds": 8375,
-    "license beds (not including covid)": 8027,
+    "percent filled acute beds": 0.7306,
+    "total adult beds": "",
+    "a": 6919,
+    "license beds (not including covid)": 6571,
     "covid-beds": 348
   },
   {
     "date": "9/14",
-    "percent licensed beds": 0.571,
-    "ALL license beds": 8302,
-    "license beds (not including covid)": 7943,
-    "covid-beds": 359
+    "percent filled acute beds": 0.7172,
+    "total adult beds": "",
+    "a": 6792,
+    "license beds (not including covid)": 6435,
+    "covid-beds": 357
   },
   {
     "date": "9/15",
-    "percent licensed beds": 0.61,
-    "ALL license beds": 8875,
-    "license beds (not including covid)": 8500,
-    "covid-beds": 375
+    "percent filled acute beds": 0.7579,
+    "total adult beds": "",
+    "a": 7177,
+    "license beds (not including covid)": 6797,
+    "covid-beds": 380
   },
   {
     "date": "9/16",
-    "percent licensed beds": 0.63,
-    "ALL license beds": 9161,
-    "license beds (not including covid)": 8782,
+    "percent filled acute beds": 0.7923,
+    "total adult beds": "",
+    "a": 7503,
+    "license beds (not including covid)": 7124,
     "covid-beds": 379
   },
   {
     "date": "9/17",
-    "percent licensed beds": 0.638,
-    "ALL license beds": 9275,
-    "license beds (not including covid)": 8897,
-    "covid-beds": 378
+    "percent filled acute beds": 0.7894,
+    "total adult beds": "",
+    "a": 7476,
+    "license beds (not including covid)": 7081,
+    "covid-beds": 395
   },
   {
     "date": "9/18",
-    "percent licensed beds": 0.633,
-    "ALL license beds": 9205,
-    "license beds (not including covid)": 8827,
-    "covid-beds": 378
+    "percent filled acute beds": 0.7818,
+    "total adult beds": "",
+    "a": 7404,
+    "license beds (not including covid)": 7024,
+    "covid-beds": 380
   },
   {
     "date": "9/19",
-    "percent licensed beds": 0.618,
-    "ALL license beds": 8608,
-    "license beds (not including covid)": 8230,
-    "covid-beds": 378
+    "percent filled acute beds": 0.7634,
+    "total adult beds": "",
+    "a": 7229,
+    "license beds (not including covid)": 6852,
+    "covid-beds": 377
   },
   {
     "date": "9/20",
-    "percent licensed beds": 0.57,
-    "ALL license beds": 7808,
-    "license beds (not including covid)": 7328,
-    "covid-beds": 480
+    "percent filled acute beds": 0.7058,
+    "total adult beds": "",
+    "a": 6684,
+    "license beds (not including covid)": 6197,
+    "covid-beds": 487
   },
   {
     "date": "9/21",
-    "percent licensed beds": 0.581,
-    "ALL license beds": 8448,
-    "license beds (not including covid)": 8054,
-    "covid-beds": 394
+    "percent filled acute beds": 0.7284,
+    "total adult beds": "",
+    "a": 6898,
+    "license beds (not including covid)": 6537,
+    "covid-beds": 361
   },
   {
     "date": "9/22",
-    "percent licensed beds": 0.61,
-    "ALL license beds": 8869,
-    "license beds (not including covid)": 8486,
-    "covid-beds": 383
-  },
-  {
-    "date": "9/23",
-    "percent licensed beds": 0.628,
-    "ALL license beds": 9131,
-    "license beds (not including covid)": 8737,
-    "covid-beds": 394
-  },
-  {
-    "date": "9/24",
-    "percent licensed beds": 0.62,
-    "ALL license beds": 9015,
-    "license beds (not including covid)": 8631,
+    "percent filled acute beds": 0.763,
+    "total adult beds": "",
+    "a": 7226,
+    "license beds (not including covid)": 6842,
     "covid-beds": 384
   },
   {
+    "date": "9/23",
+    "percent filled acute beds": 0.788,
+    "total adult beds": "",
+    "a": 7462,
+    "license beds (not including covid)": 7061,
+    "covid-beds": 401
+  },
+  {
+    "date": "9/24",
+    "percent filled acute beds": 0.7881,
+    "total adult beds": "",
+    "a": 7463,
+    "license beds (not including covid)": 7080,
+    "covid-beds": 383
+  },
+  {
     "date": "9/25",
-    "percent licensed beds": 0.624,
-    "ALL license beds": 9073,
-    "license beds (not including covid)": 8678,
+    "percent filled acute beds": 0.778,
+    "total adult beds": "",
+    "a": 7368,
+    "license beds (not including covid)": 6973,
     "covid-beds": 395
   },
   {
     "date": "9/26",
-    "percent licensed beds": 0.613,
-    "ALL license beds": 8913,
-    "license beds (not including covid)": 8518,
-    "covid-beds": 395
+    "percent filled acute beds": 0.7641,
+    "total adult beds": "",
+    "a": 7236,
+    "license beds (not including covid)": 6881,
+    "covid-beds": 355
   },
   {
     "date": "9/27",
-    "percent licensed beds": 0.579,
-    "ALL license beds": 8419,
-    "license beds (not including covid)": 8042,
-    "covid-beds": 377
-  },
-  {
-    "date": "9/28",
-    "percent licensed beds": 0.571,
-    "ALL license beds": 8302,
-    "license beds (not including covid)": 7921,
-    "covid-beds": 381
-  },
-  {
-    "date": "9/29",
-    "percent licensed beds": 0.607,
-    "ALL license beds": 8826,
-    "license beds (not including covid)": 8442,
-    "covid-beds": 384
-  },
-  {
-    "date": "9/30",
-    "percent licensed beds": 0.615,
-    "ALL license beds": 8942,
-    "license beds (not including covid)": 8562,
-    "covid-beds": 380
-  },
-  {
-    "date": "10/1",
-    "percent licensed beds": 0.624,
-    "ALL license beds": 9073,
-    "license beds (not including covid)": 8696,
-    "covid-beds": 377
-  },
-  {
-    "date": "10/2",
-    "percent licensed beds": 0.626,
-    "ALL license beds": 9102,
-    "license beds (not including covid)": 8729,
-    "covid-beds": 373
-  },
-  {
-    "date": "10/3",
-    "percent licensed beds": 0.626,
-    "ALL license beds": 9102,
-    "license beds (not including covid)": 8727,
-    "covid-beds": 375
-  },
-  {
-    "date": "10/4",
-    "percent licensed beds": 0.587,
-    "ALL license beds": 8535,
-    "license beds (not including covid)": 8162,
-    "covid-beds": 373
-  },
-  {
-    "date": "10/5",
-    "percent licensed beds": 0.575,
-    "ALL license beds": 8361,
-    "license beds (not including covid)": 8008,
-    "covid-beds": 353
-  },
-  {
-    "date": "10/6",
-    "percent licensed beds": 0.615,
-    "ALL license beds": 8942,
-    "license beds (not including covid)": 8565,
-    "covid-beds": 377
-  },
-  {
-    "date": "10/7",
-    "percent licensed beds": 0.628,
-    "ALL license beds": 9131,
-    "license beds (not including covid)": 8770,
-    "covid-beds": 361
-  },
-  {
-    "date": "10/8",
-    "percent licensed beds": 0.624,
-    "ALL license beds": 9073,
-    "license beds (not including covid)": 8710,
-    "covid-beds": 363
-  },
-  {
-    "date": "10/9",
-    "percent licensed beds": 0.627,
-    "ALL license beds": 9117,
-    "license beds (not including covid)": 8754,
-    "covid-beds": 363
-  },
-  {
-    "date": "10/10",
-    "percent licensed beds": 0.626,
-    "ALL license beds": 9102,
-    "license beds (not including covid)": 8740,
+    "percent filled acute beds": 0.7233,
+    "total adult beds": "",
+    "a": 6850,
+    "license beds (not including covid)": 6488,
     "covid-beds": 362
   },
   {
+    "date": "9/28",
+    "percent filled acute beds": 0.7154,
+    "total adult beds": "",
+    "a": 6775,
+    "license beds (not including covid)": 6391,
+    "covid-beds": 384
+  },
+  {
+    "date": "9/29",
+    "percent filled acute beds": 0.769,
+    "total adult beds": "",
+    "a": 7282,
+    "license beds (not including covid)": 6872,
+    "covid-beds": 410
+  },
+  {
+    "date": "9/30",
+    "percent filled acute beds": 0.785,
+    "total adult beds": "",
+    "a": 7434,
+    "license beds (not including covid)": 7063,
+    "covid-beds": 371
+  },
+  {
+    "date": "10/1",
+    "percent filled acute beds": 0.788,
+    "total adult beds": "",
+    "a": 7462,
+    "license beds (not including covid)": 7101,
+    "covid-beds": 361
+  },
+  {
+    "date": "10/2",
+    "percent filled acute beds": 0.7787,
+    "total adult beds": "",
+    "a": 7374,
+    "license beds (not including covid)": 7004,
+    "covid-beds": 370
+  },
+  {
+    "date": "10/3",
+    "percent filled acute beds": 0.7593,
+    "total adult beds": "",
+    "a": 7191,
+    "license beds (not including covid)": 6824,
+    "covid-beds": 367
+  },
+  {
+    "date": "10/4",
+    "percent filled acute beds": 0.7299,
+    "total adult beds": "",
+    "a": 6912,
+    "license beds (not including covid)": 6565,
+    "covid-beds": 347
+  },
+  {
+    "date": "10/5",
+    "percent filled acute beds": 0.7197,
+    "total adult beds": "",
+    "a": 6816,
+    "license beds (not including covid)": 6461,
+    "covid-beds": 355
+  },
+  {
+    "date": "10/6",
+    "percent filled acute beds": 0.768,
+    "total adult beds": "",
+    "a": 7273,
+    "license beds (not including covid)": 6890,
+    "covid-beds": 383
+  },
+  {
+    "date": "10/7",
+    "percent filled acute beds": 0.7862,
+    "total adult beds": "",
+    "a": 7445,
+    "license beds (not including covid)": 7088,
+    "covid-beds": 357
+  },
+  {
+    "date": "10/8",
+    "percent filled acute beds": 0.7824,
+    "total adult beds": "",
+    "a": 7409,
+    "license beds (not including covid)": 7045,
+    "covid-beds": 364
+  },
+  {
+    "date": "10/9",
+    "percent filled acute beds": 0.7895,
+    "total adult beds": "",
+    "a": 7477,
+    "license beds (not including covid)": 7104,
+    "covid-beds": 373
+  },
+  {
+    "date": "10/10",
+    "percent filled acute beds": 0.7774,
+    "total adult beds": "",
+    "a": 7362,
+    "license beds (not including covid)": 7010,
+    "covid-beds": 352
+  },
+  {
     "date": "10/11",
-    "percent licensed beds": 0.615,
-    "ALL license beds": 8942,
-    "license beds (not including covid)": 8576,
-    "covid-beds": 366
+    "percent filled acute beds": 0.7501,
+    "total adult beds": "",
+    "a": 7103,
+    "license beds (not including covid)": 6727,
+    "covid-beds": 376
   },
   {
     "date": "10/12",
-    "percent licensed beds": 0.567,
-    "ALL license beds": 8244,
-    "license beds (not including covid)": 7877,
+    "percent filled acute beds": 0.7238,
+    "total adult beds": "",
+    "a": 6854,
+    "license beds (not including covid)": 6487,
     "covid-beds": 367
   },
   {
     "date": "10/13",
-    "percent licensed beds": 0.602,
-    "ALL license beds": 8753,
-    "license beds (not including covid)": 8387,
-    "covid-beds": 366
-  },
-  {
-    "date": "10/14",
-    "percent licensed beds": 0.617,
-    "ALL license beds": 8971,
-    "license beds (not including covid)": 8602,
-    "covid-beds": 369
-  },
-  {
-    "date": "10/15",
-    "percent licensed beds": 0.619,
-    "ALL license beds": 9000,
-    "license beds (not including covid)": 8627,
+    "percent filled acute beds": 0.7634,
+    "total adult beds": "",
+    "a": 7229,
+    "license beds (not including covid)": 6856,
     "covid-beds": 373
   },
   {
+    "date": "10/14",
+    "percent filled acute beds": 0.7856,
+    "total adult beds": "",
+    "a": 7440,
+    "license beds (not including covid)": 7064,
+    "covid-beds": 376
+  },
+  {
+    "date": "10/15",
+    "percent filled acute beds": 0.7825,
+    "total adult beds": "",
+    "a": 7410,
+    "license beds (not including covid)": 7014,
+    "covid-beds": 396
+  },
+  {
     "date": "10/16",
-    "percent licensed beds": 0.617,
-    "ALL license beds": 8971,
-    "license beds (not including covid)": 8597,
-    "covid-beds": 374
+    "percent filled acute beds": 0.7725,
+    "total adult beds": "",
+    "a": 7316,
+    "license beds (not including covid)": 6940,
+    "covid-beds": 376
   },
   {
     "date": "10/17",
-    "percent licensed beds": 0.612,
-    "ALL license beds": 8898,
-    "license beds (not including covid)": 8519,
-    "covid-beds": 379
-  },
-  {
-    "date": "10/18",
-    "percent licensed beds": 0.591,
-    "ALL license beds": 8593,
-    "license beds (not including covid)": 8212,
-    "covid-beds": 381
-  },
-  {
-    "date": "10/19",
-    "percent licensed beds": 0.581,
-    "ALL license beds": 8448,
-    "license beds (not including covid)": 8060,
+    "percent filled acute beds": 0.7693,
+    "total adult beds": "",
+    "a": 7285,
+    "license beds (not including covid)": 6897,
     "covid-beds": 388
   },
   {
+    "date": "10/18",
+    "percent filled acute beds": 0.7439,
+    "total adult beds": "",
+    "a": 7045,
+    "license beds (not including covid)": 6653,
+    "covid-beds": 392
+  },
+  {
+    "date": "10/19",
+    "percent filled acute beds": 0.7346,
+    "total adult beds": "",
+    "a": 6957,
+    "license beds (not including covid)": 6543,
+    "covid-beds": 414
+  },
+  {
     "date": "10/20",
-    "percent licensed beds": 0.62,
-    "ALL license beds": 9015,
-    "license beds (not including covid)": 8622,
-    "covid-beds": 393
+    "percent filled acute beds": 0.7862,
+    "total adult beds": "",
+    "a": 7445,
+    "license beds (not including covid)": 7038,
+    "covid-beds": 407
   },
   {
     "date": "10/21",
-    "percent licensed beds": 0.631,
-    "ALL license beds": 9175,
-    "license beds (not including covid)": 8774,
-    "covid-beds": 401
+    "percent filled acute beds": 0.7982,
+    "total adult beds": "",
+    "a": 7559,
+    "license beds (not including covid)": 7122,
+    "covid-beds": 437
   },
   {
     "date": "10/22",
-    "percent licensed beds": 0.629,
-    "ALL license beds": 9146,
-    "license beds (not including covid)": 8742,
-    "covid-beds": 404
-  },
-  {
-    "date": "10/23",
-    "percent licensed beds": 0.616,
-    "ALL license beds": 8957,
-    "license beds (not including covid)": 8549,
-    "covid-beds": 408
-  },
-  {
-    "date": "10/24",
-    "percent licensed beds": 0.599,
-    "ALL license beds": 8709,
-    "license beds (not including covid)": 8301,
-    "covid-beds": 408
-  },
-  {
-    "date": "10/25",
-    "percent licensed beds": 0.576,
-    "ALL license beds": 8375,
-    "license beds (not including covid)": 7963,
+    "percent filled acute beds": 0.7886,
+    "total adult beds": "",
+    "a": 7468,
+    "license beds (not including covid)": 7056,
     "covid-beds": 412
   },
   {
+    "date": "10/23",
+    "percent filled acute beds": 0.7775,
+    "total adult beds": "",
+    "a": 7363,
+    "license beds (not including covid)": 6958,
+    "covid-beds": 405
+  },
+  {
+    "date": "10/24",
+    "percent filled acute beds": 0.7663,
+    "total adult beds": "",
+    "a": 7257,
+    "license beds (not including covid)": 6868,
+    "covid-beds": 389
+  },
+  {
+    "date": "10/25",
+    "percent filled acute beds": 0.7278,
+    "total adult beds": "",
+    "a": 6892,
+    "license beds (not including covid)": 6470,
+    "covid-beds": 422
+  },
+  {
     "date": "10/26",
-    "percent licensed beds": 0.573,
-    "ALL license beds": 8331,
-    "license beds (not including covid)": 7918,
-    "covid-beds": 413
+    "percent filled acute beds": 0.7264,
+    "total adult beds": "",
+    "a": 6879,
+    "license beds (not including covid)": 6462,
+    "covid-beds": 417
   },
   {
     "date": "10/27",
-    "percent licensed beds": 0.602,
-    "ALL license beds": 8753,
-    "license beds (not including covid)": 8338,
-    "covid-beds": 415
+    "percent filled acute beds": 0.7677,
+    "total adult beds": "",
+    "a": 7270,
+    "license beds (not including covid)": 6844,
+    "covid-beds": 426
   },
   {
     "date": "10/28",
-    "percent licensed beds": 0.622,
-    "ALL license beds": 9044,
-    "license beds (not including covid)": 8624,
-    "covid-beds": 415
+    "percent filled acute beds": 0.7851,
+    "total adult beds": "",
+    "a": 7435,
+    "license beds (not including covid)": 7002,
+    "covid-beds": 433
   },
   {
     "date": "10/29",
-    "percent licensed beds": 0.628,
-    "ALL license beds": 9131,
-    "license beds (not including covid)": 8701,
-    "covid-beds": 420
+    "percent filled acute beds": 0.7882,
+    "total adult beds": "",
+    "a": 7464,
+    "license beds (not including covid)": 7014,
+    "covid-beds": 450
   },
   {
     "date": "10/30",
-    "percent licensed beds": 0.626,
-    "ALL license beds": 9102,
-    "license beds (not including covid)": 8662,
-    "covid-beds": 430
+    "percent filled acute beds": 0.7871,
+    "total adult beds": "",
+    "a": 7454,
+    "license beds (not including covid)": 6984,
+    "covid-beds": 470
   },
   {
     "date": "10/31",
-    "percent licensed beds": 0.606,
-    "ALL license beds": 8811,
-    "license beds (not including covid)": 8364,
-    "covid-beds": 440
+    "percent filled acute beds": 0.7637,
+    "total adult beds": "",
+    "a": 7232,
+    "license beds (not including covid)": 6768,
+    "covid-beds": 464
   },
   {
     "date": "11/1",
-    "percent licensed beds": 0.577,
-    "ALL license beds": 8390,
-    "license beds (not including covid)": 7934,
-    "covid-beds": 447
+    "percent filled acute beds": 0.7318,
+    "total adult beds": "",
+    "a": 6930,
+    "license beds (not including covid)": 6459,
+    "covid-beds": 471
   },
   {
     "date": "11/2",
-    "percent licensed beds": 0.568,
-    "ALL license beds": 8259,
-    "license beds (not including covid)": 7796,
-    "covid-beds": 456
-  },
-  {
-    "date": "11/3",
-    "percent licensed beds": 0.601,
-    "ALL license beds": 8739,
-    "license beds (not including covid)": 8267,
-    "covid-beds": 463
-  },
-  {
-    "date": "11/4",
-    "percent licensed beds": 0.612,
-    "ALL license beds": 8898,
-    "license beds (not including covid)": 8418,
-    "covid-beds": 472
-  },
-  {
-    "date": "11/5",
-    "percent licensed beds": 0.606,
-    "ALL license beds": 8811,
-    "license beds (not including covid)": 8326,
+    "percent filled acute beds": 0.7183,
+    "total adult beds": "",
+    "a": 6802,
+    "license beds (not including covid)": 6322,
     "covid-beds": 480
   },
   {
+    "date": "11/3",
+    "percent filled acute beds": 0.7615,
+    "total adult beds": "",
+    "a": 7211,
+    "license beds (not including covid)": 6735,
+    "covid-beds": 476
+  },
+  {
+    "date": "11/4",
+    "percent filled acute beds": 0.7747,
+    "total adult beds": "",
+    "a": 7336,
+    "license beds (not including covid)": 6844,
+    "covid-beds": 492
+  },
+  {
+    "date": "11/5",
+    "percent filled acute beds": 0.7628,
+    "total adult beds": "",
+    "a": 7224,
+    "license beds (not including covid)": 6714,
+    "covid-beds": 510
+  },
+  {
     "date": "11/6",
-    "percent licensed beds": 0.614,
-    "ALL license beds": 8928,
-    "license beds (not including covid)": 8434,
-    "covid-beds": 485
-  },
-  {
-    "date": "11/7",
-    "percent licensed beds": 0.609,
-    "ALL license beds": 8855,
-    "license beds (not including covid)": 8351,
-    "covid-beds": 494
-  },
-  {
-    "date": "11/8",
-    "percent licensed beds": 0.584,
-    "ALL license beds": 8491,
-    "license beds (not including covid)": 7987,
+    "percent filled acute beds": 0.7753,
+    "total adult beds": "",
+    "a": 7342,
+    "license beds (not including covid)": 6838,
     "covid-beds": 504
   },
   {
+    "date": "11/7",
+    "percent filled acute beds": 0.7607,
+    "total adult beds": "",
+    "a": 7204,
+    "license beds (not including covid)": 6678,
+    "covid-beds": 526
+  },
+  {
+    "date": "11/8",
+    "percent filled acute beds": 0.7336,
+    "total adult beds": "",
+    "a": 6947,
+    "license beds (not including covid)": 6410,
+    "covid-beds": 537
+  },
+  {
     "date": "11/9",
-    "percent licensed beds": 0.579,
-    "ALL license beds": 8419,
-    "license beds (not including covid)": 7900,
-    "covid-beds": 519
+    "percent filled acute beds": 0.7288,
+    "total adult beds": "",
+    "a": 6902,
+    "license beds (not including covid)": 6313,
+    "covid-beds": 589
   },
   {
     "date": "11/10",
-    "percent licensed beds": 0.618,
-    "ALL license beds": 8986,
-    "license beds (not including covid)": 8445,
-    "covid-beds": 541
+    "percent filled acute beds": 0.7881,
+    "total adult beds": "",
+    "a": 7463,
+    "license beds (not including covid)": 6835,
+    "covid-beds": 628
   },
   {
     "date": "11/11",
-    "percent licensed beds": 0.64,
-    "ALL license beds": 9306,
-    "license beds (not including covid)": 8742,
-    "covid-beds": 564
+    "percent filled acute beds": 0.8168,
+    "total adult beds": "",
+    "a": 7735,
+    "license beds (not including covid)": 7082,
+    "covid-beds": 653
   },
   {
     "date": "11/12",
-    "percent licensed beds": 0.632,
-    "ALL license beds": 9189,
-    "license beds (not including covid)": 8599,
-    "covid-beds": 590
+    "percent filled acute beds": 0.7974,
+    "total adult beds": "",
+    "a": 7551,
+    "license beds (not including covid)": 6853,
+    "covid-beds": 698
   },
   {
     "date": "11/13",
-    "percent licensed beds": 0.62,
-    "ALL license beds": 9015,
-    "license beds (not including covid)": 8356,
-    "covid-beds": 659
+    "percent filled acute beds": 0.7766,
+    "total adult beds": "",
+    "a": 7354,
+    "license beds (not including covid)": 6696,
+    "covid-beds": 658
   },
   {
     "date": "11/14",
-    "percent licensed beds": 0.629,
-    "ALL license beds": 9146,
-    "license beds (not including covid)": 8463,
-    "covid-beds": 683
+    "percent filled acute beds": 0.7803,
+    "total adult beds": "",
+    "a": 7389,
+    "license beds (not including covid)": 6708,
+    "covid-beds": 681
   },
   {
     "date": "11/15",
-    "percent licensed beds": 0.594,
-    "ALL license beds": 8637,
-    "license beds (not including covid)": 7925,
-    "covid-beds": 712
+    "percent filled acute beds": 0.7438,
+    "total adult beds": "",
+    "a": 7044,
+    "license beds (not including covid)": 6337,
+    "covid-beds": 707
   },
   {
     "date": "11/16",
-    "percent licensed beds": 0.581,
-    "ALL license beds": 8448,
-    "license beds (not including covid)": 7710,
+    "percent filled acute beds": 0.7354,
+    "total adult beds": "",
+    "a": 6964,
+    "license beds (not including covid)": 6226,
     "covid-beds": 738
   },
   {
     "date": "11/17",
-    "percent licensed beds": 0.616,
-    "ALL license beds": 8957,
-    "license beds (not including covid)": 8223,
-    "covid-beds": 734
+    "percent filled acute beds": 0.7716,
+    "total adult beds": "",
+    "a": 7307,
+    "license beds (not including covid)": 6559,
+    "covid-beds": 748
   },
   {
     "date": "11/18",
-    "percent licensed beds": "",
-    "ALL license beds": 0,
+    "percent filled acute beds": 0.7956,
+    "total adult beds": "",
+    "a": 7534,
+    "license beds (not including covid)": 6690,
+    "covid-beds": 844
+  },
+  {
+    "date": "11/19",
+    "percent filled acute beds": 0.788,
+    "total adult beds": "",
+    "a": 7462,
+    "license beds (not including covid)": 6586,
+    "covid-beds": 876
+  },
+  {
+    "date": "11/20",
+    "percent filled acute beds": 0.7891,
+    "total adult beds": "",
+    "a": 7473,
+    "license beds (not including covid)": 6586,
+    "covid-beds": 887
+  },
+  {
+    "date": "11/21",
+    "percent filled acute beds": 0.7672,
+    "total adult beds": "",
+    "a": 7265,
+    "license beds (not including covid)": 6372,
+    "covid-beds": 893
+  },
+  {
+    "date": "11/22",
+    "percent filled acute beds": 0.7566,
+    "total adult beds": "",
+    "a": 7165,
+    "license beds (not including covid)": 6271,
+    "covid-beds": 894
+  },
+  {
+    "date": "11/23",
+    "percent filled acute beds": 0.7239,
+    "total adult beds": "",
+    "a": 6855,
+    "license beds (not including covid)": 5923,
+    "covid-beds": 932
+  },
+  {
+    "date": "11/24",
+    "percent filled acute beds": 0.7679,
+    "total adult beds": "",
+    "a": 7272,
+    "license beds (not including covid)": 6265,
+    "covid-beds": 1007
+  },
+  {
+    "date": "11/25",
+    "percent filled acute beds": 0.7668,
+    "total adult beds": "",
+    "a": 7262,
+    "license beds (not including covid)": 6260,
+    "covid-beds": 1002
+  },
+  {
+    "date": "11/26",
+    "percent filled acute beds": 0.7248,
+    "total adult beds": "",
+    "a": 6864,
+    "license beds (not including covid)": 5874,
+    "covid-beds": 990
+  },
+  {
+    "date": "11/27",
+    "percent filled acute beds": 0.7021,
+    "total adult beds": "",
+    "a": 6649,
+    "license beds (not including covid)": 5666,
+    "covid-beds": 983
+  },
+  {
+    "date": "11/28",
+    "percent filled acute beds": 0.7007,
+    "total adult beds": "",
+    "a": 6636,
+    "license beds (not including covid)": 5647,
+    "covid-beds": 989
+  },
+  {
+    "date": "11/29",
+    "percent filled acute beds": 0.7161,
+    "total adult beds": "",
+    "a": 6781,
+    "license beds (not including covid)": 5778,
+    "covid-beds": 1003
+  },
+  {
+    "date": "11/30",
+    "percent filled acute beds": 0.8,
+    "total adult beds": "9,467",
+    "a": 6912,
+    "license beds (not including covid)": "#VALUE!",
+    "covid-beds": "NA"
+  },
+  {
+    "date": "12/1",
+    "percent filled acute beds": 0.757,
+    "total adult beds": "9,483",
+    "a": 7181,
+    "license beds (not including covid)": 7181
+  },
+  {
+    "date": "12/2",
+    "percent filled acute beds": 0.79,
+    "total adult beds": "9,267",
+    "a": 7324,
+    "license beds (not including covid)": 7324
+  },
+  {
+    "date": "12/3",
+    "percent filled acute beds": 0.81,
+    "total adult beds": "9,165",
+    "a": "",
     "license beds (not including covid)": 0
+  },
+  {
+    "date": "12/4",
+    "percent filled acute beds": 0.827,
+    "total adult beds": "8,909",
+    "a": "",
+    "license beds (not including covid)": 0
+  },
+  {
+    "date": "12/5",
+    "percent filled acute beds": 0.801,
+    "total adult beds": "8,850"
+  },
+  {
+    "date": "12/6",
+    "percent filled acute beds": 0.814,
+    "total adult beds": "8,759"
+  },
+  {
+    "date": "12/7",
+    "percent filled acute beds": 0.776,
+    "total adult beds": "8,832"
+  },
+  {
+    "date": "12/8",
+    "percent filled acute beds": 0.81,
+    "total adult beds": "8,887"
+  },
+  {
+    "date": "12/9",
+    "percent filled acute beds": 0.824,
+    "total adult beds": "8,863"
+  },
+  {
+    "date": "12/10",
+    "percent filled acute beds": 0.815,
+    "total adult beds": "8,801"
+  },
+  {
+    "date": "12/11",
+    "percent filled acute beds": 0.817,
+    "total adult beds": "8,759"
+  },
+  {
+    "date": "12/12",
+    "percent filled acute beds": 0.813,
+    "total adult beds": "8,614"
+  },
+  {
+    "date": "12/13",
+    "percent filled acute beds": 0.796,
+    "total adult beds": "8,605"
+  },
+  {
+    "date": "12/14",
+    "percent filled acute beds": 0.786,
+    "total adult beds": "8,677"
+  },
+  {
+    "date": "12/15",
+    "percent filled acute beds": 0.849,
+    "total adult beds": "8,745"
+  },
+  {
+    "date": "12/16",
+    "percent filled acute beds": 0.835,
+    "total adult beds": "8,719"
+  },
+  {
+    "date": "12/17"
+  },
+  {
+    "date": "12/18"
+  },
+  {
+    "date": "12/19"
+  },
+  {
+    "date": "12/20"
+  },
+  {
+    "date": "12/21"
+  },
+  {
+    "date": "12/22"
+  },
+  {
+    "date": "12/23"
+  },
+  {
+    "date": "12/24"
+  },
+  {
+    "date": "12/25"
+  },
+  {
+    "date": "12/26"
+  },
+  {
+    "date": "12/27"
+  },
+  {
+    "date": "12/28"
+  },
+  {
+    "date": "12/29"
+  },
+  {
+    "date": "12/30"
+  },
+  {
+    "date": "12/31"
+  },
+  {
+    "date": "1/1"
   }
 ]

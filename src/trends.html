@@ -8,7 +8,7 @@
     <% } %>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
-      window.case_data = <%= JSON.stringify(grunt.data.csv) %>;
+      window.case_dataTwo = <%= JSON.stringify(grunt.data.json) %>;
     </script>
   </head>
   <body>
@@ -24,14 +24,14 @@
 
             <form id="toggle3">
               <input type="radio" data-type="waCountyCases" id="casesCounty2" name="toggleCounty2" class="radioButton2" value="casesCounty2" checked>
-              <label class="toggle__label label--cases" for="casesCounty2">Confirmed cases</label>
+              <label class="toggle__label label--cases" for="casesCounty2">Cases</label>
               <input type="radio" data-type="waCountyDeaths" id="deathsCounty2" name="toggleCounty2" class="radioButton2" value="deathsCounty2">
               <label class="toggle__label label--deaths" for="deathsCounty2">Deaths</label><br>
             </form>
 
             <div class="CountyTrends" id="barChart"></div>
             <div class="counter">
-              <div class="head"><div class="title cases showMe">Cases by county</div><div class="title deaths">Deaths by county</div><span class="date"></span></div>
+              <div class="head"><div class="title cases showMe">Statewide cases</div><div class="title deaths">Statewide deaths</div><span class="date"></span></div>
               <div class="body">
               </div>
             </div>

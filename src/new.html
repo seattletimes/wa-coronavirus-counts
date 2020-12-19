@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/14ba6787d4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
-      window.case_data = <%= JSON.stringify(grunt.data.csv) %>;
+      window.case_dataTwo = <%= JSON.stringify(grunt.data.json) %>;
     </script>
   </head>
   <body>
@@ -22,14 +22,13 @@
             <p class="note center">Total cases as of 11:59 p.m. on <span id="date"></span>, 2020 | Updated at the end of each day. Deaths not updated on weekends.</p>
             <p class="note center">Use the arrows to see previous days counts.</p>
 
-            <p class="note center">DOH’s method of reporting new cases each day differs from ours, which was today’s total cases minus the
-              previous day’s total cases. The DOH’s report of each day’s new cases may include duplicate test results, results assigned to
-              the wrong county, results that are reported for today but are actually from a previous day, occasional false positive tests, etc.</p>
+
+
 
             <form id="toggle3">
-              <input type="radio" data-type="waCountyCases" id="casesCounty3" name="toggleCounty2" class="radioButton3" value="casesCounty3" checked>
-              <label class="toggle__label label--cases" for="casesCounty3">Confirmed cases</label>
-              <input type="radio" data-type="waCountyDeaths" id="deathsCounty3" name="toggleCounty2" class="radioButton3" value="deathsCounty3">
+              <input type="radio" data-type="Cases" id="casesCounty3" name="toggleCounty2" class="radioButton3" value="casesCounty3" checked>
+              <label class="toggle__label label--cases" for="casesCounty3">Cases</label>
+              <input type="radio" data-type="Deaths" id="deathsCounty3" name="toggleCounty2" class="radioButton3" value="deathsCounty3">
               <label class="toggle__label label--deaths" for="deathsCounty3">Deaths</label><br>
               <div class="avg"><span class="line"></span>14-day rolling average</div>
             </form>
@@ -48,7 +47,7 @@
                   </div>
                 </div>
 
-                <div class="dropdown">
+                <!-- <div class="dropdown">
                   <div class="dropdownMenu">
                     <span>Select a county</span>
                     <span class="dropdownCon">
@@ -62,17 +61,17 @@
                     <% var caseData = grunt.data.csv.countyPop2020;
                       for (let i = 0; i < caseData.length; i++) {
                         var noSpaceCounty = caseData[i].County.replace(/ /g,"_");
-
                     %>
                         <div class="county" data-county='<%= noSpaceCounty %>'><%= caseData[i].County %></div>
                     <% } %>
                   </div>
-                </div>
+                </div> -->
 
 
               <div id="graph"></div>
 
             </div>
+
 
 
             <!-- <div class="note">
