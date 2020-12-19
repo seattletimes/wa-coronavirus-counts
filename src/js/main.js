@@ -8,7 +8,7 @@ const d3 = require("d3");
 
 
 ////CHANGE ME WHEN DAY CHANGES - FOR DAY OF DATA/////
-var day_var = "1216";
+// var day_var = "1216";
 
 //// change me every month ////
 var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1","8/1","9/1","10/1","11/1","12/1"];
@@ -39,9 +39,17 @@ let buckets = {
   deathsPop: [0.1, 2.1, 4.1, 6.1, 8.1]
 }
 
+var day_var = county_counts[county_counts.length - 1];
+day_var = day_var.Date;
+day_var = day_var.split("/");
+
+
+
 var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-var dataMonth = day_var.slice(0, 2);
-var dataDay = day_var.slice(2, 4);
+// var dataMonth = day_var.slice(0, 2);
+// var dataDay = day_var.slice(2, 4);
+var dataMonth = day_var[0];
+var dataDay = day_var[1];
 
 
 dataMonth = parseInt(dataMonth) - 1;
@@ -54,6 +62,7 @@ if($('#countyMapGraphic').length >0 ){
   var countyMapGraphic = document.getElementById("countyMapGraphic");
   var lastest_day = county_counts.length - 1;
       lastest_day = county_counts[lastest_day];
+
 
   var lastest_deaths = county_deaths.length - 1;
       lastest_deaths = county_deaths[lastest_deaths];
