@@ -41,7 +41,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 0
+    "New": 0,
+    "Roll_avg": "",
+    "DeathsTotal": 0
   },
   {
     "Date": "2/29",
@@ -85,7 +87,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 1
+    "New": 1,
+    "Roll_avg": "",
+    "DeathsTotal": 1
   },
   {
     "Date": "3/1",
@@ -129,7 +133,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 1
+    "New": 1,
+    "Roll_avg": "",
+    "DeathsTotal": 2
   },
   {
     "Date": "3/2",
@@ -173,7 +179,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 4
+    "New": 4,
+    "Roll_avg": "",
+    "DeathsTotal": 6
   },
   {
     "Date": "3/3",
@@ -217,7 +225,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 3
+    "New": 3,
+    "Roll_avg": "",
+    "DeathsTotal": 9
   },
   {
     "Date": "3/4",
@@ -261,7 +271,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 1
+    "New": 1,
+    "Roll_avg": "",
+    "DeathsTotal": 10
   },
   {
     "Date": "3/5",
@@ -305,7 +317,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 1
+    "New": 1,
+    "Roll_avg": "",
+    "DeathsTotal": 11
   },
   {
     "Date": "3/6",
@@ -349,7 +363,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 1
+    "New": 1,
+    "Roll_avg": "",
+    "DeathsTotal": 12
   },
   {
     "Date": "3/7",
@@ -393,7 +409,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 4
+    "New": 4,
+    "Roll_avg": "",
+    "DeathsTotal": 16
   },
   {
     "Date": "3/8",
@@ -437,7 +455,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 2
+    "New": 2,
+    "Roll_avg": "",
+    "DeathsTotal": 18
   },
   {
     "Date": "3/9",
@@ -481,7 +501,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 4
+    "New": 4,
+    "Roll_avg": "",
+    "DeathsTotal": 22
   },
   {
     "Date": "3/10",
@@ -525,7 +547,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 2
+    "New": 2,
+    "Roll_avg": "",
+    "DeathsTotal": 24
   },
   {
     "Date": "3/11",
@@ -569,7 +593,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 5
+    "New": 5,
+    "Roll_avg": "",
+    "DeathsTotal": 29
   },
   {
     "Date": "3/12",
@@ -613,7 +639,9 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 2
+    "New": 2,
+    "Roll_avg": "",
+    "DeathsTotal": 31
   },
   {
     "Date": "3/13",
@@ -658,7 +686,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 3
+    "Roll_avg": 3,
+    "DeathsTotal": 37
   },
   {
     "Date": "3/14",
@@ -703,7 +732,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 3,
-    "Roll_avg": 3
+    "Roll_avg": 3,
+    "DeathsTotal": 40
   },
   {
     "Date": "3/15",
@@ -748,7 +778,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 2,
-    "Roll_avg": 3
+    "Roll_avg": 3,
+    "DeathsTotal": 42
   },
   {
     "Date": "3/16",
@@ -793,7 +824,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 3
+    "Roll_avg": 3,
+    "DeathsTotal": 48
   },
   {
     "Date": "3/17",
@@ -838,7 +870,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 7,
-    "Roll_avg": 3
+    "Roll_avg": 3,
+    "DeathsTotal": 55
   },
   {
     "Date": "3/18",
@@ -883,7 +916,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 11,
-    "Roll_avg": 4
+    "Roll_avg": 4,
+    "DeathsTotal": 66
   },
   {
     "Date": "3/19",
@@ -928,7 +962,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 8,
-    "Roll_avg": 5
+    "Roll_avg": 5,
+    "DeathsTotal": 74
   },
   {
     "Date": "3/20",
@@ -973,7 +1008,8 @@
     "Whitman": 0,
     "Unassigned": 6,
     "New": 15,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 89
   },
   {
     "Date": "3/21",
@@ -1018,7 +1054,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 5,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 94
   },
   {
     "Date": "3/22",
@@ -1063,7 +1100,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 1,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 95
   },
   {
     "Date": "3/23",
@@ -1108,7 +1146,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 15,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 110
   },
   {
     "Date": "3/24",
@@ -1153,7 +1192,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 13,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 123
   },
   {
     "Date": "3/25",
@@ -1198,7 +1238,8 @@
     "Whitman": 0,
     "Unassigned": 14,
     "New": 20,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 143
   },
   {
     "Date": "3/26",
@@ -1243,7 +1284,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 4,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 147
   },
   {
     "Date": "3/27",
@@ -1288,7 +1330,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 28,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 175
   },
   {
     "Date": "3/28",
@@ -1333,7 +1376,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 20,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 195
   },
   {
     "Date": "3/29",
@@ -1378,7 +1422,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 0,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 195
   },
   {
     "Date": "3/30",
@@ -1423,7 +1468,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 0,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 195
   },
   {
     "Date": "3/31",
@@ -1468,7 +1514,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 52,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 247
   },
   {
     "Date": "4/1",
@@ -1513,7 +1560,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 15,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 262
   },
   {
     "Date": "4/2",
@@ -1558,7 +1606,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 22,
-    "Roll_avg": 15
+    "Roll_avg": 15,
+    "DeathsTotal": 284
   },
   {
     "Date": "4/3",
@@ -1603,7 +1652,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 26,
-    "Roll_avg": 16
+    "Roll_avg": 16,
+    "DeathsTotal": 310
   },
   {
     "Date": "4/4",
@@ -1648,7 +1698,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 28,
-    "Roll_avg": 17
+    "Roll_avg": 17,
+    "DeathsTotal": 338
   },
   {
     "Date": "4/5",
@@ -1693,7 +1744,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 34,
-    "Roll_avg": 20
+    "Roll_avg": 20,
+    "DeathsTotal": 372
   },
   {
     "Date": "4/6",
@@ -1738,7 +1790,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 22,
-    "Roll_avg": 20
+    "Roll_avg": 20,
+    "DeathsTotal": 394
   },
   {
     "Date": "4/7",
@@ -1783,7 +1836,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 27,
-    "Roll_avg": 21
+    "Roll_avg": 21,
+    "DeathsTotal": 421
   },
   {
     "Date": "4/8",
@@ -1828,7 +1882,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 25,
-    "Roll_avg": 22
+    "Roll_avg": 22,
+    "DeathsTotal": 446
   },
   {
     "Date": "4/9",
@@ -1873,7 +1928,8 @@
     "Whitman": 1,
     "Unassigned": 0,
     "New": 29,
-    "Roll_avg": 23
+    "Roll_avg": 23,
+    "DeathsTotal": 475
   },
   {
     "Date": "4/10",
@@ -1918,7 +1974,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 16,
-    "Roll_avg": 23
+    "Roll_avg": 23,
+    "DeathsTotal": 491
   },
   {
     "Date": "4/11",
@@ -1963,7 +2020,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 17,
-    "Roll_avg": 22
+    "Roll_avg": 22,
+    "DeathsTotal": 508
   },
   {
     "Date": "4/12",
@@ -2008,7 +2066,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 8,
-    "Roll_avg": 23
+    "Roll_avg": 23,
+    "DeathsTotal": 516
   },
   {
     "Date": "4/13",
@@ -2053,7 +2112,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 25,
-    "Roll_avg": 25
+    "Roll_avg": 25,
+    "DeathsTotal": 541
   },
   {
     "Date": "4/14",
@@ -2098,7 +2158,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 26,
-    "Roll_avg": 23
+    "Roll_avg": 23,
+    "DeathsTotal": 567
   },
   {
     "Date": "4/15",
@@ -2143,7 +2204,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 16,
-    "Roll_avg": 23
+    "Roll_avg": 23,
+    "DeathsTotal": 583
   },
   {
     "Date": "4/16",
@@ -2188,7 +2250,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 20,
-    "Roll_avg": 23
+    "Roll_avg": 23,
+    "DeathsTotal": 603
   },
   {
     "Date": "4/17",
@@ -2233,7 +2296,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 21,
-    "Roll_avg": 22
+    "Roll_avg": 22,
+    "DeathsTotal": 624
   },
   {
     "Date": "4/18",
@@ -2278,7 +2342,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 21
+    "Roll_avg": 21,
+    "DeathsTotal": 634
   },
   {
     "Date": "4/19",
@@ -2323,7 +2388,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 18,
-    "Roll_avg": 20
+    "Roll_avg": 20,
+    "DeathsTotal": 652
   },
   {
     "Date": "4/20",
@@ -2368,7 +2434,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 30,
-    "Roll_avg": 21
+    "Roll_avg": 21,
+    "DeathsTotal": 682
   },
   {
     "Date": "4/21",
@@ -2413,7 +2480,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 19
+    "Roll_avg": 19,
+    "DeathsTotal": 692
   },
   {
     "Date": "4/22",
@@ -2458,7 +2526,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 19,
-    "Roll_avg": 19
+    "Roll_avg": 19,
+    "DeathsTotal": 711
   },
   {
     "Date": "4/23",
@@ -2503,7 +2572,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 12,
-    "Roll_avg": 18
+    "Roll_avg": 18,
+    "DeathsTotal": 723
   },
   {
     "Date": "4/24",
@@ -2548,7 +2618,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 15,
-    "Roll_avg": 18
+    "Roll_avg": 18,
+    "DeathsTotal": 738
   },
   {
     "Date": "4/25",
@@ -2593,7 +2664,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 11,
-    "Roll_avg": 17
+    "Roll_avg": 17,
+    "DeathsTotal": 749
   },
   {
     "Date": "4/26",
@@ -2638,7 +2710,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 16,
-    "Roll_avg": 18
+    "Roll_avg": 18,
+    "DeathsTotal": 765
   },
   {
     "Date": "4/27",
@@ -2683,7 +2756,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 21,
-    "Roll_avg": 18
+    "Roll_avg": 18,
+    "DeathsTotal": 786
   },
   {
     "Date": "4/28",
@@ -2728,7 +2802,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 15,
-    "Roll_avg": 17
+    "Roll_avg": 17,
+    "DeathsTotal": 801
   },
   {
     "Date": "4/29",
@@ -2773,7 +2848,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 13,
-    "Roll_avg": 17
+    "Roll_avg": 17,
+    "DeathsTotal": 814
   },
   {
     "Date": "4/30",
@@ -2818,7 +2894,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 16
+    "Roll_avg": 16,
+    "DeathsTotal": 824
   },
   {
     "Date": "5/1",
@@ -2863,7 +2940,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 15
+    "Roll_avg": 15,
+    "DeathsTotal": 830
   },
   {
     "Date": "5/2",
@@ -2908,7 +2986,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 4,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 834
   },
   {
     "Date": "5/3",
@@ -2953,7 +3032,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 7,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 841
   },
   {
     "Date": "5/4",
@@ -2998,7 +3078,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 21,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 862
   },
   {
     "Date": "5/5",
@@ -3043,7 +3124,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 8,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 870
   },
   {
     "Date": "5/6",
@@ -3088,7 +3170,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 21,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 891
   },
   {
     "Date": "5/7",
@@ -3133,7 +3216,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 14,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 905
   },
   {
     "Date": "5/8",
@@ -3178,7 +3262,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 16,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 921
   },
   {
     "Date": "5/9",
@@ -3223,7 +3308,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 931
   },
   {
     "Date": "5/10",
@@ -3268,7 +3354,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 14,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 945
   },
   {
     "Date": "5/11",
@@ -3313,7 +3400,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 17,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 962
   },
   {
     "Date": "5/12",
@@ -3358,7 +3446,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 13,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 975
   },
   {
     "Date": "5/13",
@@ -3403,7 +3492,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 8,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 983
   },
   {
     "Date": "5/14",
@@ -3448,7 +3538,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 9,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 992
   },
   {
     "Date": "5/15",
@@ -3493,7 +3584,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 8,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1000
   },
   {
     "Date": "5/16",
@@ -3538,7 +3630,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 1,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1001
   },
   {
     "Date": "5/17",
@@ -3583,7 +3676,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 1,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1002
   },
   {
     "Date": "5/18",
@@ -3628,7 +3722,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 29,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1031
   },
   {
     "Date": "5/19",
@@ -3673,7 +3768,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1037
   },
   {
     "Date": "5/20",
@@ -3718,7 +3814,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 7,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 1044
   },
   {
     "Date": "5/21",
@@ -3763,7 +3860,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 1050
   },
   {
     "Date": "5/22",
@@ -3808,7 +3906,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 5,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 1055
   },
   {
     "Date": "5/23",
@@ -3853,7 +3952,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1061
   },
   {
     "Date": "5/24",
@@ -3898,7 +3998,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 9,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1070
   },
   {
     "Date": "5/25",
@@ -3943,7 +4044,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 8,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1078
   },
   {
     "Date": "5/26",
@@ -3988,7 +4090,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 17,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1095
   },
   {
     "Date": "5/27",
@@ -4033,7 +4136,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 11,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1106
   },
   {
     "Date": "5/28",
@@ -4078,7 +4182,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 5,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1111
   },
   {
     "Date": "5/29",
@@ -4123,7 +4228,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 7,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1118
   },
   {
     "Date": "5/30",
@@ -4168,7 +4274,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 0,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1118
   },
   {
     "Date": "5/31",
@@ -4213,7 +4320,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 6,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1124
   },
   {
     "Date": "6/1",
@@ -4258,7 +4366,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 5,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1129
   },
   {
     "Date": "6/2",
@@ -4303,7 +4412,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1135
   },
   {
     "Date": "6/3",
@@ -4348,7 +4458,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 3,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1138
   },
   {
     "Date": "6/4",
@@ -4393,7 +4504,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 11,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1149
   },
   {
     "Date": "6/5",
@@ -4438,7 +4550,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 4,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1153
   },
   {
     "Date": "6/6",
@@ -4483,7 +4596,8 @@
     "Whitman": 0,
     "Unassigned": 2,
     "New": 6,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1159
   },
   {
     "Date": "6/7",
@@ -4528,7 +4642,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 2,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1161
   },
   {
     "Date": "6/8",
@@ -4573,7 +4688,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 15,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1176
   },
   {
     "Date": "6/9",
@@ -4618,7 +4734,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 14,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1190
   },
   {
     "Date": "6/10",
@@ -4663,7 +4780,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 4,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1194
   },
   {
     "Date": "6/11",
@@ -4708,7 +4826,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1204
   },
   {
     "Date": "6/12",
@@ -4753,7 +4872,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 9,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1213
   },
   {
     "Date": "6/13",
@@ -4798,7 +4918,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 4,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1217
   },
   {
     "Date": "6/14",
@@ -4843,7 +4964,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 4,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1221
   },
   {
     "Date": "6/15",
@@ -4888,7 +5010,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1231
   },
   {
     "Date": "6/16",
@@ -4933,7 +5056,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": -5,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1226
   },
   {
     "Date": "6/17",
@@ -4978,7 +5102,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 19,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1245
   },
   {
     "Date": "6/18",
@@ -5023,7 +5148,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1255
   },
   {
     "Date": "6/19",
@@ -5068,7 +5194,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1265
   },
   {
     "Date": "6/20",
@@ -5113,7 +5240,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 5,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1270
   },
   {
     "Date": "6/21",
@@ -5158,7 +5286,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1276
   },
   {
     "Date": "6/22",
@@ -5203,7 +5332,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 8,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1284
   },
   {
     "Date": "6/23",
@@ -5248,7 +5378,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 9,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1293
   },
   {
     "Date": "6/24",
@@ -5293,7 +5424,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 7,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1300
   },
   {
     "Date": "6/25",
@@ -5338,7 +5470,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 4,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1304
   },
   {
     "Date": "6/26",
@@ -5383,7 +5516,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1310
   },
   {
     "Date": "6/27",
@@ -5428,7 +5562,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 0,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1310
   },
   {
     "Date": "6/28",
@@ -5473,7 +5608,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1320
   },
   {
     "Date": "6/29",
@@ -5518,7 +5654,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 12,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1332
   },
   {
     "Date": "6/30",
@@ -5563,7 +5700,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 7,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1339
   },
   {
     "Date": "7/1",
@@ -5608,7 +5746,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 3,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1342
   },
   {
     "Date": "7/2",
@@ -5653,7 +5792,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1352
   },
   {
     "Date": "7/3",
@@ -5698,7 +5838,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 2,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1354
   },
   {
     "Date": "7/4",
@@ -5743,7 +5884,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 5,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1359
   },
   {
     "Date": "7/5",
@@ -5788,7 +5930,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 11,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1370
   },
   {
     "Date": "7/6",
@@ -5833,7 +5976,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 14,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1384
   },
   {
     "Date": "7/7",
@@ -5878,7 +6022,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1394
   },
   {
     "Date": "7/8",
@@ -5923,7 +6068,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 15,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1409
   },
   {
     "Date": "7/9",
@@ -5968,7 +6114,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 15,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1424
   },
   {
     "Date": "7/10",
@@ -6013,7 +6160,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 0,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1424
   },
   {
     "Date": "7/11",
@@ -6058,7 +6206,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 14,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1438
   },
   {
     "Date": "7/12",
@@ -6103,7 +6252,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": -39,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1399
   },
   {
     "Date": "7/13",
@@ -6148,7 +6298,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 5,
-    "Roll_avg": 5
+    "Roll_avg": 5,
+    "DeathsTotal": 1404
   },
   {
     "Date": "7/14",
@@ -6193,7 +6344,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 17,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1421
   },
   {
     "Date": "7/15",
@@ -6238,7 +6390,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1427
   },
   {
     "Date": "7/16",
@@ -6283,7 +6436,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 7,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1434
   },
   {
     "Date": "7/17",
@@ -6328,7 +6482,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 10,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1444
   },
   {
     "Date": "7/18",
@@ -6373,7 +6528,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 3,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1447
   },
   {
     "Date": "7/19",
@@ -6418,7 +6574,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 6,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1453
   },
   {
     "Date": "7/20",
@@ -6463,7 +6620,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 12,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1465
   },
   {
     "Date": "7/21",
@@ -6508,7 +6666,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 3,
-    "Roll_avg": 5
+    "Roll_avg": 5,
+    "DeathsTotal": 1468
   },
   {
     "Date": "7/22",
@@ -6553,7 +6712,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 14,
-    "Roll_avg": 5
+    "Roll_avg": 5,
+    "DeathsTotal": 1482
   },
   {
     "Date": "7/23",
@@ -6598,7 +6758,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 13,
-    "Roll_avg": 5
+    "Roll_avg": 5,
+    "DeathsTotal": 1495
   },
   {
     "Date": "7/24",
@@ -6643,7 +6804,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": -1,
-    "Roll_avg": 5
+    "Roll_avg": 5,
+    "DeathsTotal": 1494
   },
   {
     "Date": "7/25",
@@ -6688,7 +6850,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 7,
-    "Roll_avg": 5
+    "Roll_avg": 5,
+    "DeathsTotal": 1501
   },
   {
     "Date": "7/26",
@@ -6733,7 +6896,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 17,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1518
   },
   {
     "Date": "7/27",
@@ -6778,7 +6942,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 30,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 1548
   },
   {
     "Date": "7/28",
@@ -6823,7 +6988,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 7,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 1555
   },
   {
     "Date": "7/29",
@@ -6868,7 +7034,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 9,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 1564
   },
   {
     "Date": "7/30",
@@ -6913,7 +7080,8 @@
     "Whitman": 0,
     "Unassigned": 0,
     "New": 0,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1564
   },
   {
     "Date": "7/31",
@@ -6958,7 +7126,8 @@
     "Whitman": 0,
     "Unassigned": 2,
     "New": 28,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 1592
   },
   {
     "Date": "8/1",
@@ -7003,7 +7172,8 @@
     "Whitman": 0,
     "Unassigned": 2,
     "New": 4,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 1596
   },
   {
     "Date": "8/2",
@@ -7048,7 +7218,8 @@
     "Whitman": 0,
     "Unassigned": 1,
     "New": 4,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 1600
   },
   {
     "Date": "8/3",
@@ -7093,7 +7264,8 @@
     "Whitman": 0,
     "Unassigned": 3,
     "New": 19,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 1619
   },
   {
     "Date": "8/4",
@@ -7138,7 +7310,8 @@
     "Whitman": 0,
     "Unassigned": 3,
     "New": 5,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 1624
   },
   {
     "Date": "8/5",
@@ -7183,7 +7356,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 29,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1653
   },
   {
     "Date": "8/6",
@@ -7228,7 +7402,8 @@
     "Whitman": 0,
     "Unassigned": 3,
     "New": 19,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 1672
   },
   {
     "Date": "8/7",
@@ -7273,7 +7448,8 @@
     "Whitman": 0,
     "Unassigned": 2,
     "New": 16,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 1688
   },
   {
     "Date": "8/8",
@@ -7318,7 +7494,8 @@
     "Whitman": 0,
     "Unassigned": 2,
     "New": 0,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 1688
   },
   {
     "Date": "8/9",
@@ -7363,7 +7540,8 @@
     "Whitman": 0,
     "Unassigned": 2,
     "New": 9,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 1697
   },
   {
     "Date": "8/10",
@@ -7408,7 +7586,8 @@
     "Whitman": 0,
     "Unassigned": 2,
     "New": 19,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1716
   },
   {
     "Date": "8/11",
@@ -7453,7 +7632,8 @@
     "Whitman": 0,
     "Unassigned": 2,
     "New": 8,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1724
   },
   {
     "Date": "8/12",
@@ -7498,7 +7678,8 @@
     "Whitman": 0,
     "Unassigned": 2,
     "New": 12,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1736
   },
   {
     "Date": "8/13",
@@ -7543,7 +7724,8 @@
     "Whitman": 0,
     "Unassigned": 2,
     "New": 19,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 1755
   },
   {
     "Date": "8/14",
@@ -7588,7 +7770,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 11,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1766
   },
   {
     "Date": "8/15",
@@ -7633,7 +7816,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 15,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 1781
   },
   {
     "Date": "8/16",
@@ -7678,7 +7862,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 4,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 1785
   },
   {
     "Date": "8/17",
@@ -7723,7 +7908,8 @@
     "Whitman": 0,
     "Unassigned": 3,
     "New": 23,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 1808
   },
   {
     "Date": "8/18",
@@ -7768,7 +7954,8 @@
     "Whitman": 0,
     "Unassigned": 3,
     "New": 14,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 1822
   },
   {
     "Date": "8/19",
@@ -7813,7 +8000,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 15,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 1837
   },
   {
     "Date": "8/20",
@@ -7858,7 +8046,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 13,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 1850
   },
   {
     "Date": "8/21",
@@ -7903,7 +8092,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 7,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1857
   },
   {
     "Date": "8/22",
@@ -7948,7 +8138,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 6,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 1863
   },
   {
     "Date": "8/23",
@@ -7993,7 +8184,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 4,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 1867
   },
   {
     "Date": "8/24",
@@ -8038,7 +8230,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 9,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 1876
   },
   {
     "Date": "8/25",
@@ -8083,7 +8276,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 4,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 1880
   },
   {
     "Date": "8/26",
@@ -8128,7 +8322,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 10,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 1890
   },
   {
     "Date": "8/27",
@@ -8173,7 +8368,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 15,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 1905
   },
   {
     "Date": "8/28",
@@ -8218,7 +8414,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 1905
   },
   {
     "Date": "8/29",
@@ -8263,7 +8460,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1905
   },
   {
     "Date": "8/30",
@@ -8308,7 +8506,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 10,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1915
   },
   {
     "Date": "8/31",
@@ -8353,7 +8552,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 16,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 1931
   },
   {
     "Date": "9/1",
@@ -8398,7 +8598,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 4,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1935
   },
   {
     "Date": "9/2",
@@ -8443,7 +8644,8 @@
     "Whitman": 0,
     "Unassigned": 6,
     "New": 10,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 1945
   },
   {
     "Date": "9/3",
@@ -8488,7 +8690,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 8,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1953
   },
   {
     "Date": "9/4",
@@ -8533,7 +8736,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1953
   },
   {
     "Date": "9/5",
@@ -8578,7 +8782,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1953
   },
   {
     "Date": "9/6",
@@ -8623,7 +8828,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1953
   },
   {
     "Date": "9/7",
@@ -8668,7 +8874,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1953
   },
   {
     "Date": "9/8",
@@ -8713,7 +8920,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 25,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1978
   },
   {
     "Date": "9/9",
@@ -8758,7 +8966,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 7,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 1985
   },
   {
     "Date": "9/10",
@@ -8803,7 +9012,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 6,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1991
   },
   {
     "Date": "9/11",
@@ -8848,7 +9058,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1991
   },
   {
     "Date": "9/12",
@@ -8893,7 +9104,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 1991
   },
   {
     "Date": "9/13",
@@ -8938,7 +9150,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 15,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2006
   },
   {
     "Date": "9/14",
@@ -8983,7 +9196,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 9,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 2015
   },
   {
     "Date": "9/15",
@@ -9028,7 +9242,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 5,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 2020
   },
   {
     "Date": "9/16",
@@ -9073,7 +9288,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 11,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 2031
   },
   {
     "Date": "9/17",
@@ -9118,7 +9334,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 6,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 2037
   },
   {
     "Date": "9/18",
@@ -9163,7 +9380,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 0,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 2037
   },
   {
     "Date": "9/19",
@@ -9208,7 +9426,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 0,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 2037
   },
   {
     "Date": "9/20",
@@ -9253,7 +9472,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 18,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2055
   },
   {
     "Date": "9/21",
@@ -9298,7 +9518,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 15,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2070
   },
   {
     "Date": "9/22",
@@ -9343,7 +9564,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 11,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2081
   },
   {
     "Date": "9/23",
@@ -9388,7 +9610,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": -1,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2080
   },
   {
     "Date": "9/24",
@@ -9433,7 +9656,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 20,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2100
   },
   {
     "Date": "9/25",
@@ -9478,7 +9702,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2100
   },
   {
     "Date": "9/26",
@@ -9523,7 +9748,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2100
   },
   {
     "Date": "9/27",
@@ -9568,7 +9794,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2100
   },
   {
     "Date": "9/28",
@@ -9613,7 +9840,8 @@
     "Whitman": 0,
     "Unassigned": 3,
     "New": 24,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2124
   },
   {
     "Date": "9/29",
@@ -9658,7 +9886,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 2,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2126
   },
   {
     "Date": "9/30",
@@ -9703,7 +9932,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 6,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2132
   },
   {
     "Date": "10/1",
@@ -9748,7 +9978,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 11,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2143
   },
   {
     "Date": "10/2",
@@ -9793,7 +10024,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2142
   },
   {
     "Date": "10/3",
@@ -9838,7 +10070,8 @@
     "Whitman": 0,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2142
   },
   {
     "Date": "10/4",
@@ -9883,7 +10116,8 @@
     "Whitman": 0,
     "Unassigned": 5,
     "New": 16,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2158
   },
   {
     "Date": "10/5",
@@ -9928,7 +10162,8 @@
     "Whitman": 1,
     "Unassigned": 4,
     "New": 7,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2165
   },
   {
     "Date": "10/6",
@@ -9973,7 +10208,8 @@
     "Whitman": 1,
     "Unassigned": 3,
     "New": 12,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2177
   },
   {
     "Date": "10/7",
@@ -10018,7 +10254,8 @@
     "Whitman": 1,
     "Unassigned": 3,
     "New": 6,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2183
   },
   {
     "Date": "10/8",
@@ -10063,7 +10300,8 @@
     "Whitman": 1,
     "Unassigned": 3,
     "New": 7,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2190
   },
   {
     "Date": "10/9",
@@ -10108,7 +10346,8 @@
     "Whitman": 1,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2190
   },
   {
     "Date": "10/10",
@@ -10153,7 +10392,8 @@
     "Whitman": 1,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2190
   },
   {
     "Date": "10/11",
@@ -10198,7 +10438,8 @@
     "Whitman": 1,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2190
   },
   {
     "Date": "10/12",
@@ -10243,7 +10484,8 @@
     "Whitman": 1,
     "Unassigned": 4,
     "New": 21,
-    "Roll_avg": 6
+    "Roll_avg": 6,
+    "DeathsTotal": 2211
   },
   {
     "Date": "10/13",
@@ -10288,7 +10530,8 @@
     "Whitman": 3,
     "Unassigned": 4,
     "New": 10,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2221
   },
   {
     "Date": "10/14",
@@ -10333,7 +10576,8 @@
     "Whitman": 3,
     "Unassigned": 4,
     "New": 11,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2232
   },
   {
     "Date": "10/15",
@@ -10378,7 +10622,8 @@
     "Whitman": 3,
     "Unassigned": 5,
     "New": 7,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2239
   },
   {
     "Date": "10/16",
@@ -10423,7 +10668,8 @@
     "Whitman": 3,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2239
   },
   {
     "Date": "10/17",
@@ -10468,7 +10714,8 @@
     "Whitman": 3,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2239
   },
   {
     "Date": "10/18",
@@ -10513,7 +10760,8 @@
     "Whitman": 3,
     "Unassigned": 4,
     "New": 19,
-    "Roll_avg": 7
+    "Roll_avg": 7,
+    "DeathsTotal": 2258
   },
   {
     "Date": "10/19",
@@ -10558,7 +10806,8 @@
     "Whitman": 9,
     "Unassigned": 3,
     "New": 24,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2282
   },
   {
     "Date": "10/20",
@@ -10603,7 +10852,8 @@
     "Whitman": 10,
     "Unassigned": 3,
     "New": 4,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2286
   },
   {
     "Date": "10/21",
@@ -10648,7 +10898,8 @@
     "Whitman": 11,
     "Unassigned": 3,
     "New": 3,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2289
   },
   {
     "Date": "10/22",
@@ -10693,7 +10944,8 @@
     "Whitman": 12,
     "Unassigned": 3,
     "New": 7,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2296
   },
   {
     "Date": "10/23",
@@ -10738,7 +10990,8 @@
     "Whitman": 12,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2296
   },
   {
     "Date": "10/24",
@@ -10783,7 +11036,8 @@
     "Whitman": 12,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2296
   },
   {
     "Date": "10/25",
@@ -10828,7 +11082,8 @@
     "Whitman": 13,
     "Unassigned": 3,
     "New": 25,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 2321
   },
   {
     "Date": "10/26",
@@ -10873,7 +11128,8 @@
     "Whitman": 14,
     "Unassigned": 3,
     "New": 16,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 2337
   },
   {
     "Date": "10/27",
@@ -10918,7 +11174,8 @@
     "Whitman": 15,
     "Unassigned": 3,
     "New": 16,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 2353
   },
   {
     "Date": "10/28",
@@ -10963,7 +11220,8 @@
     "Whitman": 18,
     "Unassigned": 3,
     "New": 6,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 2359
   },
   {
     "Date": "10/29",
@@ -11008,7 +11266,8 @@
     "Whitman": 18,
     "Unassigned": 3,
     "New": 7,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 2366
   },
   {
     "Date": "10/30",
@@ -11053,7 +11312,8 @@
     "Whitman": 18,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 2366
   },
   {
     "Date": "10/31",
@@ -11098,7 +11358,8 @@
     "Whitman": 18,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 2366
   },
   {
     "Date": "11/1",
@@ -11143,7 +11404,8 @@
     "Whitman": 18,
     "Unassigned": 3,
     "New": 12,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 2378
   },
   {
     "Date": "11/2",
@@ -11188,7 +11450,8 @@
     "Whitman": 20,
     "Unassigned": 3,
     "New": 22,
-    "Roll_avg": 8
+    "Roll_avg": 8,
+    "DeathsTotal": 2400
   },
   {
     "Date": "11/3",
@@ -11233,7 +11496,8 @@
     "Whitman": 20,
     "Unassigned": 3,
     "New": 16,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 2416
   },
   {
     "Date": "11/4",
@@ -11278,7 +11542,8 @@
     "Whitman": 21,
     "Unassigned": 3,
     "New": 15,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 2431
   },
   {
     "Date": "11/5",
@@ -11323,7 +11588,8 @@
     "Whitman": 21,
     "Unassigned": 3,
     "New": 8,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 2439
   },
   {
     "Date": "11/6",
@@ -11368,7 +11634,8 @@
     "Whitman": 21,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 2439
   },
   {
     "Date": "11/7",
@@ -11413,7 +11680,8 @@
     "Whitman": 21,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 2439
   },
   {
     "Date": "11/8",
@@ -11458,7 +11726,8 @@
     "Whitman": 21,
     "Unassigned": 3,
     "New": 21,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 2460
   },
   {
     "Date": "11/9",
@@ -11503,7 +11772,8 @@
     "Whitman": 22,
     "Unassigned": 3,
     "New": 22,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 2482
   },
   {
     "Date": "11/10",
@@ -11548,7 +11818,8 @@
     "Whitman": 22,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 9
+    "Roll_avg": 9,
+    "DeathsTotal": 2482
   },
   {
     "Date": "11/11",
@@ -11593,7 +11864,8 @@
     "Whitman": 23,
     "Unassigned": 3,
     "New": 25,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 2507
   },
   {
     "Date": "11/12",
@@ -11638,7 +11910,8 @@
     "Whitman": 23,
     "Unassigned": 3,
     "New": 12,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 2519
   },
   {
     "Date": "11/13",
@@ -11683,7 +11956,8 @@
     "Whitman": 23,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 2519
   },
   {
     "Date": "11/14",
@@ -11728,7 +12002,8 @@
     "Whitman": 23,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 2519
   },
   {
     "Date": "11/15",
@@ -11773,7 +12048,8 @@
     "Whitman": 23,
     "Unassigned": 3,
     "New": 29,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 2548
   },
   {
     "Date": "11/16",
@@ -11818,7 +12094,8 @@
     "Whitman": 23,
     "Unassigned": 3,
     "New": 23,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 2571
   },
   {
     "Date": "11/17",
@@ -11863,7 +12140,8 @@
     "Whitman": 23,
     "Unassigned": 3,
     "New": 21,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 2592
   },
   {
     "Date": "11/18",
@@ -11908,7 +12186,8 @@
     "Whitman": 23,
     "Unassigned": 3,
     "New": 11,
-    "Roll_avg": 12
+    "Roll_avg": 12,
+    "DeathsTotal": 2603
   },
   {
     "Date": "11/19",
@@ -11953,7 +12232,8 @@
     "Whitman": 23,
     "Unassigned": 4,
     "New": 16,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 2619
   },
   {
     "Date": "11/20",
@@ -11998,7 +12278,8 @@
     "Whitman": 23,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 2619
   },
   {
     "Date": "11/21",
@@ -12043,7 +12324,8 @@
     "Whitman": 23,
     "Unassigned": 4,
     "New": 0,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 2619
   },
   {
     "Date": "11/22",
@@ -12088,7 +12370,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 36,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 2655
   },
   {
     "Date": "11/23",
@@ -12133,7 +12416,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 35,
-    "Roll_avg": 15
+    "Roll_avg": 15,
+    "DeathsTotal": 2690
   },
   {
     "Date": "11/24",
@@ -12178,7 +12462,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 14,
-    "Roll_avg": 16
+    "Roll_avg": 16,
+    "DeathsTotal": 2704
   },
   {
     "Date": "11/25",
@@ -12223,7 +12508,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 2704
   },
   {
     "Date": "11/26",
@@ -12268,7 +12554,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": -1,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 2703
   },
   {
     "Date": "11/27",
@@ -12313,7 +12600,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 2703
   },
   {
     "Date": "11/28",
@@ -12358,7 +12646,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 2703
   },
   {
     "Date": "11/29",
@@ -12403,7 +12692,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 71,
-    "Roll_avg": 16
+    "Roll_avg": 16,
+    "DeathsTotal": 2774
   },
   {
     "Date": "11/30",
@@ -12448,7 +12738,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 31,
-    "Roll_avg": 17
+    "Roll_avg": 17,
+    "DeathsTotal": 2805
   },
   {
     "Date": "12/1",
@@ -12493,7 +12784,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 45,
-    "Roll_avg": 18
+    "Roll_avg": 18,
+    "DeathsTotal": 2850
   },
   {
     "Date": "12/2",
@@ -12538,7 +12830,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 50,
-    "Roll_avg": 21
+    "Roll_avg": 21,
+    "DeathsTotal": 2900
   },
   {
     "Date": "12/3",
@@ -12583,7 +12876,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 25,
-    "Roll_avg": 22
+    "Roll_avg": 22,
+    "DeathsTotal": 2925
   },
   {
     "Date": "12/4",
@@ -12628,7 +12922,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 22
+    "Roll_avg": 22,
+    "DeathsTotal": 2925
   },
   {
     "Date": "12/5",
@@ -12673,7 +12968,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 22
+    "Roll_avg": 22,
+    "DeathsTotal": 2925
   },
   {
     "Date": "12/6",
@@ -12718,7 +13014,8 @@
     "Whitman": 24,
     "Unassigned": 3,
     "New": 16,
-    "Roll_avg": 20
+    "Roll_avg": 20,
+    "DeathsTotal": 2941
   },
   {
     "Date": "12/7",
@@ -12763,7 +13060,8 @@
     "Whitman": 24,
     "Unassigned": 4,
     "New": 26,
-    "Roll_avg": 20
+    "Roll_avg": 20,
+    "DeathsTotal": 2967
   },
   {
     "Date": "12/8",
@@ -12808,7 +13106,8 @@
     "Whitman": 24,
     "Unassigned": 7,
     "New": 49,
-    "Roll_avg": 22
+    "Roll_avg": 22,
+    "DeathsTotal": 3016
   },
   {
     "Date": "12/9",
@@ -12853,7 +13152,8 @@
     "Whitman": 25,
     "Unassigned": 4,
     "New": -166,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 2850
   },
   {
     "Date": "12/10",
@@ -12898,7 +13198,8 @@
     "Whitman": 25,
     "Unassigned": 3,
     "New": 29,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 2879
   },
   {
     "Date": "12/11",
@@ -12943,7 +13244,8 @@
     "Whitman": 25,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 2879
   },
   {
     "Date": "12/12",
@@ -12988,7 +13290,8 @@
     "Whitman": 25,
     "Unassigned": 3,
     "New": 0,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 2879
   },
   {
     "Date": "12/13",
@@ -13033,7 +13336,8 @@
     "Whitman": 25,
     "Unassigned": 3,
     "New": 39,
-    "Roll_avg": 10
+    "Roll_avg": 10,
+    "DeathsTotal": 2918
   },
   {
     "Date": "12/14",
@@ -13078,7 +13382,8 @@
     "Whitman": 25,
     "Unassigned": 3,
     "New": 35,
-    "Roll_avg": 11
+    "Roll_avg": 11,
+    "DeathsTotal": 2953
   },
   {
     "Date": "12/15",
@@ -13123,7 +13428,8 @@
     "Whitman": 26,
     "Unassigned": 3,
     "New": 89,
-    "Roll_avg": 14
+    "Roll_avg": 14,
+    "DeathsTotal": 3042
   },
   {
     "Date": "12/16",
@@ -13168,7 +13474,8 @@
     "Whitman": 25,
     "Unassigned": 3,
     "New": 75,
-    "Roll_avg": 16
+    "Roll_avg": 16,
+    "DeathsTotal": 3117
   },
   {
     "Date": "12/17",
@@ -13213,6 +13520,283 @@
     "Whitman": 25,
     "Unassigned": 3,
     "New": -13,
-    "Roll_avg": 13
+    "Roll_avg": 13,
+    "DeathsTotal": 3104
+  },
+  {
+    "Date": "12/18",
+    "King": 956,
+    "Pierce": 305,
+    "Snohomish": 338,
+    "Yakima": 305,
+    "Adams": 16,
+    "Asotin": 16,
+    "Benton": 153,
+    "Chelan": 33,
+    "Clallam": 4,
+    "Clark": 136,
+    "Columbia": 4,
+    "Cowlitz": 19,
+    "Douglas": 14,
+    "Ferry": 1,
+    "Franklin": 76,
+    "Garfield": 1,
+    "Grant": 40,
+    "Grays_Harbor": 20,
+    "Island": 21,
+    "Jefferson": 1,
+    "Kitsap": 33,
+    "Kittitas": 23,
+    "Klickitat": 3,
+    "Lewis": 23,
+    "Lincoln": 4,
+    "Mason": 13,
+    "Okanogan": 26,
+    "Pacific": 3,
+    "Pend_Oreille": 4,
+    "San_Juan": 0,
+    "Skagit": 33,
+    "Skamania": 1,
+    "Spokane": 307,
+    "Stevens": 12,
+    "Thurston": 50,
+    "Wahkiakum": 0,
+    "Walla_Walla": 30,
+    "Whatcom": 52,
+    "Whitman": 25,
+    "Unassigned": 3,
+    "New": 0,
+    "Roll_avg": 13,
+    "DeathsTotal": 3104
+  },
+  {
+    "Date": "12/19",
+    "King": 956,
+    "Pierce": 305,
+    "Snohomish": 338,
+    "Yakima": 305,
+    "Adams": 16,
+    "Asotin": 16,
+    "Benton": 153,
+    "Chelan": 33,
+    "Clallam": 4,
+    "Clark": 136,
+    "Columbia": 4,
+    "Cowlitz": 19,
+    "Douglas": 14,
+    "Ferry": 1,
+    "Franklin": 76,
+    "Garfield": 1,
+    "Grant": 40,
+    "Grays_Harbor": 20,
+    "Island": 21,
+    "Jefferson": 1,
+    "Kitsap": 33,
+    "Kittitas": 23,
+    "Klickitat": 3,
+    "Lewis": 23,
+    "Lincoln": 4,
+    "Mason": 13,
+    "Okanogan": 26,
+    "Pacific": 3,
+    "Pend_Oreille": 4,
+    "San_Juan": 0,
+    "Skagit": 33,
+    "Skamania": 1,
+    "Spokane": 307,
+    "Stevens": 12,
+    "Thurston": 50,
+    "Wahkiakum": 0,
+    "Walla_Walla": 30,
+    "Whatcom": 52,
+    "Whitman": 25,
+    "Unassigned": 3,
+    "New": 0,
+    "Roll_avg": 13,
+    "DeathsTotal": 3104
+  },
+  {
+    "Date": "12/20",
+    "King": 956,
+    "Pierce": 305,
+    "Snohomish": 340,
+    "Yakima": 305,
+    "Adams": 16,
+    "Asotin": 16,
+    "Benton": 153,
+    "Chelan": 33,
+    "Clallam": 4,
+    "Clark": 136,
+    "Columbia": 4,
+    "Cowlitz": 19,
+    "Douglas": 14,
+    "Ferry": 1,
+    "Franklin": 76,
+    "Garfield": 1,
+    "Grant": 40,
+    "Grays_Harbor": 20,
+    "Island": 21,
+    "Jefferson": 1,
+    "Kitsap": 33,
+    "Kittitas": 23,
+    "Klickitat": 3,
+    "Lewis": 23,
+    "Lincoln": 4,
+    "Mason": 13,
+    "Okanogan": 26,
+    "Pacific": 3,
+    "Pend_Oreille": 4,
+    "San_Juan": 0,
+    "Skagit": 33,
+    "Skamania": 1,
+    "Spokane": 307,
+    "Stevens": 12,
+    "Thurston": 50,
+    "Wahkiakum": 0,
+    "Walla_Walla": 30,
+    "Whatcom": 52,
+    "Whitman": 25,
+    "Unassigned": 3,
+    "New": 0,
+    "Roll_avg": 13,
+    "DeathsTotal": 3106
+  },
+  {
+    "Date": "12/21",
+    "King": 964,
+    "Pierce": 308,
+    "Snohomish": 343,
+    "Yakima": 305,
+    "Adams": 16,
+    "Asotin": 16,
+    "Benton": 154,
+    "Chelan": 34,
+    "Clallam": 4,
+    "Clark": 137,
+    "Columbia": 4,
+    "Cowlitz": 21,
+    "Douglas": 14,
+    "Ferry": 1,
+    "Franklin": 77,
+    "Garfield": 1,
+    "Grant": 40,
+    "Grays_Harbor": 20,
+    "Island": 21,
+    "Jefferson": 1,
+    "Kitsap": 34,
+    "Kittitas": 23,
+    "Klickitat": 3,
+    "Lewis": 23,
+    "Lincoln": 4,
+    "Mason": 13,
+    "Okanogan": 27,
+    "Pacific": 3,
+    "Pend_Oreille": 4,
+    "San_Juan": 0,
+    "Skagit": 33,
+    "Skamania": 1,
+    "Spokane": 309,
+    "Stevens": 13,
+    "Thurston": 50,
+    "Wahkiakum": 0,
+    "Walla_Walla": 31,
+    "Whatcom": 52,
+    "Whitman": 24,
+    "Unassigned": 3,
+    "New": 0,
+    "Roll_avg": 13,
+    "DeathsTotal": 3131
+  },
+  {
+    "Date": "12/22",
+    "King": 974,
+    "Pierce": 310,
+    "Snohomish": 347,
+    "Yakima": 309,
+    "Adams": 16,
+    "Asotin": 16,
+    "Benton": 156,
+    "Chelan": 34,
+    "Clallam": 4,
+    "Clark": 138,
+    "Columbia": 4,
+    "Cowlitz": 21,
+    "Douglas": 14,
+    "Ferry": 1,
+    "Franklin": 78,
+    "Garfield": 1,
+    "Grant": 40,
+    "Grays_Harbor": 20,
+    "Island": 21,
+    "Jefferson": 1,
+    "Kitsap": 34,
+    "Kittitas": 23,
+    "Klickitat": 3,
+    "Lewis": 23,
+    "Lincoln": 4,
+    "Mason": 13,
+    "Okanogan": 27,
+    "Pacific": 3,
+    "Pend_Oreille": 4,
+    "San_Juan": 0,
+    "Skagit": 33,
+    "Skamania": 1,
+    "Spokane": 312,
+    "Stevens": 14,
+    "Thurston": 52,
+    "Wahkiakum": 0,
+    "Walla_Walla": 31,
+    "Whatcom": 52,
+    "Whitman": 25,
+    "Unassigned": 3,
+    "New": 0,
+    "Roll_avg": 13,
+    "DeathsTotal": 3162
+  },
+  {
+    "Date": "12/23",
+    "King": 976,
+    "Pierce": 315,
+    "Snohomish": 347,
+    "Yakima": 310,
+    "Adams": 16,
+    "Asotin": 16,
+    "Benton": 156,
+    "Chelan": 34,
+    "Clallam": 4,
+    "Clark": 138,
+    "Columbia": 4,
+    "Cowlitz": 22,
+    "Douglas": 14,
+    "Ferry": 1,
+    "Franklin": 79,
+    "Garfield": 1,
+    "Grant": 40,
+    "Grays_Harbor": 20,
+    "Island": 21,
+    "Jefferson": 1,
+    "Kitsap": 35,
+    "Kittitas": 23,
+    "Klickitat": 3,
+    "Lewis": 24,
+    "Lincoln": 4,
+    "Mason": 14,
+    "Okanogan": 27,
+    "Pacific": 4,
+    "Pend_Oreille": 4,
+    "San_Juan": 0,
+    "Skagit": 33,
+    "Skamania": 1,
+    "Spokane": 317,
+    "Stevens": 14,
+    "Thurston": 52,
+    "Wahkiakum": 0,
+    "Walla_Walla": 34,
+    "Whatcom": 52,
+    "Whitman": 25,
+    "Unassigned": 3,
+    "New": 0,
+    "Roll_avg": 13,
+    "DeathsTotal": 3184
   }
 ]

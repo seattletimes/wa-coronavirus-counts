@@ -1550,57 +1550,57 @@
   },
   {
     "date": "12/18",
-    "% filled ALL acute beds": "",
-    "total adult beds": "",
-    "occupied ALL": 0,
-    "occupied-covid": "",
-    "% covid fill": "#DIV/0!",
-    "% NON-covid fill": "#DIV/0!"
+    "% filled ALL acute beds": 0.83,
+    "total adult beds": 8859,
+    "occupied ALL": 7353,
+    "occupied-covid": 1162,
+    "% covid fill": 0.133,
+    "% NON-covid fill": 0.708
   },
   {
     "date": "12/19",
-    "% filled ALL acute beds": "",
-    "total adult beds": "",
-    "occupied ALL": 0,
-    "occupied-covid": "",
-    "% covid fill": "#DIV/0!",
-    "% NON-covid fill": "#DIV/0!"
+    "% filled ALL acute beds": 0.819,
+    "total adult beds": "8,822",
+    "occupied ALL": 7225,
+    "occupied-covid": 1178,
+    "% covid fill": 0.134,
+    "% NON-covid fill": 0.685
   },
   {
     "date": "12/20",
-    "% filled ALL acute beds": "",
-    "total adult beds": "",
-    "occupied ALL": 0,
-    "occupied-covid": "",
-    "% covid fill": "#DIV/0!",
-    "% NON-covid fill": "#DIV/0!"
+    "% filled ALL acute beds": 0.749,
+    "total adult beds": "8,739",
+    "occupied ALL": 6546,
+    "occupied-covid": 1207,
+    "% covid fill": 0.138,
+    "% NON-covid fill": 0.611
   },
   {
     "date": "12/21",
-    "% filled ALL acute beds": "",
-    "total adult beds": "",
-    "occupied ALL": 0,
-    "occupied-covid": "",
-    "% covid fill": "#DIV/0!",
-    "% NON-covid fill": "#DIV/0!"
+    "% filled ALL acute beds": 0.78,
+    "total adult beds": "8,734",
+    "occupied ALL": 6813,
+    "occupied-covid": 774,
+    "% covid fill": 0.089,
+    "% NON-covid fill": 0.691
   },
   {
     "date": "12/22",
-    "% filled ALL acute beds": "",
-    "total adult beds": "",
-    "occupied ALL": 0,
-    "occupied-covid": "",
-    "% covid fill": "#DIV/0!",
-    "% NON-covid fill": "#DIV/0!"
+    "% filled ALL acute beds": 0.695,
+    "total adult beds": "8,738",
+    "occupied ALL": 6073,
+    "occupied-covid": 1202,
+    "% covid fill": 0.138,
+    "% NON-covid fill": 0.557
   },
   {
     "date": "12/23",
-    "% filled ALL acute beds": "",
-    "total adult beds": "",
-    "occupied ALL": 0,
-    "occupied-covid": "",
-    "% covid fill": "#DIV/0!",
-    "% NON-covid fill": "#DIV/0!"
+    "% filled ALL acute beds": 0.82,
+    "total adult beds": "8,756",
+    "occupied ALL": 7180,
+    "occupied-covid": 1200,
+    "% covid fill": 0.137,
+    "% NON-covid fill": 0.683
   },
   {
     "date": "12/24",

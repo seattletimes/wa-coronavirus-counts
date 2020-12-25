@@ -450,7 +450,12 @@ var myFunction = function(updateData, idClicked) {
  $( ".radioButton2" ).click(function() {
    var thisID = $(this).attr("id");
    $('.title').toggleClass("showMe");
-   myFunction(dohNumbers, thisID);
+   if ( thisID === "casesCounty2" ) {
+     myFunction(dohNumbers, thisID);
+   } else {
+     myFunction(county_deaths, thisID);
+   };
+
 });
 
 
@@ -467,7 +472,7 @@ if($('#newbarChart').length >0 ){
 
  var myFunction1 = function(updateData, idClicked, countyLabel) {
 
-
+console.log(idClicked);
 
 
    var conWidth = $("#newbarChart").width();
@@ -766,47 +771,47 @@ if($('#newbarChart').length >0 ){
 //
 // });
 
-document.querySelectorAll(".county").forEach(el => el.addEventListener('click', () => {
-  document.querySelectorAll(".county").forEach(el => el.classList.remove('active'));
-  document.querySelector(".dropdownItems").classList.remove('show');
-  document.querySelector(".dropdownCon").classList.remove('show');
-  document.querySelector(".dropdownCon .fa-caret-up").classList.remove('show');
-  document.querySelector(".dropdownCon .fa-caret-down").classList.add('show');
-  el.classList.add('active');
-  var county = el.getAttribute('data-county');
-  var countyWSpace = county.replace(/_/g, ' ');
-  var caseOrDeath = document.querySelector('input[name="toggleCounty2"]:checked').value;
-
-  document.getElementById("fillCounty").innerHTML = (county === "New" ? "All" : countyWSpace);
-
-
-  let dataSet2 = document.querySelector('input[name="toggleCounty2"]:checked').getAttribute('data-type');
-  dataSet2  = 'assets/' + dataSet2 + day_var + '.csv';
-  // console.log(dataSet2);
-
-  myFunction1(dohNumbers, `${caseOrDeath}`, `${county}`);
-
-}));
-
-
-  window.onresize = function(event) {
-    myFunction1(dohNumbers, "casesCounty3", "New");
-  };
+// document.querySelectorAll(".county").forEach(el => el.addEventListener('click', () => {
+//   document.querySelectorAll(".county").forEach(el => el.classList.remove('active'));
+//   document.querySelector(".dropdownItems").classList.remove('show');
+//   document.querySelector(".dropdownCon").classList.remove('show');
+//   document.querySelector(".dropdownCon .fa-caret-up").classList.remove('show');
+//   document.querySelector(".dropdownCon .fa-caret-down").classList.add('show');
+//   el.classList.add('active');
+//   var county = el.getAttribute('data-county');
+//   var countyWSpace = county.replace(/_/g, ' ');
+//   var caseOrDeath = document.querySelector('input[name="toggleCounty2"]:checked').value;
+//
+//   document.getElementById("fillCounty").innerHTML = (county === "New" ? "All" : countyWSpace);
+//
+//
+//   let dataSet2 = document.querySelector('input[name="toggleCounty2"]:checked').getAttribute('data-type');
+//   dataSet2  = 'assets/' + dataSet2 + day_var + '.csv';
+//   // console.log(dataSet2);
+//
+//   myFunction1(dohNumbers, `${caseOrDeath}`, `${county}`);
+//
+// }));
 
 
-        myFunction1(dohNumbers, "casesCounty3", "CasesNew");
+window.onresize = function(event) {
+  myFunction1(dohNumbers, "casesCounty3", "CasesNew");
+};
+
+
+myFunction1(dohNumbers, "casesCounty3", "CasesNew");
 
 
 
-
-} else {}
-
-if($('#graphicNotes').length >0 ){
-
-  $( ".accordian" ).click(function() {
-    $( ".toggleOpen" ).slideToggle();
-    $( ".accordian" ).toggleClass('opened');
-
-  });
 
 } else {}
+
+// if($('#graphicNotes').length >0 ){
+//
+//   $( ".accordian" ).click(function() {
+//     $( ".toggleOpen" ).slideToggle();
+//     $( ".accordian" ).toggleClass('opened');
+//
+//   });
+//
+// } else {}
