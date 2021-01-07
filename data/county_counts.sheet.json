@@ -1469,7 +1469,7 @@
     "Whatcom": 123,
     "Whitman": 8,
     "Unassigned": 672,
-    "New": 426,
+    "New": 428,
     "Roll_avg": 332
   },
   {
@@ -1514,7 +1514,7 @@
     "Whatcom": 124,
     "Whitman": 10,
     "Unassigned": 920,
-    "New": 462,
+    "New": 464,
     "Roll_avg": 353
   },
   {
@@ -1650,7 +1650,7 @@
     "Whitman": 11,
     "Unassigned": 1018,
     "New": 395,
-    "Roll_avg": 404
+    "Roll_avg": 405
   },
   {
     "Date": "4/5",
@@ -1694,7 +1694,7 @@
     "Whatcom": 183,
     "Whitman": 12,
     "Unassigned": 1066,
-    "New": 384,
+    "New": 385,
     "Roll_avg": 408
   },
   {
@@ -1739,7 +1739,7 @@
     "Whatcom": 222,
     "Whitman": 12,
     "Unassigned": 915,
-    "New": 318,
+    "New": 319,
     "Roll_avg": 417
   },
   {
@@ -1785,7 +1785,7 @@
     "Whitman": 12,
     "Unassigned": 838,
     "New": 322,
-    "Roll_avg": 425
+    "Roll_avg": 426
   },
   {
     "Date": "4/8",
@@ -1830,7 +1830,7 @@
     "Whitman": 12,
     "Unassigned": 908,
     "New": 404,
-    "Roll_avg": 415
+    "Roll_avg": 416
   },
   {
     "Date": "4/9",
@@ -1874,7 +1874,7 @@
     "Whatcom": 247,
     "Whitman": 12,
     "Unassigned": 848,
-    "New": 283,
+    "New": 284,
     "Roll_avg": 397
   },
   {
@@ -1964,8 +1964,8 @@
     "Whatcom": 258,
     "Whitman": 11,
     "Unassigned": 619,
-    "New": 233,
-    "Roll_avg": 382
+    "New": 237,
+    "Roll_avg": 383
   },
   {
     "Date": "4/12",
@@ -2010,7 +2010,7 @@
     "Whitman": 11,
     "Unassigned": 484,
     "New": 265,
-    "Roll_avg": 374
+    "Roll_avg": 375
   },
   {
     "Date": "4/13",
@@ -2054,8 +2054,8 @@
     "Whatcom": 261,
     "Whitman": 11,
     "Unassigned": 383,
-    "New": 247,
-    "Roll_avg": 359
+    "New": 248,
+    "Roll_avg": 360
   },
   {
     "Date": "4/14",
@@ -2144,7 +2144,7 @@
     "Whatcom": 262,
     "Whitman": 11,
     "Unassigned": 334,
-    "New": 322,
+    "New": 323,
     "Roll_avg": 335
   },
   {
@@ -2234,8 +2234,8 @@
     "Whatcom": 273,
     "Whitman": 12,
     "Unassigned": 436,
-    "New": 353,
-    "Roll_avg": 319
+    "New": 354,
+    "Roll_avg": 320
   },
   {
     "Date": "4/18",
@@ -2280,7 +2280,7 @@
     "Whitman": 13,
     "Unassigned": 159,
     "New": 245,
-    "Roll_avg": 308
+    "Roll_avg": 309
   },
   {
     "Date": "4/19",
@@ -2324,8 +2324,8 @@
     "Whatcom": 276,
     "Whitman": 13,
     "Unassigned": 151,
-    "New": 274,
-    "Roll_avg": 300
+    "New": 275,
+    "Roll_avg": 301
   },
   {
     "Date": "4/20",
@@ -2415,7 +2415,7 @@
     "Whitman": 13,
     "Unassigned": 133,
     "New": 204,
-    "Roll_avg": 286
+    "Roll_avg": 287
   },
   {
     "Date": "4/22",
@@ -2460,7 +2460,7 @@
     "Whitman": 13,
     "Unassigned": 134,
     "New": 195,
-    "Roll_avg": 271
+    "Roll_avg": 272
   },
   {
     "Date": "4/23",
@@ -2505,7 +2505,7 @@
     "Whitman": 14,
     "Unassigned": 100,
     "New": 271,
-    "Roll_avg": 270
+    "Roll_avg": 271
   },
   {
     "Date": "4/24",
@@ -2639,7 +2639,7 @@
     "Whatcom": 287,
     "Whitman": 14,
     "Unassigned": 103,
-    "New": 229,
+    "New": 230,
     "Roll_avg": 258
   },
   {
@@ -2909,7 +2909,7 @@
     "Whatcom": 316,
     "Whitman": 14,
     "Unassigned": 63,
-    "New": 214,
+    "New": 215,
     "Roll_avg": 251
   },
   {
@@ -3000,7 +3000,7 @@
     "Whitman": 14,
     "Unassigned": 37,
     "New": 144,
-    "Roll_avg": 244
+    "Roll_avg": 245
   },
   {
     "Date": "5/5",
@@ -3044,7 +3044,7 @@
     "Whatcom": 324,
     "Whitman": 14,
     "Unassigned": 61,
-    "New": 303,
+    "New": 304,
     "Roll_avg": 252
   },
   {
@@ -3090,7 +3090,7 @@
     "Whitman": 14,
     "Unassigned": 53,
     "New": 334,
-    "Roll_avg": 261
+    "Roll_avg": 262
   },
   {
     "Date": "5/7",
@@ -3180,7 +3180,7 @@
     "Whitman": 15,
     "Unassigned": 56,
     "New": 304,
-    "Roll_avg": 252
+    "Roll_avg": 253
   },
   {
     "Date": "5/9",
@@ -3269,8 +3269,8 @@
     "Whatcom": 338,
     "Whitman": 15,
     "Unassigned": 38,
-    "New": 239,
-    "Roll_avg": 251
+    "New": 240,
+    "Roll_avg": 252
   },
   {
     "Date": "5/11",
@@ -3314,7 +3314,7 @@
     "Whatcom": 340,
     "Whitman": 15,
     "Unassigned": 57,
-    "New": 206,
+    "New": 207,
     "Roll_avg": 255
   },
   {
@@ -3450,7 +3450,7 @@
     "Whitman": 16,
     "Unassigned": 125,
     "New": 181,
-    "Roll_avg": 237
+    "Roll_avg": 238
   },
   {
     "Date": "5/15",
@@ -3495,7 +3495,7 @@
     "Whitman": 16,
     "Unassigned": 112,
     "New": 347,
-    "Roll_avg": 235
+    "Roll_avg": 236
   },
   {
     "Date": "5/16",
@@ -3899,7 +3899,7 @@
     "Whatcom": 369,
     "Whitman": 16,
     "Unassigned": 62,
-    "New": 266,
+    "New": 267,
     "Roll_avg": 209
   },
   {
@@ -4124,7 +4124,7 @@
     "Whatcom": 392,
     "Whitman": 16,
     "Unassigned": 61,
-    "New": 277,
+    "New": 278,
     "Roll_avg": 216
   },
   {
@@ -4169,7 +4169,7 @@
     "Whatcom": 396,
     "Whitman": 16,
     "Unassigned": 68,
-    "New": 351,
+    "New": 352,
     "Roll_avg": 231
   },
   {
@@ -4304,7 +4304,7 @@
     "Whatcom": 402,
     "Whitman": 20,
     "Unassigned": 28,
-    "New": 276,
+    "New": 277,
     "Roll_avg": 246
   },
   {
@@ -4350,7 +4350,7 @@
     "Whitman": 20,
     "Unassigned": 37,
     "New": 248,
-    "Roll_avg": 254
+    "Roll_avg": 255
   },
   {
     "Date": "6/4",
@@ -4440,7 +4440,7 @@
     "Whitman": 20,
     "Unassigned": 25,
     "New": 459,
-    "Roll_avg": 271
+    "Roll_avg": 272
   },
   {
     "Date": "6/6",
@@ -4575,7 +4575,7 @@
     "Whitman": 20,
     "Unassigned": 25,
     "New": 300,
-    "Roll_avg": 289
+    "Roll_avg": 290
   },
   {
     "Date": "6/9",
@@ -4754,7 +4754,7 @@
     "Whatcom": 440,
     "Whitman": 27,
     "Unassigned": 33,
-    "New": 365,
+    "New": 366,
     "Roll_avg": 295
   },
   {
@@ -4845,7 +4845,7 @@
     "Whitman": 27,
     "Unassigned": 91,
     "New": 333,
-    "Roll_avg": 294
+    "Roll_avg": 295
   },
   {
     "Date": "6/15",
@@ -4889,8 +4889,8 @@
     "Whatcom": 455,
     "Whitman": 29,
     "Unassigned": 47,
-    "New": 371,
-    "Roll_avg": 306
+    "New": 372,
+    "Roll_avg": 307
   },
   {
     "Date": "6/16",
@@ -4979,7 +4979,7 @@
     "Whatcom": 467,
     "Whitman": 30,
     "Unassigned": 47,
-    "New": 405,
+    "New": 406,
     "Roll_avg": 316
   },
   {
@@ -5069,8 +5069,8 @@
     "Whatcom": 486,
     "Whitman": 28,
     "Unassigned": 62,
-    "New": 615,
-    "Roll_avg": 338
+    "New": 616,
+    "Roll_avg": 339
   },
   {
     "Date": "6/20",
@@ -5114,8 +5114,8 @@
     "Whatcom": 499,
     "Whitman": 30,
     "Unassigned": 30,
-    "New": 450,
-    "Roll_avg": 350
+    "New": 451,
+    "Roll_avg": 351
   },
   {
     "Date": "6/21",
@@ -5159,8 +5159,8 @@
     "Whatcom": 499,
     "Whitman": 28,
     "Unassigned": 36,
-    "New": 196,
-    "Roll_avg": 342
+    "New": 198,
+    "Roll_avg": 343
   },
   {
     "Date": "6/22",
@@ -5204,7 +5204,7 @@
     "Whatcom": 521,
     "Whitman": 31,
     "Unassigned": 36,
-    "New": 519,
+    "New": 520,
     "Roll_avg": 358
   },
   {
@@ -5249,8 +5249,8 @@
     "Whatcom": 554,
     "Whitman": 30,
     "Unassigned": 43,
-    "New": 479,
-    "Roll_avg": 374
+    "New": 480,
+    "Roll_avg": 375
   },
   {
     "Date": "6/24",
@@ -5385,7 +5385,7 @@
     "Whitman": 37,
     "Unassigned": 53,
     "New": 556,
-    "Roll_avg": 419
+    "Roll_avg": 420
   },
   {
     "Date": "6/27",
@@ -5429,7 +5429,7 @@
     "Whatcom": 600,
     "Whitman": 37,
     "Unassigned": 51,
-    "New": 343,
+    "New": 344,
     "Roll_avg": 424
   },
   {
@@ -5474,7 +5474,7 @@
     "Whatcom": 615,
     "Whitman": 37,
     "Unassigned": 109,
-    "New": 500,
+    "New": 501,
     "Roll_avg": 436
   },
   {
@@ -5520,7 +5520,7 @@
     "Whitman": 38,
     "Unassigned": 78,
     "New": 564,
-    "Roll_avg": 449
+    "Roll_avg": 450
   },
   {
     "Date": "6/30",
@@ -5565,7 +5565,7 @@
     "Whitman": 38,
     "Unassigned": 171,
     "New": 608,
-    "Roll_avg": 474
+    "Roll_avg": 475
   },
   {
     "Date": "7/1",
@@ -5610,7 +5610,7 @@
     "Whitman": 40,
     "Unassigned": 88,
     "New": 713,
-    "Roll_avg": 496
+    "Roll_avg": 497
   },
   {
     "Date": "7/2",
@@ -5700,7 +5700,7 @@
     "Whitman": 39,
     "Unassigned": 85,
     "New": 351,
-    "Roll_avg": 502
+    "Roll_avg": 503
   },
   {
     "Date": "7/4",
@@ -5790,7 +5790,7 @@
     "Whitman": 39,
     "Unassigned": 186,
     "New": 1057,
-    "Roll_avg": 577
+    "Roll_avg": 578
   },
   {
     "Date": "7/6",
@@ -5924,7 +5924,7 @@
     "Whatcom": 689,
     "Whitman": 44,
     "Unassigned": 145,
-    "New": 647,
+    "New": 646,
     "Roll_avg": 585
   },
   {
@@ -6285,7 +6285,7 @@
     "Whitman": 51,
     "Unassigned": 85,
     "New": 753,
-    "Roll_avg": 725
+    "Roll_avg": 724
   },
   {
     "Date": "7/17",
@@ -7319,7 +7319,7 @@
     "Whatcom": 989,
     "Whitman": 104,
     "Unassigned": 208,
-    "New": 605,
+    "New": 606,
     "Roll_avg": 751
   },
   {
@@ -7410,7 +7410,7 @@
     "Whitman": 110,
     "Unassigned": 209,
     "New": 491,
-    "Roll_avg": 718
+    "Roll_avg": 719
   },
   {
     "Date": "8/11",
@@ -7455,7 +7455,7 @@
     "Whitman": 113,
     "Unassigned": 204,
     "New": 540,
-    "Roll_avg": 701
+    "Roll_avg": 702
   },
   {
     "Date": "8/12",
@@ -7725,7 +7725,7 @@
     "Whitman": 126,
     "Unassigned": 223,
     "New": 532,
-    "Roll_avg": 638
+    "Roll_avg": 639
   },
   {
     "Date": "8/18",
@@ -9164,7 +9164,7 @@
     "Whatcom": 1252,
     "Whitman": 1128,
     "Unassigned": 292,
-    "New": 628,
+    "New": 629,
     "Roll_avg": 406
   },
   {
@@ -9569,8 +9569,8 @@
     "Whatcom": 1345,
     "Whitman": 1283,
     "Unassigned": 300,
-    "New": 381,
-    "Roll_avg": 490
+    "New": 388,
+    "Roll_avg": 491
   },
   {
     "Date": "9/28",
@@ -9614,8 +9614,8 @@
     "Whatcom": 1353,
     "Whitman": 1319,
     "Unassigned": 309,
-    "New": 377,
-    "Roll_avg": 493
+    "New": 382,
+    "Roll_avg": 494
   },
   {
     "Date": "9/29",
@@ -9659,8 +9659,8 @@
     "Whatcom": 1355,
     "Whitman": 1319,
     "Unassigned": 302,
-    "New": 531,
-    "Roll_avg": 503
+    "New": 532,
+    "Roll_avg": 504
   },
   {
     "Date": "9/30",
@@ -9704,8 +9704,8 @@
     "Whatcom": 1370,
     "Whitman": 1336,
     "Unassigned": 330,
-    "New": 640,
-    "Roll_avg": 519
+    "New": 638,
+    "Roll_avg": 520
   },
   {
     "Date": "10/1",
@@ -9749,8 +9749,8 @@
     "Whatcom": 1377,
     "Whitman": 1348,
     "Unassigned": 305,
-    "New": 716,
-    "Roll_avg": 541
+    "New": 718,
+    "Roll_avg": 542
   },
   {
     "Date": "10/2",
@@ -9794,8 +9794,8 @@
     "Whatcom": 1384,
     "Whitman": 1374,
     "Unassigned": 328,
-    "New": 642,
-    "Roll_avg": 542
+    "New": 648,
+    "Roll_avg": 543
   },
   {
     "Date": "10/3",
@@ -9839,8 +9839,8 @@
     "Whatcom": 1394,
     "Whitman": 1393,
     "Unassigned": 332,
-    "New": 469,
-    "Roll_avg": 548
+    "New": 478,
+    "Roll_avg": 550
   },
   {
     "Date": "10/4",
@@ -9884,8 +9884,8 @@
     "Whatcom": 1403,
     "Whitman": 1400,
     "Unassigned": 332,
-    "New": 419,
-    "Roll_avg": 556
+    "New": 421,
+    "Roll_avg": 558
   },
   {
     "Date": "10/5",
@@ -9929,8 +9929,8 @@
     "Whatcom": 1406,
     "Whitman": 1411,
     "Unassigned": 316,
-    "New": 427,
-    "Roll_avg": 562
+    "New": 416,
+    "Roll_avg": 563
   },
   {
     "Date": "10/6",
@@ -9974,8 +9974,8 @@
     "Whatcom": 1419,
     "Whitman": 1427,
     "Unassigned": 321,
-    "New": 556,
-    "Roll_avg": 563
+    "New": 551,
+    "Roll_avg": 564
   },
   {
     "Date": "10/7",
@@ -10019,8 +10019,8 @@
     "Whatcom": 1440,
     "Whitman": 1455,
     "Unassigned": 327,
-    "New": 758,
-    "Roll_avg": 575
+    "New": 760,
+    "Roll_avg": 576
   },
   {
     "Date": "10/8",
@@ -10064,8 +10064,8 @@
     "Whatcom": 1444,
     "Whitman": 1484,
     "Unassigned": 330,
-    "New": 693,
-    "Roll_avg": 552
+    "New": 696,
+    "Roll_avg": 553
   },
   {
     "Date": "10/9",
@@ -10109,8 +10109,8 @@
     "Whatcom": 1448,
     "Whitman": 1509,
     "Unassigned": 344,
-    "New": 578,
-    "Roll_avg": 546
+    "New": 567,
+    "Roll_avg": 547
   },
   {
     "Date": "10/10",
@@ -10155,7 +10155,7 @@
     "Whitman": 1509,
     "Unassigned": 344,
     "New": 849,
-    "Roll_avg": 574
+    "Roll_avg": 575
   },
   {
     "Date": "10/11",
@@ -10244,7 +10244,7 @@
     "Whatcom": 1474,
     "Whitman": 1548,
     "Unassigned": 345,
-    "New": 594,
+    "New": 593,
     "Roll_avg": 589
   },
   {
@@ -10335,7 +10335,7 @@
     "Whitman": 1587,
     "Unassigned": 352,
     "New": 698,
-    "Roll_avg": 606
+    "Roll_avg": 605
   },
   {
     "Date": "10/15",
@@ -10380,7 +10380,7 @@
     "Whitman": 1614,
     "Unassigned": 347,
     "New": 775,
-    "Roll_avg": 610
+    "Roll_avg": 609
   },
   {
     "Date": "10/16",
@@ -10425,7 +10425,7 @@
     "Whitman": 1644,
     "Unassigned": 348,
     "New": 826,
-    "Roll_avg": 623
+    "Roll_avg": 622
   },
   {
     "Date": "10/17",
@@ -10470,7 +10470,7 @@
     "Whitman": 1670,
     "Unassigned": 376,
     "New": 566,
-    "Roll_avg": 630
+    "Roll_avg": 628
   },
   {
     "Date": "10/18",
@@ -10515,7 +10515,7 @@
     "Whitman": 1679,
     "Unassigned": 367,
     "New": 467,
-    "Roll_avg": 633
+    "Roll_avg": 632
   },
   {
     "Date": "10/19",
@@ -10560,7 +10560,7 @@
     "Whitman": 1689,
     "Unassigned": 350,
     "New": 492,
-    "Roll_avg": 638
+    "Roll_avg": 637
   },
   {
     "Date": "10/20",
@@ -10695,7 +10695,7 @@
     "Whitman": 1733,
     "Unassigned": 374,
     "New": 812,
-    "Roll_avg": 660
+    "Roll_avg": 659
   },
   {
     "Date": "10/23",
@@ -10739,7 +10739,7 @@
     "Whatcom": 1560,
     "Whitman": 1747,
     "Unassigned": 375,
-    "New": 948,
+    "New": 949,
     "Roll_avg": 686
   },
   {
@@ -11594,7 +11594,7 @@
     "Whatcom": 1776,
     "Whitman": 1952,
     "Unassigned": 468,
-    "New": 2026,
+    "New": 2023,
     "Roll_avg": 1338
   },
   {
@@ -11639,7 +11639,7 @@
     "Whatcom": 1822,
     "Whitman": 1956,
     "Unassigned": 435,
-    "New": 2246,
+    "New": 2247,
     "Roll_avg": 1419
   },
   {
@@ -11729,7 +11729,7 @@
     "Whatcom": 1890,
     "Whitman": 2007,
     "Unassigned": 423,
-    "New": 2249,
+    "New": 2250,
     "Roll_avg": 1613
   },
   {
@@ -11954,7 +11954,7 @@
     "Whatcom": 2002,
     "Whitman": 2150,
     "Unassigned": 471,
-    "New": 2174,
+    "New": 2175,
     "Roll_avg": 1884
   },
   {
@@ -12179,7 +12179,7 @@
     "Whatcom": 2255,
     "Whitman": 2281,
     "Unassigned": 478,
-    "New": 3020,
+    "New": 3019,
     "Roll_avg": 2374
   },
   {
@@ -12314,7 +12314,7 @@
     "Whatcom": 2343,
     "Whitman": 2325,
     "Unassigned": 474,
-    "New": 2394,
+    "New": 2393,
     "Roll_avg": 2427
   },
   {
@@ -12404,7 +12404,7 @@
     "Whatcom": 2386,
     "Whitman": 2348,
     "Unassigned": 512,
-    "New": 2269,
+    "New": 2270,
     "Roll_avg": 2466
   },
   {
@@ -12494,7 +12494,7 @@
     "Whatcom": 2545,
     "Whitman": 2383,
     "Unassigned": 516,
-    "New": 3070,
+    "New": 3071,
     "Roll_avg": 2565
   },
   {
@@ -12584,7 +12584,7 @@
     "Whatcom": 2595,
     "Whitman": 2427,
     "Unassigned": 594,
-    "New": 2083,
+    "New": 2082,
     "Roll_avg": 2574
   },
   {
@@ -12629,7 +12629,7 @@
     "Whatcom": 2627,
     "Whitman": 2443,
     "Unassigned": 639,
-    "New": 1886,
+    "New": 1885,
     "Roll_avg": 2574
   },
   {
@@ -12764,7 +12764,7 @@
     "Whatcom": 2737,
     "Whitman": 2486,
     "Unassigned": 1135,
-    "New": 3794,
+    "New": 3793,
     "Roll_avg": 2726
   },
   {
@@ -12809,8 +12809,8 @@
     "Whatcom": 2763,
     "Whitman": 2497,
     "Unassigned": 1156,
-    "New": 3013,
-    "Roll_avg": 2726
+    "New": 3007,
+    "Roll_avg": 2725
   },
   {
     "Date": "12/9",
@@ -12854,8 +12854,8 @@
     "Whatcom": 2802,
     "Whitman": 2510,
     "Unassigned": 1191,
-    "New": 2995,
-    "Roll_avg": 2735
+    "New": 2987,
+    "Roll_avg": 2733
   },
   {
     "Date": "12/10",
@@ -12899,8 +12899,8 @@
     "Whatcom": 2834,
     "Whitman": 2519,
     "Unassigned": 1177,
-    "New": 2959,
-    "Roll_avg": 2798
+    "New": 2949,
+    "Roll_avg": 2797
   },
   {
     "Date": "12/11",
@@ -12944,8 +12944,8 @@
     "Whatcom": 2879,
     "Whitman": 2539,
     "Unassigned": 1379,
-    "New": 3947,
-    "Roll_avg": 2909
+    "New": 3938,
+    "Roll_avg": 2907
   },
   {
     "Date": "12/12",
@@ -12989,8 +12989,8 @@
     "Whatcom": 2906,
     "Whitman": 2549,
     "Unassigned": 1394,
-    "New": 2318,
-    "Roll_avg": 2924
+    "New": 2316,
+    "Roll_avg": 2922
   },
   {
     "Date": "12/13",
@@ -13034,8 +13034,8 @@
     "Whatcom": 2924,
     "Whitman": 2562,
     "Unassigned": 1293,
-    "New": 2088,
-    "Roll_avg": 2912
+    "New": 3807,
+    "Roll_avg": 3032
   },
   {
     "Date": "12/14",
@@ -13079,8 +13079,8 @@
     "Whatcom": 2936,
     "Whitman": 2570,
     "Unassigned": 1332,
-    "New": 1731,
-    "Roll_avg": 2859
+    "New": 1588,
+    "Roll_avg": 2969
   },
   {
     "Date": "12/15",
@@ -13124,8 +13124,8 @@
     "Whatcom": 2984,
     "Whitman": 2585,
     "Unassigned": 1322,
-    "New": 1589,
-    "Roll_avg": 2754
+    "New": 2986,
+    "Roll_avg": 2963
   },
   {
     "Date": "12/16",
@@ -13169,8 +13169,8 @@
     "Whatcom": 3050,
     "Whitman": 2606,
     "Unassigned": 1487,
-    "New": 2988,
-    "Roll_avg": 2801
+    "New": 3678,
+    "Roll_avg": 3060
   },
   {
     "Date": "12/17",
@@ -13214,8 +13214,8 @@
     "Whatcom": 3077,
     "Whitman": 2613,
     "Unassigned": 1344,
-    "New": 3692,
-    "Roll_avg": 2916
+    "New": 2300,
+    "Roll_avg": 3075
   },
   {
     "Date": "12/18",
@@ -13259,8 +13259,53 @@
     "Whatcom": 3102,
     "Whitman": 2629,
     "Unassigned": 1342,
-    "New": 2374,
-    "Roll_avg": 2951
+    "New": 2077,
+    "Roll_avg": 3089
+  },
+  {
+    "Date": "",
+    "King": "",
+    "Pierce": "",
+    "Snohomish": "",
+    "Yakima": "",
+    "Adams": "",
+    "Asotin": "",
+    "Benton": "",
+    "Chelan": "",
+    "Clallam": "",
+    "Clark": "",
+    "Columbia": "",
+    "Cowlitz": "",
+    "Douglas": "",
+    "Ferry": "",
+    "Franklin": "",
+    "Garfield": "",
+    "Grant": "",
+    "Grays_Harbor": "",
+    "Island": "",
+    "Jefferson": "",
+    "Kitsap": "",
+    "Kittitas": "",
+    "Klickitat": "",
+    "Lewis": "",
+    "Lincoln": "",
+    "Mason": "",
+    "Okanogan": "",
+    "Pacific": "",
+    "Pend_Oreille": "",
+    "San_Juan": "",
+    "Skagit": "",
+    "Skamania": "",
+    "Spokane": "",
+    "Stevens": "",
+    "Thurston": "",
+    "Wahkiakum": "",
+    "Walla_Walla": "",
+    "Whatcom": "",
+    "Whitman": "",
+    "Unassigned": "",
+    "New": 1798,
+    "Roll_avg": 3093
   },
   {
     "Date": "12/20",
@@ -13304,8 +13349,8 @@
     "Whatcom": 3186,
     "Whitman": 2656,
     "Unassigned": 1577,
-    "New": 2374,
-    "Roll_avg": 2995
+    "New": 0,
+    "Roll_avg": 2659
   },
   {
     "Date": "12/21",
@@ -13349,8 +13394,8 @@
     "Whatcom": 3197,
     "Whitman": 2664,
     "Unassigned": 1387,
-    "New": 2374,
-    "Roll_avg": 2731
+    "New": 1536,
+    "Roll_avg": 2498
   },
   {
     "Date": "12/22",
@@ -13394,8 +13439,8 @@
     "Whatcom": 3239,
     "Whitman": 2675,
     "Unassigned": 1405,
-    "New": 2374,
-    "Roll_avg": 2630
+    "New": 2269,
+    "Roll_avg": 2445
   },
   {
     "Date": "12/23",
@@ -13439,7 +13484,490 @@
     "Whatcom": 3275,
     "Whitman": 2709,
     "Unassigned": 1468,
-    "New": 2374,
-    "Roll_avg": 2584
+    "New": 2873,
+    "Roll_avg": 2437
+  },
+  {
+    "Date": "",
+    "King": "",
+    "Pierce": "",
+    "Snohomish": "",
+    "Yakima": "",
+    "Adams": "",
+    "Asotin": "",
+    "Benton": "",
+    "Chelan": "",
+    "Clallam": "",
+    "Clark": "",
+    "Columbia": "",
+    "Cowlitz": "",
+    "Douglas": "",
+    "Ferry": "",
+    "Franklin": "",
+    "Garfield": "",
+    "Grant": "",
+    "Grays_Harbor": "",
+    "Island": "",
+    "Jefferson": "",
+    "Kitsap": "",
+    "Kittitas": "",
+    "Klickitat": "",
+    "Lewis": "",
+    "Lincoln": "",
+    "Mason": "",
+    "Okanogan": "",
+    "Pacific": "",
+    "Pend_Oreille": "",
+    "San_Juan": "",
+    "Skagit": "",
+    "Skamania": "",
+    "Spokane": "",
+    "Stevens": "",
+    "Thurston": "",
+    "Wahkiakum": "",
+    "Walla_Walla": "",
+    "Whatcom": "",
+    "Whitman": "",
+    "Unassigned": "",
+    "New": 2503,
+    "Roll_avg": 2405
+  },
+  {
+    "Date": "12/25",
+    "King": 60693,
+    "Pierce": 24817,
+    "Snohomish": 21264,
+    "Yakima": 18822,
+    "Adams": 1595,
+    "Asotin": 908,
+    "Benton": 11294,
+    "Chelan": 4653,
+    "Clallam": 689,
+    "Clark": 12836,
+    "Columbia": 81,
+    "Cowlitz": 2256,
+    "Douglas": 2488,
+    "Ferry": 169,
+    "Franklin": 8531,
+    "Garfield": 84,
+    "Grant": 5777,
+    "Grays_Harbor": 2069,
+    "Island": 894,
+    "Jefferson": 214,
+    "Kitsap": 3729,
+    "Kittitas": 1567,
+    "Klickitat": 434,
+    "Lewis": 2268,
+    "Lincoln": 236,
+    "Mason": 1388,
+    "Okanogan": 1692,
+    "Pacific": 531,
+    "Pend_Oreille": 418,
+    "San_Juan": 73,
+    "Skagit": 3145,
+    "Skamania": 179,
+    "Spokane": 24402,
+    "Stevens": 1138,
+    "Thurston": 4539,
+    "Wahkiakum": 47,
+    "Walla_Walla": 3369,
+    "Whatcom": 3311,
+    "Whitman": 2725,
+    "Unassigned": 1394,
+    "New": 1018,
+    "Roll_avg": 2196
+  },
+  {
+    "Date": "",
+    "King": "",
+    "Pierce": "",
+    "Snohomish": "",
+    "Yakima": "",
+    "Adams": "",
+    "Asotin": "",
+    "Benton": "",
+    "Chelan": "",
+    "Clallam": "",
+    "Clark": "",
+    "Columbia": "",
+    "Cowlitz": "",
+    "Douglas": "",
+    "Ferry": "",
+    "Franklin": "",
+    "Garfield": "",
+    "Grant": "",
+    "Grays_Harbor": "",
+    "Island": "",
+    "Jefferson": "",
+    "Kitsap": "",
+    "Kittitas": "",
+    "Klickitat": "",
+    "Lewis": "",
+    "Lincoln": "",
+    "Mason": "",
+    "Okanogan": "",
+    "Pacific": "",
+    "Pend_Oreille": "",
+    "San_Juan": "",
+    "Skagit": "",
+    "Skamania": "",
+    "Spokane": "",
+    "Stevens": "",
+    "Thurston": "",
+    "Wahkiakum": "",
+    "Walla_Walla": "",
+    "Whatcom": "",
+    "Whitman": "",
+    "Unassigned": "",
+    "New": 784,
+    "Roll_avg": 2087
+  },
+  {
+    "Date": "12/27",
+    "King": 61148,
+    "Pierce": 25070,
+    "Snohomish": 21462,
+    "Yakima": 19069,
+    "Adams": 1594,
+    "Asotin": 913,
+    "Benton": 11345,
+    "Chelan": 4681,
+    "Clallam": 696,
+    "Clark": 12948,
+    "Columbia": 82,
+    "Cowlitz": 2270,
+    "Douglas": 2496,
+    "Ferry": 169,
+    "Franklin": 8586,
+    "Garfield": 87,
+    "Grant": 5812,
+    "Grays_Harbor": 2083,
+    "Island": 895,
+    "Jefferson": 216,
+    "Kitsap": 3757,
+    "Kittitas": 1571,
+    "Klickitat": 437,
+    "Lewis": 2285,
+    "Lincoln": 241,
+    "Mason": 1405,
+    "Okanogan": 1694,
+    "Pacific": 532,
+    "Pend_Oreille": 425,
+    "San_Juan": 73,
+    "Skagit": 3167,
+    "Skamania": 180,
+    "Spokane": 24655,
+    "Stevens": 1145,
+    "Thurston": 4581,
+    "Wahkiakum": 47,
+    "Walla_Walla": 3386,
+    "Whatcom": 3346,
+    "Whitman": 2727,
+    "Unassigned": 1396,
+    "New": 1311,
+    "Roll_avg": 1909
+  },
+  {
+    "Date": "12/28",
+    "King": 61455,
+    "Pierce": 25205,
+    "Snohomish": 21707,
+    "Yakima": 19191,
+    "Adams": 1600,
+    "Asotin": 925,
+    "Benton": 11419,
+    "Chelan": 4726,
+    "Clallam": 701,
+    "Clark": 13064,
+    "Columbia": 82,
+    "Cowlitz": 2318,
+    "Douglas": 2518,
+    "Ferry": 172,
+    "Franklin": 8623,
+    "Garfield": 95,
+    "Grant": 5851,
+    "Grays_Harbor": 2135,
+    "Island": 900,
+    "Jefferson": 218,
+    "Kitsap": 3787,
+    "Kittitas": 1660,
+    "Klickitat": 441,
+    "Lewis": 2348,
+    "Lincoln": 245,
+    "Mason": 1463,
+    "Okanogan": 1703,
+    "Pacific": 536,
+    "Pend_Oreille": 434,
+    "San_Juan": 73,
+    "Skagit": 3178,
+    "Skamania": 181,
+    "Spokane": 25084,
+    "Stevens": 1148,
+    "Thurston": 4626,
+    "Wahkiakum": 48,
+    "Walla_Walla": 3449,
+    "Whatcom": 3360,
+    "Whitman": 2762,
+    "Unassigned": 1415,
+    "New": 1311,
+    "Roll_avg": 1889
+  },
+  {
+    "Date": "12/29",
+    "King": 61710,
+    "Pierce": 25464,
+    "Snohomish": 21837,
+    "Yakima": 19281,
+    "Adams": 1611,
+    "Asotin": 945,
+    "Benton": 11477,
+    "Chelan": 4792,
+    "Clallam": 703,
+    "Clark": 13172,
+    "Columbia": 82,
+    "Cowlitz": 2348,
+    "Douglas": 2565,
+    "Ferry": 173,
+    "Franklin": 8649,
+    "Garfield": 95,
+    "Grant": 5879,
+    "Grays_Harbor": 2147,
+    "Island": 913,
+    "Jefferson": 219,
+    "Kitsap": 3806,
+    "Kittitas": 1674,
+    "Klickitat": 443,
+    "Lewis": 2364,
+    "Lincoln": 243,
+    "Mason": 1465,
+    "Okanogan": 1728,
+    "Pacific": 539,
+    "Pend_Oreille": 437,
+    "San_Juan": 73,
+    "Skagit": 3237,
+    "Skamania": 183,
+    "Spokane": 25179,
+    "Stevens": 1157,
+    "Thurston": 4648,
+    "Wahkiakum": 48,
+    "Walla_Walla": 3461,
+    "Whatcom": 3397,
+    "Whitman": 2766,
+    "Unassigned": 1420
+  },
+  {
+    "Date": "12/30",
+    "King": 62580,
+    "Pierce": 25864,
+    "Snohomish": 22393,
+    "Yakima": 19844,
+    "Adams": 1627,
+    "Asotin": 959,
+    "Benton": 11692,
+    "Chelan": 4851,
+    "Clallam": 716,
+    "Clark": 13344,
+    "Columbia": 84,
+    "Cowlitz": 2415,
+    "Douglas": 2597,
+    "Ferry": 176,
+    "Franklin": 8772,
+    "Garfield": 95,
+    "Grant": 5981,
+    "Grays_Harbor": 2220,
+    "Island": 924,
+    "Jefferson": 220,
+    "Kitsap": 3887,
+    "Kittitas": 1688,
+    "Klickitat": 476,
+    "Lewis": 2445,
+    "Lincoln": 250,
+    "Mason": 1492,
+    "Okanogan": 1757,
+    "Pacific": 542,
+    "Pend_Oreille": 453,
+    "San_Juan": 74,
+    "Skagit": 3299,
+    "Skamania": 190,
+    "Spokane": 25581,
+    "Stevens": 1182,
+    "Thurston": 4766,
+    "Wahkiakum": 48,
+    "Walla_Walla": 3518,
+    "Whatcom": 3478,
+    "Whitman": 2783,
+    "Unassigned": 1489
+  },
+  {
+    "Date": "1/2",
+    "King": 65265,
+    "Pierce": 26839,
+    "Snohomish": 23120,
+    "Yakima": 20373,
+    "Adams": 1643,
+    "Asotin": 983,
+    "Benton": 11895,
+    "Chelan": 4995,
+    "Clallam": 730,
+    "Clark": 13932,
+    "Columbia": 86,
+    "Cowlitz": 2514,
+    "Douglas": 2678,
+    "Ferry": 180,
+    "Franklin": 8939,
+    "Garfield": 97,
+    "Grant": 6078,
+    "Grays_Harbor": 2405,
+    "Island": 942,
+    "Jefferson": 229,
+    "Kitsap": 4004,
+    "Kittitas": 1741,
+    "Klickitat": 491,
+    "Lewis": 2514,
+    "Lincoln": 259,
+    "Mason": 1663,
+    "Okanogan": 1794,
+    "Pacific": 552,
+    "Pend_Oreille": 469,
+    "San_Juan": 76,
+    "Skagit": 3365,
+    "Skamania": 193,
+    "Spokane": 26682,
+    "Stevens": 1193,
+    "Thurston": 4944,
+    "Wahkiakum": 49,
+    "Walla_Walla": 3611,
+    "Whatcom": 3649,
+    "Whitman": 2820,
+    "Unassigned": 1404
+  },
+  {
+    "Date": "1/3",
+    "King": 65570,
+    "Pierce": 26975,
+    "Snohomish": 23186,
+    "Yakima": 20509,
+    "Adams": 1643,
+    "Asotin": 985,
+    "Benton": 11987,
+    "Chelan": 5018,
+    "Clallam": 735,
+    "Clark": 14092,
+    "Columbia": 87,
+    "Cowlitz": 2522,
+    "Douglas": 2692,
+    "Ferry": 180,
+    "Franklin": 9001,
+    "Garfield": 96,
+    "Grant": 6109,
+    "Grays_Harbor": 2399,
+    "Island": 955,
+    "Jefferson": 233,
+    "Kitsap": 4034,
+    "Kittitas": 1751,
+    "Klickitat": 491,
+    "Lewis": 2527,
+    "Lincoln": 263,
+    "Mason": 1671,
+    "Okanogan": 1793,
+    "Pacific": 555,
+    "Pend_Oreille": 468,
+    "San_Juan": 76,
+    "Skagit": 3378,
+    "Skamania": 194,
+    "Spokane": 26572,
+    "Stevens": 1194,
+    "Thurston": 4945,
+    "Wahkiakum": 49,
+    "Walla_Walla": 3586,
+    "Whatcom": 3693,
+    "Whitman": 2817,
+    "Unassigned": 1404
+  },
+  {
+    "Date": "1/4",
+    "King": 65834,
+    "Pierce": 27193,
+    "Snohomish": 23426,
+    "Yakima": 20712,
+    "Adams": 1647,
+    "Asotin": 990,
+    "Benton": 12063,
+    "Chelan": 5025,
+    "Clallam": 740,
+    "Clark": 14431,
+    "Columbia": 87,
+    "Cowlitz": 2580,
+    "Douglas": 2695,
+    "Ferry": 181,
+    "Franklin": 9040,
+    "Garfield": 96,
+    "Grant": 6145,
+    "Grays_Harbor": 2410,
+    "Island": 977,
+    "Jefferson": 238,
+    "Kitsap": 4076,
+    "Kittitas": 1791,
+    "Klickitat": 498,
+    "Lewis": 2581,
+    "Lincoln": 265,
+    "Mason": 1676,
+    "Okanogan": 1797,
+    "Pacific": 563,
+    "Pend_Oreille": 474,
+    "San_Juan": 77,
+    "Skagit": 3395,
+    "Skamania": 196,
+    "Spokane": 26990,
+    "Stevens": 1195,
+    "Thurston": 5015,
+    "Wahkiakum": 50,
+    "Walla_Walla": 3616,
+    "Whatcom": 3746,
+    "Whitman": 2840,
+    "Unassigned": 1416
+  },
+  {
+    "Date": "1/5",
+    "King": 66286,
+    "Pierce": 27436,
+    "Snohomish": 23710,
+    "Yakima": 20799,
+    "Adams": 1656,
+    "Asotin": 991,
+    "Benton": 12150,
+    "Chelan": 5074,
+    "Clallam": 741,
+    "Clark": 14531,
+    "Columbia": 84,
+    "Cowlitz": 2603,
+    "Douglas": 2728,
+    "Ferry": 183,
+    "Franklin": 9082,
+    "Garfield": 97,
+    "Grant": 6191,
+    "Grays_Harbor": 2446,
+    "Island": 977,
+    "Jefferson": 238,
+    "Kitsap": 4136,
+    "Kittitas": 1807,
+    "Klickitat": 502,
+    "Lewis": 2586,
+    "Lincoln": 266,
+    "Mason": 1679,
+    "Okanogan": 1823,
+    "Pacific": 561,
+    "Pend_Oreille": 476,
+    "San_Juan": 80,
+    "Skagit": 3420,
+    "Skamania": 197,
+    "Spokane": 27230,
+    "Stevens": 1214,
+    "Thurston": 5060,
+    "Wahkiakum": 51,
+    "Walla_Walla": 3622,
+    "Whatcom": 3773,
+    "Whitman": 2859,
+    "Unassigned": 1407
   }
 ]
