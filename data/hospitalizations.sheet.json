@@ -1720,10 +1720,22 @@
     "% NON-covid fill": 0.699
   },
   {
-    "date": "1/6"
+    "date": "1/6",
+    "% filled ALL acute beds": 0.863,
+    "total adult beds": "8,731",
+    "occupied ALL": 7496,
+    "occupied-covid": "1,197",
+    "% covid fill": 0.137,
+    "% NON-covid fill": 0.721
   },
   {
-    "date": "1/7"
+    "date": "1/7",
+    "% filled ALL acute beds": 0.861,
+    "total adult beds": "8,710",
+    "occupied ALL": 7517,
+    "occupied-covid": "1,177",
+    "% covid fill": 0.135,
+    "% NON-covid fill": 0.728
   },
   {
     "date": "1/8"
