@@ -1,0 +1,253 @@
+[
+  {
+    "NEW": "County",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "Vaccine Doses Given",
+    "": "doses per 10K",
+    "REF": "pop_2020"
+  },
+  {
+    "NEW": "Adams",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,594",
+    "": 779.5,
+    "REF": "20,450"
+  },
+  {
+    "NEW": "Asotin",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,484",
+    "": 655.5,
+    "REF": "22,640"
+  },
+  {
+    "NEW": "Benton",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "16,610",
+    "": 807.5,
+    "REF": "205,700"
+  },
+  {
+    "NEW": "Chelan",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "10,031",
+    "": "1,259.2",
+    "REF": "79,660"
+  },
+  {
+    "NEW": "Clallam",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "13,926",
+    "": "1,814.0",
+    "REF": "76,770"
+  },
+  {
+    "NEW": "Clark",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "21,057",
+    "": 421.8,
+    "REF": "499,200"
+  },
+  {
+    "NEW": "Columbia",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 247,
+    "": 590.2,
+    "REF": "4,185"
+  },
+  {
+    "NEW": "Cowlitz",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,429",
+    "": 310.3,
+    "REF": "110,500"
+  },
+  {
+    "NEW": "Douglas",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 310,
+    "": 70.9,
+    "REF": "43,750"
+  },
+  {
+    "NEW": "Ferry",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 981,
+    "": "1,240.2",
+    "REF": "7,910"
+  },
+  {
+    "NEW": "Franklin",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,462",
+    "": 357.8,
+    "REF": "96,760"
+  },
+  {
+    "NEW": "Garfield",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 67,
+    "": 301.1,
+    "REF": "2,225"
+  },
+  {
+    "NEW": "Grant",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "4,979",
+    "": 497.3,
+    "REF": "100,130"
+  },
+  {
+    "NEW": "Grays Harbor",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "5,517",
+    "": 738.4,
+    "REF": "74,720"
+  },
+  {
+    "NEW": "Island",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "6,520",
+    "": 762.3,
+    "REF": "85,530"
+  },
+  {
+    "NEW": "Jefferson",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "5,019",
+    "": "1,559.2",
+    "REF": "32,190"
+  },
+  {
+    "NEW": "King",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "223,289",
+    "": 987.7,
+    "REF": "2,260,800"
+  },
+  {
+    "NEW": "Kitsap",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "22,155",
+    "": 813.9,
+    "REF": "272,200"
+  },
+  {
+    "NEW": "Kittitas",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,726",
+    "": 774,
+    "REF": "48,140"
+  },
+  {
+    "NEW": "Klickitat",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "2,584",
+    "": "1,134.8",
+    "REF": "22,770"
+  },
+  {
+    "NEW": "Lewis",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "5,573",
+    "": 694.5,
+    "REF": "80,250"
+  },
+  {
+    "NEW": "Lincoln",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 720,
+    "": 651.6,
+    "REF": "11,050"
+  },
+  {
+    "NEW": "Mason",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,440",
+    "": 524,
+    "REF": "65,650"
+  },
+  {
+    "NEW": "Okanogan",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "4,472",
+    "": "1,036.9",
+    "REF": "43,130"
+  },
+  {
+    "NEW": "Pacific",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,781",
+    "": 815.5,
+    "REF": "21,840"
+  },
+  {
+    "NEW": "Pend Oreille",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,856",
+    "": "1,340.1",
+    "REF": "13,850"
+  },
+  {
+    "NEW": "Pierce",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "65,374",
+    "": 725.8,
+    "REF": "900,700"
+  },
+  {
+    "NEW": "San Juan",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 871,
+    "": 502.3,
+    "REF": "17,340"
+  },
+  {
+    "NEW": "Skagit",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "10,140",
+    "": 777.3,
+    "REF": "130,450"
+  },
+  {
+    "NEW": "Skamania",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 412,
+    "": 337.2,
+    "REF": "12,220"
+  },
+  {
+    "NEW": "Snohomish",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "45,374",
+    "": 546.3,
+    "REF": "830,500"
+  },
+  {
+    "NEW": "Spokane",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "42,679",
+    "": 816.7,
+    "REF": "522,600"
+  },
+  {
+    "NEW": "Stevens",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,125",
+    "": 680.5,
+    "REF": "45,920"
+  },
+  {
+    "NEW": "Thurston",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "16,791",
+    "": 577,
+    "REF": "291,000"
+  },
+  {
+    "NEW": "Wahkiakum",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 942,
+    "": "2,237.5",
+    "REF": "4,210"
+  },
+  {
+    "NEW": "Walla Walla",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "6,471",
+    "": "1,034.0",
+    "REF": "62,580"
+  },
+  {
+    "NEW": "Whatcom",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "14,181",
+    "": 622,
+    "REF": "228,000"
+  },
+  {
+    "NEW": "Whitman",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "5,300",
+    "": "1,049.9",
+    "REF": "50,480"
+  },
+  {
+    "NEW": "Yakima",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "17,139",
+    "": 663.8,
+    "REF": "258,200"
+  },
+  {
+    "NEW": "Unassigned",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "22,961",
+    "": "4,306"
+  },
+  {
+    "NEW": "Total",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "616,589",
+    "": "",
+    "REF": "7,656,200"
+  }
+]
