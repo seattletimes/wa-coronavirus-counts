@@ -11,7 +11,7 @@ const d3 = require("d3");
 // var day_var = "1216";
 
 //// change me every month ////
-var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1","8/1","9/1","10/1","11/1","12/1","1/1"];
+var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1","8/1","9/1","10/1","11/1","12/1","1/1", "2/1"];
 
 
 var commaFormat = d3.format(',');
@@ -35,7 +35,7 @@ let colors = {
 let buckets = {
   cases: [1],
   deaths: [0.1],
-  casesPop: [0.1, 100.1, 200.1, 300.1,400.1],
+  casesPop: [0.1, 150.1, 300.1, 450.1,600.1],
   deathsPop: [0.1, 2.1, 4.1, 6.1, 8.1]
 }
 
