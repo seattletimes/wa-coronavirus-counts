@@ -11,7 +11,7 @@ const d3 = require("d3");
 // var day_var = "1216";
 
 //// change me every month ////
-var monthTicks = ["3/1", "4/1", "5/1", "6/1", "7/1","8/1","9/1","10/1","11/1","12/1","1/1", "2/1"];
+var monthTicks = ["3/1/2020", "4/1/2020", "5/1/2020", "6/1/2020", "7/1/2020","8/1/2020","9/1/2020","10/1/2020","11/1/2020","12/1/2020","1/1/2021", "2/1/2021", "3/1/2021"];
 
 
 var commaFormat = d3.format(',');
@@ -695,7 +695,13 @@ console.log(idClicked);
                 var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
                 $('.newTooltip #date').empty().append(dailyDate);
                 $('.newTooltip #total').empty().append(dailyTotal + follow);
-                $('.newTooltip #avg').empty().append("State 14-day average: " + dailyAvg);
+
+                if (idClicked === "casesCounty3") {
+                  $('.newTooltip #avg').empty().append("State 14-day average: " + dailyAvg);
+                } else {
+                  $('.newTooltip #avg').empty().append("Past 12 days of deaths are incomplete");
+                }
+
               };
 
               selectBar( selID );

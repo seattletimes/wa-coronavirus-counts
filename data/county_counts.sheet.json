@@ -1,6 +1,6 @@
 [
   {
-    "Date": "2/28",
+    "Date": "2/28/2020",
     "King": 1,
     "Pierce": 0,
     "Snohomish": 2,
@@ -44,7 +44,7 @@
     "New": 3
   },
   {
-    "Date": "2/29",
+    "Date": "2/29/2020",
     "King": 4,
     "Pierce": 0,
     "Snohomish": 2,
@@ -88,7 +88,7 @@
     "New": 3
   },
   {
-    "Date": "3/1",
+    "Date": "3/1/2020",
     "King": 10,
     "Pierce": 0,
     "Snohomish": 3,
@@ -132,7 +132,7 @@
     "New": 0
   },
   {
-    "Date": "3/2",
+    "Date": "3/2/2020",
     "King": 14,
     "Pierce": 0,
     "Snohomish": 4,
@@ -176,7 +176,7 @@
     "New": 26
   },
   {
-    "Date": "3/3",
+    "Date": "3/3/2020",
     "King": 21,
     "Pierce": 0,
     "Snohomish": 6,
@@ -220,7 +220,7 @@
     "New": 13
   },
   {
-    "Date": "3/4",
+    "Date": "3/4/2020",
     "King": 31,
     "Pierce": 0,
     "Snohomish": 8,
@@ -264,7 +264,7 @@
     "New": 15
   },
   {
-    "Date": "3/5",
+    "Date": "3/5/2020",
     "King": 51,
     "Pierce": 0,
     "Snohomish": 18,
@@ -308,7 +308,7 @@
     "New": 12
   },
   {
-    "Date": "3/6",
+    "Date": "3/6/2020",
     "King": 58,
     "Pierce": 0,
     "Snohomish": 19,
@@ -352,7 +352,7 @@
     "New": 32
   },
   {
-    "Date": "3/7",
+    "Date": "3/7/2020",
     "King": 71,
     "Pierce": 1,
     "Snohomish": 27,
@@ -396,7 +396,7 @@
     "New": 26
   },
   {
-    "Date": "3/8",
+    "Date": "3/8/2020",
     "King": 83,
     "Pierce": 4,
     "Snohomish": 31,
@@ -440,7 +440,7 @@
     "New": 66
   },
   {
-    "Date": "3/9",
+    "Date": "3/9/2020",
     "King": 116,
     "Pierce": 4,
     "Snohomish": 37,
@@ -484,7 +484,7 @@
     "New": 88
   },
   {
-    "Date": "3/10",
+    "Date": "3/10/2020",
     "King": 190,
     "Pierce": 16,
     "Snohomish": 54,
@@ -528,7 +528,7 @@
     "New": 48
   },
   {
-    "Date": "3/11",
+    "Date": "3/11/2020",
     "King": 234,
     "Pierce": 17,
     "Snohomish": 68,
@@ -573,7 +573,7 @@
     "Roll_avg": 32
   },
   {
-    "Date": "3/12",
+    "Date": "3/12/2020",
     "King": 270,
     "Pierce": 17,
     "Snohomish": 108,
@@ -618,7 +618,7 @@
     "Roll_avg": 35
   },
   {
-    "Date": "3/13",
+    "Date": "3/13/2020",
     "King": 328,
     "Pierce": 19,
     "Snohomish": 133,
@@ -663,7 +663,7 @@
     "Roll_avg": 43
   },
   {
-    "Date": "3/14",
+    "Date": "3/14/2020",
     "King": 388,
     "Pierce": 26,
     "Snohomish": 154,
@@ -708,7 +708,7 @@
     "Roll_avg": 51
   },
   {
-    "Date": "3/15",
+    "Date": "3/15/2020",
     "King": 420,
     "Pierce": 29,
     "Snohomish": 176,
@@ -753,7 +753,7 @@
     "Roll_avg": 59
   },
   {
-    "Date": "3/16",
+    "Date": "3/16/2020",
     "King": 488,
     "Pierce": 38,
     "Snohomish": 200,
@@ -798,7 +798,7 @@
     "Roll_avg": 67
   },
   {
-    "Date": "3/17",
+    "Date": "3/17/2020",
     "King": 518,
     "Pierce": 45,
     "Snohomish": 254,
@@ -843,7 +843,7 @@
     "Roll_avg": 78
   },
   {
-    "Date": "3/18",
+    "Date": "3/18/2020",
     "King": 562,
     "Pierce": 56,
     "Snohomish": 310,
@@ -888,7 +888,7 @@
     "Roll_avg": 88
   },
   {
-    "Date": "3/19",
+    "Date": "3/19/2020",
     "King": 693,
     "Pierce": 75,
     "Snohomish": 348,
@@ -933,7 +933,7 @@
     "Roll_avg": 97
   },
   {
-    "Date": "3/20",
+    "Date": "3/20/2020",
     "King": 793,
     "Pierce": 83,
     "Snohomish": 385,
@@ -978,7 +978,7 @@
     "Roll_avg": 111
   },
   {
-    "Date": "3/21",
+    "Date": "3/21/2020",
     "King": 934,
     "Pierce": 95,
     "Snohomish": 447,
@@ -1023,7 +1023,7 @@
     "Roll_avg": 119
   },
   {
-    "Date": "3/22",
+    "Date": "3/22/2020",
     "King": 1040,
     "Pierce": 107,
     "Snohomish": 480,
@@ -1068,7 +1068,7 @@
     "Roll_avg": 139
   },
   {
-    "Date": "3/23",
+    "Date": "3/23/2020",
     "King": 1170,
     "Pierce": 126,
     "Snohomish": 519,
@@ -1113,7 +1113,7 @@
     "Roll_avg": 146
   },
   {
-    "Date": "3/24",
+    "Date": "3/24/2020",
     "King": 1277,
     "Pierce": 138,
     "Snohomish": 614,
@@ -1158,7 +1158,7 @@
     "Roll_avg": 157
   },
   {
-    "Date": "3/25",
+    "Date": "3/25/2020",
     "King": 1359,
     "Pierce": 155,
     "Snohomish": 634,
@@ -1203,7 +1203,7 @@
     "Roll_avg": 190
   },
   {
-    "Date": "3/26",
+    "Date": "3/26/2020",
     "King": 1577,
     "Pierce": 186,
     "Snohomish": 778,
@@ -1248,7 +1248,7 @@
     "Roll_avg": 224
   },
   {
-    "Date": "3/27",
+    "Date": "3/27/2020",
     "King": 1828,
     "Pierce": 231,
     "Snohomish": 913,
@@ -1293,7 +1293,7 @@
     "Roll_avg": 247
   },
   {
-    "Date": "3/28",
+    "Date": "3/28/2020",
     "King": 2161,
     "Pierce": 288,
     "Snohomish": 1068,
@@ -1338,7 +1338,7 @@
     "Roll_avg": 271
   },
   {
-    "Date": "3/29",
+    "Date": "3/29/2020",
     "King": 2235,
     "Pierce": 307,
     "Snohomish": 1104,
@@ -1383,7 +1383,7 @@
     "Roll_avg": 290
   },
   {
-    "Date": "3/30",
+    "Date": "3/30/2020",
     "King": 2366,
     "Pierce": 334,
     "Snohomish": 1162,
@@ -1428,7 +1428,7 @@
     "Roll_avg": 313
   },
   {
-    "Date": "3/31",
+    "Date": "3/31/2020",
     "King": 2468,
     "Pierce": 352,
     "Snohomish": 1221,
@@ -1473,7 +1473,7 @@
     "Roll_avg": 332
   },
   {
-    "Date": "4/1",
+    "Date": "4/1/2020",
     "King": 2609,
     "Pierce": 368,
     "Snohomish": 1266,
@@ -1518,7 +1518,7 @@
     "Roll_avg": 353
   },
   {
-    "Date": "4/2",
+    "Date": "4/2/2020",
     "King": 2711,
     "Pierce": 433,
     "Snohomish": 1317,
@@ -1563,7 +1563,7 @@
     "Roll_avg": 368
   },
   {
-    "Date": "4/3",
+    "Date": "4/3/2020",
     "King": 2865,
     "Pierce": 493,
     "Snohomish": 1398,
@@ -1608,7 +1608,7 @@
     "Roll_avg": 386
   },
   {
-    "Date": "4/4",
+    "Date": "4/4/2020",
     "King": 3158,
     "Pierce": 536,
     "Snohomish": 1486,
@@ -1653,7 +1653,7 @@
     "Roll_avg": 405
   },
   {
-    "Date": "4/5",
+    "Date": "4/5/2020",
     "King": 3295,
     "Pierce": 590,
     "Snohomish": 1522,
@@ -1698,7 +1698,7 @@
     "Roll_avg": 408
   },
   {
-    "Date": "4/6",
+    "Date": "4/6/2020",
     "King": 3460,
     "Pierce": 644,
     "Snohomish": 1596,
@@ -1743,7 +1743,7 @@
     "Roll_avg": 417
   },
   {
-    "Date": "4/7",
+    "Date": "4/7/2020",
     "King": 3668,
     "Pierce": 759,
     "Snohomish": 1651,
@@ -1788,7 +1788,7 @@
     "Roll_avg": 426
   },
   {
-    "Date": "4/8",
+    "Date": "4/8/2020",
     "King": 3884,
     "Pierce": 808,
     "Snohomish": 1702,
@@ -1833,7 +1833,7 @@
     "Roll_avg": 416
   },
   {
-    "Date": "4/9",
+    "Date": "4/9/2020",
     "King": 4047,
     "Pierce": 831,
     "Snohomish": 1743,
@@ -1878,7 +1878,7 @@
     "Roll_avg": 397
   },
   {
-    "Date": "4/10",
+    "Date": "4/10/2020",
     "King": 4241,
     "Pierce": 884,
     "Snohomish": 1798,
@@ -1923,7 +1923,7 @@
     "Roll_avg": 398
   },
   {
-    "Date": "4/11",
+    "Date": "4/11/2020",
     "King": 4422,
     "Pierce": 898,
     "Snohomish": 1844,
@@ -1968,7 +1968,7 @@
     "Roll_avg": 383
   },
   {
-    "Date": "4/12",
+    "Date": "4/12/2020",
     "King": 4517,
     "Pierce": 931,
     "Snohomish": 1876,
@@ -2013,7 +2013,7 @@
     "Roll_avg": 375
   },
   {
-    "Date": "4/13",
+    "Date": "4/13/2020",
     "King": 4612,
     "Pierce": 963,
     "Snohomish": 1916,
@@ -2058,7 +2058,7 @@
     "Roll_avg": 360
   },
   {
-    "Date": "4/14",
+    "Date": "4/14/2020",
     "King": 4676,
     "Pierce": 988,
     "Snohomish": 1972,
@@ -2103,7 +2103,7 @@
     "Roll_avg": 345
   },
   {
-    "Date": "4/15",
+    "Date": "4/15/2020",
     "King": 4796,
     "Pierce": 1016,
     "Snohomish": 2020,
@@ -2148,7 +2148,7 @@
     "Roll_avg": 335
   },
   {
-    "Date": "4/16",
+    "Date": "4/16/2020",
     "King": 4865,
     "Pierce": 1031,
     "Snohomish": 2032,
@@ -2193,7 +2193,7 @@
     "Roll_avg": 329
   },
   {
-    "Date": "4/17",
+    "Date": "4/17/2020",
     "King": 5024,
     "Pierce": 1074,
     "Snohomish": 2060,
@@ -2238,7 +2238,7 @@
     "Roll_avg": 320
   },
   {
-    "Date": "4/18",
+    "Date": "4/18/2020",
     "King": 5135,
     "Pierce": 1109,
     "Snohomish": 2101,
@@ -2283,7 +2283,7 @@
     "Roll_avg": 309
   },
   {
-    "Date": "4/19",
+    "Date": "4/19/2020",
     "King": 5259,
     "Pierce": 1127,
     "Snohomish": 2125,
@@ -2328,7 +2328,7 @@
     "Roll_avg": 301
   },
   {
-    "Date": "4/20",
+    "Date": "4/20/2020",
     "King": 5360,
     "Pierce": 1148,
     "Snohomish": 2152,
@@ -2373,7 +2373,7 @@
     "Roll_avg": 295
   },
   {
-    "Date": "4/21",
+    "Date": "4/21/2020",
     "King": 5427,
     "Pierce": 1176,
     "Snohomish": 2188,
@@ -2418,7 +2418,7 @@
     "Roll_avg": 287
   },
   {
-    "Date": "4/22",
+    "Date": "4/22/2020",
     "King": 5532,
     "Pierce": 1192,
     "Snohomish": 2216,
@@ -2463,7 +2463,7 @@
     "Roll_avg": 272
   },
   {
-    "Date": "4/23",
+    "Date": "4/23/2020",
     "King": 5637,
     "Pierce": 1212,
     "Snohomish": 2243,
@@ -2508,7 +2508,7 @@
     "Roll_avg": 271
   },
   {
-    "Date": "4/24",
+    "Date": "4/24/2020",
     "King": 5739,
     "Pierce": 1235,
     "Snohomish": 2297,
@@ -2553,7 +2553,7 @@
     "Roll_avg": 260
   },
   {
-    "Date": "4/25",
+    "Date": "4/25/2020",
     "King": 5863,
     "Pierce": 1244,
     "Snohomish": 2311,
@@ -2598,7 +2598,7 @@
     "Roll_avg": 260
   },
   {
-    "Date": "4/26",
+    "Date": "4/26/2020",
     "King": 5945,
     "Pierce": 1263,
     "Snohomish": 2332,
@@ -2643,7 +2643,7 @@
     "Roll_avg": 258
   },
   {
-    "Date": "4/27",
+    "Date": "4/27/2020",
     "King": 6001,
     "Pierce": 1293,
     "Snohomish": 2365,
@@ -2688,7 +2688,7 @@
     "Roll_avg": 251
   },
   {
-    "Date": "4/28",
+    "Date": "4/28/2020",
     "King": 6103,
     "Pierce": 1306,
     "Snohomish": 2389,
@@ -2733,7 +2733,7 @@
     "Roll_avg": 252
   },
   {
-    "Date": "4/29",
+    "Date": "4/29/2020",
     "King": 6207,
     "Pierce": 1322,
     "Snohomish": 2433,
@@ -2778,7 +2778,7 @@
     "Roll_avg": 249
   },
   {
-    "Date": "4/30",
+    "Date": "4/30/2020",
     "King": 6274,
     "Pierce": 1339,
     "Snohomish": 2453,
@@ -2823,7 +2823,7 @@
     "Roll_avg": 251
   },
   {
-    "Date": "5/1",
+    "Date": "5/1/2020",
     "King": 6351,
     "Pierce": 1376,
     "Snohomish": 2493,
@@ -2868,7 +2868,7 @@
     "Roll_avg": 253
   },
   {
-    "Date": "5/2",
+    "Date": "5/2/2020",
     "King": 6449,
     "Pierce": 1393,
     "Snohomish": 2509,
@@ -2913,7 +2913,7 @@
     "Roll_avg": 251
   },
   {
-    "Date": "5/3",
+    "Date": "5/3/2020",
     "King": 6545,
     "Pierce": 1414,
     "Snohomish": 2537,
@@ -2958,7 +2958,7 @@
     "Roll_avg": 251
   },
   {
-    "Date": "5/4",
+    "Date": "5/4/2020",
     "King": 6621,
     "Pierce": 1433,
     "Snohomish": 2549,
@@ -3003,7 +3003,7 @@
     "Roll_avg": 245
   },
   {
-    "Date": "5/5",
+    "Date": "5/5/2020",
     "King": 6704,
     "Pierce": 1454,
     "Snohomish": 2584,
@@ -3048,7 +3048,7 @@
     "Roll_avg": 252
   },
   {
-    "Date": "5/6",
+    "Date": "5/6/2020",
     "King": 6809,
     "Pierce": 1496,
     "Snohomish": 2627,
@@ -3093,7 +3093,7 @@
     "Roll_avg": 262
   },
   {
-    "Date": "5/7",
+    "Date": "5/7/2020",
     "King": 6863,
     "Pierce": 1510,
     "Snohomish": 2634,
@@ -3138,7 +3138,7 @@
     "Roll_avg": 253
   },
   {
-    "Date": "5/8",
+    "Date": "5/8/2020",
     "King": 6947,
     "Pierce": 1539,
     "Snohomish": 2664,
@@ -3183,7 +3183,7 @@
     "Roll_avg": 253
   },
   {
-    "Date": "5/9",
+    "Date": "5/9/2020",
     "King": 7007,
     "Pierce": 1562,
     "Snohomish": 2681,
@@ -3228,7 +3228,7 @@
     "Roll_avg": 251
   },
   {
-    "Date": "5/10",
+    "Date": "5/10/2020",
     "King": 7068,
     "Pierce": 1582,
     "Snohomish": 2690,
@@ -3273,7 +3273,7 @@
     "Roll_avg": 252
   },
   {
-    "Date": "5/11",
+    "Date": "5/11/2020",
     "King": 7137,
     "Pierce": 1593,
     "Snohomish": 2711,
@@ -3318,7 +3318,7 @@
     "Roll_avg": 255
   },
   {
-    "Date": "5/12",
+    "Date": "5/12/2020",
     "King": 7212,
     "Pierce": 1604,
     "Snohomish": 2720,
@@ -3363,7 +3363,7 @@
     "Roll_avg": 247
   },
   {
-    "Date": "5/13",
+    "Date": "5/13/2020",
     "King": 7290,
     "Pierce": 1626,
     "Snohomish": 2739,
@@ -3408,7 +3408,7 @@
     "Roll_avg": 246
   },
   {
-    "Date": "5/14",
+    "Date": "5/14/2020",
     "King": 7325,
     "Pierce": 1636,
     "Snohomish": 2756,
@@ -3453,7 +3453,7 @@
     "Roll_avg": 238
   },
   {
-    "Date": "5/15",
+    "Date": "5/15/2020",
     "King": 7426,
     "Pierce": 1654,
     "Snohomish": 2773,
@@ -3498,7 +3498,7 @@
     "Roll_avg": 236
   },
   {
-    "Date": "5/16",
+    "Date": "5/16/2020",
     "King": 7472,
     "Pierce": 1680,
     "Snohomish": 2784,
@@ -3543,7 +3543,7 @@
     "Roll_avg": 231
   },
   {
-    "Date": "5/17",
+    "Date": "5/17/2020",
     "King": 7515,
     "Pierce": 1687,
     "Snohomish": 2797,
@@ -3588,7 +3588,7 @@
     "Roll_avg": 223
   },
   {
-    "Date": "5/18",
+    "Date": "5/18/2020",
     "King": 7565,
     "Pierce": 1704,
     "Snohomish": 2818,
@@ -3633,7 +3633,7 @@
     "Roll_avg": 226
   },
   {
-    "Date": "5/19",
+    "Date": "5/19/2020",
     "King": 7602,
     "Pierce": 1716,
     "Snohomish": 2826,
@@ -3678,7 +3678,7 @@
     "Roll_avg": 217
   },
   {
-    "Date": "5/20",
+    "Date": "5/20/2020",
     "King": 7630,
     "Pierce": 1719,
     "Snohomish": 2846,
@@ -3723,7 +3723,7 @@
     "Roll_avg": 203
   },
   {
-    "Date": "5/21",
+    "Date": "5/21/2020",
     "King": 7669,
     "Pierce": 1728,
     "Snohomish": 2863,
@@ -3768,7 +3768,7 @@
     "Roll_avg": 203
   },
   {
-    "Date": "5/22",
+    "Date": "5/22/2020",
     "King": 7741,
     "Pierce": 1742,
     "Snohomish": 2889,
@@ -3813,7 +3813,7 @@
     "Roll_avg": 205
   },
   {
-    "Date": "5/23",
+    "Date": "5/23/2020",
     "King": 7783,
     "Pierce": 1756,
     "Snohomish": 2895,
@@ -3858,7 +3858,7 @@
     "Roll_avg": 207
   },
   {
-    "Date": "5/24",
+    "Date": "5/24/2020",
     "King": 7826,
     "Pierce": 1762,
     "Snohomish": 2904,
@@ -3903,7 +3903,7 @@
     "Roll_avg": 209
   },
   {
-    "Date": "5/25",
+    "Date": "5/25/2020",
     "King": 7835,
     "Pierce": 1766,
     "Snohomish": 2916,
@@ -3948,7 +3948,7 @@
     "Roll_avg": 203
   },
   {
-    "Date": "5/26",
+    "Date": "5/26/2020",
     "King": 7863,
     "Pierce": 1856,
     "Snohomish": 2927,
@@ -3993,7 +3993,7 @@
     "Roll_avg": 206
   },
   {
-    "Date": "5/27",
+    "Date": "5/27/2020",
     "King": 7923,
     "Pierce": 1884,
     "Snohomish": 2937,
@@ -4038,7 +4038,7 @@
     "Roll_avg": 213
   },
   {
-    "Date": "5/28",
+    "Date": "5/28/2020",
     "King": 7949,
     "Pierce": 1909,
     "Snohomish": 2945,
@@ -4083,7 +4083,7 @@
     "Roll_avg": 221
   },
   {
-    "Date": "5/29",
+    "Date": "5/29/2020",
     "King": 7993,
     "Pierce": 1922,
     "Snohomish": 2956,
@@ -4128,7 +4128,7 @@
     "Roll_avg": 216
   },
   {
-    "Date": "5/30",
+    "Date": "5/30/2020",
     "King": 8092,
     "Pierce": 1937,
     "Snohomish": 2967,
@@ -4173,7 +4173,7 @@
     "Roll_avg": 231
   },
   {
-    "Date": "5/31",
+    "Date": "5/31/2020",
     "King": 8123,
     "Pierce": 1940,
     "Snohomish": 2976,
@@ -4218,7 +4218,7 @@
     "Roll_avg": 238
   },
   {
-    "Date": "6/1",
+    "Date": "6/1/2020",
     "King": 8177,
     "Pierce": 1950,
     "Snohomish": 2987,
@@ -4263,7 +4263,7 @@
     "Roll_avg": 239
   },
   {
-    "Date": "6/2",
+    "Date": "6/2/2020",
     "King": 8264,
     "Pierce": 1968,
     "Snohomish": 2991,
@@ -4308,7 +4308,7 @@
     "Roll_avg": 246
   },
   {
-    "Date": "6/3",
+    "Date": "6/3/2020",
     "King": 8318,
     "Pierce": 1991,
     "Snohomish": 2999,
@@ -4353,7 +4353,7 @@
     "Roll_avg": 255
   },
   {
-    "Date": "6/4",
+    "Date": "6/4/2020",
     "King": 8371,
     "Pierce": 2007,
     "Snohomish": 3014,
@@ -4398,7 +4398,7 @@
     "Roll_avg": 262
   },
   {
-    "Date": "6/5",
+    "Date": "6/5/2020",
     "King": 8417,
     "Pierce": 2019,
     "Snohomish": 3025,
@@ -4443,7 +4443,7 @@
     "Roll_avg": 272
   },
   {
-    "Date": "6/6",
+    "Date": "6/6/2020",
     "King": 8457,
     "Pierce": 2034,
     "Snohomish": 3033,
@@ -4488,7 +4488,7 @@
     "Roll_avg": 274
   },
   {
-    "Date": "6/7",
+    "Date": "6/7/2020",
     "King": 8496,
     "Pierce": 2040,
     "Snohomish": 3039,
@@ -4533,7 +4533,7 @@
     "Roll_avg": 277
   },
   {
-    "Date": "6/8",
+    "Date": "6/8/2020",
     "King": 8529,
     "Pierce": 2050,
     "Snohomish": 3064,
@@ -4578,7 +4578,7 @@
     "Roll_avg": 290
   },
   {
-    "Date": "6/9",
+    "Date": "6/9/2020",
     "King": 8550,
     "Pierce": 2077,
     "Snohomish": 3084,
@@ -4623,7 +4623,7 @@
     "Roll_avg": 297
   },
   {
-    "Date": "6/10",
+    "Date": "6/10/2020",
     "King": 8550,
     "Pierce": 2078,
     "Snohomish": 3075,
@@ -4668,7 +4668,7 @@
     "Roll_avg": 290
   },
   {
-    "Date": "6/11",
+    "Date": "6/11/2020",
     "King": 8611,
     "Pierce": 2097,
     "Snohomish": 3107,
@@ -4713,7 +4713,7 @@
     "Roll_avg": 289
   },
   {
-    "Date": "6/12",
+    "Date": "6/12/2020",
     "King": 8694,
     "Pierce": 2111,
     "Snohomish": 3129,
@@ -4758,7 +4758,7 @@
     "Roll_avg": 295
   },
   {
-    "Date": "6/13",
+    "Date": "6/13/2020",
     "King": 8722,
     "Pierce": 2134,
     "Snohomish": 3136,
@@ -4803,7 +4803,7 @@
     "Roll_avg": 290
   },
   {
-    "Date": "6/14",
+    "Date": "6/14/2020",
     "King": 8785,
     "Pierce": 2143,
     "Snohomish": 3152,
@@ -4848,7 +4848,7 @@
     "Roll_avg": 295
   },
   {
-    "Date": "6/15",
+    "Date": "6/15/2020",
     "King": 8850,
     "Pierce": 2161,
     "Snohomish": 3171,
@@ -4893,7 +4893,7 @@
     "Roll_avg": 307
   },
   {
-    "Date": "6/16",
+    "Date": "6/16/2020",
     "King": 8885,
     "Pierce": 2179,
     "Snohomish": 3187,
@@ -4938,7 +4938,7 @@
     "Roll_avg": 305
   },
   {
-    "Date": "6/17",
+    "Date": "6/17/2020",
     "King": 8963,
     "Pierce": 2199,
     "Snohomish": 3200,
@@ -4983,7 +4983,7 @@
     "Roll_avg": 316
   },
   {
-    "Date": "6/18",
+    "Date": "6/18/2020",
     "King": 9061,
     "Pierce": 2230,
     "Snohomish": 3208,
@@ -5028,7 +5028,7 @@
     "Roll_avg": 327
   },
   {
-    "Date": "6/19",
+    "Date": "6/19/2020",
     "King": 9154,
     "Pierce": 2258,
     "Snohomish": 3226,
@@ -5073,7 +5073,7 @@
     "Roll_avg": 339
   },
   {
-    "Date": "6/20",
+    "Date": "6/20/2020",
     "King": 9211,
     "Pierce": 2281,
     "Snohomish": 3237,
@@ -5118,7 +5118,7 @@
     "Roll_avg": 351
   },
   {
-    "Date": "6/21",
+    "Date": "6/21/2020",
     "King": 9253,
     "Pierce": 2288,
     "Snohomish": 3249,
@@ -5163,7 +5163,7 @@
     "Roll_avg": 343
   },
   {
-    "Date": "6/22",
+    "Date": "6/22/2020",
     "King": 9366,
     "Pierce": 2321,
     "Snohomish": 3329,
@@ -5208,7 +5208,7 @@
     "Roll_avg": 358
   },
   {
-    "Date": "6/23",
+    "Date": "6/23/2020",
     "King": 9453,
     "Pierce": 2361,
     "Snohomish": 3346,
@@ -5253,7 +5253,7 @@
     "Roll_avg": 375
   },
   {
-    "Date": "6/24",
+    "Date": "6/24/2020",
     "King": 9573,
     "Pierce": 2400,
     "Snohomish": 3371,
@@ -5298,7 +5298,7 @@
     "Roll_avg": 391
   },
   {
-    "Date": "6/25",
+    "Date": "6/25/2020",
     "King": 9672,
     "Pierce": 2421,
     "Snohomish": 3406,
@@ -5343,7 +5343,7 @@
     "Roll_avg": 406
   },
   {
-    "Date": "6/26",
+    "Date": "6/26/2020",
     "King": 9809,
     "Pierce": 2465,
     "Snohomish": 3431,
@@ -5388,7 +5388,7 @@
     "Roll_avg": 420
   },
   {
-    "Date": "6/27",
+    "Date": "6/27/2020",
     "King": 9895,
     "Pierce": 2485,
     "Snohomish": 3438,
@@ -5433,7 +5433,7 @@
     "Roll_avg": 424
   },
   {
-    "Date": "6/28",
+    "Date": "6/28/2020",
     "King": 10019,
     "Pierce": 2510,
     "Snohomish": 3463,
@@ -5478,7 +5478,7 @@
     "Roll_avg": 436
   },
   {
-    "Date": "6/29",
+    "Date": "6/29/2020",
     "King": 10177,
     "Pierce": 2564,
     "Snohomish": 3508,
@@ -5523,7 +5523,7 @@
     "Roll_avg": 450
   },
   {
-    "Date": "6/30",
+    "Date": "6/30/2020",
     "King": 10304,
     "Pierce": 2590,
     "Snohomish": 3535,
@@ -5568,7 +5568,7 @@
     "Roll_avg": 475
   },
   {
-    "Date": "7/1",
+    "Date": "7/1/2020",
     "King": 10535,
     "Pierce": 2647,
     "Snohomish": 3588,
@@ -5613,7 +5613,7 @@
     "Roll_avg": 497
   },
   {
-    "Date": "7/2",
+    "Date": "7/2/2020",
     "King": 10684,
     "Pierce": 2701,
     "Snohomish": 3639,
@@ -5658,7 +5658,7 @@
     "Roll_avg": 521
   },
   {
-    "Date": "7/3",
+    "Date": "7/3/2020",
     "King": 10782,
     "Pierce": 2749,
     "Snohomish": 3661,
@@ -5703,7 +5703,7 @@
     "Roll_avg": 503
   },
   {
-    "Date": "7/4",
+    "Date": "7/4/2020",
     "King": 10941,
     "Pierce": 2804,
     "Snohomish": 3696,
@@ -5748,7 +5748,7 @@
     "Roll_avg": 516
   },
   {
-    "Date": "7/5",
+    "Date": "7/5/2020",
     "King": 11105,
     "Pierce": 2848,
     "Snohomish": 3722,
@@ -5793,7 +5793,7 @@
     "Roll_avg": 578
   },
   {
-    "Date": "7/6",
+    "Date": "7/6/2020",
     "King": 11182,
     "Pierce": 2878,
     "Snohomish": 3764,
@@ -5838,7 +5838,7 @@
     "Roll_avg": 571
   },
   {
-    "Date": "7/7",
+    "Date": "7/7/2020",
     "King": 11284,
     "Pierce": 2932,
     "Snohomish": 3788,
@@ -5883,7 +5883,7 @@
     "Roll_avg": 574
   },
   {
-    "Date": "7/8",
+    "Date": "7/8/2020",
     "King": 11419,
     "Pierce": 2995,
     "Snohomish": 3819,
@@ -5928,7 +5928,7 @@
     "Roll_avg": 585
   },
   {
-    "Date": "7/9",
+    "Date": "7/9/2020",
     "King": 11568,
     "Pierce": 3059,
     "Snohomish": 3859,
@@ -5973,7 +5973,7 @@
     "Roll_avg": 595
   },
   {
-    "Date": "7/10",
+    "Date": "7/10/2020",
     "King": 11568,
     "Pierce": 3059,
     "Snohomish": 3859,
@@ -6018,7 +6018,7 @@
     "Roll_avg": 599
   },
   {
-    "Date": "7/11",
+    "Date": "7/11/2020",
     "King": 11825,
     "Pierce": 3185,
     "Snohomish": 3966,
@@ -6063,7 +6063,7 @@
     "Roll_avg": 636
   },
   {
-    "Date": "7/12",
+    "Date": "7/12/2020",
     "King": 12077,
     "Pierce": 3257,
     "Snohomish": 4033,
@@ -6108,7 +6108,7 @@
     "Roll_avg": 677
   },
   {
-    "Date": "7/13",
+    "Date": "7/13/2020",
     "King": 12213,
     "Pierce": 3312,
     "Snohomish": 4072,
@@ -6153,7 +6153,7 @@
     "Roll_avg": 676
   },
   {
-    "Date": "7/14",
+    "Date": "7/14/2020",
     "King": 12325,
     "Pierce": 3395,
     "Snohomish": 4122,
@@ -6198,7 +6198,7 @@
     "Roll_avg": 686
   },
   {
-    "Date": "7/15",
+    "Date": "7/15/2020",
     "King": 12558,
     "Pierce": 3486,
     "Snohomish": 4181,
@@ -6243,7 +6243,7 @@
     "Roll_avg": 725
   },
   {
-    "Date": "7/16",
+    "Date": "7/16/2020",
     "King": 12766,
     "Pierce": 3560,
     "Snohomish": 4238,
@@ -6288,7 +6288,7 @@
     "Roll_avg": 724
   },
   {
-    "Date": "7/17",
+    "Date": "7/17/2020",
     "King": 12953,
     "Pierce": 3643,
     "Snohomish": 4307,
@@ -6333,7 +6333,7 @@
     "Roll_avg": 769
   },
   {
-    "Date": "7/18",
+    "Date": "7/18/2020",
     "King": 13153,
     "Pierce": 3749,
     "Snohomish": 4349,
@@ -6378,7 +6378,7 @@
     "Roll_avg": 790
   },
   {
-    "Date": "7/19",
+    "Date": "7/19/2020",
     "King": 13319,
     "Pierce": 3834,
     "Snohomish": 4386,
@@ -6423,7 +6423,7 @@
     "Roll_avg": 771
   },
   {
-    "Date": "7/20",
+    "Date": "7/20/2020",
     "King": 13450,
     "Pierce": 3913,
     "Snohomish": 4454,
@@ -6468,7 +6468,7 @@
     "Roll_avg": 800
   },
   {
-    "Date": "7/21",
+    "Date": "7/21/2020",
     "King": 13627,
     "Pierce": 4003,
     "Snohomish": 4512,
@@ -6513,7 +6513,7 @@
     "Roll_avg": 810
   },
   {
-    "Date": "7/22",
+    "Date": "7/22/2020",
     "King": 13835,
     "Pierce": 4123,
     "Snohomish": 4562,
@@ -6558,7 +6558,7 @@
     "Roll_avg": 816
   },
   {
-    "Date": "7/23",
+    "Date": "7/23/2020",
     "King": 14026,
     "Pierce": 4239,
     "Snohomish": 4640,
@@ -6603,7 +6603,7 @@
     "Roll_avg": 831
   },
   {
-    "Date": "7/24",
+    "Date": "7/24/2020",
     "King": 14249,
     "Pierce": 4355,
     "Snohomish": 4718,
@@ -6648,7 +6648,7 @@
     "Roll_avg": 862
   },
   {
-    "Date": "7/25",
+    "Date": "7/25/2020",
     "King": 14417,
     "Pierce": 4454,
     "Snohomish": 4746,
@@ -6693,7 +6693,7 @@
     "Roll_avg": 857
   },
   {
-    "Date": "7/26",
+    "Date": "7/26/2020",
     "King": 14579,
     "Pierce": 4556,
     "Snohomish": 4788,
@@ -6738,7 +6738,7 @@
     "Roll_avg": 828
   },
   {
-    "Date": "7/27",
+    "Date": "7/27/2020",
     "King": 14717,
     "Pierce": 4626,
     "Snohomish": 4853,
@@ -6783,7 +6783,7 @@
     "Roll_avg": 850
   },
   {
-    "Date": "7/28",
+    "Date": "7/28/2020",
     "King": 14856,
     "Pierce": 4736,
     "Snohomish": 4903,
@@ -6828,7 +6828,7 @@
     "Roll_avg": 853
   },
   {
-    "Date": "7/29",
+    "Date": "7/29/2020",
     "King": 15025,
     "Pierce": 4836,
     "Snohomish": 4949,
@@ -6873,7 +6873,7 @@
     "Roll_avg": 818
   },
   {
-    "Date": "7/30",
+    "Date": "7/30/2020",
     "King": 15025,
     "Pierce": 4836,
     "Snohomish": 4949,
@@ -6918,7 +6918,7 @@
     "Roll_avg": 835
   },
   {
-    "Date": "7/31",
+    "Date": "7/31/2020",
     "King": 15390,
     "Pierce": 5064,
     "Snohomish": 5087,
@@ -6963,7 +6963,7 @@
     "Roll_avg": 826
   },
   {
-    "Date": "8/1",
+    "Date": "8/1/2021",
     "King": 15501,
     "Pierce": 5127,
     "Snohomish": 5143,
@@ -7008,7 +7008,7 @@
     "Roll_avg": 804
   },
   {
-    "Date": "8/2",
+    "Date": "8/2/2020",
     "King": 15603,
     "Pierce": 5216,
     "Snohomish": 5159,
@@ -7053,7 +7053,7 @@
     "Roll_avg": 787
   },
   {
-    "Date": "8/3",
+    "Date": "8/3/2020",
     "King": 15726,
     "Pierce": 5280,
     "Snohomish": 5219,
@@ -7098,7 +7098,7 @@
     "Roll_avg": 776
   },
   {
-    "Date": "8/4",
+    "Date": "8/4/2020",
     "King": 15865,
     "Pierce": 5348,
     "Snohomish": 5261,
@@ -7143,7 +7143,7 @@
     "Roll_avg": 777
   },
   {
-    "Date": "8/5",
+    "Date": "8/5/2020",
     "King": 16078,
     "Pierce": 5477,
     "Snohomish": 5326,
@@ -7188,7 +7188,7 @@
     "Roll_avg": 784
   },
   {
-    "Date": "8/6",
+    "Date": "8/6/2020",
     "King": 16222,
     "Pierce": 5522,
     "Snohomish": 5369,
@@ -7233,7 +7233,7 @@
     "Roll_avg": 775
   },
   {
-    "Date": "8/7",
+    "Date": "8/7/2020",
     "King": 16439,
     "Pierce": 5606,
     "Snohomish": 5423,
@@ -7278,7 +7278,7 @@
     "Roll_avg": 765
   },
   {
-    "Date": "8/8",
+    "Date": "8/8/2020",
     "King": 16570,
     "Pierce": 5682,
     "Snohomish": 5465,
@@ -7323,7 +7323,7 @@
     "Roll_avg": 751
   },
   {
-    "Date": "8/9",
+    "Date": "8/9/2020",
     "King": 16707,
     "Pierce": 5751,
     "Snohomish": 5486,
@@ -7368,7 +7368,7 @@
     "Roll_avg": 745
   },
   {
-    "Date": "8/10",
+    "Date": "8/10/2020",
     "King": 16808,
     "Pierce": 5801,
     "Snohomish": 5532,
@@ -7413,7 +7413,7 @@
     "Roll_avg": 719
   },
   {
-    "Date": "8/11",
+    "Date": "8/11/2020",
     "King": 16941,
     "Pierce": 5874,
     "Snohomish": 5582,
@@ -7458,7 +7458,7 @@
     "Roll_avg": 702
   },
   {
-    "Date": "8/12",
+    "Date": "8/12/2020",
     "King": 17118,
     "Pierce": 5940,
     "Snohomish": 5621,
@@ -7503,7 +7503,7 @@
     "Roll_avg": 692
   },
   {
-    "Date": "8/13",
+    "Date": "8/13/2020",
     "King": 17308,
     "Pierce": 6038,
     "Snohomish": 5668,
@@ -7548,7 +7548,7 @@
     "Roll_avg": 680
   },
   {
-    "Date": "8/14",
+    "Date": "8/14/2020",
     "King": 17491,
     "Pierce": 6094,
     "Snohomish": 5716,
@@ -7593,7 +7593,7 @@
     "Roll_avg": 672
   },
   {
-    "Date": "8/15",
+    "Date": "8/15/2020",
     "King": 17623,
     "Pierce": 6150,
     "Snohomish": 5730,
@@ -7638,7 +7638,7 @@
     "Roll_avg": 669
   },
   {
-    "Date": "8/16",
+    "Date": "8/16/2020",
     "King": 17745,
     "Pierce": 6177,
     "Snohomish": 5741,
@@ -7683,7 +7683,7 @@
     "Roll_avg": 649
   },
   {
-    "Date": "8/17",
+    "Date": "8/17/2020",
     "King": 17908,
     "Pierce": 6212,
     "Snohomish": 5800,
@@ -7728,7 +7728,7 @@
     "Roll_avg": 639
   },
   {
-    "Date": "8/18",
+    "Date": "8/18/2020",
     "King": 18054,
     "Pierce": 6277,
     "Snohomish": 5823,
@@ -7773,7 +7773,7 @@
     "Roll_avg": 628
   },
   {
-    "Date": "8/19",
+    "Date": "8/19/2020",
     "King": 18297,
     "Pierce": 6332,
     "Snohomish": 5855,
@@ -7818,7 +7818,7 @@
     "Roll_avg": 621
   },
   {
-    "Date": "8/20",
+    "Date": "8/20/2020",
     "King": 18334,
     "Pierce": 6383,
     "Snohomish": 5897,
@@ -7863,7 +7863,7 @@
     "Roll_avg": 607
   },
   {
-    "Date": "8/21",
+    "Date": "8/21/2020",
     "King": 18546,
     "Pierce": 6469,
     "Snohomish": 5928,
@@ -7908,7 +7908,7 @@
     "Roll_avg": 602
   },
   {
-    "Date": "8/22",
+    "Date": "8/22/2020",
     "King": 18662,
     "Pierce": 6537,
     "Snohomish": 5947,
@@ -7953,7 +7953,7 @@
     "Roll_avg": 592
   },
   {
-    "Date": "8/23",
+    "Date": "8/23/2020",
     "King": 18797,
     "Pierce": 6564,
     "Snohomish": 5965,
@@ -7998,7 +7998,7 @@
     "Roll_avg": 575
   },
   {
-    "Date": "8/24",
+    "Date": "8/24/2020",
     "King": 18837,
     "Pierce": 6585,
     "Snohomish": 5998,
@@ -8043,7 +8043,7 @@
     "Roll_avg": 564
   },
   {
-    "Date": "8/25",
+    "Date": "8/25/2020",
     "King": 18976,
     "Pierce": 6621,
     "Snohomish": 6032,
@@ -8088,7 +8088,7 @@
     "Roll_avg": 560
   },
   {
-    "Date": "8/26",
+    "Date": "8/26/2020",
     "King": 19155,
     "Pierce": 6661,
     "Snohomish": 6077,
@@ -8133,7 +8133,7 @@
     "Roll_avg": 556
   },
   {
-    "Date": "8/27",
+    "Date": "8/27/2020",
     "King": 19322,
     "Pierce": 6678,
     "Snohomish": 6114,
@@ -8178,7 +8178,7 @@
     "Roll_avg": 539
   },
   {
-    "Date": "8/28",
+    "Date": "8/28/2020",
     "King": 19449,
     "Pierce": 6719,
     "Snohomish": 6159,
@@ -8223,7 +8223,7 @@
     "Roll_avg": 531
   },
   {
-    "Date": "8/29",
+    "Date": "8/29/2020",
     "King": 19553,
     "Pierce": 6756,
     "Snohomish": 6178,
@@ -8268,7 +8268,7 @@
     "Roll_avg": 522
   },
   {
-    "Date": "8/30",
+    "Date": "8/30/2020",
     "King": 19643,
     "Pierce": 6794,
     "Snohomish": 6198,
@@ -8313,7 +8313,7 @@
     "Roll_avg": 524
   },
   {
-    "Date": "8/31",
+    "Date": "8/31/2020",
     "King": 19698,
     "Pierce": 6830,
     "Snohomish": 6220,
@@ -8358,7 +8358,7 @@
     "Roll_avg": 508
   },
   {
-    "Date": "9/1",
+    "Date": "9/1/2020",
     "King": 19797,
     "Pierce": 6873,
     "Snohomish": 6248,
@@ -8403,7 +8403,7 @@
     "Roll_avg": 504
   },
   {
-    "Date": "9/2",
+    "Date": "9/2/2020",
     "King": 19892,
     "Pierce": 6931,
     "Snohomish": 6287,
@@ -8448,7 +8448,7 @@
     "Roll_avg": 491
   },
   {
-    "Date": "9/3",
+    "Date": "9/3/2020",
     "King": 20022,
     "Pierce": 6990,
     "Snohomish": 6310,
@@ -8493,7 +8493,7 @@
     "Roll_avg": 490
   },
   {
-    "Date": "9/4",
+    "Date": "9/4/2020",
     "King": 20166,
     "Pierce": 7039,
     "Snohomish": 6343,
@@ -8538,7 +8538,7 @@
     "Roll_avg": 468
   },
   {
-    "Date": "9/5",
+    "Date": "9/5/2020",
     "King": 20237,
     "Pierce": 7078,
     "Snohomish": 6366,
@@ -8583,7 +8583,7 @@
     "Roll_avg": 465
   },
   {
-    "Date": "9/6",
+    "Date": "9/6/2020",
     "King": 20326,
     "Pierce": 7104,
     "Snohomish": 6378,
@@ -8628,7 +8628,7 @@
     "Roll_avg": 463
   },
   {
-    "Date": "9/7",
+    "Date": "9/7/2020",
     "King": 20326,
     "Pierce": 7104,
     "Snohomish": 6378,
@@ -8673,7 +8673,7 @@
     "Roll_avg": 452
   },
   {
-    "Date": "9/8",
+    "Date": "9/8/2020",
     "King": 20413,
     "Pierce": 7149,
     "Snohomish": 6419,
@@ -8718,7 +8718,7 @@
     "Roll_avg": 439
   },
   {
-    "Date": "9/9",
+    "Date": "9/9/2020",
     "King": 20519,
     "Pierce": 7189,
     "Snohomish": 6440,
@@ -8763,7 +8763,7 @@
     "Roll_avg": 433
   },
   {
-    "Date": "9/10",
+    "Date": "9/10/2020",
     "King": 20640,
     "Pierce": 7232,
     "Snohomish": 6481,
@@ -8808,7 +8808,7 @@
     "Roll_avg": 434
   },
   {
-    "Date": "9/11",
+    "Date": "9/11/2020",
     "King": 20774,
     "Pierce": 7262,
     "Snohomish": 6499,
@@ -8853,7 +8853,7 @@
     "Roll_avg": 425
   },
   {
-    "Date": "9/12",
+    "Date": "9/12/2020",
     "King": 20863,
     "Pierce": 7307,
     "Snohomish": 6527,
@@ -8898,7 +8898,7 @@
     "Roll_avg": 418
   },
   {
-    "Date": "9/13",
+    "Date": "9/13/2020",
     "King": 20912,
     "Pierce": 7338,
     "Snohomish": 6547,
@@ -8943,7 +8943,7 @@
     "Roll_avg": 419
   },
   {
-    "Date": "9/14",
+    "Date": "9/14/2020",
     "King": 20960,
     "Pierce": 7364,
     "Snohomish": 6575,
@@ -8988,7 +8988,7 @@
     "Roll_avg": 421
   },
   {
-    "Date": "9/15",
+    "Date": "9/15/2020",
     "King": 21049,
     "Pierce": 7395,
     "Snohomish": 6594,
@@ -9033,7 +9033,7 @@
     "Roll_avg": 414
   },
   {
-    "Date": "9/16",
+    "Date": "9/16/2020",
     "King": 21148,
     "Pierce": 7425,
     "Snohomish": 6615,
@@ -9078,7 +9078,7 @@
     "Roll_avg": 404
   },
   {
-    "Date": "9/17",
+    "Date": "9/17/2020",
     "King": 21264,
     "Pierce": 7467,
     "Snohomish": 6647,
@@ -9123,7 +9123,7 @@
     "Roll_avg": 398
   },
   {
-    "Date": "9/18",
+    "Date": "9/18/2020",
     "King": 21388,
     "Pierce": 7519,
     "Snohomish": 6675,
@@ -9168,7 +9168,7 @@
     "Roll_avg": 406
   },
   {
-    "Date": "9/19",
+    "Date": "9/19/2020",
     "King": 21453,
     "Pierce": 7552,
     "Snohomish": 6697,
@@ -9213,7 +9213,7 @@
     "Roll_avg": 403
   },
   {
-    "Date": "9/20",
+    "Date": "9/20/2020",
     "King": 21516,
     "Pierce": 7614,
     "Snohomish": 6712,
@@ -9258,7 +9258,7 @@
     "Roll_avg": 402
   },
   {
-    "Date": "9/21",
+    "Date": "9/21/2020",
     "King": 21559,
     "Pierce": 7655,
     "Snohomish": 6735,
@@ -9303,7 +9303,7 @@
     "Roll_avg": 413
   },
   {
-    "Date": "9/22",
+    "Date": "9/22/2020",
     "King": 21650,
     "Pierce": 7697,
     "Snohomish": 6762,
@@ -9348,7 +9348,7 @@
     "Roll_avg": 431
   },
   {
-    "Date": "9/23",
+    "Date": "9/23/2020",
     "King": 21760,
     "Pierce": 7736,
     "Snohomish": 6785,
@@ -9393,7 +9393,7 @@
     "Roll_avg": 437
   },
   {
-    "Date": "9/24",
+    "Date": "9/24/2020",
     "King": 21866,
     "Pierce": 7788,
     "Snohomish": 6821,
@@ -9438,7 +9438,7 @@
     "Roll_avg": 467
   },
   {
-    "Date": "9/25",
+    "Date": "9/25/2020",
     "King": 21995,
     "Pierce": 7849,
     "Snohomish": 6878,
@@ -9483,7 +9483,7 @@
     "Roll_avg": 479
   },
   {
-    "Date": "9/26",
+    "Date": "9/26/2020",
     "King": 22103,
     "Pierce": 7913,
     "Snohomish": 6905,
@@ -9528,7 +9528,7 @@
     "Roll_avg": 486
   },
   {
-    "Date": "9/27",
+    "Date": "9/27/2020",
     "King": 22198,
     "Pierce": 7961,
     "Snohomish": 6920,
@@ -9573,7 +9573,7 @@
     "Roll_avg": 491
   },
   {
-    "Date": "9/28",
+    "Date": "9/28/2020",
     "King": 22237,
     "Pierce": 8002,
     "Snohomish": 6950,
@@ -9618,7 +9618,7 @@
     "Roll_avg": 494
   },
   {
-    "Date": "9/29",
+    "Date": "9/29/2020",
     "King": 22367,
     "Pierce": 8064,
     "Snohomish": 6990,
@@ -9663,7 +9663,7 @@
     "Roll_avg": 504
   },
   {
-    "Date": "9/30",
+    "Date": "9/30/2020",
     "King": 22529,
     "Pierce": 8116,
     "Snohomish": 7035,
@@ -9708,7 +9708,7 @@
     "Roll_avg": 520
   },
   {
-    "Date": "10/1",
+    "Date": "10/1/2020",
     "King": 22749,
     "Pierce": 8180,
     "Snohomish": 7083,
@@ -9753,7 +9753,7 @@
     "Roll_avg": 542
   },
   {
-    "Date": "10/2",
+    "Date": "10/2/2020",
     "King": 22916,
     "Pierce": 8247,
     "Snohomish": 7122,
@@ -9798,7 +9798,7 @@
     "Roll_avg": 543
   },
   {
-    "Date": "10/3",
+    "Date": "10/3/2020",
     "King": 23022,
     "Pierce": 8294,
     "Snohomish": 7154,
@@ -9843,7 +9843,7 @@
     "Roll_avg": 550
   },
   {
-    "Date": "10/4",
+    "Date": "10/4/2020",
     "King": 23115,
     "Pierce": 8335,
     "Snohomish": 7177,
@@ -9888,7 +9888,7 @@
     "Roll_avg": 558
   },
   {
-    "Date": "10/5",
+    "Date": "10/5/2020",
     "King": 23218,
     "Pierce": 8368,
     "Snohomish": 7227,
@@ -9933,7 +9933,7 @@
     "Roll_avg": 563
   },
   {
-    "Date": "10/6",
+    "Date": "10/6/2020",
     "King": 23351,
     "Pierce": 8437,
     "Snohomish": 7273,
@@ -9978,7 +9978,7 @@
     "Roll_avg": 564
   },
   {
-    "Date": "10/7",
+    "Date": "10/7/2020",
     "King": 23547,
     "Pierce": 8518,
     "Snohomish": 7320,
@@ -10023,7 +10023,7 @@
     "Roll_avg": 576
   },
   {
-    "Date": "10/8",
+    "Date": "10/8/2020",
     "King": 23712,
     "Pierce": 8602,
     "Snohomish": 7383,
@@ -10068,7 +10068,7 @@
     "Roll_avg": 553
   },
   {
-    "Date": "10/9",
+    "Date": "10/9/2020",
     "King": 23805,
     "Pierce": 8648,
     "Snohomish": 7434,
@@ -10113,7 +10113,7 @@
     "Roll_avg": 547
   },
   {
-    "Date": "10/10",
+    "Date": "10/10/2020",
     "King": 23805,
     "Pierce": 8648,
     "Snohomish": 7434,
@@ -10158,7 +10158,7 @@
     "Roll_avg": 575
   },
   {
-    "Date": "10/11",
+    "Date": "10/11/2020",
     "King": 23805,
     "Pierce": 8648,
     "Snohomish": 7434,
@@ -10203,7 +10203,7 @@
     "Roll_avg": 574
   },
   {
-    "Date": "10/12",
+    "Date": "10/12/2020",
     "King": 24297,
     "Pierce": 8823,
     "Snohomish": 7601,
@@ -10248,7 +10248,7 @@
     "Roll_avg": 589
   },
   {
-    "Date": "10/13",
+    "Date": "10/13/2020",
     "King": 24466,
     "Pierce": 8917,
     "Snohomish": 7663,
@@ -10293,7 +10293,7 @@
     "Roll_avg": 601
   },
   {
-    "Date": "10/14",
+    "Date": "10/14/2020",
     "King": 24610,
     "Pierce": 8995,
     "Snohomish": 7758,
@@ -10338,7 +10338,7 @@
     "Roll_avg": 605
   },
   {
-    "Date": "10/15",
+    "Date": "10/15/2020",
     "King": 24769,
     "Pierce": 9075,
     "Snohomish": 7849,
@@ -10383,7 +10383,7 @@
     "Roll_avg": 609
   },
   {
-    "Date": "10/16",
+    "Date": "10/16/2020",
     "King": 24985,
     "Pierce": 9163,
     "Snohomish": 7937,
@@ -10428,7 +10428,7 @@
     "Roll_avg": 622
   },
   {
-    "Date": "10/17",
+    "Date": "10/17/2020",
     "King": 25093,
     "Pierce": 9262,
     "Snohomish": 7975,
@@ -10473,7 +10473,7 @@
     "Roll_avg": 628
   },
   {
-    "Date": "10/18",
+    "Date": "10/18/2020",
     "King": 25219,
     "Pierce": 9324,
     "Snohomish": 8021,
@@ -10518,7 +10518,7 @@
     "Roll_avg": 632
   },
   {
-    "Date": "10/19",
+    "Date": "10/19/2020",
     "King": 25329,
     "Pierce": 9357,
     "Snohomish": 8102,
@@ -10563,7 +10563,7 @@
     "Roll_avg": 637
   },
   {
-    "Date": "10/20",
+    "Date": "10/20/2020",
     "King": 25540,
     "Pierce": 9482,
     "Snohomish": 8189,
@@ -10608,7 +10608,7 @@
     "Roll_avg": 655
   },
   {
-    "Date": "10/21",
+    "Date": "10/21/2020",
     "King": 25712,
     "Pierce": 9547,
     "Snohomish": 8280,
@@ -10653,7 +10653,7 @@
     "Roll_avg": 651
   },
   {
-    "Date": "10/22",
+    "Date": "10/22/2020",
     "King": 25896,
     "Pierce": 9664,
     "Snohomish": 8363,
@@ -10698,7 +10698,7 @@
     "Roll_avg": 659
   },
   {
-    "Date": "10/23",
+    "Date": "10/23/2020",
     "King": 26164,
     "Pierce": 9792,
     "Snohomish": 8459,
@@ -10743,7 +10743,7 @@
     "Roll_avg": 686
   },
   {
-    "Date": "10/24",
+    "Date": "10/24/2020",
     "King": 26329,
     "Pierce": 9895,
     "Snohomish": 8494,
@@ -10788,7 +10788,7 @@
     "Roll_avg": 679
   },
   {
-    "Date": "10/25",
+    "Date": "10/25/2020",
     "King": 26519,
     "Pierce": 9971,
     "Snohomish": 8526,
@@ -10833,7 +10833,7 @@
     "Roll_avg": 694
   },
   {
-    "Date": "10/26",
+    "Date": "10/26/2020",
     "King": 26599,
     "Pierce": 10027,
     "Snohomish": 8629,
@@ -10878,7 +10878,7 @@
     "Roll_avg": 691
   },
   {
-    "Date": "10/27",
+    "Date": "10/27/2020",
     "King": 26789,
     "Pierce": 10116,
     "Snohomish": 8705,
@@ -10923,7 +10923,7 @@
     "Roll_avg": 695
   },
   {
-    "Date": "10/28",
+    "Date": "10/28/2020",
     "King": 27021,
     "Pierce": 10228,
     "Snohomish": 8787,
@@ -10968,7 +10968,7 @@
     "Roll_avg": 708
   },
   {
-    "Date": "10/29",
+    "Date": "10/29/2020",
     "King": 27353,
     "Pierce": 10331,
     "Snohomish": 8881,
@@ -11013,7 +11013,7 @@
     "Roll_avg": 732
   },
   {
-    "Date": "10/30",
+    "Date": "10/30/2020",
     "King": 27735,
     "Pierce": 10431,
     "Snohomish": 8960,
@@ -11058,7 +11058,7 @@
     "Roll_avg": 743
   },
   {
-    "Date": "10/31",
+    "Date": "10/31/2020",
     "King": 27951,
     "Pierce": 10514,
     "Snohomish": 9024,
@@ -11103,7 +11103,7 @@
     "Roll_avg": 765
   },
   {
-    "Date": "11/1",
+    "Date": "11/1/2020",
     "King": 28223,
     "Pierce": 10616,
     "Snohomish": 9125,
@@ -11148,7 +11148,7 @@
     "Roll_avg": 806
   },
   {
-    "Date": "11/2",
+    "Date": "11/2/2020",
     "King": 28337,
     "Pierce": 10685,
     "Snohomish": 9233,
@@ -11193,7 +11193,7 @@
     "Roll_avg": 824
   },
   {
-    "Date": "11/3",
+    "Date": "11/3/2020",
     "King": 28926,
     "Pierce": 10879,
     "Snohomish": 9359,
@@ -11238,7 +11238,7 @@
     "Roll_avg": 876
   },
   {
-    "Date": "11/4",
+    "Date": "11/4/2020",
     "King": 29316,
     "Pierce": 11046,
     "Snohomish": 9503,
@@ -11283,7 +11283,7 @@
     "Roll_avg": 906
   },
   {
-    "Date": "11/5",
+    "Date": "11/5/2020",
     "King": 29832,
     "Pierce": 11214,
     "Snohomish": 9727,
@@ -11328,7 +11328,7 @@
     "Roll_avg": 975
   },
   {
-    "Date": "11/6",
+    "Date": "11/6/2020",
     "King": 30363,
     "Pierce": 11404,
     "Snohomish": 9939,
@@ -11373,7 +11373,7 @@
     "Roll_avg": 1032
   },
   {
-    "Date": "11/7",
+    "Date": "11/7/2020",
     "King": 30854,
     "Pierce": 11563,
     "Snohomish": 10077,
@@ -11418,7 +11418,7 @@
     "Roll_avg": 1083
   },
   {
-    "Date": "11/8",
+    "Date": "11/8/2020",
     "King": 31186,
     "Pierce": 11673,
     "Snohomish": 10234,
@@ -11463,7 +11463,7 @@
     "Roll_avg": 1129
   },
   {
-    "Date": "11/9",
+    "Date": "11/9/2020",
     "King": 31497,
     "Pierce": 11769,
     "Snohomish": 10386,
@@ -11508,7 +11508,7 @@
     "Roll_avg": 1192
   },
   {
-    "Date": "11/10",
+    "Date": "11/10/2020",
     "King": 31497,
     "Pierce": 11769,
     "Snohomish": 10386,
@@ -11553,7 +11553,7 @@
     "Roll_avg": 1257
   },
   {
-    "Date": "11/11",
+    "Date": "11/11/2020",
     "King": 32473,
     "Pierce": 12296,
     "Snohomish": 10617,
@@ -11598,7 +11598,7 @@
     "Roll_avg": 1338
   },
   {
-    "Date": "11/12",
+    "Date": "11/12/2020",
     "King": 33043,
     "Pierce": 12547,
     "Snohomish": 10874,
@@ -11643,7 +11643,7 @@
     "Roll_avg": 1419
   },
   {
-    "Date": "11/13",
+    "Date": "11/13/2020",
     "King": 33816,
     "Pierce": 12730,
     "Snohomish": 11158,
@@ -11688,7 +11688,7 @@
     "Roll_avg": 1515
   },
   {
-    "Date": "11/14",
+    "Date": "11/14/2020",
     "King": 34415,
     "Pierce": 13068,
     "Snohomish": 11298,
@@ -11733,7 +11733,7 @@
     "Roll_avg": 1613
   },
   {
-    "Date": "11/15",
+    "Date": "11/15/2020",
     "King": 34892,
     "Pierce": 13200,
     "Snohomish": 11468,
@@ -11778,7 +11778,7 @@
     "Roll_avg": 1652
   },
   {
-    "Date": "11/16",
+    "Date": "11/16/2020",
     "King": 35669,
     "Pierce": 13461,
     "Snohomish": 11692,
@@ -11823,7 +11823,7 @@
     "Roll_avg": 1783
   },
   {
-    "Date": "11/17",
+    "Date": "11/17/2020",
     "King": 35897,
     "Pierce": 13665,
     "Snohomish": 11798,
@@ -11868,7 +11868,7 @@
     "Roll_avg": 1785
   },
   {
-    "Date": "11/18",
+    "Date": "11/18/2020",
     "King": 36471,
     "Pierce": 13912,
     "Snohomish": 12002,
@@ -11913,7 +11913,7 @@
     "Roll_avg": 1856
   },
   {
-    "Date": "11/19",
+    "Date": "11/19/2020",
     "King": 37113,
     "Pierce": 14093,
     "Snohomish": 12173,
@@ -11958,7 +11958,7 @@
     "Roll_avg": 1884
   },
   {
-    "Date": "11/20",
+    "Date": "11/20/2020",
     "King": 37631,
     "Pierce": 14228,
     "Snohomish": 12337,
@@ -12003,7 +12003,7 @@
     "Roll_avg": 1893
   },
   {
-    "Date": "11/21",
+    "Date": "11/21/2020",
     "King": 37631,
     "Pierce": 14228,
     "Snohomish": 12337,
@@ -12048,7 +12048,7 @@
     "Roll_avg": 1979
   },
   {
-    "Date": "11/22",
+    "Date": "11/22/2020",
     "King": 39634,
     "Pierce": 15077,
     "Snohomish": 12858,
@@ -12093,7 +12093,7 @@
     "Roll_avg": 2144
   },
   {
-    "Date": "11/23",
+    "Date": "11/23/2020",
     "King": 40522,
     "Pierce": 15370,
     "Snohomish": 13267,
@@ -12138,7 +12138,7 @@
     "Roll_avg": 2277
   },
   {
-    "Date": "11/24",
+    "Date": "11/24/2020",
     "King": 41414,
     "Pierce": 15658,
     "Snohomish": 13548,
@@ -12183,7 +12183,7 @@
     "Roll_avg": 2374
   },
   {
-    "Date": "11/25",
+    "Date": "11/25/2020",
     "King": 41414,
     "Pierce": 15658,
     "Snohomish": 13548,
@@ -12228,7 +12228,7 @@
     "Roll_avg": 2435
   },
   {
-    "Date": "11/26",
+    "Date": "11/26/2020",
     "King": 42743,
     "Pierce": 16143,
     "Snohomish": 13961,
@@ -12273,7 +12273,7 @@
     "Roll_avg": 2422
   },
   {
-    "Date": "11/27",
+    "Date": "11/27/2020",
     "King": 43304,
     "Pierce": 16378,
     "Snohomish": 14260,
@@ -12318,7 +12318,7 @@
     "Roll_avg": 2427
   },
   {
-    "Date": "11/28",
+    "Date": "11/28/2020",
     "King": 43837,
     "Pierce": 16757,
     "Snohomish": 14394,
@@ -12363,7 +12363,7 @@
     "Roll_avg": 2417
   },
   {
-    "Date": "11/29",
+    "Date": "11/29/2020",
     "King": 44348,
     "Pierce": 17164,
     "Snohomish": 14627,
@@ -12408,7 +12408,7 @@
     "Roll_avg": 2466
   },
   {
-    "Date": "11/30",
+    "Date": "11/30/2020",
     "King": 45127,
     "Pierce": 17441,
     "Snohomish": 14824,
@@ -12453,7 +12453,7 @@
     "Roll_avg": 2457
   },
   {
-    "Date": "12/1",
+    "Date": "12/1/2020",
     "King": 45757,
     "Pierce": 17690,
     "Snohomish": 15125,
@@ -12498,7 +12498,7 @@
     "Roll_avg": 2565
   },
   {
-    "Date": "12/2",
+    "Date": "12/2/2020",
     "King": 46070,
     "Pierce": 17912,
     "Snohomish": 15281,
@@ -12543,7 +12543,7 @@
     "Roll_avg": 2580
   },
   {
-    "Date": "12/3",
+    "Date": "12/3/2020",
     "King": 46490,
     "Pierce": 18093,
     "Snohomish": 15432,
@@ -12588,7 +12588,7 @@
     "Roll_avg": 2574
   },
   {
-    "Date": "12/4",
+    "Date": "12/4/2020",
     "King": 47032,
     "Pierce": 18356,
     "Snohomish": 15624,
@@ -12633,7 +12633,7 @@
     "Roll_avg": 2574
   },
   {
-    "Date": "12/5",
+    "Date": "12/5/2020",
     "King": 47435,
     "Pierce": 18533,
     "Snohomish": 15736,
@@ -12678,7 +12678,7 @@
     "Roll_avg": 2510
   },
   {
-    "Date": "12/6",
+    "Date": "12/6/2020",
     "King": 49355,
     "Pierce": 19163,
     "Snohomish": 16422,
@@ -12723,7 +12723,7 @@
     "Roll_avg": 2690
   },
   {
-    "Date": "12/7",
+    "Date": "12/7/2020",
     "King": 50188,
     "Pierce": 19427,
     "Snohomish": 16713,
@@ -12768,7 +12768,7 @@
     "Roll_avg": 2726
   },
   {
-    "Date": "12/8",
+    "Date": "12/8/2020",
     "King": 50841,
     "Pierce": 19664,
     "Snohomish": 16963,
@@ -12813,7 +12813,7 @@
     "Roll_avg": 2725
   },
   {
-    "Date": "12/9",
+    "Date": "12/9/2020",
     "King": 51596,
     "Pierce": 19925,
     "Snohomish": 17210,
@@ -12858,7 +12858,7 @@
     "Roll_avg": 2733
   },
   {
-    "Date": "12/10",
+    "Date": "12/10/2020",
     "King": 52398,
     "Pierce": 20280,
     "Snohomish": 17587,
@@ -12903,7 +12903,7 @@
     "Roll_avg": 2797
   },
   {
-    "Date": "12/11",
+    "Date": "12/11/2020",
     "King": 53282,
     "Pierce": 21134,
     "Snohomish": 17942,
@@ -12948,7 +12948,7 @@
     "Roll_avg": 2907
   },
   {
-    "Date": "12/12",
+    "Date": "12/12/2020",
     "King": 53927,
     "Pierce": 21460,
     "Snohomish": 18202,
@@ -12993,7 +12993,7 @@
     "Roll_avg": 2922
   },
   {
-    "Date": "12/13",
+    "Date": "12/13/2020",
     "King": 54535,
     "Pierce": 21661,
     "Snohomish": 18370,
@@ -13038,7 +13038,7 @@
     "Roll_avg": 3032
   },
   {
-    "Date": "12/14",
+    "Date": "12/14/2020",
     "King": 54795,
     "Pierce": 21821,
     "Snohomish": 18501,
@@ -13083,7 +13083,7 @@
     "Roll_avg": 2969
   },
   {
-    "Date": "12/15",
+    "Date": "12/15/2020",
     "King": 55637,
     "Pierce": 22348,
     "Snohomish": 19047,
@@ -13128,7 +13128,7 @@
     "Roll_avg": 2963
   },
   {
-    "Date": "12/16",
+    "Date": "12/16/2020",
     "King": 56268,
     "Pierce": 22694,
     "Snohomish": 19328,
@@ -13173,7 +13173,7 @@
     "Roll_avg": 3060
   },
   {
-    "Date": "12/17",
+    "Date": "12/17/2020",
     "King": 57134,
     "Pierce": 22876,
     "Snohomish": 19622,
@@ -13218,7 +13218,7 @@
     "Roll_avg": 3075
   },
   {
-    "Date": "12/18",
+    "Date": "12/18/2020",
     "King": 57783,
     "Pierce": 23114,
     "Snohomish": 19819,
@@ -13308,7 +13308,7 @@
     "Roll_avg": 3093
   },
   {
-    "Date": "12/20",
+    "Date": "12/20/2020",
     "King": 58747,
     "Pierce": 23447,
     "Snohomish": 20273,
@@ -13353,7 +13353,7 @@
     "Roll_avg": 2659
   },
   {
-    "Date": "12/21",
+    "Date": "12/21/2020",
     "King": 58968,
     "Pierce": 23612,
     "Snohomish": 20407,
@@ -13398,7 +13398,7 @@
     "Roll_avg": 2498
   },
   {
-    "Date": "12/22",
+    "Date": "12/22/2020",
     "King": 59383,
     "Pierce": 23914,
     "Snohomish": 20656,
@@ -13443,7 +13443,7 @@
     "Roll_avg": 2445
   },
   {
-    "Date": "12/23",
+    "Date": "12/23/2020",
     "King": 59894,
     "Pierce": 24299,
     "Snohomish": 20893,
@@ -13533,7 +13533,7 @@
     "Roll_avg": 2405
   },
   {
-    "Date": "12/25",
+    "Date": "12/25/2020",
     "King": 60693,
     "Pierce": 24817,
     "Snohomish": 21264,
@@ -13623,7 +13623,7 @@
     "Roll_avg": 2087
   },
   {
-    "Date": "12/27",
+    "Date": "12/27/2020",
     "King": 61148,
     "Pierce": 25070,
     "Snohomish": 21462,
@@ -13668,7 +13668,7 @@
     "Roll_avg": 1909
   },
   {
-    "Date": "12/28",
+    "Date": "12/28/2020",
     "King": 61455,
     "Pierce": 25205,
     "Snohomish": 21707,
@@ -13713,7 +13713,7 @@
     "Roll_avg": 1889
   },
   {
-    "Date": "12/29",
+    "Date": "12/29/2020",
     "King": 61710,
     "Pierce": 25464,
     "Snohomish": 21837,
@@ -13756,7 +13756,7 @@
     "Unassigned": 1420
   },
   {
-    "Date": "12/30",
+    "Date": "12/30/2020",
     "King": 62580,
     "Pierce": 25864,
     "Snohomish": 22393,
@@ -13799,7 +13799,7 @@
     "Unassigned": 1489
   },
   {
-    "Date": "1/2",
+    "Date": "1/2/2021",
     "King": 65265,
     "Pierce": 26839,
     "Snohomish": 23120,
@@ -13842,7 +13842,7 @@
     "Unassigned": 1404
   },
   {
-    "Date": "1/3",
+    "Date": "1/3/2021",
     "King": 65570,
     "Pierce": 26975,
     "Snohomish": 23186,
@@ -13885,7 +13885,7 @@
     "Unassigned": 1404
   },
   {
-    "Date": "1/4",
+    "Date": "1/4/2021",
     "King": 65834,
     "Pierce": 27193,
     "Snohomish": 23426,
@@ -13928,7 +13928,7 @@
     "Unassigned": 1416
   },
   {
-    "Date": "1/5",
+    "Date": "1/5/2021",
     "King": 66286,
     "Pierce": 27436,
     "Snohomish": 23710,
@@ -13971,7 +13971,7 @@
     "Unassigned": 1407
   },
   {
-    "Date": "1/6",
+    "Date": "1/6/2021",
     "King": 66998,
     "Pierce": 27769,
     "Snohomish": 24038,
@@ -14014,7 +14014,7 @@
     "Unassigned": 1431
   },
   {
-    "Date": "1/7",
+    "Date": "1/7/2021",
     "King": 67932,
     "Pierce": 28427,
     "Snohomish": 24382,
@@ -14057,7 +14057,7 @@
     "Unassigned": 1562
   },
   {
-    "Date": "1/8",
+    "Date": "1/8/2021",
     "King": 68799,
     "Pierce": 28743,
     "Snohomish": 24616,
@@ -14100,7 +14100,7 @@
     "Unassigned": 1465
   },
   {
-    "Date": "1/10",
+    "Date": "1/10/2021",
     "King": 70059,
     "Pierce": 29205,
     "Snohomish": 25186,
@@ -14143,7 +14143,7 @@
     "Unassigned": 1476
   },
   {
-    "Date": "1/11",
+    "Date": "1/11/2021",
     "King": 70545,
     "Pierce": 29563,
     "Snohomish": 25243,
@@ -14186,7 +14186,7 @@
     "Unassigned": 1428
   },
   {
-    "Date": "1/12",
+    "Date": "1/12/2021",
     "King": 71106,
     "Pierce": 30008,
     "Snohomish": 25468,
@@ -14229,7 +14229,7 @@
     "Unassigned": 1458
   },
   {
-    "Date": "1/13",
+    "Date": "1/13/2021",
     "King": 71646,
     "Pierce": 30193,
     "Snohomish": 25698,
@@ -14272,7 +14272,7 @@
     "Unassigned": 1422
   },
   {
-    "Date": "1/14",
+    "Date": "1/14/2021",
     "King": 72253,
     "Pierce": 30509,
     "Snohomish": 25869,
@@ -14315,7 +14315,7 @@
     "Unassigned": 1439
   },
   {
-    "Date": "1/16",
+    "Date": "1/16/2021",
     "King": 73015,
     "Pierce": 30912,
     "Snohomish": 26267,
@@ -14358,7 +14358,7 @@
     "Unassigned": 1549
   },
   {
-    "Date": "1/18",
+    "Date": "1/18/2021",
     "King": 73667,
     "Pierce": 31164,
     "Snohomish": 26363,
@@ -14401,7 +14401,7 @@
     "Unassigned": 1459
   },
   {
-    "Date": "1/19",
+    "Date": "1/19/2021",
     "King": 74077,
     "Pierce": 31474,
     "Snohomish": 26498,
@@ -14444,7 +14444,7 @@
     "Unassigned": 1439
   },
   {
-    "Date": "1/20",
+    "Date": "1/20/2021",
     "King": 74500,
     "Pierce": 31781,
     "Snohomish": 26625,
@@ -14487,7 +14487,7 @@
     "Unassigned": 1436
   },
   {
-    "Date": "1/21",
+    "Date": "1/21/2021",
     "King": 74951,
     "Pierce": 32137,
     "Snohomish": 26773,
@@ -14530,7 +14530,7 @@
     "Unassigned": 1434
   },
   {
-    "Date": "1/22",
+    "Date": "1/22/2021",
     "King": 75433,
     "Pierce": 32305,
     "Snohomish": 26925,
@@ -14573,7 +14573,7 @@
     "Unassigned": 1442
   },
   {
-    "Date": "1/24",
+    "Date": "1/24/2021",
     "King": 75903,
     "Pierce": 32698,
     "Snohomish": 27069,
@@ -14616,7 +14616,7 @@
     "Unassigned": 1435
   },
   {
-    "Date": "1/25",
+    "Date": "1/25/2021",
     "King": 76146,
     "Pierce": 32936,
     "Snohomish": 27163,
@@ -14659,7 +14659,7 @@
     "Unassigned": 1442
   },
   {
-    "Date": "1/26",
+    "Date": "1/26/2021",
     "King": 76559,
     "Pierce": 33192,
     "Snohomish": 27316,
@@ -14702,7 +14702,7 @@
     "Unassigned": 1449
   },
   {
-    "Date": "1/27",
+    "Date": "1/27/2021",
     "King": 77067,
     "Pierce": 33488,
     "Snohomish": 27508,
@@ -14745,7 +14745,7 @@
     "Unassigned": 1431
   },
   {
-    "Date": "1/28",
+    "Date": "1/28/2021",
     "King": 77691,
     "Pierce": 33736,
     "Snohomish": 27633,
@@ -14788,50 +14788,50 @@
     "Unassigned": 1431
   },
   {
-    "Date": "1/29",
-    "King": "81,330",
-    "Pierce": "36,283",
-    "Snohomish": "28,971",
-    "Yakima": "25,852",
-    "Adams": "1,871",
-    "Asotin": "1,260",
-    "Benton": "14,606",
-    "Chelan": "5,918",
-    "Clallam": 939,
-    "Clark": "18,302",
-    "Columbia": 112,
-    "Cowlitz": "4,021",
-    "Douglas": "3,096",
-    "Ferry": 201,
-    "Franklin": "10,824",
-    "Garfield": 112,
-    "Grant": "7,420",
-    "Grays_Harbor": "3,221",
-    "Island": "1,257",
-    "Jefferson": 328,
-    "Kitsap": "5,529",
-    "Kittitas": "2,136",
-    "Klickitat": 643,
-    "Lewis": "3,536",
-    "Lincoln": 329,
-    "Mason": "2,213",
-    "Okanogan": "2,073",
-    "Pacific": 689,
-    "Pend_Oreille": 583,
-    "San_Juan": 116,
-    "Skagit": "4,276",
-    "Skamania": 250,
-    "Spokane": "35,044",
-    "Stevens": "1,536",
-    "Thurston": "6,746",
-    "Wahkiakum": 75,
-    "Walla_Walla": "4,570",
-    "Whatcom": "6,194",
-    "Whitman": "3,224",
-    "Unassigned": "1,481"
+    "Date": "1/29/2021",
+    "King": "84,488",
+    "Pierce": "38,611",
+    "Snohomish": "30,400",
+    "Yakima": "26,723",
+    "Adams": "1,926",
+    "Asotin": "1,286",
+    "Benton": "15,104",
+    "Chelan": "6,065",
+    "Clallam": 984,
+    "Clark": "19,024",
+    "Columbia": 114,
+    "Cowlitz": "4,412",
+    "Douglas": "3,186",
+    "Ferry": 208,
+    "Franklin": "11,192",
+    "Garfield": 117,
+    "Grant": "7,720",
+    "Grays_Harbor": "3,379",
+    "Island": "1,326",
+    "Jefferson": 337,
+    "Kitsap": "5,820",
+    "Kittitas": "2,269",
+    "Klickitat": 662,
+    "Lewis": "3,739",
+    "Lincoln": 340,
+    "Mason": "2,335",
+    "Okanogan": "2,166",
+    "Pacific": 727,
+    "Pend_Oreille": 635,
+    "San_Juan": 121,
+    "Skagit": "4,488",
+    "Skamania": 256,
+    "Spokane": "36,628",
+    "Stevens": "1,638",
+    "Thurston": "7,269",
+    "Wahkiakum": 95,
+    "Walla_Walla": "4,703",
+    "Whatcom": "6,855",
+    "Whitman": "3,388",
+    "Unassigned": "1,500"
   },
   {
-    "Date": "1/31",
+    "Date": "1/31/2021",
     "King": 78389,
     "Pierce": 34287,
     "Snohomish": 27866,
@@ -14874,7 +14874,7 @@
     "Unassigned": 1436
   },
   {
-    "Date": "2/1",
+    "Date": "2/1/2021",
     "King": 78678,
     "Pierce": 34500,
     "Snohomish": 27957,
@@ -14917,7 +14917,7 @@
     "Unassigned": 1447
   },
   {
-    "Date": "2/2",
+    "Date": "2/2/2021",
     "King": 79061,
     "Pierce": 34653,
     "Snohomish": 28096,
@@ -14960,7 +14960,7 @@
     "Unassigned": 1443
   },
   {
-    "Date": "2/3",
+    "Date": "2/3/2021",
     "King": 79340,
     "Pierce": 34850,
     "Snohomish": 28284,
@@ -15003,7 +15003,7 @@
     "Unassigned": 1446
   },
   {
-    "Date": "2/4",
+    "Date": "2/4/2021",
     "King": 79631,
     "Pierce": 35017,
     "Snohomish": 28403,
@@ -15046,7 +15046,7 @@
     "Unassigned": 1445
   },
   {
-    "Date": "2/5",
+    "Date": "2/5/2021",
     "King": 79699,
     "Pierce": 35112,
     "Snohomish": 28479,
@@ -15089,7 +15089,7 @@
     "Unassigned": 1448
   },
   {
-    "Date": "2/7",
+    "Date": "2/7/2021",
     "King": 80415,
     "Pierce": 35451,
     "Snohomish": 28737,
@@ -15132,7 +15132,7 @@
     "Unassigned": 1458
   },
   {
-    "Date": "2/8",
+    "Date": "2/8/2021",
     "King": 80594,
     "Pierce": 35557,
     "Snohomish": 28787,
@@ -15175,7 +15175,7 @@
     "Unassigned": 1442
   },
   {
-    "Date": "2/9",
+    "Date": "2/9/2021",
     "King": 80796,
     "Pierce": 35781,
     "Snohomish": 28780,
@@ -15218,7 +15218,7 @@
     "Unassigned": 1457
   },
   {
-    "Date": "2/10",
+    "Date": "2/10/2021",
     "King": 81082,
     "Pierce": 36045,
     "Snohomish": 28896,
@@ -15261,7 +15261,7 @@
     "Unassigned": 1536
   },
   {
-    "Date": "2/11",
+    "Date": "2/11/2021",
     "King": 81330,
     "Pierce": 36283,
     "Snohomish": 28971,
@@ -15302,5 +15302,650 @@
     "Whatcom": 6194,
     "Whitman": 3224,
     "Unassigned": 1481
+  },
+  {
+    "Date": "2/12/2021",
+    "King": 81541,
+    "Pierce": 36410,
+    "Snohomish": 29065,
+    "Yakima": 25909,
+    "Adams": 1877,
+    "Asotin": 1261,
+    "Benton": 14645,
+    "Chelan": 5937,
+    "Clallam": 941,
+    "Clark": 18343,
+    "Columbia": 112,
+    "Cowlitz": 4032,
+    "Douglas": 3103,
+    "Ferry": 202,
+    "Franklin": 10855,
+    "Garfield": 112,
+    "Grant": 7446,
+    "Grays_Harbor": 3225,
+    "Island": 1262,
+    "Jefferson": 329,
+    "Kitsap": 5555,
+    "Kittitas": 2139,
+    "Klickitat": 643,
+    "Lewis": 3546,
+    "Lincoln": 329,
+    "Mason": 2220,
+    "Okanogan": 2074,
+    "Pacific": 689,
+    "Pend_Oreille": 585,
+    "San_Juan": 118,
+    "Skagit": 4283,
+    "Skamania": 250,
+    "Spokane": 35134,
+    "Stevens": 1542,
+    "Thurston": 6772,
+    "Wahkiakum": 75,
+    "Walla_Walla": 4588,
+    "Whatcom": 6225,
+    "Whitman": 3225,
+    "Unassigned": 1448
+  },
+  {
+    "Date": "2/15/2021",
+    "King": 82022,
+    "Pierce": 36648,
+    "Snohomish": 29256,
+    "Yakima": 25983,
+    "Adams": 1881,
+    "Asotin": 1264,
+    "Benton": 14693,
+    "Chelan": 5953,
+    "Clallam": 945,
+    "Clark": 18416,
+    "Columbia": 112,
+    "Cowlitz": 4051,
+    "Douglas": 3112,
+    "Ferry": 202,
+    "Franklin": 10875,
+    "Garfield": 112,
+    "Grant": 7482,
+    "Grays_Harbor": 3227,
+    "Island": 1267,
+    "Jefferson": 329,
+    "Kitsap": 5577,
+    "Kittitas": 2145,
+    "Klickitat": 644,
+    "Lewis": 3560,
+    "Lincoln": 330,
+    "Mason": 2223,
+    "Okanogan": 2077,
+    "Pacific": 689,
+    "Pend_Oreille": 587,
+    "San_Juan": 119,
+    "Skagit": 4283,
+    "Skamania": 251,
+    "Spokane": 35359,
+    "Stevens": 1545,
+    "Thurston": 6906,
+    "Wahkiakum": 76,
+    "Walla_Walla": 4605,
+    "Whatcom": 6265,
+    "Whitman": 3229,
+    "Unassigned": 1446
+  },
+  {
+    "Date": "2/16/2021",
+    "King": 82201,
+    "Pierce": 36870,
+    "Snohomish": 29386,
+    "Yakima": 26005,
+    "Adams": 1886,
+    "Asotin": 1273,
+    "Benton": 14742,
+    "Chelan": 5961,
+    "Clallam": 956,
+    "Clark": 18504,
+    "Columbia": 114,
+    "Cowlitz": 4129,
+    "Douglas": 3119,
+    "Ferry": 202,
+    "Franklin": 10891,
+    "Garfield": 112,
+    "Grant": 7500,
+    "Grays_Harbor": 3233,
+    "Island": 1267,
+    "Jefferson": 331,
+    "Kitsap": 5596,
+    "Kittitas": 2147,
+    "Klickitat": 649,
+    "Lewis": 3576,
+    "Lincoln": 332,
+    "Mason": 2227,
+    "Okanogan": 2084,
+    "Pacific": 692,
+    "Pend_Oreille": 587,
+    "San_Juan": 120,
+    "Skagit": 4297,
+    "Skamania": 252,
+    "Spokane": 35431,
+    "Stevens": 1546,
+    "Thurston": 6918,
+    "Wahkiakum": 77,
+    "Walla_Walla": 4612,
+    "Whatcom": 6300,
+    "Whitman": 3229,
+    "Unassigned": 1453
+  },
+  {
+    "Date": "2/17/2021",
+    "King": 82402,
+    "Pierce": 37039,
+    "Snohomish": 29506,
+    "Yakima": 26107,
+    "Adams": 1891,
+    "Asotin": 1275,
+    "Benton": 14774,
+    "Chelan": 5985,
+    "Clallam": 960,
+    "Clark": 18516,
+    "Columbia": 114,
+    "Cowlitz": 4133,
+    "Douglas": 3127,
+    "Ferry": 204,
+    "Franklin": 10940,
+    "Garfield": 112,
+    "Grant": 7513,
+    "Grays_Harbor": 3244,
+    "Island": 1271,
+    "Jefferson": 331,
+    "Kitsap": 5606,
+    "Kittitas": 2178,
+    "Klickitat": 653,
+    "Lewis": 3600,
+    "Lincoln": 332,
+    "Mason": 2232,
+    "Okanogan": 2090,
+    "Pacific": 700,
+    "Pend_Oreille": 595,
+    "San_Juan": 121,
+    "Skagit": 4320,
+    "Skamania": 252,
+    "Spokane": 35579,
+    "Stevens": 1551,
+    "Thurston": 6964,
+    "Wahkiakum": 78,
+    "Walla_Walla": 4625,
+    "Whatcom": 6399,
+    "Whitman": 3235,
+    "Unassigned": 1453
+  },
+  {
+    "Date": "2/18/2021",
+    "King": 82615,
+    "Pierce": 37152,
+    "Snohomish": 29595,
+    "Yakima": 26150,
+    "Adams": 1897,
+    "Asotin": 1275,
+    "Benton": 14793,
+    "Chelan": 5995,
+    "Clallam": 963,
+    "Clark": 18551,
+    "Columbia": 114,
+    "Cowlitz": 4157,
+    "Douglas": 3133,
+    "Ferry": 204,
+    "Franklin": 10974,
+    "Garfield": 112,
+    "Grant": 7540,
+    "Grays_Harbor": 3263,
+    "Island": 1272,
+    "Jefferson": 331,
+    "Kitsap": 5632,
+    "Kittitas": 2186,
+    "Klickitat": 653,
+    "Lewis": 3608,
+    "Lincoln": 335,
+    "Mason": 2238,
+    "Okanogan": 2093,
+    "Pacific": 699,
+    "Pend_Oreille": 595,
+    "San_Juan": 121,
+    "Skagit": 4323,
+    "Skamania": 253,
+    "Spokane": 35677,
+    "Stevens": 1559,
+    "Thurston": 6980,
+    "Wahkiakum": 78,
+    "Walla_Walla": 4638,
+    "Whatcom": 6439,
+    "Whitman": 3235,
+    "Unassigned": 1476
+  },
+  {
+    "Date": "2/19/2021",
+    "King": 82835,
+    "Pierce": 37243,
+    "Snohomish": 29705,
+    "Yakima": 26198,
+    "Adams": 1899,
+    "Asotin": 1276,
+    "Benton": 14830,
+    "Chelan": 6000,
+    "Clallam": 971,
+    "Clark": 18612,
+    "Columbia": 114,
+    "Cowlitz": 4188,
+    "Douglas": 3133,
+    "Ferry": 204,
+    "Franklin": 10991,
+    "Garfield": 114,
+    "Grant": 7556,
+    "Grays_Harbor": 3270,
+    "Island": 1274,
+    "Jefferson": 333,
+    "Kitsap": 5647,
+    "Kittitas": 2188,
+    "Klickitat": 653,
+    "Lewis": 3628,
+    "Lincoln": 335,
+    "Mason": 2242,
+    "Okanogan": 2096,
+    "Pacific": 699,
+    "Pend_Oreille": 601,
+    "San_Juan": 121,
+    "Skagit": 4341,
+    "Skamania": 253,
+    "Spokane": 35780,
+    "Stevens": 1563,
+    "Thurston": 7024,
+    "Wahkiakum": 80,
+    "Walla_Walla": 4643,
+    "Whatcom": 6456,
+    "Whitman": 3236,
+    "Unassigned": 1462
+  },
+  {
+    "Date": "2/20/2021",
+    "King": 83071,
+    "Pierce": 37454,
+    "Snohomish": 29775,
+    "Yakima": 26254,
+    "Adams": 1900,
+    "Asotin": 1278,
+    "Benton": 14865,
+    "Chelan": 6014,
+    "Clallam": 970,
+    "Clark": 18674,
+    "Columbia": 114,
+    "Cowlitz": 4192,
+    "Douglas": 3142,
+    "Ferry": 204,
+    "Franklin": 11022,
+    "Garfield": 114,
+    "Grant": 7569,
+    "Grays_Harbor": 3280,
+    "Island": 1277,
+    "Jefferson": 333,
+    "Kitsap": 5680,
+    "Kittitas": 2205,
+    "Klickitat": 659,
+    "Lewis": 3638,
+    "Lincoln": 335,
+    "Mason": 2246,
+    "Okanogan": 2101,
+    "Pacific": 699,
+    "Pend_Oreille": 609,
+    "San_Juan": 121,
+    "Skagit": 4359,
+    "Skamania": 254,
+    "Spokane": 35930,
+    "Stevens": 1570,
+    "Thurston": 7046,
+    "Wahkiakum": 85,
+    "Walla_Walla": 4651,
+    "Whatcom": 6560,
+    "Whitman": 3244,
+    "Unassigned": 1468
+  },
+  {
+    "Date": "2/22/2021",
+    "King": 83195,
+    "Pierce": 37543,
+    "Snohomish": 29851,
+    "Yakima": 26292,
+    "Adams": 1903,
+    "Asotin": 1280,
+    "Benton": 14872,
+    "Chelan": 6019,
+    "Clallam": 972,
+    "Clark": 18706,
+    "Columbia": 114,
+    "Cowlitz": 4226,
+    "Douglas": 3145,
+    "Ferry": 204,
+    "Franklin": 11031,
+    "Garfield": 116,
+    "Grant": 7593,
+    "Grays_Harbor": 3283,
+    "Island": 1279,
+    "Jefferson": 333,
+    "Kitsap": 5703,
+    "Kittitas": 2207,
+    "Klickitat": 659,
+    "Lewis": 3656,
+    "Lincoln": 335,
+    "Mason": 2246,
+    "Okanogan": 2099,
+    "Pacific": 700,
+    "Pend_Oreille": 611,
+    "San_Juan": 122,
+    "Skagit": 4362,
+    "Skamania": 255,
+    "Spokane": 36034,
+    "Stevens": 1572,
+    "Thurston": 7081,
+    "Wahkiakum": 85,
+    "Walla_Walla": 4658,
+    "Whatcom": 6583,
+    "Whitman": 3293,
+    "Unassigned": 1475
+  },
+  {
+    "Date": "2/23/2021",
+    "King": 83357,
+    "Pierce": 37632,
+    "Snohomish": 29930,
+    "Yakima": 26349,
+    "Adams": 1906,
+    "Asotin": 1281,
+    "Benton": 14906,
+    "Chelan": 6032,
+    "Clallam": 975,
+    "Clark": 18754,
+    "Columbia": 114,
+    "Cowlitz": 4243,
+    "Douglas": 3151,
+    "Ferry": 206,
+    "Franklin": 11061,
+    "Garfield": 117,
+    "Grant": 7622,
+    "Grays_Harbor": 3293,
+    "Island": 1283,
+    "Jefferson": 335,
+    "Kitsap": 5723,
+    "Kittitas": 2210,
+    "Klickitat": 660,
+    "Lewis": 3662,
+    "Lincoln": 335,
+    "Mason": 2251,
+    "Okanogan": 2110,
+    "Pacific": 703,
+    "Pend_Oreille": 614,
+    "San_Juan": 121,
+    "Skagit": 4381,
+    "Skamania": 256,
+    "Spokane": 36140,
+    "Stevens": 1583,
+    "Thurston": 7109,
+    "Wahkiakum": 86,
+    "Walla_Walla": 4668,
+    "Whatcom": 6629,
+    "Whitman": 3294,
+    "Unassigned": 1483
+  },
+  {
+    "Date": "2/24/2021",
+    "King": 83611,
+    "Pierce": 37827,
+    "Snohomish": 30010,
+    "Yakima": 26402,
+    "Adams": 1907,
+    "Asotin": 1282,
+    "Benton": 14961,
+    "Chelan": 6036,
+    "Clallam": 979,
+    "Clark": 18804,
+    "Columbia": 114,
+    "Cowlitz": 4258,
+    "Douglas": 3159,
+    "Ferry": 207,
+    "Franklin": 11083,
+    "Garfield": 117,
+    "Grant": 7633,
+    "Grays_Harbor": 3326,
+    "Island": 1289,
+    "Jefferson": 335,
+    "Kitsap": 5734,
+    "Kittitas": 2223,
+    "Klickitat": 660,
+    "Lewis": 3686,
+    "Lincoln": 336,
+    "Mason": 2289,
+    "Okanogan": 2121,
+    "Pacific": 704,
+    "Pend_Oreille": 617,
+    "San_Juan": 121,
+    "Skagit": 4403,
+    "Skamania": 255,
+    "Spokane": 36208,
+    "Stevens": 1594,
+    "Thurston": 7139,
+    "Wahkiakum": 88,
+    "Walla_Walla": 4682,
+    "Whatcom": 6675,
+    "Whitman": 3294,
+    "Unassigned": 1484
+  },
+  {
+    "Date": "2/25/2021",
+    "King": 83801,
+    "Pierce": 38101,
+    "Snohomish": 30126,
+    "Yakima": 26494,
+    "Adams": 1909,
+    "Asotin": 1284,
+    "Benton": 14983,
+    "Chelan": 6042,
+    "Clallam": 979,
+    "Clark": 18859,
+    "Columbia": 114,
+    "Cowlitz": 4306,
+    "Douglas": 3166,
+    "Ferry": 207,
+    "Franklin": 11100,
+    "Garfield": 117,
+    "Grant": 7678,
+    "Grays_Harbor": 3338,
+    "Island": 1296,
+    "Jefferson": 337,
+    "Kitsap": 5752,
+    "Kittitas": 2232,
+    "Klickitat": 660,
+    "Lewis": 3700,
+    "Lincoln": 337,
+    "Mason": 2292,
+    "Okanogan": 2138,
+    "Pacific": 710,
+    "Pend_Oreille": 622,
+    "San_Juan": 121,
+    "Skagit": 4415,
+    "Skamania": 255,
+    "Spokane": 36291,
+    "Stevens": 1602,
+    "Thurston": 7173,
+    "Wahkiakum": 92,
+    "Walla_Walla": 4695,
+    "Whatcom": 6718,
+    "Whitman": 3294,
+    "Unassigned": 1486
+  },
+  {
+    "Date": "2/26/2021",
+    "King": 84014,
+    "Pierce": 38233,
+    "Snohomish": 30208,
+    "Yakima": 26559,
+    "Adams": 1912,
+    "Asotin": 1284,
+    "Benton": 15009,
+    "Chelan": 6045,
+    "Clallam": 980,
+    "Clark": 18912,
+    "Columbia": 114,
+    "Cowlitz": 4334,
+    "Douglas": 3171,
+    "Ferry": 207,
+    "Franklin": 11113,
+    "Garfield": 117,
+    "Grant": 7693,
+    "Grays_Harbor": 3348,
+    "Island": 1305,
+    "Jefferson": 337,
+    "Kitsap": 5781,
+    "Kittitas": 2236,
+    "Klickitat": 660,
+    "Lewis": 3714,
+    "Lincoln": 338,
+    "Mason": 2297,
+    "Okanogan": 2142,
+    "Pacific": 712,
+    "Pend_Oreille": 624,
+    "San_Juan": 121,
+    "Skagit": 4430,
+    "Skamania": 255,
+    "Spokane": 36419,
+    "Stevens": 1610,
+    "Thurston": 7204,
+    "Wahkiakum": 92,
+    "Walla_Walla": 4696,
+    "Whatcom": 6749,
+    "Whitman": 3310,
+    "Unassigned": 1488
+  },
+  {
+    "Date": "2/28/2021",
+    "King": 84244,
+    "Pierce": 38424,
+    "Snohomish": 30282,
+    "Yakima": 26612,
+    "Adams": 1921,
+    "Asotin": 1285,
+    "Benton": 15022,
+    "Chelan": 6048,
+    "Clallam": 979,
+    "Clark": 18959,
+    "Columbia": 114,
+    "Cowlitz": 4353,
+    "Douglas": 3178,
+    "Ferry": 208,
+    "Franklin": 11143,
+    "Garfield": 117,
+    "Grant": 7706,
+    "Grays_Harbor": 3361,
+    "Island": 1310,
+    "Jefferson": 337,
+    "Kitsap": 5786,
+    "Kittitas": 2248,
+    "Klickitat": 660,
+    "Lewis": 3716,
+    "Lincoln": 338,
+    "Mason": 2300,
+    "Okanogan": 2147,
+    "Pacific": 715,
+    "Pend_Oreille": 627,
+    "San_Juan": 121,
+    "Skagit": 4458,
+    "Skamania": 255,
+    "Spokane": 36489,
+    "Stevens": 1617,
+    "Thurston": 7233,
+    "Wahkiakum": 95,
+    "Walla_Walla": 4700,
+    "Whatcom": 6794,
+    "Whitman": 3313,
+    "Unassigned": 1493
+  },
+  {
+    "Date": "3/1/2021",
+    "King": 84326,
+    "Pierce": 38491,
+    "Snohomish": 30332,
+    "Yakima": 26664,
+    "Adams": 1924,
+    "Asotin": 1286,
+    "Benton": 15071,
+    "Chelan": 6055,
+    "Clallam": 981,
+    "Clark": 19001,
+    "Columbia": 114,
+    "Cowlitz": 4401,
+    "Douglas": 3183,
+    "Ferry": 208,
+    "Franklin": 11156,
+    "Garfield": 117,
+    "Grant": 7711,
+    "Grays_Harbor": 3368,
+    "Island": 1318,
+    "Jefferson": 337,
+    "Kitsap": 5800,
+    "Kittitas": 2261,
+    "Klickitat": 661,
+    "Lewis": 3732,
+    "Lincoln": 340,
+    "Mason": 2331,
+    "Okanogan": 2149,
+    "Pacific": 720,
+    "Pend_Oreille": 631,
+    "San_Juan": 121,
+    "Skagit": 4468,
+    "Skamania": 256,
+    "Spokane": 36574,
+    "Stevens": 1623,
+    "Thurston": 7247,
+    "Wahkiakum": 95,
+    "Walla_Walla": 4700,
+    "Whatcom": 6816,
+    "Whitman": 3381,
+    "Unassigned": 1491
+  },
+  {
+    "Date": "3/2/2021",
+    "King": 84488,
+    "Pierce": 38611,
+    "Snohomish": 30400,
+    "Yakima": 26723,
+    "Adams": 1926,
+    "Asotin": 1286,
+    "Benton": 15104,
+    "Chelan": 6065,
+    "Clallam": 984,
+    "Clark": 19024,
+    "Columbia": 114,
+    "Cowlitz": 4412,
+    "Douglas": 3186,
+    "Ferry": 208,
+    "Franklin": 11192,
+    "Garfield": 117,
+    "Grant": 7720,
+    "Grays_Harbor": 3379,
+    "Island": 1326,
+    "Jefferson": 337,
+    "Kitsap": 5820,
+    "Kittitas": 2269,
+    "Klickitat": 662,
+    "Lewis": 3739,
+    "Lincoln": 340,
+    "Mason": 2335,
+    "Okanogan": 2166,
+    "Pacific": 727,
+    "Pend_Oreille": 635,
+    "San_Juan": 121,
+    "Skagit": 4488,
+    "Skamania": 256,
+    "Spokane": 36628,
+    "Stevens": 1638,
+    "Thurston": 7269,
+    "Wahkiakum": 95,
+    "Walla_Walla": 4703,
+    "Whatcom": 6855,
+    "Whitman": 3388,
+    "Unassigned": 1500
   }
 ]

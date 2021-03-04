@@ -321,11 +321,23 @@ main.interactive {
 		.tick {
 
 			line { display: none; }
+				@media @mobile { display: none; }
 
 			text {
 			 transform:translateY(-5px);
 			 font-size: 1.4em;
 			}
+		}
+		.tick:nth-child(odd) {
+			display: none;
+		}
+		.tick:nth-child(2) {
+			display: inline;
+			@media @mobile { display: inline-block; }
+		}
+		.tick:last-child {
+			// display: inline;
+			@media @mobile { display: inline-block; }
 		}
 	}
 }
@@ -534,6 +546,16 @@ main.interactive {
 			 transform:translateY(-5px);
 			 font-size: 1.4em;
 			}
+			@media @mobile { display: none; }
+		}
+
+		.tick:nth-child(2) {
+			display: inline;
+			@media @mobile { display: inline-block; }
+		}
+		.tick:last-child {
+			display: inline;
+			@media @mobile { display: inline-block; }
 		}
 
 	}
