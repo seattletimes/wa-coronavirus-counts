@@ -2342,21 +2342,21 @@
   },
   {
     "date": "3/16",
-    "% filled ALL acute beds": "",
-    "total adult beds": "",
-    "occupied ALL": 0,
-    "occupied-covid": "",
-    "% covid fill": "#DIV/0!",
-    "% NON-covid fill": "#DIV/0!"
+    "% filled ALL acute beds": 0.817,
+    "total adult beds": "8,914",
+    "occupied ALL": 7283,
+    "occupied-covid": 394,
+    "% covid fill": 0.044,
+    "% NON-covid fill": 0.773
   },
   {
     "date": "3/17",
-    "% filled ALL acute beds": "",
-    "total adult beds": "",
-    "occupied ALL": 0,
-    "occupied-covid": "",
-    "% covid fill": "#DIV/0!",
-    "% NON-covid fill": "#DIV/0!"
+    "% filled ALL acute beds": 0.83,
+    "total adult beds": "8,913",
+    "occupied ALL": 7398,
+    "occupied-covid": 393,
+    "% covid fill": 0.044,
+    "% NON-covid fill": 0.786
   },
   {
     "date": "3/18",
