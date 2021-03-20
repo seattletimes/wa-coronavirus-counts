@@ -2360,12 +2360,12 @@
   },
   {
     "date": "3/18",
-    "% filled ALL acute beds": "",
-    "total adult beds": "",
-    "occupied ALL": 0,
-    "occupied-covid": "",
-    "% covid fill": "#DIV/0!",
-    "% NON-covid fill": "#DIV/0!"
+    "% filled ALL acute beds": 0.819,
+    "total adult beds": "8,740",
+    "occupied ALL": 7158,
+    "occupied-covid": 378,
+    "% covid fill": 0.043,
+    "% NON-covid fill": 0.776
   },
   {
     "date": "3/19",
