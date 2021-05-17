@@ -4,335 +4,291 @@
     "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "Cases",
     "": "",
     "REF": "pop_2020",
-    "OLD": "County",
     "undefined": "pop_2019"
   },
   {
     "NEW": "Adams",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,954",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "2,146",
     "": "",
     "REF": "20,450",
-    "OLD": "Adams",
     "undefined": "20,150"
   },
   {
     "NEW": "Asotin",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,311",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,456",
     "": "",
     "REF": "22,640",
-    "OLD": "Asotin",
     "undefined": "22,520"
   },
   {
     "NEW": "Benton",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "15,427",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "16,991",
     "": "",
     "REF": "205,700",
-    "OLD": "Benton",
     "undefined": "201,800"
   },
   {
     "NEW": "Chelan",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "6,185",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "6,710",
     "": "",
     "REF": "79,660",
-    "OLD": "Chelan",
     "undefined": "78,420"
   },
   {
     "NEW": "Clallam",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,014",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,286",
     "": "",
     "REF": "76,770",
-    "OLD": "Clallam",
     "undefined": "76,010"
   },
   {
     "NEW": "Clark",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "19,640",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "23,885",
     "": "",
     "REF": "499,200",
-    "OLD": "Clark",
     "undefined": "488,500"
   },
   {
     "NEW": "Columbia",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 116,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 119,
     "": "",
     "REF": "4,185",
-    "OLD": "Columbia",
     "undefined": "4,160"
   },
   {
     "NEW": "Cowlitz",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "4,601",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "5,945",
     "": "",
     "REF": "110,500",
-    "OLD": "Cowlitz",
     "undefined": "108,950"
   },
   {
     "NEW": "Douglas",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,276",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,583",
     "": "",
     "REF": "43,750",
-    "OLD": "Douglas",
     "undefined": "42,820"
   },
   {
     "NEW": "Ferry",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 214,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 362,
     "": "",
     "REF": "7,910",
-    "OLD": "Ferry",
     "undefined": "7,830"
   },
   {
     "NEW": "Franklin",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "11,416",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "12,396",
     "": "",
     "REF": "96,760",
-    "OLD": "Franklin",
     "undefined": "94,680"
   },
   {
     "NEW": "Garfield",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 119,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 123,
     "": "",
     "REF": "2,225",
-    "OLD": "Garfield",
     "undefined": "2,220"
   },
   {
     "NEW": "Grant",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "7,912",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "8,902",
     "": "",
     "REF": "100,130",
-    "OLD": "Grant",
     "undefined": "98,740"
   },
   {
     "NEW": "Grays Harbor",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,483",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "4,078",
     "": "",
     "REF": "74,720",
-    "OLD": "Grays Harbor",
     "undefined": "74,160"
   },
   {
     "NEW": "Island",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,440",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,741",
     "": "",
     "REF": "85,530",
-    "OLD": "Island",
     "undefined": "84,820"
   },
   {
     "NEW": "Jefferson",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 342,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 412,
     "": "",
     "REF": "32,190",
-    "OLD": "Jefferson",
     "undefined": "31,900"
   },
   {
     "NEW": "King",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "87,393",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "107,147",
     "": "",
     "REF": "2,260,800",
-    "OLD": "King",
     "undefined": "2,226,300"
   },
   {
     "NEW": "Kitsap",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "6,125",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "8,124",
     "": "",
     "REF": "272,200",
-    "OLD": "Kitsap",
     "undefined": "270,100"
   },
   {
     "NEW": "Kittitas",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "2,428",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,011",
     "": "",
     "REF": "48,140",
-    "OLD": "Kittitas",
     "undefined": "46,570"
   },
   {
     "NEW": "Klickitat",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 676,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 751,
     "": "",
     "REF": "22,770",
-    "OLD": "Klickitat",
     "undefined": "22,430"
   },
   {
     "NEW": "Lewis",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,865",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "4,597",
     "": "",
     "REF": "80,250",
-    "OLD": "Lewis",
     "undefined": "79,480"
   },
   {
     "NEW": "Lincoln",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 347,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 520,
     "": "",
     "REF": "11,050",
-    "OLD": "Lincoln",
     "undefined": "10,960"
   },
   {
     "NEW": "Mason",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "2,394",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "2,739",
     "": "",
     "REF": "65,650",
-    "OLD": "Mason",
     "undefined": "64,980"
   },
   {
     "NEW": "Okanogan",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "2,235",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "2,548",
     "": "",
     "REF": "43,130",
-    "OLD": "Okanogan",
     "undefined": "42,730"
   },
   {
     "NEW": "Pacific",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 776,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 937,
     "": "",
     "REF": "21,840",
-    "OLD": "Pacific",
     "undefined": "21,640"
   },
   {
     "NEW": "Pend Oreille",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 656,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 763,
     "": "",
     "REF": "13,850",
-    "OLD": "Pend Oreille",
     "undefined": "13,740"
   },
   {
     "NEW": "Pierce",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "40,626",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "52,757",
     "": "",
     "REF": "900,700",
-    "OLD": "Pierce",
     "undefined": "888,300"
   },
   {
     "NEW": "San Juan",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 122,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 175,
     "": "",
     "REF": "17,340",
-    "OLD": "San Juan",
     "undefined": "17,150"
   },
   {
     "NEW": "Skagit",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "4,635",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "5,687",
     "": "",
     "REF": "130,450",
-    "OLD": "Skagit",
     "undefined": "129,200"
   },
   {
     "NEW": "Skamania",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 257,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 347,
     "": "",
     "REF": "12,220",
-    "OLD": "Skamania",
     "undefined": "12,060"
   },
   {
     "NEW": "Snohomish",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "31,193",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "37,808",
     "": "",
     "REF": "830,500",
-    "OLD": "Snohomish",
     "undefined": "818,700"
   },
   {
     "NEW": "Spokane",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "37,573",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "42,980",
     "": "",
     "REF": "522,600",
-    "OLD": "Spokane",
     "undefined": "515,250"
   },
   {
     "NEW": "Stevens",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,712",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "2,189",
     "": "",
     "REF": "45,920",
-    "OLD": "Stevens",
     "undefined": "45,570"
   },
   {
     "NEW": "Thurston",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "7,543",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "9,634",
     "": "",
     "REF": "291,000",
-    "OLD": "Thurston",
     "undefined": "285,800"
   },
   {
     "NEW": "Wahkiakum",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 101,
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": 110,
     "": "",
     "REF": "4,210",
-    "OLD": "Wahkiakum",
     "undefined": "4,190"
   },
   {
     "NEW": "Walla Walla",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "4,790",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "5,072",
     "": "",
     "REF": "62,580",
-    "OLD": "Walla Walla",
     "undefined": "62,200"
   },
   {
     "NEW": "Whatcom",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "7,261",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "9,004",
     "": "",
     "REF": "228,000",
-    "OLD": "Whatcom",
     "undefined": "225,300"
   },
   {
     "NEW": "Whitman",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "3,610",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "4,232",
     "": "",
     "REF": "50,480",
-    "OLD": "Whitman",
     "undefined": "50,130"
   },
   {
     "NEW": "Yakima",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "27,546",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "29,807",
     "": "",
     "REF": "258,200",
-    "OLD": "Yakima",
     "undefined": "255,950"
   },
   {
     "NEW": "Unassigned",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,478",
-    "": "",
-    "REF": "",
-    "OLD": "Unassigned",
-    "undefined": 4
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "1,591",
+    "": 4
   },
   {
     "NEW": "Total",
-    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "353,792",
+    "https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard": "422,665",
     "": "",
     "REF": "7,656,200",
-    "OLD": "Total",
     "undefined": "7,546,410"
   }
 ]

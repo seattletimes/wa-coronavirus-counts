@@ -548,13 +548,16 @@ main.interactive {
 			}
 			@media @mobile { display: none; }
 		}
+		.tick:nth-child(odd) {
+			display: none;
+		}
 
 		.tick:nth-child(2) {
 			display: inline;
 			@media @mobile { display: inline-block; }
 		}
 		.tick:last-child {
-			display: inline;
+			// display: none;
 			@media @mobile { display: inline-block; }
 		}
 

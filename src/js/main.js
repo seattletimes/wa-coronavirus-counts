@@ -11,7 +11,7 @@ const d3 = require("d3");
 // var day_var = "1216";
 
 //// change me every month ////
-var monthTicks = ["3/1/2020", "4/1/2020", "5/1/2020", "6/1/2020", "7/1/2020","8/1/2020","9/1/2020","10/1/2020","11/1/2020","12/1/2020","1/1/2021", "2/1/2021", "3/1/2021"];
+var monthTicks = ["3/1/2020", "4/1/2020", "5/1/2020", "6/1/2020", "7/1/2020","8/1/2020","9/1/2020","10/1/2020","11/1/2020","12/1/2020","1/1/2021", "2/1/2021", "3/1/2021", "4/1/2021", "5/1/2021"];
 
 
 var commaFormat = d3.format(',');
@@ -36,7 +36,7 @@ let buckets = {
   cases: [1],
   deaths: [0.1],
   casesPop: [0.1, 150.1, 300.1, 450.1,600.1],
-  deathsPop: [0.1, 2.1, 4.1, 6.1, 8.1]
+  deathsPop: [0.1, 3.1, 6.1, 9.1, 12.1]
 }
 
 var day_var = county_counts[county_counts.length - 1];
@@ -228,7 +228,7 @@ if($('#countyTrendGraphic').length >0 ){
   var toolData = textBox.append("div").attr("class","toolData");
 
 
- var margin = {top: 20, right: 10, bottom: 30, left: 60},
+ var margin = {top: 20, right: 20, bottom: 30, left: 60},
      width = conWidth - margin.left - margin.right,
      height = conHeight - margin.top - margin.bottom;
 
@@ -489,7 +489,7 @@ console.log(idClicked);
 
 
 
-      var margin = {top: 20, right: 15, bottom: 40, left: 50},
+      var margin = {top: 20, right: 25, bottom: 40, left: 50},
           width = conWidth - margin.left - margin.right,
           height = conHeight - margin.top - margin.bottom;
 
@@ -800,9 +800,9 @@ console.log(idClicked);
 // }));
 
 
-window.onresize = function(event) {
-  myFunction1(dohNumbers, "casesCounty3", "CasesNew");
-};
+// window.onresize = function(event) {
+//   myFunction1(dohNumbers, "casesCounty3", "CasesNew");
+// };
 
 
 myFunction1(dohNumbers, "casesCounty3", "CasesNew");
