@@ -8,8 +8,8 @@
     <% } %>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
-      window.case_dataTwo = <%= JSON.stringify(grunt.data.json) %>;
-      // console.log(window.case_dataTwo);
+      window.CountyCounts = <%= JSON.stringify(grunt.data.json.county_counts) %>;
+      window.CountyDeaths = <%= JSON.stringify(grunt.data.json.death_counts) %>;
     </script>
   </head>
   <body>
@@ -47,10 +47,10 @@
             <div class="caseKey" id="casesPop">
               <div class="hed">Cases per 10,000 residents</div>
               <div class="eachKey"><span class="key" style="background-color:#730505;"></span> 600.1 or more cases</div>
-              <div class="eachKey"><span class="key" style="background-color:#914c14;"></span> 450.1 - 600.0 cases</div>
-              <div class="eachKey"><span class="key" style="background-color:#d28449;"></span> 300.1 - 450.0 cases</div>
-              <div class="eachKey"><span class="key" style="background-color:#ffc88a;"></span> 150.1 - 300.0 cases</div>
-              <div class="eachKey"><span class="key" style="background-color:#FFE9CF;"></span> 0.1 - 150.0 cases</div>
+              <div class="eachKey"><span class="key" style="background-color:#914c14;"></span> 450.1 - 600.0</div>
+              <div class="eachKey"><span class="key" style="background-color:#d28449;"></span> 300.1 - 450.0</div>
+              <div class="eachKey"><span class="key" style="background-color:#ffc88a;"></span> 150.1 - 300.0</div>
+              <div class="eachKey"><span class="key" style="background-color:#FFE9CF;"></span> 0.1 - 150.0</div>
               <!-- <div class="eachKey"><span class="key" style="background-color:#e2e2e2;"></span> Zero cases</div> -->
             </div>
 

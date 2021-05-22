@@ -53,6 +53,9 @@
 @orangeFill: #D8894E;
 @orangeStroke: #D86C13;
 
+@newFill: #f77f50;
+@newStroke: #f77f50;
+
 main.interactive {
 	max-width: 960px;
 	padding-top: 15px;
@@ -125,6 +128,13 @@ main.interactive {
 	border-radius: 3px;
 }
 
+.label--cases2 {
+	background: @newFill;
+	border: 1px solid @newStroke;
+	border-radius: 3px;
+	border-radius: 3px;
+}
+
 .label--deaths {
 	background: @redFill;
 	border: 1px solid @redStroke;
@@ -134,7 +144,7 @@ main.interactive {
 
 
 
-#toggle, #toggle2, #toggle3 {
+#toggle, #toggle2, #toggle3, #toggle4 {
 	margin-bottom: 15px;
 	text-align: center;
 }
@@ -151,6 +161,11 @@ main.interactive {
 #toggle3 input[type="radio"]:checked+label {
 	opacity: 100%;
 }
+
+#toggle4 input[type="radio"]:checked+label {
+	opacity: 100%;
+}
+
 
 .map-container {
 	height: 500px;
@@ -197,6 +212,15 @@ main.interactive {
 	margin-top: 10px;
 }
 
+#toggle4 .toggle__label {
+	width: 49%;
+	display: inline-block;
+	@media @mobile {
+		width: 100%;
+		display: block;
+	}
+}
+
 .col {
 	width: 49%;
 	display: inline-block;
@@ -211,6 +235,21 @@ main.interactive {
 		margin: 2px 1px;
 	}
 }
+
+// #toggle4 .col {
+// 	width: 49%;
+// 	display: inline-block;
+// 	vertical-align: top;
+//
+// 	@media @mobile {
+// 		width: 100%;
+// 	}
+//
+// 	.toggle__label {
+// 		width: 100%;
+// 		margin: 2px 1px;
+// 	}
+// }
 
 
 .caseKey {
@@ -256,6 +295,7 @@ main.interactive {
 .covidNum {
 	display: none;
 	&.active { display: block; }
+	&.alwaysActive { display: block; }
 }
 
 
@@ -280,22 +320,27 @@ main.interactive {
 
 
 .headerC {
-	font-size: 23px;
+	font-size: 21px;
+
+	@media @mobile {
+		font-size: 25px;
+	}
+}
+
+.valueC {
+	font-size: 22px;
 
 	@media @mobile {
 		font-size: 27px;
 	}
 }
 
-.valueC {
-	font-size: 23px;
-
-	@media @mobile {
-		font-size: 29px;
-	}
+#countyMapGraphic {
+	max-width: 630px;
+	margin: auto;
 }
 
-#countyMapGraphic {
+#countyHotSpots {
 	max-width: 630px;
 	margin: auto;
 }
