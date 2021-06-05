@@ -1,158 +1,162 @@
 [
   {
     "County": "Adams County",
-    "Total_2Weeks_Cases": 50
+    "Total_2Weeks_Cases": 34
   },
   {
     "County": "Asotin County",
-    "Total_2Weeks_Cases": 44
+    "Total_2Weeks_Cases": 20
   },
   {
     "County": "Benton County",
-    "Total_2Weeks_Cases": 286
+    "Total_2Weeks_Cases": 220
   },
   {
     "County": "Chelan County",
-    "Total_2Weeks_Cases": 70
+    "Total_2Weeks_Cases": 82
   },
   {
     "County": "Clallam County",
-    "Total_2Weeks_Cases": 61
+    "Total_2Weeks_Cases": 30
   },
   {
     "County": "Clark County",
-    "Total_2Weeks_Cases": 1181
+    "Total_2Weeks_Cases": 896
+  },
+  {
+    "County": "Columbia County",
+    "Total_2Weeks_Cases": 6
   },
   {
     "County": "Cowlitz County",
-    "Total_2Weeks_Cases": 191
-  },
-  {
-    "County": "Douglas County",
-    "Total_2Weeks_Cases": 42
-  },
-  {
-    "County": "Ferry County",
-    "Total_2Weeks_Cases": 37
-  },
-  {
-    "County": "Franklin County",
-    "Total_2Weeks_Cases": 173
-  },
-  {
-    "County": "Garfield County",
-    "Total_2Weeks_Cases": 2
-  },
-  {
-    "County": "Grant County",
-    "Total_2Weeks_Cases": 250
-  },
-  {
-    "County": "Grays Harbor County",
-    "Total_2Weeks_Cases": 264
-  },
-  {
-    "County": "Island County",
-    "Total_2Weeks_Cases": 67
-  },
-  {
-    "County": "Jefferson County",
-    "Total_2Weeks_Cases": 16
-  },
-  {
-    "County": "King County",
-    "Total_2Weeks_Cases": 3698
-  },
-  {
-    "County": "Kitsap County",
-    "Total_2Weeks_Cases": 400
-  },
-  {
-    "County": "Kittitas County",
-    "Total_2Weeks_Cases": 156
-  },
-  {
-    "County": "Klickitat County",
-    "Total_2Weeks_Cases": 20
-  },
-  {
-    "County": "Lewis County",
-    "Total_2Weeks_Cases": 236
-  },
-  {
-    "County": "Lincoln County",
-    "Total_2Weeks_Cases": 44
-  },
-  {
-    "County": "Mason County",
-    "Total_2Weeks_Cases": 83
-  },
-  {
-    "County": "Okanogan County",
-    "Total_2Weeks_Cases": 88
-  },
-  {
-    "County": "Pacific County",
-    "Total_2Weeks_Cases": 38
-  },
-  {
-    "County": "Pend Oreille County",
-    "Total_2Weeks_Cases": 19
-  },
-  {
-    "County": "Pierce County",
-    "Total_2Weeks_Cases": 2258
-  },
-  {
-    "County": "San Juan County",
-    "Total_2Weeks_Cases": 4
-  },
-  {
-    "County": "Skagit County",
     "Total_2Weeks_Cases": 237
   },
   {
+    "County": "Douglas County",
+    "Total_2Weeks_Cases": 27
+  },
+  {
+    "County": "Ferry County",
+    "Total_2Weeks_Cases": 13
+  },
+  {
+    "County": "Franklin County",
+    "Total_2Weeks_Cases": 141
+  },
+  {
+    "County": "Garfield County",
+    "Total_2Weeks_Cases": 1
+  },
+  {
+    "County": "Grant County",
+    "Total_2Weeks_Cases": 179
+  },
+  {
+    "County": "Grays Harbor County",
+    "Total_2Weeks_Cases": 271
+  },
+  {
+    "County": "Island County",
+    "Total_2Weeks_Cases": 32
+  },
+  {
+    "County": "Jefferson County",
+    "Total_2Weeks_Cases": 2
+  },
+  {
+    "County": "King County",
+    "Total_2Weeks_Cases": 1891
+  },
+  {
+    "County": "Kitsap County",
+    "Total_2Weeks_Cases": 234
+  },
+  {
+    "County": "Kittitas County",
+    "Total_2Weeks_Cases": 77
+  },
+  {
+    "County": "Klickitat County",
+    "Total_2Weeks_Cases": 52
+  },
+  {
+    "County": "Lewis County",
+    "Total_2Weeks_Cases": 217
+  },
+  {
+    "County": "Lincoln County",
+    "Total_2Weeks_Cases": 75
+  },
+  {
+    "County": "Mason County",
+    "Total_2Weeks_Cases": 58
+  },
+  {
+    "County": "Okanogan County",
+    "Total_2Weeks_Cases": 69
+  },
+  {
+    "County": "Pacific County",
+    "Total_2Weeks_Cases": 23
+  },
+  {
+    "County": "Pend Oreille County",
+    "Total_2Weeks_Cases": 34
+  },
+  {
+    "County": "Pierce County",
+    "Total_2Weeks_Cases": 1430
+  },
+  {
+    "County": "San Juan County",
+    "Total_2Weeks_Cases": 6
+  },
+  {
+    "County": "Skagit County",
+    "Total_2Weeks_Cases": 162
+  },
+  {
     "County": "Skamania County",
-    "Total_2Weeks_Cases": 25
+    "Total_2Weeks_Cases": 8
   },
   {
     "County": "Snohomish County",
-    "Total_2Weeks_Cases": 1285
+    "Total_2Weeks_Cases": 769
   },
   {
     "County": "Spokane County",
-    "Total_2Weeks_Cases": 1310
+    "Total_2Weeks_Cases": 1262
   },
   {
     "County": "Stevens County",
-    "Total_2Weeks_Cases": 114
+    "Total_2Weeks_Cases": 73
   },
   {
     "County": "Thurston County",
-    "Total_2Weeks_Cases": 469
+    "Total_2Weeks_Cases": 370
   },
   {
     "County": "Unassigned",
-    "Total_2Weeks_Cases": 20
+    "Total_2Weeks_Cases": 10
   },
   {
     "County": "Wahkiakum County",
-    "Total_2Weeks_Cases": 7
+    "Total_2Weeks_Cases": 18
   },
   {
     "County": "Walla Walla County",
-    "Total_2Weeks_Cases": 56
+    "Total_2Weeks_Cases": 70
   },
   {
     "County": "Whatcom County",
-    "Total_2Weeks_Cases": 501
+    "Total_2Weeks_Cases": 418
   },
   {
     "County": "Whitman County",
-    "Total_2Weeks_Cases": 49
+    "Total_2Weeks_Cases": 22
   },
   {
     "County": "Yakima County",
-    "Total_2Weeks_Cases": 267
+    "Total_2Weeks_Cases": 269
   }
 ]
