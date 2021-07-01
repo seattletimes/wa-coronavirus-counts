@@ -41,7 +41,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 3
+    "New": 3,
+    "Total": 3
   },
   {
     "Date": "2/29/2020",
@@ -85,7 +86,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 3
+    "New": 3,
+    "Total": 6
   },
   {
     "Date": "3/1/2020",
@@ -129,7 +131,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 0
+    "New": 0,
+    "Total": 13
   },
   {
     "Date": "3/2/2020",
@@ -173,7 +176,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 26
+    "New": 26,
+    "Total": 18
   },
   {
     "Date": "3/3/2020",
@@ -217,7 +221,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 13
+    "New": 13,
+    "Total": 27
   },
   {
     "Date": "3/4/2020",
@@ -261,7 +266,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 15
+    "New": 15,
+    "Total": 39
   },
   {
     "Date": "3/5/2020",
@@ -305,7 +311,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 12
+    "New": 12,
+    "Total": 70
   },
   {
     "Date": "3/6/2020",
@@ -349,7 +356,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 32
+    "New": 32,
+    "Total": 79
   },
   {
     "Date": "3/7/2020",
@@ -393,7 +401,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 26
+    "New": 26,
+    "Total": 102
   },
   {
     "Date": "3/8/2020",
@@ -437,7 +446,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 14,
-    "New": 66
+    "New": 66,
+    "Total": 137
   },
   {
     "Date": "3/9/2020",
@@ -481,7 +491,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 88
+    "New": 88,
+    "Total": 162
   },
   {
     "Date": "3/10/2020",
@@ -525,7 +536,8 @@
     "Whatcom": 0,
     "Whitman": 0,
     "Unassigned": 0,
-    "New": 48
+    "New": 48,
+    "Total": 267
   },
   {
     "Date": "3/11/2020",
@@ -570,7 +582,7 @@
     "Whitman": 0,
     "Unassigned": 36,
     "New": 86,
-    "Roll_avg": 32
+    "Total": 366
   },
   {
     "Date": "3/12/2020",
@@ -615,7 +627,7 @@
     "Whitman": 0,
     "Unassigned": 46,
     "New": 67,
-    "Roll_avg": 35
+    "Total": 457
   },
   {
     "Date": "3/13/2020",
@@ -660,7 +672,7 @@
     "Whitman": 0,
     "Unassigned": 67,
     "New": 121,
-    "Roll_avg": 43
+    "Total": 568
   },
   {
     "Date": "3/14/2020",
@@ -705,7 +717,7 @@
     "Whitman": 0,
     "Unassigned": 39,
     "New": 115,
-    "Roll_avg": 51
+    "Total": 644
   },
   {
     "Date": "3/15/2020",
@@ -750,7 +762,7 @@
     "Whitman": 0,
     "Unassigned": 104,
     "New": 117,
-    "Roll_avg": 59
+    "Total": 769
   },
   {
     "Date": "3/16/2020",
@@ -795,7 +807,7 @@
     "Whitman": 0,
     "Unassigned": 126,
     "New": 125,
-    "Roll_avg": 67
+    "Total": 904
   },
   {
     "Date": "3/17/2020",
@@ -840,7 +852,7 @@
     "Whitman": 0,
     "Unassigned": 70,
     "New": 168,
-    "Roll_avg": 78
+    "Total": 961
   },
   {
     "Date": "3/18/2020",
@@ -885,7 +897,7 @@
     "Whitman": 0,
     "Unassigned": 167,
     "New": 162,
-    "Roll_avg": 88
+    "Total": 1187
   },
   {
     "Date": "3/19/2020",
@@ -930,7 +942,7 @@
     "Whitman": 0,
     "Unassigned": 151,
     "New": 140,
-    "Roll_avg": 97
+    "Total": 1376
   },
   {
     "Date": "3/20/2020",
@@ -975,7 +987,7 @@
     "Whitman": 0,
     "Unassigned": 133,
     "New": 229,
-    "Roll_avg": 111
+    "Total": 1524
   },
   {
     "Date": "3/21/2020",
@@ -1020,7 +1032,7 @@
     "Whitman": 0,
     "Unassigned": 147,
     "New": 140,
-    "Roll_avg": 119
+    "Total": 1793
   },
   {
     "Date": "3/22/2020",
@@ -1065,7 +1077,7 @@
     "Whitman": 0,
     "Unassigned": 165,
     "New": 336,
-    "Roll_avg": 139
+    "Total": 1996
   },
   {
     "Date": "3/23/2020",
@@ -1110,7 +1122,7 @@
     "Whitman": 2,
     "Unassigned": 117,
     "New": 189,
-    "Roll_avg": 146
+    "Total": 2221
   },
   {
     "Date": "3/24/2020",
@@ -1155,7 +1167,7 @@
     "Whitman": 2,
     "Unassigned": 65,
     "New": 207,
-    "Roll_avg": 157
+    "Total": 2459
   },
   {
     "Date": "3/25/2020",
@@ -1200,7 +1212,7 @@
     "Whitman": 2,
     "Unassigned": 65,
     "New": 542,
-    "Roll_avg": 190
+    "Total": 2578
   },
   {
     "Date": "3/26/2020",
@@ -1245,7 +1257,7 @@
     "Whitman": 3,
     "Unassigned": 69,
     "New": 543,
-    "Roll_avg": 224
+    "Total": 3207
   },
   {
     "Date": "3/27/2020",
@@ -1290,7 +1302,7 @@
     "Whitman": 5,
     "Unassigned": 45,
     "New": 442,
-    "Roll_avg": 247
+    "Total": 3768
   },
   {
     "Date": "3/28/2020",
@@ -1335,7 +1347,7 @@
     "Whitman": 6,
     "Unassigned": 387,
     "New": 453,
-    "Roll_avg": 271
+    "Total": 4896
   },
   {
     "Date": "3/29/2020",
@@ -1380,7 +1392,7 @@
     "Whitman": 7,
     "Unassigned": 389,
     "New": 377,
-    "Roll_avg": 290
+    "Total": 5062
   },
   {
     "Date": "3/30/2020",
@@ -1425,7 +1437,7 @@
     "Whitman": 8,
     "Unassigned": 492,
     "New": 456,
-    "Roll_avg": 313
+    "Total": 5515
   },
   {
     "Date": "3/31/2020",
@@ -1470,7 +1482,7 @@
     "Whitman": 8,
     "Unassigned": 672,
     "New": 428,
-    "Roll_avg": 332
+    "Total": 5984
   },
   {
     "Date": "4/1/2020",
@@ -1515,7 +1527,7 @@
     "Whitman": 10,
     "Unassigned": 920,
     "New": 464,
-    "Roll_avg": 353
+    "Total": 6585
   },
   {
     "Date": "4/2/2020",
@@ -1560,7 +1572,7 @@
     "Whitman": 10,
     "Unassigned": 1008,
     "New": 343,
-    "Roll_avg": 368
+    "Total": 6966
   },
   {
     "Date": "4/3/2020",
@@ -1605,7 +1617,7 @@
     "Whitman": 10,
     "Unassigned": 1216,
     "New": 490,
-    "Roll_avg": 386
+    "Total": 7591
   },
   {
     "Date": "4/4/2020",
@@ -1650,7 +1662,7 @@
     "Whitman": 11,
     "Unassigned": 1018,
     "New": 395,
-    "Roll_avg": 405
+    "Total": 7984
   },
   {
     "Date": "4/5/2020",
@@ -1695,7 +1707,7 @@
     "Whitman": 12,
     "Unassigned": 1066,
     "New": 385,
-    "Roll_avg": 408
+    "Total": 8384
   },
   {
     "Date": "4/6/2020",
@@ -1740,7 +1752,7 @@
     "Whitman": 12,
     "Unassigned": 915,
     "New": 319,
-    "Roll_avg": 417
+    "Total": 8682
   },
   {
     "Date": "4/7/2020",
@@ -1785,7 +1797,7 @@
     "Whitman": 12,
     "Unassigned": 838,
     "New": 322,
-    "Roll_avg": 426
+    "Total": 9097
   },
   {
     "Date": "4/8/2020",
@@ -1830,7 +1842,7 @@
     "Whitman": 12,
     "Unassigned": 908,
     "New": 404,
-    "Roll_avg": 416
+    "Total": 9608
   },
   {
     "Date": "4/9/2020",
@@ -1875,7 +1887,7 @@
     "Whitman": 12,
     "Unassigned": 848,
     "New": 284,
-    "Roll_avg": 397
+    "Total": 9887
   },
   {
     "Date": "4/10/2020",
@@ -1920,7 +1932,7 @@
     "Whitman": 11,
     "Unassigned": 764,
     "New": 458,
-    "Roll_avg": 398
+    "Total": 10224
   },
   {
     "Date": "4/11/2020",
@@ -1965,7 +1977,7 @@
     "Whitman": 11,
     "Unassigned": 619,
     "New": 237,
-    "Roll_avg": 383
+    "Total": 10411
   },
   {
     "Date": "4/12/2020",
@@ -2010,7 +2022,7 @@
     "Whitman": 11,
     "Unassigned": 484,
     "New": 265,
-    "Roll_avg": 375
+    "Total": 10538
   },
   {
     "Date": "4/13/2020",
@@ -2055,7 +2067,7 @@
     "Whitman": 11,
     "Unassigned": 383,
     "New": 248,
-    "Roll_avg": 360
+    "Total": 10694
   },
   {
     "Date": "4/14/2020",
@@ -2100,7 +2112,7 @@
     "Whitman": 11,
     "Unassigned": 273,
     "New": 219,
-    "Roll_avg": 345
+    "Total": 10783
   },
   {
     "Date": "4/15/2020",
@@ -2145,7 +2157,7 @@
     "Whitman": 11,
     "Unassigned": 334,
     "New": 323,
-    "Roll_avg": 335
+    "Total": 11152
   },
   {
     "Date": "4/16/2020",
@@ -2190,7 +2202,7 @@
     "Whitman": 12,
     "Unassigned": 444,
     "New": 262,
-    "Roll_avg": 329
+    "Total": 11445
   },
   {
     "Date": "4/17/2020",
@@ -2235,7 +2247,7 @@
     "Whitman": 12,
     "Unassigned": 436,
     "New": 354,
-    "Roll_avg": 320
+    "Total": 11802
   },
   {
     "Date": "4/18/2020",
@@ -2280,7 +2292,7 @@
     "Whitman": 13,
     "Unassigned": 159,
     "New": 245,
-    "Roll_avg": 309
+    "Total": 11790
   },
   {
     "Date": "4/19/2020",
@@ -2325,7 +2337,7 @@
     "Whitman": 13,
     "Unassigned": 151,
     "New": 275,
-    "Roll_avg": 301
+    "Total": 12085
   },
   {
     "Date": "4/20/2020",
@@ -2370,7 +2382,7 @@
     "Whitman": 13,
     "Unassigned": 122,
     "New": 236,
-    "Roll_avg": 295
+    "Total": 12282
   },
   {
     "Date": "4/21/2020",
@@ -2415,7 +2427,7 @@
     "Whitman": 13,
     "Unassigned": 133,
     "New": 204,
-    "Roll_avg": 287
+    "Total": 12494
   },
   {
     "Date": "4/22/2020",
@@ -2460,7 +2472,7 @@
     "Whitman": 13,
     "Unassigned": 134,
     "New": 195,
-    "Roll_avg": 272
+    "Total": 12753
   },
   {
     "Date": "4/23/2020",
@@ -2505,7 +2517,7 @@
     "Whitman": 14,
     "Unassigned": 100,
     "New": 271,
-    "Roll_avg": 271
+    "Total": 12977
   },
   {
     "Date": "4/24/2020",
@@ -2550,7 +2562,7 @@
     "Whitman": 14,
     "Unassigned": 137,
     "New": 310,
-    "Roll_avg": 260
+    "Total": 13319
   },
   {
     "Date": "4/25/2020",
@@ -2595,7 +2607,7 @@
     "Whitman": 14,
     "Unassigned": 123,
     "New": 239,
-    "Roll_avg": 260
+    "Total": 13521
   },
   {
     "Date": "4/26/2020",
@@ -2640,7 +2652,7 @@
     "Whitman": 14,
     "Unassigned": 103,
     "New": 230,
-    "Roll_avg": 258
+    "Total": 13686
   },
   {
     "Date": "4/27/2020",
@@ -2685,7 +2697,7 @@
     "Whitman": 14,
     "Unassigned": 79,
     "New": 156,
-    "Roll_avg": 251
+    "Total": 13842
   },
   {
     "Date": "4/28/2020",
@@ -2730,7 +2742,7 @@
     "Whitman": 14,
     "Unassigned": 76,
     "New": 233,
-    "Roll_avg": 252
+    "Total": 14070
   },
   {
     "Date": "4/29/2020",
@@ -2775,7 +2787,7 @@
     "Whitman": 14,
     "Unassigned": 60,
     "New": 274,
-    "Roll_avg": 249
+    "Total": 14327
   },
   {
     "Date": "4/30/2020",
@@ -2820,7 +2832,7 @@
     "Whitman": 14,
     "Unassigned": 77,
     "New": 297,
-    "Roll_avg": 251
+    "Total": 14637
   },
   {
     "Date": "5/1/2020",
@@ -2865,7 +2877,7 @@
     "Whitman": 14,
     "Unassigned": 100,
     "New": 377,
-    "Roll_avg": 253
+    "Total": 15003
   },
   {
     "Date": "5/2/2020",
@@ -2910,7 +2922,7 @@
     "Whitman": 14,
     "Unassigned": 63,
     "New": 215,
-    "Roll_avg": 251
+    "Total": 15185
   },
   {
     "Date": "5/3/2020",
@@ -2955,7 +2967,7 @@
     "Whitman": 14,
     "Unassigned": 52,
     "New": 279,
-    "Roll_avg": 251
+    "Total": 15462
   },
   {
     "Date": "5/4/2020",
@@ -3000,7 +3012,7 @@
     "Whitman": 14,
     "Unassigned": 37,
     "New": 144,
-    "Roll_avg": 245
+    "Total": 15594
   },
   {
     "Date": "5/5/2020",
@@ -3045,7 +3057,7 @@
     "Whitman": 14,
     "Unassigned": 61,
     "New": 304,
-    "Roll_avg": 252
+    "Total": 15905
   },
   {
     "Date": "5/6/2020",
@@ -3090,7 +3102,7 @@
     "Whitman": 14,
     "Unassigned": 53,
     "New": 334,
-    "Roll_avg": 262
+    "Total": 16231
   },
   {
     "Date": "5/7/2020",
@@ -3135,7 +3147,7 @@
     "Whitman": 15,
     "Unassigned": 69,
     "New": 151,
-    "Roll_avg": 253
+    "Total": 16388
   },
   {
     "Date": "5/8/2020",
@@ -3180,7 +3192,7 @@
     "Whitman": 15,
     "Unassigned": 56,
     "New": 304,
-    "Roll_avg": 253
+    "Total": 16674
   },
   {
     "Date": "5/9/2020",
@@ -3225,7 +3237,7 @@
     "Whitman": 15,
     "Unassigned": 40,
     "New": 213,
-    "Roll_avg": 251
+    "Total": 16891
   },
   {
     "Date": "5/10/2020",
@@ -3270,7 +3282,7 @@
     "Whitman": 15,
     "Unassigned": 38,
     "New": 240,
-    "Roll_avg": 252
+    "Total": 17122
   },
   {
     "Date": "5/11/2020",
@@ -3315,7 +3327,7 @@
     "Whitman": 15,
     "Unassigned": 57,
     "New": 207,
-    "Roll_avg": 255
+    "Total": 17330
   },
   {
     "Date": "5/12/2020",
@@ -3360,7 +3372,7 @@
     "Whitman": 16,
     "Unassigned": 73,
     "New": 120,
-    "Roll_avg": 247
+    "Total": 17512
   },
   {
     "Date": "5/13/2020",
@@ -3405,7 +3417,7 @@
     "Whitman": 16,
     "Unassigned": 110,
     "New": 258,
-    "Roll_avg": 246
+    "Total": 17773
   },
   {
     "Date": "5/14/2020",
@@ -3450,7 +3462,7 @@
     "Whitman": 16,
     "Unassigned": 125,
     "New": 181,
-    "Roll_avg": 238
+    "Total": 17951
   },
   {
     "Date": "5/15/2020",
@@ -3495,7 +3507,7 @@
     "Whitman": 16,
     "Unassigned": 112,
     "New": 347,
-    "Roll_avg": 236
+    "Total": 18288
   },
   {
     "Date": "5/16/2020",
@@ -3540,7 +3552,7 @@
     "Whitman": 16,
     "Unassigned": 101,
     "New": 148,
-    "Roll_avg": 231
+    "Total": 18433
   },
   {
     "Date": "5/17/2020",
@@ -3585,7 +3597,7 @@
     "Whitman": 16,
     "Unassigned": 54,
     "New": 172,
-    "Roll_avg": 223
+    "Total": 18611
   },
   {
     "Date": "5/18/2020",
@@ -3630,7 +3642,7 @@
     "Whitman": 16,
     "Unassigned": 52,
     "New": 190,
-    "Roll_avg": 226
+    "Total": 18811
   },
   {
     "Date": "5/19/2020",
@@ -3675,7 +3687,7 @@
     "Whitman": 16,
     "Unassigned": 48,
     "New": 175,
-    "Roll_avg": 217
+    "Total": 18971
   },
   {
     "Date": "5/20/2020",
@@ -3720,7 +3732,7 @@
     "Whitman": 16,
     "Unassigned": 66,
     "New": 135,
-    "Roll_avg": 203
+    "Total": 19117
   },
   {
     "Date": "5/21/2020",
@@ -3765,7 +3777,7 @@
     "Whitman": 16,
     "Unassigned": 59,
     "New": 152,
-    "Roll_avg": 203
+    "Total": 19265
   },
   {
     "Date": "5/22/2020",
@@ -3810,7 +3822,7 @@
     "Whitman": 16,
     "Unassigned": 54,
     "New": 328,
-    "Roll_avg": 205
+    "Total": 19585
   },
   {
     "Date": "5/23/2020",
@@ -3855,7 +3867,7 @@
     "Whitman": 16,
     "Unassigned": 72,
     "New": 248,
-    "Roll_avg": 207
+    "Total": 19828
   },
   {
     "Date": "5/24/2020",
@@ -3900,7 +3912,7 @@
     "Whitman": 16,
     "Unassigned": 62,
     "New": 267,
-    "Roll_avg": 209
+    "Total": 20065
   },
   {
     "Date": "5/25/2020",
@@ -3945,7 +3957,7 @@
     "Whitman": 16,
     "Unassigned": 48,
     "New": 127,
-    "Roll_avg": 203
+    "Total": 20181
   },
   {
     "Date": "5/26/2020",
@@ -3990,7 +4002,7 @@
     "Whitman": 16,
     "Unassigned": 51,
     "New": 152,
-    "Roll_avg": 206
+    "Total": 20406
   },
   {
     "Date": "5/27/2020",
@@ -4035,7 +4047,7 @@
     "Whitman": 16,
     "Unassigned": 53,
     "New": 356,
-    "Roll_avg": 213
+    "Total": 20764
   },
   {
     "Date": "5/28/2020",
@@ -4080,7 +4092,7 @@
     "Whitman": 16,
     "Unassigned": 58,
     "New": 302,
-    "Roll_avg": 221
+    "Total": 21071
   },
   {
     "Date": "5/29/2020",
@@ -4125,7 +4137,7 @@
     "Whitman": 16,
     "Unassigned": 61,
     "New": 278,
-    "Roll_avg": 216
+    "Total": 21349
   },
   {
     "Date": "5/30/2020",
@@ -4170,7 +4182,7 @@
     "Whitman": 16,
     "Unassigned": 68,
     "New": 352,
-    "Roll_avg": 231
+    "Total": 21702
   },
   {
     "Date": "5/31/2020",
@@ -4215,7 +4227,7 @@
     "Whitman": 16,
     "Unassigned": 75,
     "New": 271,
-    "Roll_avg": 238
+    "Total": 21977
   },
   {
     "Date": "6/1/2020",
@@ -4260,7 +4272,7 @@
     "Whitman": 16,
     "Unassigned": 27,
     "New": 205,
-    "Roll_avg": 239
+    "Total": 22157
   },
   {
     "Date": "6/2/2020",
@@ -4305,7 +4317,7 @@
     "Whitman": 20,
     "Unassigned": 28,
     "New": 277,
-    "Roll_avg": 246
+    "Total": 22484
   },
   {
     "Date": "6/3/2020",
@@ -4350,7 +4362,7 @@
     "Whitman": 20,
     "Unassigned": 37,
     "New": 248,
-    "Roll_avg": 255
+    "Total": 22729
   },
   {
     "Date": "6/4/2020",
@@ -4395,7 +4407,7 @@
     "Whitman": 20,
     "Unassigned": 19,
     "New": 260,
-    "Roll_avg": 262
+    "Total": 22993
   },
   {
     "Date": "6/5/2020",
@@ -4440,7 +4452,7 @@
     "Whitman": 20,
     "Unassigned": 25,
     "New": 459,
-    "Roll_avg": 272
+    "Total": 23442
   },
   {
     "Date": "6/6/2020",
@@ -4485,7 +4497,7 @@
     "Whitman": 20,
     "Unassigned": 32,
     "New": 284,
-    "Roll_avg": 274
+    "Total": 23729
   },
   {
     "Date": "6/7/2020",
@@ -4530,7 +4542,7 @@
     "Whitman": 20,
     "Unassigned": 29,
     "New": 311,
-    "Roll_avg": 277
+    "Total": 24041
   },
   {
     "Date": "6/8/2020",
@@ -4575,7 +4587,7 @@
     "Whitman": 20,
     "Unassigned": 25,
     "New": 300,
-    "Roll_avg": 290
+    "Total": 24354
   },
   {
     "Date": "6/9/2020",
@@ -4620,7 +4632,7 @@
     "Whitman": 21,
     "Unassigned": 19,
     "New": 252,
-    "Roll_avg": 297
+    "Total": 24642
   },
   {
     "Date": "6/10/2020",
@@ -4665,7 +4677,7 @@
     "Whitman": 21,
     "Unassigned": 20,
     "New": 262,
-    "Roll_avg": 290
+    "Total": 24779
   },
   {
     "Date": "6/11/2020",
@@ -4710,7 +4722,7 @@
     "Whitman": 27,
     "Unassigned": 34,
     "New": 284,
-    "Roll_avg": 289
+    "Total": 25171
   },
   {
     "Date": "6/12/2020",
@@ -4755,7 +4767,7 @@
     "Whitman": 27,
     "Unassigned": 33,
     "New": 366,
-    "Roll_avg": 295
+    "Total": 25538
   },
   {
     "Date": "6/13/2020",
@@ -4800,7 +4812,7 @@
     "Whitman": 27,
     "Unassigned": 48,
     "New": 283,
-    "Roll_avg": 290
+    "Total": 25834
   },
   {
     "Date": "6/14/2020",
@@ -4845,7 +4857,7 @@
     "Whitman": 27,
     "Unassigned": 91,
     "New": 333,
-    "Roll_avg": 295
+    "Total": 26158
   },
   {
     "Date": "6/15/2020",
@@ -4890,7 +4902,7 @@
     "Whitman": 29,
     "Unassigned": 47,
     "New": 372,
-    "Roll_avg": 307
+    "Total": 26531
   },
   {
     "Date": "6/16/2020",
@@ -4935,7 +4947,7 @@
     "Whitman": 28,
     "Unassigned": 25,
     "New": 257,
-    "Roll_avg": 305
+    "Total": 26784
   },
   {
     "Date": "6/17/2020",
@@ -4980,7 +4992,7 @@
     "Whitman": 30,
     "Unassigned": 47,
     "New": 406,
-    "Roll_avg": 316
+    "Total": 27192
   },
   {
     "Date": "6/18/2020",
@@ -5025,7 +5037,7 @@
     "Whitman": 28,
     "Unassigned": 25,
     "New": 415,
-    "Roll_avg": 327
+    "Total": 27601
   },
   {
     "Date": "6/19/2020",
@@ -5070,7 +5082,7 @@
     "Whitman": 28,
     "Unassigned": 62,
     "New": 616,
-    "Roll_avg": 339
+    "Total": 28225
   },
   {
     "Date": "6/20/2020",
@@ -5115,7 +5127,7 @@
     "Whitman": 30,
     "Unassigned": 30,
     "New": 451,
-    "Roll_avg": 351
+    "Total": 28680
   },
   {
     "Date": "6/21/2020",
@@ -5160,7 +5172,7 @@
     "Whitman": 28,
     "Unassigned": 36,
     "New": 198,
-    "Roll_avg": 343
+    "Total": 28870
   },
   {
     "Date": "6/22/2020",
@@ -5205,7 +5217,7 @@
     "Whitman": 31,
     "Unassigned": 36,
     "New": 520,
-    "Roll_avg": 358
+    "Total": 29386
   },
   {
     "Date": "6/23/2020",
@@ -5250,7 +5262,7 @@
     "Whitman": 30,
     "Unassigned": 43,
     "New": 480,
-    "Roll_avg": 375
+    "Total": 29869
   },
   {
     "Date": "6/24/2020",
@@ -5295,7 +5307,7 @@
     "Whitman": 33,
     "Unassigned": 49,
     "New": 498,
-    "Roll_avg": 391
+    "Total": 30367
   },
   {
     "Date": "6/25/2020",
@@ -5340,7 +5352,7 @@
     "Whitman": 33,
     "Unassigned": 49,
     "New": 494,
-    "Roll_avg": 406
+    "Total": 30855
   },
   {
     "Date": "6/26/2020",
@@ -5385,7 +5397,7 @@
     "Whitman": 37,
     "Unassigned": 53,
     "New": 556,
-    "Roll_avg": 420
+    "Total": 31404
   },
   {
     "Date": "6/27/2020",
@@ -5430,7 +5442,7 @@
     "Whitman": 37,
     "Unassigned": 51,
     "New": 344,
-    "Roll_avg": 424
+    "Total": 31752
   },
   {
     "Date": "6/28/2020",
@@ -5475,7 +5487,7 @@
     "Whitman": 37,
     "Unassigned": 109,
     "New": 501,
-    "Roll_avg": 436
+    "Total": 32253
   },
   {
     "Date": "6/29/2020",
@@ -5520,7 +5532,7 @@
     "Whitman": 38,
     "Unassigned": 78,
     "New": 564,
-    "Roll_avg": 450
+    "Total": 32824
   },
   {
     "Date": "6/30/2020",
@@ -5565,7 +5577,7 @@
     "Whitman": 38,
     "Unassigned": 171,
     "New": 608,
-    "Roll_avg": 475
+    "Total": 33435
   },
   {
     "Date": "7/1/2020",
@@ -5610,7 +5622,7 @@
     "Whitman": 40,
     "Unassigned": 88,
     "New": 713,
-    "Roll_avg": 497
+    "Total": 34151
   },
   {
     "Date": "7/2/2020",
@@ -5655,7 +5667,7 @@
     "Whitman": 38,
     "Unassigned": 117,
     "New": 757,
-    "Roll_avg": 521
+    "Total": 34778
   },
   {
     "Date": "7/3/2020",
@@ -5700,7 +5712,7 @@
     "Whitman": 39,
     "Unassigned": 85,
     "New": 351,
-    "Roll_avg": 503
+    "Total": 35247
   },
   {
     "Date": "7/4/2020",
@@ -5745,7 +5757,7 @@
     "Whitman": 39,
     "Unassigned": 140,
     "New": 642,
-    "Roll_avg": 516
+    "Total": 35898
   },
   {
     "Date": "7/5/2020",
@@ -5790,7 +5802,7 @@
     "Whitman": 39,
     "Unassigned": 186,
     "New": 1057,
-    "Roll_avg": 578
+    "Total": 36985
   },
   {
     "Date": "7/6/2020",
@@ -5835,7 +5847,7 @@
     "Whitman": 39,
     "Unassigned": 116,
     "New": 434,
-    "Roll_avg": 571
+    "Total": 37420
   },
   {
     "Date": "7/7/2020",
@@ -5880,7 +5892,7 @@
     "Whitman": 39,
     "Unassigned": 137,
     "New": 523,
-    "Roll_avg": 574
+    "Total": 37941
   },
   {
     "Date": "7/8/2020",
@@ -5925,7 +5937,7 @@
     "Whitman": 44,
     "Unassigned": 145,
     "New": 646,
-    "Roll_avg": 585
+    "Total": 38581
   },
   {
     "Date": "7/9/2020",
@@ -5970,7 +5982,7 @@
     "Whitman": 44,
     "Unassigned": 119,
     "New": 639,
-    "Roll_avg": 595
+    "Total": 39218
   },
   {
     "Date": "7/10/2020",
@@ -6015,7 +6027,7 @@
     "Whitman": 44,
     "Unassigned": 119,
     "New": 604,
-    "Roll_avg": 599
+    "Total": 39218
   },
   {
     "Date": "7/11/2020",
@@ -6060,7 +6072,7 @@
     "Whitman": 45,
     "Unassigned": 137,
     "New": 866,
-    "Roll_avg": 636
+    "Total": 40656
   },
   {
     "Date": "7/12/2020",
@@ -6105,7 +6117,7 @@
     "Whitman": 45,
     "Unassigned": 171,
     "New": 1077,
-    "Roll_avg": 677
+    "Total": 41757
   },
   {
     "Date": "7/13/2020",
@@ -6150,7 +6162,7 @@
     "Whitman": 48,
     "Unassigned": 143,
     "New": 546,
-    "Roll_avg": 676
+    "Total": 42304
   },
   {
     "Date": "7/14/2020",
@@ -6195,7 +6207,7 @@
     "Whitman": 48,
     "Unassigned": 127,
     "New": 742,
-    "Roll_avg": 686
+    "Total": 43046
   },
   {
     "Date": "7/15/2020",
@@ -6240,7 +6252,7 @@
     "Whitman": 51,
     "Unassigned": 200,
     "New": 1262,
-    "Roll_avg": 725
+    "Total": 44313
   },
   {
     "Date": "7/16/2020",
@@ -6285,7 +6297,7 @@
     "Whitman": 51,
     "Unassigned": 85,
     "New": 753,
-    "Roll_avg": 724
+    "Total": 45067
   },
   {
     "Date": "7/17/2020",
@@ -6330,7 +6342,7 @@
     "Whitman": 55,
     "Unassigned": 83,
     "New": 970,
-    "Roll_avg": 769
+    "Total": 46026
   },
   {
     "Date": "7/18/2020",
@@ -6375,7 +6387,7 @@
     "Whitman": 56,
     "Unassigned": 115,
     "New": 934,
-    "Roll_avg": 790
+    "Total": 46946
   },
   {
     "Date": "7/19/2020",
@@ -6420,7 +6432,7 @@
     "Whitman": 56,
     "Unassigned": 114,
     "New": 795,
-    "Roll_avg": 771
+    "Total": 47743
   },
   {
     "Date": "7/20/2020",
@@ -6465,7 +6477,7 @@
     "Whitman": 56,
     "Unassigned": 179,
     "New": 839,
-    "Roll_avg": 800
+    "Total": 48575
   },
   {
     "Date": "7/21/2020",
@@ -6510,7 +6522,7 @@
     "Whitman": 57,
     "Unassigned": 146,
     "New": 660,
-    "Roll_avg": 810
+    "Total": 49247
   },
   {
     "Date": "7/22/2020",
@@ -6555,7 +6567,7 @@
     "Whitman": 58,
     "Unassigned": 168,
     "New": 732,
-    "Roll_avg": 816
+    "Total": 50009
   },
   {
     "Date": "7/23/2020",
@@ -6600,7 +6612,7 @@
     "Whitman": 58,
     "Unassigned": 142,
     "New": 850,
-    "Roll_avg": 831
+    "Total": 50824
   },
   {
     "Date": "7/24/2020",
@@ -6645,7 +6657,7 @@
     "Whitman": 59,
     "Unassigned": 163,
     "New": 1038,
-    "Roll_avg": 862
+    "Total": 51849
   },
   {
     "Date": "7/25/2020",
@@ -6690,7 +6702,7 @@
     "Whitman": 59,
     "Unassigned": 170,
     "New": 799,
-    "Roll_avg": 857
+    "Total": 52635
   },
   {
     "Date": "7/26/2020",
@@ -6735,7 +6747,7 @@
     "Whitman": 59,
     "Unassigned": 173,
     "New": 670,
-    "Roll_avg": 828
+    "Total": 53321
   },
   {
     "Date": "7/27/2020",
@@ -6780,7 +6792,7 @@
     "Whitman": 82,
     "Unassigned": 152,
     "New": 862,
-    "Roll_avg": 850
+    "Total": 54205
   },
   {
     "Date": "7/28/2020",
@@ -6825,7 +6837,7 @@
     "Whitman": 84,
     "Unassigned": 151,
     "New": 778,
-    "Roll_avg": 853
+    "Total": 54985
   },
   {
     "Date": "7/29/2020",
@@ -6870,7 +6882,7 @@
     "Whitman": 84,
     "Unassigned": 186,
     "New": 772,
-    "Roll_avg": 818
+    "Total": 55803
   },
   {
     "Date": "7/30/2020",
@@ -6915,7 +6927,7 @@
     "Whitman": 84,
     "Unassigned": 186,
     "New": 985,
-    "Roll_avg": 835
+    "Total": 55803
   },
   {
     "Date": "7/31/2020",
@@ -6960,7 +6972,7 @@
     "Whitman": 88,
     "Unassigned": 218,
     "New": 850,
-    "Roll_avg": 826
+    "Total": 57541
   },
   {
     "Date": "8/1/2021",
@@ -7005,7 +7017,7 @@
     "Whitman": 88,
     "Unassigned": 159,
     "New": 630,
-    "Roll_avg": 804
+    "Total": 58173
   },
   {
     "Date": "8/2/2020",
@@ -7050,7 +7062,7 @@
     "Whitman": 87,
     "Unassigned": 188,
     "New": 551,
-    "Roll_avg": 787
+    "Total": 58715
   },
   {
     "Date": "8/3/2020",
@@ -7095,7 +7107,7 @@
     "Whitman": 87,
     "Unassigned": 167,
     "New": 680,
-    "Roll_avg": 776
+    "Total": 59379
   },
   {
     "Date": "8/4/2020",
@@ -7140,7 +7152,7 @@
     "Whitman": 87,
     "Unassigned": 190,
     "New": 685,
-    "Roll_avg": 777
+    "Total": 60084
   },
   {
     "Date": "8/5/2020",
@@ -7185,7 +7197,7 @@
     "Whitman": 89,
     "Unassigned": 194,
     "New": 831,
-    "Roll_avg": 784
+    "Total": 60917
   },
   {
     "Date": "8/6/2020",
@@ -7230,7 +7242,7 @@
     "Whitman": 103,
     "Unassigned": 168,
     "New": 723,
-    "Roll_avg": 775
+    "Total": 61587
   },
   {
     "Date": "8/7/2020",
@@ -7275,7 +7287,7 @@
     "Whitman": 104,
     "Unassigned": 192,
     "New": 897,
-    "Roll_avg": 765
+    "Total": 62523
   },
   {
     "Date": "8/8/2020",
@@ -7320,7 +7332,7 @@
     "Whitman": 104,
     "Unassigned": 208,
     "New": 606,
-    "Roll_avg": 751
+    "Total": 63072
   },
   {
     "Date": "8/9/2020",
@@ -7365,7 +7377,7 @@
     "Whitman": 105,
     "Unassigned": 202,
     "New": 580,
-    "Roll_avg": 745
+    "Total": 63647
   },
   {
     "Date": "8/10/2020",
@@ -7410,7 +7422,7 @@
     "Whitman": 110,
     "Unassigned": 209,
     "New": 491,
-    "Roll_avg": 719
+    "Total": 64151
   },
   {
     "Date": "8/11/2020",
@@ -7455,7 +7467,7 @@
     "Whitman": 113,
     "Unassigned": 204,
     "New": 540,
-    "Roll_avg": 702
+    "Total": 64702
   },
   {
     "Date": "8/12/2020",
@@ -7500,7 +7512,7 @@
     "Whitman": 118,
     "Unassigned": 210,
     "New": 639,
-    "Roll_avg": 692
+    "Total": 65339
   },
   {
     "Date": "8/13/2020",
@@ -7545,7 +7557,7 @@
     "Whitman": 120,
     "Unassigned": 217,
     "New": 815,
-    "Roll_avg": 680
+    "Total": 66139
   },
   {
     "Date": "8/14/2020",
@@ -7590,7 +7602,7 @@
     "Whitman": 124,
     "Unassigned": 250,
     "New": 735,
-    "Roll_avg": 672
+    "Total": 66885
   },
   {
     "Date": "8/15/2020",
@@ -7635,7 +7647,7 @@
     "Whitman": 124,
     "Unassigned": 253,
     "New": 592,
-    "Roll_avg": 669
+    "Total": 67461
   },
   {
     "Date": "8/16/2020",
@@ -7680,7 +7692,7 @@
     "Whitman": 124,
     "Unassigned": 224,
     "New": 273,
-    "Roll_avg": 649
+    "Total": 67721
   },
   {
     "Date": "8/17/2020",
@@ -7725,7 +7737,7 @@
     "Whitman": 126,
     "Unassigned": 223,
     "New": 532,
-    "Roll_avg": 639
+    "Total": 68264
   },
   {
     "Date": "8/18/2020",
@@ -7770,7 +7782,7 @@
     "Whitman": 128,
     "Unassigned": 214,
     "New": 536,
-    "Roll_avg": 628
+    "Total": 68689
   },
   {
     "Date": "8/19/2020",
@@ -7815,7 +7827,7 @@
     "Whitman": 128,
     "Unassigned": 223,
     "New": 740,
-    "Roll_avg": 621
+    "Total": 69389
   },
   {
     "Date": "8/20/2020",
@@ -7860,7 +7872,7 @@
     "Whitman": 128,
     "Unassigned": 242,
     "New": 518,
-    "Roll_avg": 607
+    "Total": 69779
   },
   {
     "Date": "8/21/2020",
@@ -7905,7 +7917,7 @@
     "Whitman": 144,
     "Unassigned": 257,
     "New": 827,
-    "Roll_avg": 602
+    "Total": 70595
   },
   {
     "Date": "8/22/2020",
@@ -7950,7 +7962,7 @@
     "Whitman": 155,
     "Unassigned": 251,
     "New": 464,
-    "Roll_avg": 592
+    "Total": 71011
   },
   {
     "Date": "8/23/2020",
@@ -7995,7 +8007,7 @@
     "Whitman": 160,
     "Unassigned": 246,
     "New": 343,
-    "Roll_avg": 575
+    "Total": 71371
   },
   {
     "Date": "8/24/2020",
@@ -8040,7 +8052,7 @@
     "Whitman": 201,
     "Unassigned": 249,
     "New": 346,
-    "Roll_avg": 564
+    "Total": 71705
   },
   {
     "Date": "8/25/2020",
@@ -8085,7 +8097,7 @@
     "Whitman": 222,
     "Unassigned": 257,
     "New": 473,
-    "Roll_avg": 560
+    "Total": 72161
   },
   {
     "Date": "8/26/2020",
@@ -8130,7 +8142,7 @@
     "Whitman": 233,
     "Unassigned": 255,
     "New": 583,
-    "Roll_avg": 556
+    "Total": 72703
   },
   {
     "Date": "8/27/2020",
@@ -8175,7 +8187,7 @@
     "Whitman": 279,
     "Unassigned": 252,
     "New": 584,
-    "Roll_avg": 539
+    "Total": 73301
   },
   {
     "Date": "8/28/2020",
@@ -8220,7 +8232,7 @@
     "Whitman": 389,
     "Unassigned": 267,
     "New": 619,
-    "Roll_avg": 531
+    "Total": 73879
   },
   {
     "Date": "8/29/2020",
@@ -8265,7 +8277,7 @@
     "Whitman": 471,
     "Unassigned": 281,
     "New": 465,
-    "Roll_avg": 522
+    "Total": 74320
   },
   {
     "Date": "8/30/2020",
@@ -8310,7 +8322,7 @@
     "Whitman": 498,
     "Unassigned": 268,
     "New": 310,
-    "Roll_avg": 524
+    "Total": 74635
   },
   {
     "Date": "8/31/2020",
@@ -8355,7 +8367,7 @@
     "Whitman": 528,
     "Unassigned": 273,
     "New": 307,
-    "Roll_avg": 508
+    "Total": 74939
   },
   {
     "Date": "9/1/2020",
@@ -8400,7 +8412,7 @@
     "Whitman": 600,
     "Unassigned": 285,
     "New": 475,
-    "Roll_avg": 504
+    "Total": 75377
   },
   {
     "Date": "9/2/2020",
@@ -8445,7 +8457,7 @@
     "Whitman": 655,
     "Unassigned": 287,
     "New": 560,
-    "Roll_avg": 491
+    "Total": 75856
   },
   {
     "Date": "9/3/2020",
@@ -8490,7 +8502,7 @@
     "Whitman": 706,
     "Unassigned": 290,
     "New": 497,
-    "Roll_avg": 490
+    "Total": 76335
   },
   {
     "Date": "9/4/2020",
@@ -8535,7 +8547,7 @@
     "Whitman": 760,
     "Unassigned": 295,
     "New": 525,
-    "Roll_avg": 468
+    "Total": 76836
   },
   {
     "Date": "9/5/2020",
@@ -8580,7 +8592,7 @@
     "Whitman": 818,
     "Unassigned": 313,
     "New": 420,
-    "Roll_avg": 465
+    "Total": 77235
   },
   {
     "Date": "9/6/2020",
@@ -8625,7 +8637,7 @@
     "Whitman": 840,
     "Unassigned": 306,
     "New": 316,
-    "Roll_avg": 463
+    "Total": 77545
   },
   {
     "Date": "9/7/2020",
@@ -8670,7 +8682,7 @@
     "Whitman": 840,
     "Unassigned": 306,
     "New": 197,
-    "Roll_avg": 452
+    "Total": 77545
   },
   {
     "Date": "9/8/2020",
@@ -8715,7 +8727,7 @@
     "Whitman": 871,
     "Unassigned": 299,
     "New": 289,
-    "Roll_avg": 439
+    "Total": 78009
   },
   {
     "Date": "9/9/2020",
@@ -8760,7 +8772,7 @@
     "Whitman": 887,
     "Unassigned": 300,
     "New": 499,
-    "Roll_avg": 433
+    "Total": 78467
   },
   {
     "Date": "9/10/2020",
@@ -8805,7 +8817,7 @@
     "Whitman": 961,
     "Unassigned": 287,
     "New": 600,
-    "Roll_avg": 434
+    "Total": 79011
   },
   {
     "Date": "9/11/2020",
@@ -8850,7 +8862,7 @@
     "Whitman": 1008,
     "Unassigned": 289,
     "New": 494,
-    "Roll_avg": 425
+    "Total": 79476
   },
   {
     "Date": "9/12/2020",
@@ -8895,7 +8907,7 @@
     "Whitman": 1015,
     "Unassigned": 287,
     "New": 364,
-    "Roll_avg": 418
+    "Total": 79826
   },
   {
     "Date": "9/13/2020",
@@ -8940,7 +8952,7 @@
     "Whitman": 1015,
     "Unassigned": 288,
     "New": 318,
-    "Roll_avg": 419
+    "Total": 80138
   },
   {
     "Date": "9/14/2020",
@@ -8985,7 +8997,7 @@
     "Whitman": 1052,
     "Unassigned": 283,
     "New": 336,
-    "Roll_avg": 421
+    "Total": 80465
   },
   {
     "Date": "9/15/2020",
@@ -9030,7 +9042,7 @@
     "Whitman": 1058,
     "Unassigned": 294,
     "New": 384,
-    "Roll_avg": 414
+    "Total": 80812
   },
   {
     "Date": "9/16/2020",
@@ -9075,7 +9087,7 @@
     "Whitman": 1083,
     "Unassigned": 296,
     "New": 417,
-    "Roll_avg": 404
+    "Total": 81198
   },
   {
     "Date": "9/17/2020",
@@ -9120,7 +9132,7 @@
     "Whitman": 1103,
     "Unassigned": 289,
     "New": 417,
-    "Roll_avg": 398
+    "Total": 81602
   },
   {
     "Date": "9/18/2020",
@@ -9165,7 +9177,7 @@
     "Whitman": 1128,
     "Unassigned": 292,
     "New": 629,
-    "Roll_avg": 406
+    "Total": 82199
   },
   {
     "Date": "9/19/2020",
@@ -9210,7 +9222,7 @@
     "Whitman": 1157,
     "Unassigned": 299,
     "New": 383,
-    "Roll_avg": 403
+    "Total": 82548
   },
   {
     "Date": "9/20/2020",
@@ -9255,7 +9267,7 @@
     "Whitman": 1170,
     "Unassigned": 298,
     "New": 303,
-    "Roll_avg": 402
+    "Total": 82848
   },
   {
     "Date": "9/21/2020",
@@ -9300,7 +9312,7 @@
     "Whitman": 1173,
     "Unassigned": 290,
     "New": 345,
-    "Roll_avg": 413
+    "Total": 83193
   },
   {
     "Date": "9/22/2020",
@@ -9345,7 +9357,7 @@
     "Whitman": 1184,
     "Unassigned": 292,
     "New": 544,
-    "Roll_avg": 431
+    "Total": 83702
   },
   {
     "Date": "9/23/2020",
@@ -9390,7 +9402,7 @@
     "Whitman": 1193,
     "Unassigned": 292,
     "New": 584,
-    "Roll_avg": 437
+    "Total": 84238
   },
   {
     "Date": "9/24/2020",
@@ -9435,7 +9447,7 @@
     "Whitman": 1221,
     "Unassigned": 295,
     "New": 1026,
-    "Roll_avg": 467
+    "Total": 85226
   },
   {
     "Date": "9/25/2020",
@@ -9480,7 +9492,7 @@
     "Whitman": 1262,
     "Unassigned": 309,
     "New": 652,
-    "Roll_avg": 479
+    "Total": 85830
   },
   {
     "Date": "9/26/2020",
@@ -9525,7 +9537,7 @@
     "Whitman": 1272,
     "Unassigned": 301,
     "New": 460,
-    "Roll_avg": 486
+    "Total": 86269
   },
   {
     "Date": "9/27/2020",
@@ -9570,7 +9582,7 @@
     "Whitman": 1283,
     "Unassigned": 300,
     "New": 388,
-    "Roll_avg": 491
+    "Total": 86638
   },
   {
     "Date": "9/28/2020",
@@ -9615,7 +9627,7 @@
     "Whitman": 1319,
     "Unassigned": 309,
     "New": 382,
-    "Roll_avg": 494
+    "Total": 87042
   },
   {
     "Date": "9/29/2020",
@@ -9660,7 +9672,7 @@
     "Whitman": 1319,
     "Unassigned": 302,
     "New": 532,
-    "Roll_avg": 504
+    "Total": 87522
   },
   {
     "Date": "9/30/2020",
@@ -9705,7 +9717,7 @@
     "Whitman": 1336,
     "Unassigned": 330,
     "New": 638,
-    "Roll_avg": 520
+    "Total": 88116
   },
   {
     "Date": "10/1/2020",
@@ -9750,7 +9762,7 @@
     "Whitman": 1348,
     "Unassigned": 305,
     "New": 718,
-    "Roll_avg": 542
+    "Total": 88810
   },
   {
     "Date": "10/2/2020",
@@ -9795,7 +9807,7 @@
     "Whitman": 1374,
     "Unassigned": 328,
     "New": 648,
-    "Roll_avg": 543
+    "Total": 89419
   },
   {
     "Date": "10/3/2020",
@@ -9840,7 +9852,7 @@
     "Whitman": 1393,
     "Unassigned": 332,
     "New": 478,
-    "Roll_avg": 550
+    "Total": 89874
   },
   {
     "Date": "10/4/2020",
@@ -9885,7 +9897,7 @@
     "Whitman": 1400,
     "Unassigned": 332,
     "New": 421,
-    "Roll_avg": 558
+    "Total": 90276
   },
   {
     "Date": "10/5/2020",
@@ -9930,7 +9942,7 @@
     "Whitman": 1411,
     "Unassigned": 316,
     "New": 416,
-    "Roll_avg": 563
+    "Total": 90663
   },
   {
     "Date": "10/6/2020",
@@ -9975,7 +9987,7 @@
     "Whitman": 1427,
     "Unassigned": 321,
     "New": 551,
-    "Roll_avg": 564
+    "Total": 91208
   },
   {
     "Date": "10/7/2020",
@@ -10020,7 +10032,7 @@
     "Whitman": 1455,
     "Unassigned": 327,
     "New": 760,
-    "Roll_avg": 576
+    "Total": 91918
   },
   {
     "Date": "10/8/2020",
@@ -10065,7 +10077,7 @@
     "Whitman": 1484,
     "Unassigned": 330,
     "New": 696,
-    "Roll_avg": 553
+    "Total": 92560
   },
   {
     "Date": "10/9/2020",
@@ -10110,7 +10122,7 @@
     "Whitman": 1509,
     "Unassigned": 344,
     "New": 567,
-    "Roll_avg": 547
+    "Total": 93035
   },
   {
     "Date": "10/10/2020",
@@ -10155,7 +10167,7 @@
     "Whitman": 1509,
     "Unassigned": 344,
     "New": 849,
-    "Roll_avg": 575
+    "Total": 93035
   },
   {
     "Date": "10/11/2020",
@@ -10200,7 +10212,7 @@
     "Whitman": 1509,
     "Unassigned": 344,
     "New": 380,
-    "Roll_avg": 574
+    "Total": 93035
   },
   {
     "Date": "10/12/2020",
@@ -10245,7 +10257,7 @@
     "Whitman": 1548,
     "Unassigned": 345,
     "New": 593,
-    "Roll_avg": 589
+    "Total": 94775
   },
   {
     "Date": "10/13/2020",
@@ -10290,7 +10302,7 @@
     "Whitman": 1557,
     "Unassigned": 374,
     "New": 698,
-    "Roll_avg": 601
+    "Total": 95509
   },
   {
     "Date": "10/14/2020",
@@ -10335,7 +10347,7 @@
     "Whitman": 1587,
     "Unassigned": 352,
     "New": 698,
-    "Roll_avg": 605
+    "Total": 96185
   },
   {
     "Date": "10/15/2020",
@@ -10380,7 +10392,7 @@
     "Whitman": 1614,
     "Unassigned": 347,
     "New": 775,
-    "Roll_avg": 609
+    "Total": 96894
   },
   {
     "Date": "10/16/2020",
@@ -10425,7 +10437,7 @@
     "Whitman": 1644,
     "Unassigned": 348,
     "New": 826,
-    "Roll_avg": 622
+    "Total": 97671
   },
   {
     "Date": "10/17/2020",
@@ -10470,7 +10482,7 @@
     "Whitman": 1670,
     "Unassigned": 376,
     "New": 566,
-    "Roll_avg": 628
+    "Total": 98201
   },
   {
     "Date": "10/18/2020",
@@ -10515,7 +10527,7 @@
     "Whitman": 1679,
     "Unassigned": 367,
     "New": 467,
-    "Roll_avg": 632
+    "Total": 98661
   },
   {
     "Date": "10/19/2020",
@@ -10560,7 +10572,7 @@
     "Whitman": 1689,
     "Unassigned": 350,
     "New": 492,
-    "Roll_avg": 637
+    "Total": 99150
   },
   {
     "Date": "10/20/2020",
@@ -10605,7 +10617,7 @@
     "Whitman": 1689,
     "Unassigned": 360,
     "New": 800,
-    "Roll_avg": 655
+    "Total": 99874
   },
   {
     "Date": "10/21/2020",
@@ -10650,7 +10662,7 @@
     "Whitman": 1714,
     "Unassigned": 357,
     "New": 703,
-    "Roll_avg": 651
+    "Total": 100525
   },
   {
     "Date": "10/22/2020",
@@ -10695,7 +10707,7 @@
     "Whitman": 1733,
     "Unassigned": 374,
     "New": 812,
-    "Roll_avg": 659
+    "Total": 101345
   },
   {
     "Date": "10/23/2020",
@@ -10740,7 +10752,7 @@
     "Whitman": 1747,
     "Unassigned": 375,
     "New": 949,
-    "Roll_avg": 686
+    "Total": 102264
   },
   {
     "Date": "10/24/2020",
@@ -10785,7 +10797,7 @@
     "Whitman": 1762,
     "Unassigned": 380,
     "New": 741,
-    "Roll_avg": 679
+    "Total": 102913
   },
   {
     "Date": "10/25/2020",
@@ -10830,7 +10842,7 @@
     "Whitman": 1787,
     "Unassigned": 359,
     "New": 597,
-    "Roll_avg": 694
+    "Total": 103500
   },
   {
     "Date": "10/26/2020",
@@ -10875,7 +10887,7 @@
     "Whitman": 1789,
     "Unassigned": 365,
     "New": 547,
-    "Roll_avg": 691
+    "Total": 104027
   },
   {
     "Date": "10/27/2020",
@@ -10920,7 +10932,7 @@
     "Whitman": 1803,
     "Unassigned": 405,
     "New": 752,
-    "Roll_avg": 695
+    "Total": 104743
   },
   {
     "Date": "10/28/2020",
@@ -10965,7 +10977,7 @@
     "Whitman": 1817,
     "Unassigned": 419,
     "New": 881,
-    "Roll_avg": 708
+    "Total": 105557
   },
   {
     "Date": "10/29/2020",
@@ -11010,7 +11022,7 @@
     "Whitman": 1824,
     "Unassigned": 385,
     "New": 1113,
-    "Roll_avg": 732
+    "Total": 106573
   },
   {
     "Date": "10/30/2020",
@@ -11055,7 +11067,7 @@
     "Whitman": 1830,
     "Unassigned": 367,
     "New": 978,
-    "Roll_avg": 743
+    "Total": 107501
   },
   {
     "Date": "10/31/2020",
@@ -11100,7 +11112,7 @@
     "Whitman": 1832,
     "Unassigned": 363,
     "New": 876,
-    "Roll_avg": 765
+    "Total": 108315
   },
   {
     "Date": "11/1/2020",
@@ -11145,7 +11157,7 @@
     "Whitman": 1844,
     "Unassigned": 371,
     "New": 1040,
-    "Roll_avg": 806
+    "Total": 109354
   },
   {
     "Date": "11/2/2020",
@@ -11190,7 +11202,7 @@
     "Whitman": 1853,
     "Unassigned": 373,
     "New": 745,
-    "Roll_avg": 824
+    "Total": 110011
   },
   {
     "Date": "11/3/2020",
@@ -11235,7 +11247,7 @@
     "Whitman": 1855,
     "Unassigned": 484,
     "New": 1534,
-    "Roll_avg": 876
+    "Total": 111480
   },
   {
     "Date": "11/4/2020",
@@ -11280,7 +11292,7 @@
     "Whitman": 1866,
     "Unassigned": 375,
     "New": 1124,
-    "Roll_avg": 906
+    "Total": 112550
   },
   {
     "Date": "11/5/2020",
@@ -11325,7 +11337,7 @@
     "Whitman": 1879,
     "Unassigned": 424,
     "New": 1773,
-    "Roll_avg": 975
+    "Total": 114241
   },
   {
     "Date": "11/6/2020",
@@ -11370,7 +11382,7 @@
     "Whitman": 1897,
     "Unassigned": 451,
     "New": 1749,
-    "Roll_avg": 1032
+    "Total": 116011
   },
   {
     "Date": "11/7/2020",
@@ -11415,7 +11427,7 @@
     "Whitman": 1921,
     "Unassigned": 419,
     "New": 1449,
-    "Roll_avg": 1083
+    "Total": 117331
   },
   {
     "Date": "11/8/2020",
@@ -11460,7 +11472,7 @@
     "Whitman": 1928,
     "Unassigned": 388,
     "New": 1247,
-    "Roll_avg": 1129
+    "Total": 118570
   },
   {
     "Date": "11/9/2020",
@@ -11505,7 +11517,7 @@
     "Whitman": 1938,
     "Unassigned": 416,
     "New": 1420,
-    "Roll_avg": 1192
+    "Total": 120011
   },
   {
     "Date": "11/10/2020",
@@ -11550,7 +11562,7 @@
     "Whitman": 1938,
     "Unassigned": 416,
     "New": 1662,
-    "Roll_avg": 1257
+    "Total": 120011
   },
   {
     "Date": "11/11/2020",
@@ -11595,7 +11607,7 @@
     "Whitman": 1952,
     "Unassigned": 468,
     "New": 2023,
-    "Roll_avg": 1338
+    "Total": 123356
   },
   {
     "Date": "11/12/2020",
@@ -11640,7 +11652,7 @@
     "Whitman": 1956,
     "Unassigned": 435,
     "New": 2247,
-    "Roll_avg": 1419
+    "Total": 125498
   },
   {
     "Date": "11/13/2020",
@@ -11685,7 +11697,7 @@
     "Whitman": 1972,
     "Unassigned": 426,
     "New": 2320,
-    "Roll_avg": 1515
+    "Total": 127731
   },
   {
     "Date": "11/14/2020",
@@ -11730,7 +11742,7 @@
     "Whitman": 2007,
     "Unassigned": 423,
     "New": 2250,
-    "Roll_avg": 1613
+    "Total": 130040
   },
   {
     "Date": "11/15/2020",
@@ -11775,7 +11787,7 @@
     "Whitman": 2024,
     "Unassigned": 425,
     "New": 1578,
-    "Roll_avg": 1652
+    "Total": 131532
   },
   {
     "Date": "11/16/2020",
@@ -11820,7 +11832,7 @@
     "Whitman": 2060,
     "Unassigned": 449,
     "New": 2591,
-    "Roll_avg": 1783
+    "Total": 134121
   },
   {
     "Date": "11/17/2020",
@@ -11865,7 +11877,7 @@
     "Whitman": 2086,
     "Unassigned": 425,
     "New": 1558,
-    "Roll_avg": 1785
+    "Total": 135424
   },
   {
     "Date": "11/18/2020",
@@ -11910,7 +11922,7 @@
     "Whitman": 2098,
     "Unassigned": 440,
     "New": 2111,
-    "Roll_avg": 1856
+    "Total": 137411
   },
   {
     "Date": "11/19/2020",
@@ -11955,7 +11967,7 @@
     "Whitman": 2150,
     "Unassigned": 471,
     "New": 2175,
-    "Roll_avg": 1884
+    "Total": 139543
   },
   {
     "Date": "11/20/2020",
@@ -12000,7 +12012,7 @@
     "Whitman": 2193,
     "Unassigned": 487,
     "New": 1876,
-    "Roll_avg": 1893
+    "Total": 141260
   },
   {
     "Date": "11/21/2020",
@@ -12045,7 +12057,7 @@
     "Whitman": 2193,
     "Unassigned": 487,
     "New": 2648,
-    "Roll_avg": 1979
+    "Total": 141260
   },
   {
     "Date": "11/22/2020",
@@ -12090,7 +12102,7 @@
     "Whitman": 2255,
     "Unassigned": 587,
     "New": 3558,
-    "Roll_avg": 2144
+    "Total": 147537
   },
   {
     "Date": "11/23/2020",
@@ -12135,7 +12147,7 @@
     "Whitman": 2262,
     "Unassigned": 574,
     "New": 3282,
-    "Roll_avg": 2277
+    "Total": 151019
   },
   {
     "Date": "11/24/2020",
@@ -12180,7 +12192,7 @@
     "Whitman": 2281,
     "Unassigned": 478,
     "New": 3019,
-    "Roll_avg": 2374
+    "Total": 153906
   },
   {
     "Date": "11/25/2020",
@@ -12225,7 +12237,7 @@
     "Whitman": 2281,
     "Unassigned": 478,
     "New": 2873,
-    "Roll_avg": 2435
+    "Total": 153906
   },
   {
     "Date": "11/26/2020",
@@ -12270,7 +12282,7 @@
     "Whitman": 2306,
     "Unassigned": 467,
     "New": 2065,
-    "Roll_avg": 2422
+    "Total": 158167
   },
   {
     "Date": "11/27/2020",
@@ -12315,7 +12327,7 @@
     "Whitman": 2325,
     "Unassigned": 474,
     "New": 2393,
-    "Roll_avg": 2427
+    "Total": 160634
   },
   {
     "Date": "11/28/2020",
@@ -12360,7 +12372,7 @@
     "Whitman": 2339,
     "Unassigned": 519,
     "New": 2107,
-    "Roll_avg": 2417
+    "Total": 162700
   },
   {
     "Date": "11/29/2020",
@@ -12405,7 +12417,7 @@
     "Whitman": 2348,
     "Unassigned": 512,
     "New": 2270,
-    "Roll_avg": 2466
+    "Total": 165019
   },
   {
     "Date": "11/30/2020",
@@ -12450,7 +12462,7 @@
     "Whitman": 2356,
     "Unassigned": 485,
     "New": 2461,
-    "Roll_avg": 2457
+    "Total": 167216
   },
   {
     "Date": "12/1/2020",
@@ -12495,7 +12507,7 @@
     "Whitman": 2383,
     "Unassigned": 516,
     "New": 3071,
-    "Roll_avg": 2565
+    "Total": 170342
   },
   {
     "Date": "12/2/2020",
@@ -12540,7 +12552,7 @@
     "Whitman": 2400,
     "Unassigned": 652,
     "New": 2325,
-    "Roll_avg": 2580
+    "Total": 172437
   },
   {
     "Date": "12/3/2020",
@@ -12585,7 +12597,7 @@
     "Whitman": 2427,
     "Unassigned": 594,
     "New": 2082,
-    "Roll_avg": 2574
+    "Total": 174290
   },
   {
     "Date": "12/4/2020",
@@ -12630,7 +12642,7 @@
     "Whitman": 2443,
     "Unassigned": 639,
     "New": 1885,
-    "Roll_avg": 2574
+    "Total": 175793
   },
   {
     "Date": "12/5/2020",
@@ -12675,7 +12687,7 @@
     "Whitman": 2449,
     "Unassigned": 658,
     "New": 1750,
-    "Roll_avg": 2510
+    "Total": 177447
   },
   {
     "Date": "12/6/2020",
@@ -12720,7 +12732,7 @@
     "Whitman": 2456,
     "Unassigned": 1315,
     "New": 6072,
-    "Roll_avg": 2690
+    "Total": 184404
   },
   {
     "Date": "12/7/2020",
@@ -12765,7 +12777,7 @@
     "Whitman": 2486,
     "Unassigned": 1135,
     "New": 3793,
-    "Roll_avg": 2726
+    "Total": 187327
   },
   {
     "Date": "12/8/2020",
@@ -12810,7 +12822,7 @@
     "Whitman": 2497,
     "Unassigned": 1156,
     "New": 3007,
-    "Roll_avg": 2725
+    "Total": 189863
   },
   {
     "Date": "12/9/2020",
@@ -12855,7 +12867,7 @@
     "Whitman": 2510,
     "Unassigned": 1191,
     "New": 2987,
-    "Roll_avg": 2733
+    "Total": 192413
   },
   {
     "Date": "12/10/2020",
@@ -12900,7 +12912,7 @@
     "Whitman": 2519,
     "Unassigned": 1177,
     "New": 2949,
-    "Roll_avg": 2797
+    "Total": 195554
   },
   {
     "Date": "12/11/2020",
@@ -12945,7 +12957,7 @@
     "Whitman": 2539,
     "Unassigned": 1379,
     "New": 3938,
-    "Roll_avg": 2907
+    "Total": 199735
   },
   {
     "Date": "12/12/2020",
@@ -12990,7 +13002,7 @@
     "Whitman": 2549,
     "Unassigned": 1394,
     "New": 2316,
-    "Roll_avg": 2922
+    "Total": 202063
   },
   {
     "Date": "12/13/2020",
@@ -13035,7 +13047,7 @@
     "Whitman": 2562,
     "Unassigned": 1293,
     "New": 3807,
-    "Roll_avg": 3032
+    "Total": 203797
   },
   {
     "Date": "12/14/2020",
@@ -13080,7 +13092,7 @@
     "Whitman": 2570,
     "Unassigned": 1332,
     "New": 1588,
-    "Roll_avg": 2969
+    "Total": 205069
   },
   {
     "Date": "12/15/2020",
@@ -13125,7 +13137,7 @@
     "Whitman": 2585,
     "Unassigned": 1322,
     "New": 2986,
-    "Roll_avg": 2963
+    "Total": 214265
   },
   {
     "Date": "12/16/2020",
@@ -13170,7 +13182,7 @@
     "Whitman": 2606,
     "Unassigned": 1487,
     "New": 3678,
-    "Roll_avg": 3060
+    "Total": 217205
   },
   {
     "Date": "12/17/2020",
@@ -13215,7 +13227,7 @@
     "Whitman": 2613,
     "Unassigned": 1344,
     "New": 2300,
-    "Roll_avg": 3075
+    "Total": 220268
   },
   {
     "Date": "12/18/2020",
@@ -13260,7 +13272,7 @@
     "Whitman": 2629,
     "Unassigned": 1342,
     "New": 2077,
-    "Roll_avg": 3089
+    "Total": 222600
   },
   {
     "Date": "",
@@ -13305,7 +13317,7 @@
     "Whitman": "",
     "Unassigned": "",
     "New": 1798,
-    "Roll_avg": 3093
+    "Total": 0
   },
   {
     "Date": "12/20/2020",
@@ -13350,7 +13362,7 @@
     "Whitman": 2656,
     "Unassigned": 1577,
     "New": 0,
-    "Roll_avg": 2659
+    "Total": 226635
   },
   {
     "Date": "12/21/2020",
@@ -13395,7 +13407,7 @@
     "Whitman": 2664,
     "Unassigned": 1387,
     "New": 1536,
-    "Roll_avg": 2498
+    "Total": 227887
   },
   {
     "Date": "12/22/2020",
@@ -13440,7 +13452,7 @@
     "Whitman": 2675,
     "Unassigned": 1405,
     "New": 2269,
-    "Roll_avg": 2445
+    "Total": 230202
   },
   {
     "Date": "12/23/2020",
@@ -13485,7 +13497,7 @@
     "Whitman": 2709,
     "Unassigned": 1468,
     "New": 2873,
-    "Roll_avg": 2437
+    "Total": 233093
   },
   {
     "Date": "",
@@ -13530,7 +13542,7 @@
     "Whitman": "",
     "Unassigned": "",
     "New": 2503,
-    "Roll_avg": 2405
+    "Total": 0
   },
   {
     "Date": "12/25/2020",
@@ -13575,7 +13587,7 @@
     "Whitman": 2725,
     "Unassigned": 1394,
     "New": 1018,
-    "Roll_avg": 2196
+    "Total": 236719
   },
   {
     "Date": "",
@@ -13620,7 +13632,7 @@
     "Whitman": "",
     "Unassigned": "",
     "New": 784,
-    "Roll_avg": 2087
+    "Total": 0
   },
   {
     "Date": "12/27/2020",
@@ -13665,7 +13677,7 @@
     "Whitman": 2727,
     "Unassigned": 1396,
     "New": 1311,
-    "Roll_avg": 1909
+    "Total": 238672
   },
   {
     "Date": "12/28/2020",
@@ -13710,7 +13722,7 @@
     "Whitman": 2762,
     "Unassigned": 1415,
     "New": 1311,
-    "Roll_avg": 1889
+    "Total": 240846
   },
   {
     "Date": "12/29/2020",
@@ -13753,7 +13765,9 @@
     "Walla_Walla": 3461,
     "Whatcom": 3397,
     "Whitman": 2766,
-    "Unassigned": 1420
+    "Unassigned": 1420,
+    "New": "",
+    "Total": 242330
   },
   {
     "Date": "12/30/2020",
@@ -13796,7 +13810,9 @@
     "Walla_Walla": 3518,
     "Whatcom": 3478,
     "Whitman": 2783,
-    "Unassigned": 1489
+    "Unassigned": 1489,
+    "New": "",
+    "Total": 246752
   },
   {
     "Date": "1/2/2021",
@@ -13839,7 +13855,9 @@
     "Walla_Walla": 3611,
     "Whatcom": 3649,
     "Whitman": 2820,
-    "Unassigned": 1404
+    "Unassigned": 1404,
+    "New": "",
+    "Total": 255396
   },
   {
     "Date": "1/3/2021",
@@ -13882,7 +13900,9 @@
     "Walla_Walla": 3586,
     "Whatcom": 3693,
     "Whitman": 2817,
-    "Unassigned": 1404
+    "Unassigned": 1404,
+    "New": "",
+    "Total": 256435
   },
   {
     "Date": "1/4/2021",
@@ -13925,7 +13945,9 @@
     "Walla_Walla": 3616,
     "Whatcom": 3746,
     "Whitman": 2840,
-    "Unassigned": 1416
+    "Unassigned": 1416,
+    "New": "",
+    "Total": 258767
   },
   {
     "Date": "1/5/2021",
@@ -13968,7 +13990,9 @@
     "Walla_Walla": 3622,
     "Whatcom": 3773,
     "Whitman": 2859,
-    "Unassigned": 1407
+    "Unassigned": 1407,
+    "New": "",
+    "Total": 260752
   },
   {
     "Date": "1/6/2021",
@@ -14011,7 +14035,9 @@
     "Walla_Walla": 3649,
     "Whatcom": 3944,
     "Whitman": 2884,
-    "Unassigned": 1431
+    "Unassigned": 1431,
+    "New": "",
+    "Total": 264012
   },
   {
     "Date": "1/7/2021",
@@ -14054,7 +14080,9 @@
     "Walla_Walla": 3699,
     "Whatcom": 4066,
     "Whitman": 2899,
-    "Unassigned": 1562
+    "Unassigned": 1562,
+    "New": "",
+    "Total": 268607
   },
   {
     "Date": "1/8/2021",
@@ -14097,7 +14125,9 @@
     "Walla_Walla": 3841,
     "Whatcom": 4134,
     "Whitman": 2902,
-    "Unassigned": 1465
+    "Unassigned": 1465,
+    "New": "",
+    "Total": 271595
   },
   {
     "Date": "1/10/2021",
@@ -14140,7 +14170,9 @@
     "Walla_Walla": 4008,
     "Whatcom": 4373,
     "Whitman": 2902,
-    "Unassigned": 1476
+    "Unassigned": 1476,
+    "New": "",
+    "Total": 276686
   },
   {
     "Date": "1/11/2021",
@@ -14183,7 +14215,9 @@
     "Walla_Walla": 3936,
     "Whatcom": 4357,
     "Whitman": 2930,
-    "Unassigned": 1428
+    "Unassigned": 1428,
+    "New": "",
+    "Total": 278544
   },
   {
     "Date": "1/12/2021",
@@ -14226,7 +14260,9 @@
     "Walla_Walla": 3990,
     "Whatcom": 4465,
     "Whitman": 2945,
-    "Unassigned": 1458
+    "Unassigned": 1458,
+    "New": "",
+    "Total": 281202
   },
   {
     "Date": "1/13/2021",
@@ -14269,7 +14305,9 @@
     "Walla_Walla": 4036,
     "Whatcom": 4594,
     "Whitman": 2966,
-    "Unassigned": 1422
+    "Unassigned": 1422,
+    "New": "",
+    "Total": 283777
   },
   {
     "Date": "1/14/2021",
@@ -14312,7 +14350,9 @@
     "Walla_Walla": 4039,
     "Whatcom": 4667,
     "Whitman": 2983,
-    "Unassigned": 1439
+    "Unassigned": 1439,
+    "New": "",
+    "Total": 285970
   },
   {
     "Date": "1/16/2021",
@@ -14355,7 +14395,9 @@
     "Walla_Walla": 4102,
     "Whatcom": 4885,
     "Whitman": 2989,
-    "Unassigned": 1549
+    "Unassigned": 1549,
+    "New": "",
+    "Total": 289939
   },
   {
     "Date": "1/18/2021",
@@ -14398,7 +14440,9 @@
     "Walla_Walla": 4126,
     "Whatcom": 4894,
     "Whitman": 3019,
-    "Unassigned": 1459
+    "Unassigned": 1459,
+    "New": "",
+    "Total": 291989
   },
   {
     "Date": "1/19/2021",
@@ -14441,7 +14485,9 @@
     "Walla_Walla": 4192,
     "Whatcom": 4954,
     "Whitman": 3033,
-    "Unassigned": 1439
+    "Unassigned": 1439,
+    "New": "",
+    "Total": 294017
   },
   {
     "Date": "1/20/2021",
@@ -14484,7 +14530,9 @@
     "Walla_Walla": 4222,
     "Whatcom": 5027,
     "Whitman": 3046,
-    "Unassigned": 1436
+    "Unassigned": 1436,
+    "New": "",
+    "Total": 296087
   },
   {
     "Date": "1/21/2021",
@@ -14527,7 +14575,9 @@
     "Walla_Walla": 4244,
     "Whatcom": 5142,
     "Whitman": 3078,
-    "Unassigned": 1434
+    "Unassigned": 1434,
+    "New": "",
+    "Total": 298249
   },
   {
     "Date": "1/22/2021",
@@ -14570,7 +14620,9 @@
     "Walla_Walla": 4256,
     "Whatcom": 5203,
     "Whitman": 3096,
-    "Unassigned": 1442
+    "Unassigned": 1442,
+    "New": "",
+    "Total": 300198
   },
   {
     "Date": "1/24/2021",
@@ -14613,7 +14665,9 @@
     "Walla_Walla": 4268,
     "Whatcom": 5246,
     "Whitman": 3098,
-    "Unassigned": 1435
+    "Unassigned": 1435,
+    "New": "",
+    "Total": 302141
   },
   {
     "Date": "1/25/2021",
@@ -14656,7 +14710,9 @@
     "Walla_Walla": 4284,
     "Whatcom": 5269,
     "Whitman": 3112,
-    "Unassigned": 1442
+    "Unassigned": 1442,
+    "New": "",
+    "Total": 303482
   },
   {
     "Date": "1/26/2021",
@@ -14699,7 +14755,9 @@
     "Walla_Walla": 4302,
     "Whatcom": 5345,
     "Whitman": 3116,
-    "Unassigned": 1449
+    "Unassigned": 1449,
+    "New": "",
+    "Total": 305289
   },
   {
     "Date": "1/27/2021",
@@ -14742,7 +14800,9 @@
     "Walla_Walla": 4321,
     "Whatcom": 5419,
     "Whitman": 3134,
-    "Unassigned": 1431
+    "Unassigned": 1431,
+    "New": "",
+    "Total": 307809
   },
   {
     "Date": "1/28/2021",
@@ -14785,50 +14845,54 @@
     "Walla_Walla": 4356,
     "Whatcom": 5491,
     "Whitman": 3145,
-    "Unassigned": 1431
+    "Unassigned": 1431,
+    "New": "",
+    "Total": 309801
   },
   {
     "Date": "1/29/2021",
-    "King": "110,089",
-    "Pierce": "55,607",
-    "Snohomish": "39,151",
-    "Yakima": "30,207",
-    "Adams": "2,198",
-    "Asotin": "1,483",
-    "Benton": "17,351",
-    "Chelan": "6,817",
-    "Clallam": "1,337",
-    "Clark": "25,119",
-    "Columbia": 125,
-    "Cowlitz": "6,293",
-    "Douglas": "3,622",
-    "Ferry": 383,
-    "Franklin": "12,609",
-    "Garfield": 125,
-    "Grant": "9,151",
-    "Grays_Harbor": "4,452",
-    "Island": "1,797",
-    "Jefferson": 416,
-    "Kitsap": "8,531",
-    "Kittitas": "3,170",
-    "Klickitat": 814,
-    "Lewis": "4,985",
-    "Lincoln": 624,
-    "Mason": "2,850",
-    "Okanogan": "2,668",
-    "Pacific": 975,
-    "Pend_Oreille": 804,
+    "King": "112,529",
+    "Pierce": "56,965",
+    "Snohomish": "40,232",
+    "Yakima": "30,714",
+    "Adams": "2,262",
+    "Asotin": "1,504",
+    "Benton": "17,869",
+    "Chelan": "6,940",
+    "Clallam": "1,444",
+    "Clark": "25,962",
+    "Columbia": 133,
+    "Cowlitz": "6,684",
+    "Douglas": "3,708",
+    "Ferry": 399,
+    "Franklin": "12,855",
+    "Garfield": 132,
+    "Grant": "9,380",
+    "Grays_Harbor": "4,589",
+    "Island": "1,872",
+    "Jefferson": 449,
+    "Kitsap": "8,845",
+    "Kittitas": "3,341",
+    "Klickitat": 887,
+    "Lewis": "5,329",
+    "Lincoln": 676,
+    "Mason": "2,946",
+    "Okanogan": "2,798",
+    "Pacific": "1,004",
+    "Pend_Oreille": 829,
     "San_Juan": 186,
-    "Skagit": "5,911",
-    "Skamania": 366,
-    "Spokane": "45,557",
-    "Stevens": "2,315",
-    "Thurston": "10,476",
-    "Wahkiakum": 136,
-    "Walla_Walla": "5,183",
-    "Whatcom": "9,566",
-    "Whitman": "4,285",
-    "Unassigned": "1,529"
+    "Skagit": "6,047",
+    "Skamania": 390,
+    "Spokane": "46,863",
+    "Stevens": "2,392",
+    "Thurston": "11,052",
+    "Wahkiakum": 156,
+    "Walla_Walla": "5,471",
+    "Whatcom": "9,908",
+    "Whitman": "4,337",
+    "Unassigned": "1,516",
+    "New": "",
+    "Total": 451595
   },
   {
     "Date": "1/31/2021",
@@ -14871,7 +14935,9 @@
     "Walla_Walla": 4424,
     "Whatcom": 5641,
     "Whitman": 3157,
-    "Unassigned": 1436
+    "Unassigned": 1436,
+    "New": "",
+    "Total": 313335
   },
   {
     "Date": "2/1/2021",
@@ -14914,7 +14980,9 @@
     "Walla_Walla": 4438,
     "Whatcom": 5664,
     "Whitman": 3177,
-    "Unassigned": 1447
+    "Unassigned": 1447,
+    "New": "",
+    "Total": 314692
   },
   {
     "Date": "2/2/2021",
@@ -14957,7 +15025,9 @@
     "Walla_Walla": 4449,
     "Whatcom": 5779,
     "Whitman": 3185,
-    "Unassigned": 1443
+    "Unassigned": 1443,
+    "New": "",
+    "Total": 316294
   },
   {
     "Date": "2/3/2021",
@@ -15000,7 +15070,9 @@
     "Walla_Walla": 4476,
     "Whatcom": 5856,
     "Whitman": 3194,
-    "Unassigned": 1446
+    "Unassigned": 1446,
+    "New": "",
+    "Total": 317878
   },
   {
     "Date": "2/4/2021",
@@ -15043,7 +15115,9 @@
     "Walla_Walla": 4498,
     "Whatcom": 5918,
     "Whitman": 3204,
-    "Unassigned": 1445
+    "Unassigned": 1445,
+    "New": "",
+    "Total": 319371
   },
   {
     "Date": "2/5/2021",
@@ -15086,7 +15160,9 @@
     "Walla_Walla": 4500,
     "Whatcom": 5943,
     "Whitman": 3206,
-    "Unassigned": 1448
+    "Unassigned": 1448,
+    "New": "",
+    "Total": 320146
   },
   {
     "Date": "2/7/2021",
@@ -15129,7 +15205,9 @@
     "Walla_Walla": 4549,
     "Whatcom": 6116,
     "Whitman": 3212,
-    "Unassigned": 1458
+    "Unassigned": 1458,
+    "New": "",
+    "Total": 323214
   },
   {
     "Date": "2/8/2021",
@@ -15172,7 +15250,9 @@
     "Walla_Walla": 4550,
     "Whatcom": 6110,
     "Whitman": 3218,
-    "Unassigned": 1442
+    "Unassigned": 1442,
+    "New": "",
+    "Total": 324025
   },
   {
     "Date": "2/9/2021",
@@ -15215,7 +15295,9 @@
     "Walla_Walla": 4548,
     "Whatcom": 6079,
     "Whitman": 3222,
-    "Unassigned": 1457
+    "Unassigned": 1457,
+    "New": "",
+    "Total": 324706
   },
   {
     "Date": "2/10/2021",
@@ -15258,7 +15340,9 @@
     "Walla_Walla": 4558,
     "Whatcom": 6148,
     "Whitman": 3224,
-    "Unassigned": 1536
+    "Unassigned": 1536,
+    "New": "",
+    "Total": 326159
   },
   {
     "Date": "2/11/2021",
@@ -15301,7 +15385,9 @@
     "Walla_Walla": 4570,
     "Whatcom": 6194,
     "Whitman": 3224,
-    "Unassigned": 1481
+    "Unassigned": 1481,
+    "New": "",
+    "Total": 327167
   },
   {
     "Date": "2/12/2021",
@@ -15344,7 +15430,9 @@
     "Walla_Walla": 4588,
     "Whatcom": 6225,
     "Whitman": 3225,
-    "Unassigned": 1448
+    "Unassigned": 1448,
+    "New": "",
+    "Total": 328047
   },
   {
     "Date": "2/15/2021",
@@ -15387,7 +15475,9 @@
     "Walla_Walla": 4605,
     "Whatcom": 6265,
     "Whitman": 3229,
-    "Unassigned": 1446
+    "Unassigned": 1446,
+    "New": "",
+    "Total": 329746
   },
   {
     "Date": "2/16/2021",
@@ -15430,7 +15520,9 @@
     "Walla_Walla": 4612,
     "Whatcom": 6300,
     "Whitman": 3229,
-    "Unassigned": 1453
+    "Unassigned": 1453,
+    "New": "",
+    "Total": 330807
   },
   {
     "Date": "2/17/2021",
@@ -15473,7 +15565,9 @@
     "Walla_Walla": 4625,
     "Whatcom": 6399,
     "Whitman": 3235,
-    "Unassigned": 1453
+    "Unassigned": 1453,
+    "New": "",
+    "Total": 332007
   },
   {
     "Date": "2/18/2021",
@@ -15516,7 +15610,9 @@
     "Walla_Walla": 4638,
     "Whatcom": 6439,
     "Whitman": 3235,
-    "Unassigned": 1476
+    "Unassigned": 1476,
+    "New": "",
+    "Total": 332904
   },
   {
     "Date": "2/19/2021",
@@ -15559,7 +15655,9 @@
     "Walla_Walla": 4643,
     "Whatcom": 6456,
     "Whitman": 3236,
-    "Unassigned": 1462
+    "Unassigned": 1462,
+    "New": "",
+    "Total": 333794
   },
   {
     "Date": "2/20/2021",
@@ -15602,7 +15700,9 @@
     "Walla_Walla": 4651,
     "Whatcom": 6560,
     "Whitman": 3244,
-    "Unassigned": 1468
+    "Unassigned": 1468,
+    "New": "",
+    "Total": 334962
   },
   {
     "Date": "2/22/2021",
@@ -15645,7 +15745,9 @@
     "Walla_Walla": 4658,
     "Whatcom": 6583,
     "Whitman": 3293,
-    "Unassigned": 1475
+    "Unassigned": 1475,
+    "New": "",
+    "Total": 335693
   },
   {
     "Date": "2/23/2021",
@@ -15688,7 +15790,9 @@
     "Walla_Walla": 4668,
     "Whatcom": 6629,
     "Whitman": 3294,
-    "Unassigned": 1483
+    "Unassigned": 1483,
+    "New": "",
+    "Total": 336565
   },
   {
     "Date": "2/24/2021",
@@ -15731,7 +15835,9 @@
     "Walla_Walla": 4682,
     "Whatcom": 6675,
     "Whitman": 3294,
-    "Unassigned": 1484
+    "Unassigned": 1484,
+    "New": "",
+    "Total": 337653
   },
   {
     "Date": "2/25/2021",
@@ -15774,7 +15880,9 @@
     "Walla_Walla": 4695,
     "Whatcom": 6718,
     "Whitman": 3294,
-    "Unassigned": 1486
+    "Unassigned": 1486,
+    "New": "",
+    "Total": 338822
   },
   {
     "Date": "2/26/2021",
@@ -15817,7 +15925,9 @@
     "Walla_Walla": 4696,
     "Whatcom": 6749,
     "Whitman": 3310,
-    "Unassigned": 1488
+    "Unassigned": 1488,
+    "New": "",
+    "Total": 339773
   },
   {
     "Date": "2/28/2021",
@@ -15860,7 +15970,9 @@
     "Walla_Walla": 4700,
     "Whatcom": 6794,
     "Whitman": 3313,
-    "Unassigned": 1493
+    "Unassigned": 1493,
+    "New": "",
+    "Total": 340708
   },
   {
     "Date": "3/1/2021",
@@ -15903,7 +16015,9 @@
     "Walla_Walla": 4700,
     "Whatcom": 6816,
     "Whitman": 3381,
-    "Unassigned": 1491
+    "Unassigned": 1491,
+    "New": "",
+    "Total": 341441
   },
   {
     "Date": "3/2/2021",
@@ -15946,7 +16060,9 @@
     "Walla_Walla": 4703,
     "Whatcom": 6855,
     "Whitman": 3388,
-    "Unassigned": 1500
+    "Unassigned": 1500,
+    "New": "",
+    "Total": 342236
   },
   {
     "Date": "3/3/2021",
@@ -15989,7 +16105,9 @@
     "Walla_Walla": 4721,
     "Whatcom": 6886,
     "Whitman": 3403,
-    "Unassigned": 1480
+    "Unassigned": 1480,
+    "New": "",
+    "Total": 343090
   },
   {
     "Date": "3/4/2021",
@@ -16032,7 +16150,9 @@
     "Walla_Walla": 4760,
     "Whatcom": 6925,
     "Whitman": 3408,
-    "Unassigned": 1459
+    "Unassigned": 1459,
+    "New": "",
+    "Total": 343868
   },
   {
     "Date": "3/5/2021",
@@ -16075,7 +16195,9 @@
     "Walla_Walla": 4765,
     "Whatcom": 6953,
     "Whitman": 3408,
-    "Unassigned": 1461
+    "Unassigned": 1461,
+    "New": "",
+    "Total": 344532
   },
   {
     "Date": "3/7/2021",
@@ -16118,7 +16240,9 @@
     "Walla_Walla": 4779,
     "Whatcom": 6992,
     "Whitman": 3420,
-    "Unassigned": 1460
+    "Unassigned": 1460,
+    "New": "",
+    "Total": 345731
   },
   {
     "Date": "3/8/2021",
@@ -16161,7 +16285,9 @@
     "Walla_Walla": 4780,
     "Whatcom": 7017,
     "Whitman": 3421,
-    "Unassigned": 1461
+    "Unassigned": 1461,
+    "New": "",
+    "Total": 346403
   },
   {
     "Date": "3/9/2021",
@@ -16204,7 +16330,9 @@
     "Walla_Walla": 4783,
     "Whatcom": 7044,
     "Whitman": 3424,
-    "Unassigned": 1464
+    "Unassigned": 1464,
+    "New": "",
+    "Total": 347131
   },
   {
     "Date": "3/10/2021",
@@ -16247,7 +16375,9 @@
     "Walla_Walla": 4783,
     "Whatcom": 7075,
     "Whitman": 3429,
-    "Unassigned": 1465
+    "Unassigned": 1465,
+    "New": "",
+    "Total": 347884
   },
   {
     "Date": "3/11/2021",
@@ -16290,7 +16420,9 @@
     "Walla_Walla": 4783,
     "Whatcom": 7099,
     "Whitman": 3430,
-    "Unassigned": 1463
+    "Unassigned": 1463,
+    "New": "",
+    "Total": 348516
   },
   {
     "Date": "3/12/2021",
@@ -16333,7 +16465,9 @@
     "Walla_Walla": 4785,
     "Whatcom": 7137,
     "Whitman": 3433,
-    "Unassigned": 1501
+    "Unassigned": 1501,
+    "New": "",
+    "Total": 349425
   },
   {
     "Date": "3/14/2021",
@@ -16376,7 +16510,9 @@
     "Walla_Walla": 4787,
     "Whatcom": 7171,
     "Whitman": 3435,
-    "Unassigned": 1530
+    "Unassigned": 1530,
+    "New": "",
+    "Total": 350506
   },
   {
     "Date": "3/15/2021",
@@ -16419,7 +16555,9 @@
     "Walla_Walla": 4787,
     "Whatcom": 7193,
     "Whitman": 3438,
-    "Unassigned": 1472
+    "Unassigned": 1472,
+    "New": "",
+    "Total": 351109
   },
   {
     "Date": "3/16/2021",
@@ -16462,7 +16600,9 @@
     "Walla_Walla": 4788,
     "Whatcom": 7220,
     "Whitman": 3483,
-    "Unassigned": 1482
+    "Unassigned": 1482,
+    "New": "",
+    "Total": 352012
   },
   {
     "Date": "3/17/2021",
@@ -16505,7 +16645,9 @@
     "Walla_Walla": 4789,
     "Whatcom": 7246,
     "Whitman": 3534,
-    "Unassigned": 1477
+    "Unassigned": 1477,
+    "New": "",
+    "Total": 352907
   },
   {
     "Date": "3/18/2021",
@@ -16548,7 +16690,9 @@
     "Walla_Walla": 4790,
     "Whatcom": 7261,
     "Whitman": 3610,
-    "Unassigned": 1478
+    "Unassigned": 1478,
+    "New": "",
+    "Total": 353792
   },
   {
     "Date": "3/21/2021",
@@ -16591,7 +16735,9 @@
     "Walla_Walla": 4797,
     "Whatcom": 7303,
     "Whitman": 3677,
-    "Unassigned": 1480
+    "Unassigned": 1480,
+    "New": "",
+    "Total": 355986
   },
   {
     "Date": "3/22/2021",
@@ -16634,7 +16780,9 @@
     "Walla_Walla": 4798,
     "Whatcom": 7331,
     "Whitman": 3677,
-    "Unassigned": 1480
+    "Unassigned": 1480,
+    "New": "",
+    "Total": 356536
   },
   {
     "Date": "3/23/2021",
@@ -16677,7 +16825,9 @@
     "Walla_Walla": 4800,
     "Whatcom": 7359,
     "Whitman": 3681,
-    "Unassigned": 1487
+    "Unassigned": 1487,
+    "New": "",
+    "Total": 357499
   },
   {
     "Date": "3/24/2021",
@@ -16720,7 +16870,9 @@
     "Walla_Walla": 4802,
     "Whatcom": 7399,
     "Whitman": 3683,
-    "Unassigned": 1501
+    "Unassigned": 1501,
+    "New": "",
+    "Total": 358606
   },
   {
     "Date": "3/25/2021",
@@ -16763,7 +16915,9 @@
     "Walla_Walla": 4804,
     "Whatcom": 7417,
     "Whitman": 3685,
-    "Unassigned": 1546
+    "Unassigned": 1546,
+    "New": "",
+    "Total": 359666
   },
   {
     "Date": "3/26/2021",
@@ -16806,7 +16960,9 @@
     "Walla_Walla": 4805,
     "Whatcom": 7447,
     "Whitman": 3687,
-    "Unassigned": 1574
+    "Unassigned": 1574,
+    "New": "",
+    "Total": 361115
   },
   {
     "Date": "3/28/2021",
@@ -16849,7 +17005,9 @@
     "Walla_Walla": 4815,
     "Whatcom": 7483,
     "Whitman": 3695,
-    "Unassigned": 1479
+    "Unassigned": 1479,
+    "New": "",
+    "Total": 362385
   },
   {
     "Date": "3/29/2021",
@@ -16892,7 +17050,9 @@
     "Walla_Walla": 4825,
     "Whatcom": 7513,
     "Whitman": 3716,
-    "Unassigned": 1484
+    "Unassigned": 1484,
+    "New": "",
+    "Total": 363235
   },
   {
     "Date": "3/30/2021",
@@ -16935,7 +17095,9 @@
     "Walla_Walla": 4826,
     "Whatcom": 7531,
     "Whitman": 3742,
-    "Unassigned": 1480
+    "Unassigned": 1480,
+    "New": "",
+    "Total": 364486
   },
   {
     "Date": "3/31/2021",
@@ -16978,7 +17140,9 @@
     "Walla_Walla": 4827,
     "Whatcom": 7564,
     "Whitman": 3748,
-    "Unassigned": 1480
+    "Unassigned": 1480,
+    "New": "",
+    "Total": 365762
   },
   {
     "Date": "4/1/2021",
@@ -17021,7 +17185,9 @@
     "Walla_Walla": 4834,
     "Whatcom": 7587,
     "Whitman": 3752,
-    "Unassigned": 1488
+    "Unassigned": 1488,
+    "New": "",
+    "Total": 367115
   },
   {
     "Date": "4/2/2021",
@@ -17064,7 +17230,9 @@
     "Walla_Walla": 4840,
     "Whatcom": 7619,
     "Whitman": 3762,
-    "Unassigned": 1583
+    "Unassigned": 1583,
+    "New": "",
+    "Total": 368403
   },
   {
     "Date": "4/4/2021",
@@ -17107,7 +17275,9 @@
     "Walla_Walla": 4844,
     "Whatcom": 7655,
     "Whitman": 3764,
-    "Unassigned": 1507
+    "Unassigned": 1507,
+    "New": "",
+    "Total": 370017
   },
   {
     "Date": "4/6/2021",
@@ -17150,7 +17320,54 @@
     "Walla_Walla": 4848,
     "Whatcom": 7705,
     "Whitman": 3927,
-    "Unassigned": 1521
+    "Unassigned": 1521,
+    "New": "",
+    "Total": 372170
+  },
+  {
+    "Date": "",
+    "King": "",
+    "Pierce": "",
+    "Snohomish": "",
+    "Yakima": "",
+    "Adams": "",
+    "Asotin": "",
+    "Benton": "",
+    "Chelan": "",
+    "Clallam": "",
+    "Clark": "",
+    "Columbia": "",
+    "Cowlitz": "",
+    "Douglas": "",
+    "Ferry": "",
+    "Franklin": "",
+    "Garfield": "",
+    "Grant": "",
+    "Grays_Harbor": "",
+    "Island": "",
+    "Jefferson": "",
+    "Kitsap": "",
+    "Kittitas": "",
+    "Klickitat": "",
+    "Lewis": "",
+    "Lincoln": "",
+    "Mason": "",
+    "Okanogan": "",
+    "Pacific": "",
+    "Pend_Oreille": "",
+    "San_Juan": "",
+    "Skagit": "",
+    "Skamania": "",
+    "Spokane": "",
+    "Stevens": "",
+    "Thurston": "",
+    "Wahkiakum": "",
+    "Walla_Walla": "",
+    "Whatcom": "",
+    "Whitman": "",
+    "Unassigned": "",
+    "New": "",
+    "Total": 0
   },
   {
     "Date": "4/8/2021",
@@ -17193,7 +17410,9 @@
     "Walla_Walla": 4868,
     "Whatcom": 7760,
     "Whitman": 3952,
-    "Unassigned": 1510
+    "Unassigned": 1510,
+    "New": "",
+    "Total": 374794
   },
   {
     "Date": "4/9/2021",
@@ -17236,7 +17455,54 @@
     "Walla_Walla": 4868,
     "Whatcom": 7808,
     "Whitman": 3960,
-    "Unassigned": 1509
+    "Unassigned": 1509,
+    "New": "",
+    "Total": 376230
+  },
+  {
+    "Date": "",
+    "King": "",
+    "Pierce": "",
+    "Snohomish": "",
+    "Yakima": "",
+    "Adams": "",
+    "Asotin": "",
+    "Benton": "",
+    "Chelan": "",
+    "Clallam": "",
+    "Clark": "",
+    "Columbia": "",
+    "Cowlitz": "",
+    "Douglas": "",
+    "Ferry": "",
+    "Franklin": "",
+    "Garfield": "",
+    "Grant": "",
+    "Grays_Harbor": "",
+    "Island": "",
+    "Jefferson": "",
+    "Kitsap": "",
+    "Kittitas": "",
+    "Klickitat": "",
+    "Lewis": "",
+    "Lincoln": "",
+    "Mason": "",
+    "Okanogan": "",
+    "Pacific": "",
+    "Pend_Oreille": "",
+    "San_Juan": "",
+    "Skagit": "",
+    "Skamania": "",
+    "Spokane": "",
+    "Stevens": "",
+    "Thurston": "",
+    "Wahkiakum": "",
+    "Walla_Walla": "",
+    "Whatcom": "",
+    "Whitman": "",
+    "Unassigned": "",
+    "New": "",
+    "Total": 0
   },
   {
     "Date": "4/11/2021",
@@ -17279,7 +17545,9 @@
     "Walla_Walla": 4870,
     "Whatcom": 7822,
     "Whitman": 3961,
-    "Unassigned": 1519
+    "Unassigned": 1519,
+    "New": "",
+    "Total": 377952
   },
   {
     "Date": "4/12/2021",
@@ -17322,7 +17590,9 @@
     "Walla_Walla": 4871,
     "Whatcom": 7852,
     "Whitman": 3989,
-    "Unassigned": 1520
+    "Unassigned": 1520,
+    "New": "",
+    "Total": 379056
   },
   {
     "Date": "4/13/2021",
@@ -17365,7 +17635,9 @@
     "Walla_Walla": 4882,
     "Whatcom": 7881,
     "Whitman": 3991,
-    "Unassigned": 1534
+    "Unassigned": 1534,
+    "New": "",
+    "Total": 380339
   },
   {
     "Date": "4/14/2021",
@@ -17408,7 +17680,9 @@
     "Walla_Walla": 4887,
     "Whatcom": 7921,
     "Whitman": 4007,
-    "Unassigned": 1516
+    "Unassigned": 1516,
+    "New": "",
+    "Total": 381725
   },
   {
     "Date": "4/16/2021",
@@ -17451,7 +17725,9 @@
     "Walla_Walla": 4900,
     "Whatcom": 8018,
     "Whitman": 4045,
-    "Unassigned": 1584
+    "Unassigned": 1584,
+    "New": "",
+    "Total": 385549
   },
   {
     "Date": "4/18/2021",
@@ -17494,7 +17770,9 @@
     "Walla_Walla": 4903,
     "Whatcom": 8011,
     "Whitman": 4047,
-    "Unassigned": 1516
+    "Unassigned": 1516,
+    "New": "",
+    "Total": 386920
   },
   {
     "Date": "4/19/2021",
@@ -17537,7 +17815,9 @@
     "Walla_Walla": 4910,
     "Whatcom": 8049,
     "Whitman": 4064,
-    "Unassigned": 1543
+    "Unassigned": 1543,
+    "New": "",
+    "Total": 388718
   },
   {
     "Date": "4/20/2021",
@@ -17580,7 +17860,9 @@
     "Walla_Walla": 4917,
     "Whatcom": 8091,
     "Whitman": 4066,
-    "Unassigned": 1538
+    "Unassigned": 1538,
+    "New": "",
+    "Total": 390214
   },
   {
     "Date": "4/21/2021",
@@ -17623,7 +17905,9 @@
     "Walla_Walla": 4936,
     "Whatcom": 8133,
     "Whitman": 4076,
-    "Unassigned": 1555
+    "Unassigned": 1555,
+    "New": "",
+    "Total": 391839
   },
   {
     "Date": "4/22/2021",
@@ -17666,7 +17950,9 @@
     "Walla_Walla": 4943,
     "Whatcom": 8176,
     "Whitman": 4098,
-    "Unassigned": 1539
+    "Unassigned": 1539,
+    "New": "",
+    "Total": 393594
   },
   {
     "Date": "4/25/2021",
@@ -17709,7 +17995,9 @@
     "Walla_Walla": 4964,
     "Whatcom": 8266,
     "Whitman": 4108,
-    "Unassigned": 1483
+    "Unassigned": 1483,
+    "New": "",
+    "Total": 397417
   },
   {
     "Date": "4/26/2021",
@@ -17752,7 +18040,9 @@
     "Walla_Walla": 4971,
     "Whatcom": 8296,
     "Whitman": 4119,
-    "Unassigned": 1485
+    "Unassigned": 1485,
+    "New": "",
+    "Total": 398509
   },
   {
     "Date": "4/27/2021",
@@ -17795,7 +18085,9 @@
     "Walla_Walla": 4978,
     "Whatcom": 8354,
     "Whitman": 4133,
-    "Unassigned": 1506
+    "Unassigned": 1506,
+    "New": "",
+    "Total": 400149
   },
   {
     "Date": "4/28/2021",
@@ -17838,7 +18130,9 @@
     "Walla_Walla": 4983,
     "Whatcom": 8395,
     "Whitman": 4147,
-    "Unassigned": 1510
+    "Unassigned": 1510,
+    "New": "",
+    "Total": 401718
   },
   {
     "Date": "4/29/2021",
@@ -17881,7 +18175,9 @@
     "Walla_Walla": 4991,
     "Whatcom": 8424,
     "Whitman": 4151,
-    "Unassigned": 1491
+    "Unassigned": 1491,
+    "New": "",
+    "Total": 403040
   },
   {
     "Date": "4/30/2021",
@@ -17924,7 +18220,9 @@
     "Walla_Walla": 5000,
     "Whatcom": 8454,
     "Whitman": 4155,
-    "Unassigned": 1558
+    "Unassigned": 1558,
+    "New": "",
+    "Total": 404709
   },
   {
     "Date": "5/1/2021",
@@ -17967,7 +18265,9 @@
     "Walla_Walla": 5015,
     "Whatcom": 8509,
     "Whitman": 4160,
-    "Unassigned": 1483
+    "Unassigned": 1483,
+    "New": "",
+    "Total": 407191
   },
   {
     "Date": "5/3/2021",
@@ -18010,7 +18310,9 @@
     "Walla_Walla": 5026,
     "Whatcom": 8560,
     "Whitman": 4177,
-    "Unassigned": 1483
+    "Unassigned": 1483,
+    "New": "",
+    "Total": 408607
   },
   {
     "Date": "5/4/2021",
@@ -18053,7 +18355,9 @@
     "Walla_Walla": 5026,
     "Whatcom": 8609,
     "Whitman": 4179,
-    "Unassigned": 1493
+    "Unassigned": 1493,
+    "New": "",
+    "Total": 409933
   },
   {
     "Date": "5/5/2021",
@@ -18096,7 +18400,9 @@
     "Walla_Walla": 5030,
     "Whatcom": 8634,
     "Whitman": 4192,
-    "Unassigned": 1495
+    "Unassigned": 1495,
+    "New": "",
+    "Total": 411075
   },
   {
     "Date": "5/6/2021",
@@ -18139,7 +18445,9 @@
     "Walla_Walla": 5037,
     "Whatcom": 8688,
     "Whitman": 4197,
-    "Unassigned": 1482
+    "Unassigned": 1482,
+    "New": "",
+    "Total": 412483
   },
   {
     "Date": "5/7/2021",
@@ -18182,7 +18490,9 @@
     "Walla_Walla": 5040,
     "Whatcom": 8750,
     "Whitman": 4201,
-    "Unassigned": 1515
+    "Unassigned": 1515,
+    "New": "",
+    "Total": 413980
   },
   {
     "Date": "5/9/2021",
@@ -18225,7 +18535,9 @@
     "Walla_Walla": 5045,
     "Whatcom": 8808,
     "Whitman": 4202,
-    "Unassigned": 1486
+    "Unassigned": 1486,
+    "New": "",
+    "Total": 415705
   },
   {
     "Date": "5/11/2021",
@@ -18268,7 +18580,9 @@
     "Walla_Walla": 5057,
     "Whatcom": 8882,
     "Whitman": 4225,
-    "Unassigned": 1491
+    "Unassigned": 1491,
+    "New": "",
+    "Total": 418020
   },
   {
     "Date": "5/12/2021",
@@ -18311,7 +18625,9 @@
     "Walla_Walla": 5065,
     "Whatcom": 8915,
     "Whitman": 4230,
-    "Unassigned": 1508
+    "Unassigned": 1508,
+    "New": "",
+    "Total": 419382
   },
   {
     "Date": "5/13/2021",
@@ -18354,7 +18670,9 @@
     "Walla_Walla": 5062,
     "Whatcom": 8973,
     "Whitman": 4234,
-    "Unassigned": 1491
+    "Unassigned": 1491,
+    "New": "",
+    "Total": 421757
   },
   {
     "Date": "5/14/2021",
@@ -18397,7 +18715,9 @@
     "Walla_Walla": 5072,
     "Whatcom": 9004,
     "Whitman": 4232,
-    "Unassigned": 1591
+    "Unassigned": 1591,
+    "New": "",
+    "Total": 422665
   },
   {
     "Date": "5/16/2021",
@@ -18440,7 +18760,54 @@
     "Walla_Walla": 5078,
     "Whatcom": 9028,
     "Whitman": 4234,
-    "Unassigned": 1489
+    "Unassigned": 1489,
+    "New": "",
+    "Total": 423382
+  },
+  {
+    "Date": "",
+    "King": "",
+    "Pierce": "",
+    "Snohomish": "",
+    "Yakima": "",
+    "Adams": "",
+    "Asotin": "",
+    "Benton": "",
+    "Chelan": "",
+    "Clallam": "",
+    "Clark": "",
+    "Columbia": "",
+    "Cowlitz": "",
+    "Douglas": "",
+    "Ferry": "",
+    "Franklin": "",
+    "Garfield": "",
+    "Grant": "",
+    "Grays_Harbor": "",
+    "Island": "",
+    "Jefferson": "",
+    "Kitsap": "",
+    "Kittitas": "",
+    "Klickitat": "",
+    "Lewis": "",
+    "Lincoln": "",
+    "Mason": "",
+    "Okanogan": "",
+    "Pacific": "",
+    "Pend_Oreille": "",
+    "San_Juan": "",
+    "Skagit": "",
+    "Skamania": "",
+    "Spokane": "",
+    "Stevens": "",
+    "Thurston": "",
+    "Wahkiakum": "",
+    "Walla_Walla": "",
+    "Whatcom": "",
+    "Whitman": "",
+    "Unassigned": "",
+    "New": "",
+    "Total": 0
   },
   {
     "Date": "5/18/2021",
@@ -18483,7 +18850,9 @@
     "Walla_Walla": 5090,
     "Whatcom": 9097,
     "Whitman": 4241,
-    "Unassigned": 1492
+    "Unassigned": 1492,
+    "New": "",
+    "Total": 424903
   },
   {
     "Date": "5/20/2021",
@@ -18526,7 +18895,9 @@
     "Walla_Walla": 5096,
     "Whatcom": 9186,
     "Whitman": 4250,
-    "Unassigned": 1491
+    "Unassigned": 1491,
+    "New": "",
+    "Total": 427494
   },
   {
     "Date": "5/23/2021",
@@ -18569,7 +18940,9 @@
     "Walla_Walla": 5108,
     "Whatcom": 9250,
     "Whitman": 4252,
-    "Unassigned": 1517
+    "Unassigned": 1517,
+    "New": "",
+    "Total": 429499
   },
   {
     "Date": "5/24/2021",
@@ -18612,7 +18985,9 @@
     "Walla_Walla": 5114,
     "Whatcom": 9286,
     "Whitman": 4260,
-    "Unassigned": 1518
+    "Unassigned": 1518,
+    "New": "",
+    "Total": 430415
   },
   {
     "Date": "5/25/2021",
@@ -18655,7 +19030,9 @@
     "Walla_Walla": 5124,
     "Whatcom": 9317,
     "Whitman": 4261,
-    "Unassigned": 1536
+    "Unassigned": 1536,
+    "New": "",
+    "Total": 432170
   },
   {
     "Date": "5/26/2021",
@@ -18698,7 +19075,9 @@
     "Walla_Walla": 5129,
     "Whatcom": 9356,
     "Whitman": 4267,
-    "Unassigned": 1542
+    "Unassigned": 1542,
+    "New": "",
+    "Total": 433701
   },
   {
     "Date": "5/27/2021",
@@ -18741,7 +19120,9 @@
     "Walla_Walla": 5137,
     "Whatcom": 9383,
     "Whitman": 4268,
-    "Unassigned": 1529
+    "Unassigned": 1529,
+    "New": "",
+    "Total": 434783
   },
   {
     "Date": "5/28/2021",
@@ -18784,7 +19165,9 @@
     "Walla_Walla": 5148,
     "Whatcom": 9418,
     "Whitman": 4268,
-    "Unassigned": 1613
+    "Unassigned": 1613,
+    "New": "",
+    "Total": 435849
   },
   {
     "Date": "5/31/2021",
@@ -18827,7 +19210,9 @@
     "Walla_Walla": 5157,
     "Whatcom": 9466,
     "Whitman": 4268,
-    "Unassigned": 1524
+    "Unassigned": 1524,
+    "New": "",
+    "Total": 436984
   },
   {
     "Date": "6/1/2021",
@@ -18870,7 +19255,9 @@
     "Walla_Walla": 5161,
     "Whatcom": 9490,
     "Whitman": 4270,
-    "Unassigned": 1521
+    "Unassigned": 1521,
+    "New": "",
+    "Total": 437677
   },
   {
     "Date": "6/2/2021",
@@ -18913,7 +19300,9 @@
     "Walla_Walla": 5180,
     "Whatcom": 9537,
     "Whitman": 4278,
-    "Unassigned": 1536
+    "Unassigned": 1536,
+    "New": "",
+    "Total": 438544
   },
   {
     "Date": "6/3/2021",
@@ -18956,6 +19345,958 @@
     "Walla_Walla": 5183,
     "Whatcom": 9566,
     "Whitman": 4285,
-    "Unassigned": 1529
+    "Unassigned": 1529,
+    "New": "",
+    "Total": 439263
+  },
+  {
+    "Date": "6/4/2021",
+    "King": 110220,
+    "Pierce": 55737,
+    "Snohomish": 39223,
+    "Yakima": 30237,
+    "Adams": 2200,
+    "Asotin": 1483,
+    "Benton": 17372,
+    "Chelan": 6825,
+    "Clallam": 1342,
+    "Clark": 25176,
+    "Columbia": 125,
+    "Cowlitz": 6319,
+    "Douglas": 3626,
+    "Ferry": 387,
+    "Franklin": 12618,
+    "Garfield": 125,
+    "Grant": 9160,
+    "Grays_Harbor": 4471,
+    "Island": 1800,
+    "Jefferson": 416,
+    "Kitsap": 8549,
+    "Kittitas": 3182,
+    "Klickitat": 817,
+    "Lewis": 5011,
+    "Lincoln": 630,
+    "Mason": 2853,
+    "Okanogan": 2672,
+    "Pacific": 979,
+    "Pend_Oreille": 806,
+    "San_Juan": 186,
+    "Skagit": 5923,
+    "Skamania": 368,
+    "Spokane": 45658,
+    "Stevens": 2320,
+    "Thurston": 10501,
+    "Wahkiakum": 137,
+    "Walla_Walla": 5192,
+    "Whatcom": 9598,
+    "Whitman": 4287,
+    "Unassigned": 1526,
+    "New": "",
+    "Total": 440057
+  },
+  {
+    "Date": "6/6/2021",
+    "King": 109349,
+    "Pierce": 55832,
+    "Snohomish": 39282,
+    "Yakima": 30251,
+    "Adams": 2201,
+    "Asotin": 1484,
+    "Benton": 17394,
+    "Chelan": 6829,
+    "Clallam": 1343,
+    "Clark": 25279,
+    "Columbia": 126,
+    "Cowlitz": 6332,
+    "Douglas": 3636,
+    "Ferry": 387,
+    "Franklin": 12627,
+    "Garfield": 125,
+    "Grant": 9173,
+    "Grays_Harbor": 4483,
+    "Island": 1801,
+    "Jefferson": 419,
+    "Kitsap": 8566,
+    "Kittitas": 3178,
+    "Klickitat": 818,
+    "Lewis": 5040,
+    "Lincoln": 641,
+    "Mason": 2857,
+    "Okanogan": 2674,
+    "Pacific": 986,
+    "Pend_Oreille": 809,
+    "San_Juan": 186,
+    "Skagit": 5929,
+    "Skamania": 369,
+    "Spokane": 45771,
+    "Stevens": 2324,
+    "Thurston": 10516,
+    "Wahkiakum": 138,
+    "Walla_Walla": 5201,
+    "Whatcom": 9617,
+    "Whitman": 4286,
+    "Unassigned": 2630,
+    "New": "",
+    "Total": 440889
+  },
+  {
+    "Date": "6/7/2021",
+    "King": 109458,
+    "Pierce": 55909,
+    "Snohomish": 39341,
+    "Yakima": 30313,
+    "Adams": 2202,
+    "Asotin": 1484,
+    "Benton": 17420,
+    "Chelan": 6833,
+    "Clallam": 1352,
+    "Clark": 25326,
+    "Columbia": 126,
+    "Cowlitz": 6351,
+    "Douglas": 3639,
+    "Ferry": 388,
+    "Franklin": 12635,
+    "Garfield": 125,
+    "Grant": 9180,
+    "Grays_Harbor": 4493,
+    "Island": 1805,
+    "Jefferson": 419,
+    "Kitsap": 8584,
+    "Kittitas": 3196,
+    "Klickitat": 820,
+    "Lewis": 5088,
+    "Lincoln": 641,
+    "Mason": 2860,
+    "Okanogan": 2681,
+    "Pacific": 987,
+    "Pend_Oreille": 809,
+    "San_Juan": 186,
+    "Skagit": 5931,
+    "Skamania": 369,
+    "Spokane": 45829,
+    "Stevens": 2328,
+    "Thurston": 10544,
+    "Wahkiakum": 139,
+    "Walla_Walla": 5204,
+    "Whatcom": 9663,
+    "Whitman": 4291,
+    "Unassigned": 2642
+  },
+  {
+    "Date": "6/8/2021",
+    "King": 110688,
+    "Pierce": 55973,
+    "Snohomish": 39383,
+    "Yakima": 30331,
+    "Adams": 2204,
+    "Asotin": 1484,
+    "Benton": 17448,
+    "Chelan": 6838,
+    "Clallam": 1353,
+    "Clark": 25363,
+    "Columbia": 127,
+    "Cowlitz": 6362,
+    "Douglas": 3644,
+    "Ferry": 388,
+    "Franklin": 12649,
+    "Garfield": 126,
+    "Grant": 9194,
+    "Grays_Harbor": 4498,
+    "Island": 1807,
+    "Jefferson": 420,
+    "Kitsap": 8591,
+    "Kittitas": 3205,
+    "Klickitat": 823,
+    "Lewis": 5099,
+    "Lincoln": 646,
+    "Mason": 2868,
+    "Okanogan": 2692,
+    "Pacific": 987,
+    "Pend_Oreille": 810,
+    "San_Juan": 186,
+    "Skagit": 5943,
+    "Skamania": 369,
+    "Spokane": 45878,
+    "Stevens": 2332,
+    "Thurston": 10577,
+    "Wahkiakum": 139,
+    "Walla_Walla": 5207,
+    "Whatcom": 9672,
+    "Whitman": 4294,
+    "Unassigned": 1500
+  },
+  {
+    "Date": "6/9/2021",
+    "King": 110799,
+    "Pierce": 56054,
+    "Snohomish": 39426,
+    "Yakima": 30359,
+    "Adams": 2206,
+    "Asotin": 1489,
+    "Benton": 17475,
+    "Chelan": 6843,
+    "Clallam": 1363,
+    "Clark": 25410,
+    "Columbia": 127,
+    "Cowlitz": 6399,
+    "Douglas": 3647,
+    "Ferry": 389,
+    "Franklin": 12657,
+    "Garfield": 126,
+    "Grant": 9207,
+    "Grays_Harbor": 4510,
+    "Island": 1813,
+    "Jefferson": 426,
+    "Kitsap": 8598,
+    "Kittitas": 3213,
+    "Klickitat": 829,
+    "Lewis": 5123,
+    "Lincoln": 651,
+    "Mason": 2869,
+    "Okanogan": 2709,
+    "Pacific": 991,
+    "Pend_Oreille": 810,
+    "San_Juan": 186,
+    "Skagit": 5953,
+    "Skamania": 369,
+    "Spokane": 45965,
+    "Stevens": 2339,
+    "Thurston": 10625,
+    "Wahkiakum": 146,
+    "Walla_Walla": 5220,
+    "Whatcom": 9691,
+    "Whitman": 4297,
+    "Unassigned": 1506
+  },
+  {
+    "Date": "6/10/2021",
+    "King": 110911,
+    "Pierce": 56153,
+    "Snohomish": 39459,
+    "Yakima": 30391,
+    "Adams": 2208,
+    "Asotin": 1490,
+    "Benton": 17492,
+    "Chelan": 6853,
+    "Clallam": 1373,
+    "Clark": 25454,
+    "Columbia": 128,
+    "Cowlitz": 6416,
+    "Douglas": 3653,
+    "Ferry": 390,
+    "Franklin": 12664,
+    "Garfield": 126,
+    "Grant": 9218,
+    "Grays_Harbor": 4514,
+    "Island": 1816,
+    "Jefferson": 426,
+    "Kitsap": 8616,
+    "Kittitas": 3222,
+    "Klickitat": 831,
+    "Lewis": 5149,
+    "Lincoln": 657,
+    "Mason": 2875,
+    "Okanogan": 2715,
+    "Pacific": 991,
+    "Pend_Oreille": 815,
+    "San_Juan": 186,
+    "Skagit": 5961,
+    "Skamania": 371,
+    "Spokane": 46028,
+    "Stevens": 2343,
+    "Thurston": 10680,
+    "Wahkiakum": 148,
+    "Walla_Walla": 5226,
+    "Whatcom": 9698,
+    "Whitman": 4299,
+    "Unassigned": 1508
+  },
+  {
+    "Date": "6/11/2021",
+    "King": 111022,
+    "Pierce": 56215,
+    "Snohomish": 39545,
+    "Yakima": 30413,
+    "Adams": 2212,
+    "Asotin": 1491,
+    "Benton": 17514,
+    "Chelan": 6860,
+    "Clallam": 1381,
+    "Clark": 25518,
+    "Columbia": 128,
+    "Cowlitz": 6433,
+    "Douglas": 3656,
+    "Ferry": 394,
+    "Franklin": 12673,
+    "Garfield": 126,
+    "Grant": 9234,
+    "Grays_Harbor": 4528,
+    "Island": 1822,
+    "Jefferson": 428,
+    "Kitsap": 8628,
+    "Kittitas": 3234,
+    "Klickitat": 831,
+    "Lewis": 5180,
+    "Lincoln": 661,
+    "Mason": 2881,
+    "Okanogan": 2716,
+    "Pacific": 991,
+    "Pend_Oreille": 817,
+    "San_Juan": 186,
+    "Skagit": 5972,
+    "Skamania": 372,
+    "Spokane": 46100,
+    "Stevens": 2346,
+    "Thurston": 10713,
+    "Wahkiakum": 152,
+    "Walla_Walla": 5237,
+    "Whatcom": 9713,
+    "Whitman": 4306,
+    "Unassigned": 1537
+  },
+  {
+    "Date": "6/13/2021",
+    "King": 111137,
+    "Pierce": 56300,
+    "Snohomish": 39585,
+    "Yakima": 30430,
+    "Adams": 2215,
+    "Asotin": 1493,
+    "Benton": 17546,
+    "Chelan": 6864,
+    "Clallam": 1386,
+    "Clark": 25581,
+    "Columbia": 128,
+    "Cowlitz": 6445,
+    "Douglas": 3660,
+    "Ferry": 394,
+    "Franklin": 12682,
+    "Garfield": 126,
+    "Grant": 9261,
+    "Grays_Harbor": 4528,
+    "Island": 1827,
+    "Jefferson": 432,
+    "Kitsap": 8646,
+    "Kittitas": 3245,
+    "Klickitat": 833,
+    "Lewis": 5178,
+    "Lincoln": 662,
+    "Mason": 2884,
+    "Okanogan": 2721,
+    "Pacific": 992,
+    "Pend_Oreille": 819,
+    "San_Juan": 186,
+    "Skagit": 5977,
+    "Skamania": 375,
+    "Spokane": 46155,
+    "Stevens": 2354,
+    "Thurston": 10738,
+    "Wahkiakum": 154,
+    "Walla_Walla": 5245,
+    "Whatcom": 9722,
+    "Whitman": 4306,
+    "Unassigned": 1510
+  },
+  {
+    "Date": "6/14/2021",
+    "King": 111201,
+    "Pierce": 56333,
+    "Snohomish": 39617,
+    "Yakima": 30466,
+    "Adams": 2218,
+    "Asotin": 1493,
+    "Benton": 17561,
+    "Chelan": 6866,
+    "Clallam": 1391,
+    "Clark": 25622,
+    "Columbia": 128,
+    "Cowlitz": 6456,
+    "Douglas": 3661,
+    "Ferry": 394,
+    "Franklin": 12700,
+    "Garfield": 127,
+    "Grant": 9271,
+    "Grays_Harbor": 4531,
+    "Island": 1830,
+    "Jefferson": 436,
+    "Kitsap": 8659,
+    "Kittitas": 3250,
+    "Klickitat": 834,
+    "Lewis": 5202,
+    "Lincoln": 663,
+    "Mason": 2894,
+    "Okanogan": 2723,
+    "Pacific": 992,
+    "Pend_Oreille": 821,
+    "San_Juan": 186,
+    "Skagit": 5983,
+    "Skamania": 376,
+    "Spokane": 46191,
+    "Stevens": 2355,
+    "Thurston": 10751,
+    "Wahkiakum": 154,
+    "Walla_Walla": 5251,
+    "Whatcom": 9737,
+    "Whitman": 4314,
+    "Unassigned": 1517
+  },
+  {
+    "Date": "6/15/2021",
+    "King": 111306,
+    "Pierce": 56381,
+    "Snohomish": 39662,
+    "Yakima": 30486,
+    "Adams": 2219,
+    "Asotin": 1493,
+    "Benton": 17575,
+    "Chelan": 6878,
+    "Clallam": 1397,
+    "Clark": 25645,
+    "Columbia": 128,
+    "Cowlitz": 6470,
+    "Douglas": 3662,
+    "Ferry": 394,
+    "Franklin": 12713,
+    "Garfield": 128,
+    "Grant": 9281,
+    "Grays_Harbor": 4533,
+    "Island": 1832,
+    "Jefferson": 437,
+    "Kitsap": 8668,
+    "Kittitas": 3256,
+    "Klickitat": 843,
+    "Lewis": 5221,
+    "Lincoln": 664,
+    "Mason": 2898,
+    "Okanogan": 2729,
+    "Pacific": 994,
+    "Pend_Oreille": 821,
+    "San_Juan": 186,
+    "Skagit": 5991,
+    "Skamania": 378,
+    "Spokane": 46262,
+    "Stevens": 2355,
+    "Thurston": 10783,
+    "Wahkiakum": 153,
+    "Walla_Walla": 5259,
+    "Whatcom": 9763,
+    "Whitman": 4318,
+    "Unassigned": 1524
+  },
+  {
+    "Date": "6/16/2021",
+    "King": 111382,
+    "Pierce": 56420,
+    "Snohomish": 39710,
+    "Yakima": 30515,
+    "Adams": 2223,
+    "Asotin": 1494,
+    "Benton": 17592,
+    "Chelan": 6873,
+    "Clallam": 1399,
+    "Clark": 25677,
+    "Columbia": 129,
+    "Cowlitz": 6491,
+    "Douglas": 3663,
+    "Ferry": 394,
+    "Franklin": 12723,
+    "Garfield": 129,
+    "Grant": 9289,
+    "Grays_Harbor": 4537,
+    "Island": 1836,
+    "Jefferson": 437,
+    "Kitsap": 8677,
+    "Kittitas": 3266,
+    "Klickitat": 853,
+    "Lewis": 5224,
+    "Lincoln": 666,
+    "Mason": 2902,
+    "Okanogan": 2736,
+    "Pacific": 996,
+    "Pend_Oreille": 823,
+    "San_Juan": 186,
+    "Skagit": 5998,
+    "Skamania": 380,
+    "Spokane": 46304,
+    "Stevens": 2358,
+    "Thurston": 10811,
+    "Wahkiakum": 154,
+    "Walla_Walla": 5267,
+    "Whatcom": 9780,
+    "Whitman": 4318,
+    "Unassigned": 1512
+  },
+  {
+    "Date": "6/17/2021",
+    "King": 111474,
+    "Pierce": 56463,
+    "Snohomish": 39757,
+    "Yakima": 30545,
+    "Adams": 2229,
+    "Asotin": 1495,
+    "Benton": 17603,
+    "Chelan": 6889,
+    "Clallam": 1401,
+    "Clark": 25706,
+    "Columbia": 129,
+    "Cowlitz": 6518,
+    "Douglas": 3671,
+    "Ferry": 395,
+    "Franklin": 12730,
+    "Garfield": 129,
+    "Grant": 9301,
+    "Grays_Harbor": 4543,
+    "Island": 1838,
+    "Jefferson": 438,
+    "Kitsap": 8699,
+    "Kittitas": 3278,
+    "Klickitat": 856,
+    "Lewis": 5239,
+    "Lincoln": 667,
+    "Mason": 2906,
+    "Okanogan": 2741,
+    "Pacific": 996,
+    "Pend_Oreille": 823,
+    "San_Juan": 187,
+    "Skagit": 6003,
+    "Skamania": 379,
+    "Spokane": 46383,
+    "Stevens": 2361,
+    "Thurston": 10838,
+    "Wahkiakum": 154,
+    "Walla_Walla": 5280,
+    "Whatcom": 9797,
+    "Whitman": 4319,
+    "Unassigned": 1522
+  },
+  {
+    "Date": "6/18/2021",
+    "King": 111557,
+    "Pierce": 56509,
+    "Snohomish": 39806,
+    "Yakima": 30557,
+    "Adams": 2233,
+    "Asotin": 1497,
+    "Benton": 17620,
+    "Chelan": 6891,
+    "Clallam": 1404,
+    "Clark": 25754,
+    "Columbia": 129,
+    "Cowlitz": 6537,
+    "Douglas": 3676,
+    "Ferry": 397,
+    "Franklin": 12741,
+    "Garfield": 129,
+    "Grant": 9316,
+    "Grays_Harbor": 4557,
+    "Island": 1844,
+    "Jefferson": 439,
+    "Kitsap": 8715,
+    "Kittitas": 3286,
+    "Klickitat": 862,
+    "Lewis": 5248,
+    "Lincoln": 669,
+    "Mason": 2914,
+    "Okanogan": 2743,
+    "Pacific": 997,
+    "Pend_Oreille": 823,
+    "San_Juan": 187,
+    "Skagit": 6006,
+    "Skamania": 380,
+    "Spokane": 46446,
+    "Stevens": 2363,
+    "Thurston": 10859,
+    "Wahkiakum": 154,
+    "Walla_Walla": 5307,
+    "Whatcom": 9813,
+    "Whitman": 4319,
+    "Unassigned": 1519
+  },
+  {
+    "Date": "6/20/2021",
+    "King": 111679,
+    "Pierce": 56576,
+    "Snohomish": 39845,
+    "Yakima": 30574,
+    "Adams": 2239,
+    "Asotin": 1497,
+    "Benton": 17656,
+    "Chelan": 6900,
+    "Clallam": 1409,
+    "Clark": 25790,
+    "Columbia": 129,
+    "Cowlitz": 6552,
+    "Douglas": 3681,
+    "Ferry": 397,
+    "Franklin": 12759,
+    "Garfield": 130,
+    "Grant": 9325,
+    "Grays_Harbor": 4558,
+    "Island": 1849,
+    "Jefferson": 439,
+    "Kitsap": 8725,
+    "Kittitas": 3287,
+    "Klickitat": 865,
+    "Lewis": 5252,
+    "Lincoln": 671,
+    "Mason": 2917,
+    "Okanogan": 2744,
+    "Pacific": 998,
+    "Pend_Oreille": 823,
+    "San_Juan": 187,
+    "Skagit": 6007,
+    "Skamania": 381,
+    "Spokane": 46501,
+    "Stevens": 2369,
+    "Thurston": 10874,
+    "Wahkiakum": 154,
+    "Walla_Walla": 5329,
+    "Whatcom": 9825,
+    "Whitman": 4319,
+    "Unassigned": 1512
+  },
+  {
+    "Date": "6/21/2021",
+    "King": 111725,
+    "Pierce": 56632,
+    "Snohomish": 39898,
+    "Yakima": 30590,
+    "Adams": 2240,
+    "Asotin": 1497,
+    "Benton": 17678,
+    "Chelan": 6899,
+    "Clallam": 1410,
+    "Clark": 25808,
+    "Columbia": 129,
+    "Cowlitz": 6571,
+    "Douglas": 3683,
+    "Ferry": 397,
+    "Franklin": 12772,
+    "Garfield": 130,
+    "Grant": 9329,
+    "Grays_Harbor": 4563,
+    "Island": 1856,
+    "Jefferson": 441,
+    "Kitsap": 8732,
+    "Kittitas": 3302,
+    "Klickitat": 865,
+    "Lewis": 5262,
+    "Lincoln": 671,
+    "Mason": 2919,
+    "Okanogan": 2747,
+    "Pacific": 999,
+    "Pend_Oreille": 824,
+    "San_Juan": 186,
+    "Skagit": 6010,
+    "Skamania": 384,
+    "Spokane": 46548,
+    "Stevens": 2371,
+    "Thurston": 10888,
+    "Wahkiakum": 154,
+    "Walla_Walla": 5351,
+    "Whatcom": 9846,
+    "Whitman": 4324,
+    "Unassigned": 1511
+  },
+  {
+    "Date": "6/22/2021",
+    "King": 112120,
+    "Pierce": 56684,
+    "Snohomish": 39934,
+    "Yakima": 30598,
+    "Adams": 2240,
+    "Asotin": 1497,
+    "Benton": 17698,
+    "Chelan": 6908,
+    "Clallam": 1417,
+    "Clark": 25823,
+    "Columbia": 131,
+    "Cowlitz": 6591,
+    "Douglas": 3690,
+    "Ferry": 397,
+    "Franklin": 12788,
+    "Garfield": 130,
+    "Grant": 9335,
+    "Grays_Harbor": 4570,
+    "Island": 1861,
+    "Jefferson": 443,
+    "Kitsap": 8745,
+    "Kittitas": 3323,
+    "Klickitat": 873,
+    "Lewis": 5280,
+    "Lincoln": 672,
+    "Mason": 2925,
+    "Okanogan": 2756,
+    "Pacific": 999,
+    "Pend_Oreille": 824,
+    "San_Juan": 186,
+    "Skagit": 6014,
+    "Skamania": 385,
+    "Spokane": 46603,
+    "Stevens": 2374,
+    "Thurston": 10905,
+    "Wahkiakum": 154,
+    "Walla_Walla": 5371,
+    "Whatcom": 9853,
+    "Whitman": 4330,
+    "Unassigned": 1518
+  },
+  {
+    "Date": "6/23/2021",
+    "King": 112205,
+    "Pierce": 56752,
+    "Snohomish": 39985,
+    "Yakima": 30619,
+    "Adams": 2247,
+    "Asotin": 1498,
+    "Benton": 17730,
+    "Chelan": 6917,
+    "Clallam": 1423,
+    "Clark": 25858,
+    "Columbia": 131,
+    "Cowlitz": 6606,
+    "Douglas": 3693,
+    "Ferry": 399,
+    "Franklin": 12795,
+    "Garfield": 130,
+    "Grant": 9344,
+    "Grays_Harbor": 4574,
+    "Island": 1866,
+    "Jefferson": 444,
+    "Kitsap": 8761,
+    "Kittitas": 3325,
+    "Klickitat": 878,
+    "Lewis": 5297,
+    "Lincoln": 672,
+    "Mason": 2929,
+    "Okanogan": 2763,
+    "Pacific": 999,
+    "Pend_Oreille": 824,
+    "San_Juan": 186,
+    "Skagit": 6022,
+    "Skamania": 389,
+    "Spokane": 46652,
+    "Stevens": 2379,
+    "Thurston": 10949,
+    "Wahkiakum": 155,
+    "Walla_Walla": 5386,
+    "Whatcom": 9863,
+    "Whitman": 4330,
+    "Unassigned": 1516
+  },
+  {
+    "Date": "6/24/2021",
+    "King": 112265,
+    "Pierce": 56813,
+    "Snohomish": 40027,
+    "Yakima": 30642,
+    "Adams": 2252,
+    "Asotin": 1498,
+    "Benton": 17762,
+    "Chelan": 6920,
+    "Clallam": 1431,
+    "Clark": 25872,
+    "Columbia": 133,
+    "Cowlitz": 6633,
+    "Douglas": 3694,
+    "Ferry": 399,
+    "Franklin": 12805,
+    "Garfield": 131,
+    "Grant": 9353,
+    "Grays_Harbor": 4574,
+    "Island": 1867,
+    "Jefferson": 445,
+    "Kitsap": 8782,
+    "Kittitas": 3330,
+    "Klickitat": 884,
+    "Lewis": 5307,
+    "Lincoln": 672,
+    "Mason": 2933,
+    "Okanogan": 2770,
+    "Pacific": 1000,
+    "Pend_Oreille": 824,
+    "San_Juan": 186,
+    "Skagit": 6033,
+    "Skamania": 390,
+    "Spokane": 46725,
+    "Stevens": 2381,
+    "Thurston": 10963,
+    "Wahkiakum": 156,
+    "Walla_Walla": 5413,
+    "Whatcom": 9875,
+    "Whitman": 4330,
+    "Unassigned": 1513
+  },
+  {
+    "Date": "6/25/2021",
+    "King": 112339,
+    "Pierce": 56844,
+    "Snohomish": 40070,
+    "Yakima": 30661,
+    "Adams": 2258,
+    "Asotin": 1500,
+    "Benton": 17788,
+    "Chelan": 6924,
+    "Clallam": 1432,
+    "Clark": 25899,
+    "Columbia": 133,
+    "Cowlitz": 6642,
+    "Douglas": 3696,
+    "Ferry": 399,
+    "Franklin": 12819,
+    "Garfield": 131,
+    "Grant": 9360,
+    "Grays_Harbor": 4579,
+    "Island": 1867,
+    "Jefferson": 447,
+    "Kitsap": 8793,
+    "Kittitas": 3334,
+    "Klickitat": 884,
+    "Lewis": 5316,
+    "Lincoln": 675,
+    "Mason": 2937,
+    "Okanogan": 2784,
+    "Pacific": 1001,
+    "Pend_Oreille": 824,
+    "San_Juan": 186,
+    "Skagit": 6038,
+    "Skamania": 390,
+    "Spokane": 46759,
+    "Stevens": 2383,
+    "Thurston": 10994,
+    "Wahkiakum": 156,
+    "Walla_Walla": 5421,
+    "Whatcom": 9885,
+    "Whitman": 4332,
+    "Unassigned": 1524
+  },
+  {
+    "Date": "6/27/2021",
+    "King": 112453,
+    "Pierce": 56915,
+    "Snohomish": 40137,
+    "Yakima": 30689,
+    "Adams": 2260,
+    "Asotin": 1502,
+    "Benton": 17813,
+    "Chelan": 6930,
+    "Clallam": 1433,
+    "Clark": 25935,
+    "Columbia": 133,
+    "Cowlitz": 6662,
+    "Douglas": 3700,
+    "Ferry": 399,
+    "Franklin": 12828,
+    "Garfield": 132,
+    "Grant": 9369,
+    "Grays_Harbor": 4584,
+    "Island": 1869,
+    "Jefferson": 448,
+    "Kitsap": 8809,
+    "Kittitas": 3334,
+    "Klickitat": 886,
+    "Lewis": 5319,
+    "Lincoln": 678,
+    "Mason": 2940,
+    "Okanogan": 2786,
+    "Pacific": 1003,
+    "Pend_Oreille": 826,
+    "San_Juan": 186,
+    "Skagit": 6043,
+    "Skamania": 391,
+    "Spokane": 46806,
+    "Stevens": 2386,
+    "Thurston": 11016,
+    "Wahkiakum": 156,
+    "Walla_Walla": 5434,
+    "Whatcom": 9893,
+    "Whitman": 4336,
+    "Unassigned": 1511
+  },
+  {
+    "Date": "6/28/2021",
+    "King": 112482,
+    "Pierce": 56940,
+    "Snohomish": 40179,
+    "Yakima": 30701,
+    "Adams": 2260,
+    "Asotin": 1502,
+    "Benton": 17841,
+    "Chelan": 6933,
+    "Clallam": 1440,
+    "Clark": 25953,
+    "Columbia": 133,
+    "Cowlitz": 6673,
+    "Douglas": 3703,
+    "Ferry": 399,
+    "Franklin": 12842,
+    "Garfield": 132,
+    "Grant": 9376,
+    "Grays_Harbor": 4588,
+    "Island": 1871,
+    "Jefferson": 448,
+    "Kitsap": 8822,
+    "Kittitas": 3336,
+    "Klickitat": 886,
+    "Lewis": 5328,
+    "Lincoln": 678,
+    "Mason": 2942,
+    "Okanogan": 2791,
+    "Pacific": 1004,
+    "Pend_Oreille": 828,
+    "San_Juan": 186,
+    "Skagit": 6045,
+    "Skamania": 390,
+    "Spokane": 46838,
+    "Stevens": 2390,
+    "Thurston": 11026,
+    "Wahkiakum": 156,
+    "Walla_Walla": 5448,
+    "Whatcom": 9905,
+    "Whitman": 4337,
+    "Unassigned": 1516
+  },
+  {
+    "Date": "6/29/2021",
+    "King": 112529,
+    "Pierce": 56965,
+    "Snohomish": 40232,
+    "Yakima": 30714,
+    "Adams": 2262,
+    "Asotin": 1504,
+    "Benton": 17869,
+    "Chelan": 6940,
+    "Clallam": 1444,
+    "Clark": 25962,
+    "Columbia": 133,
+    "Cowlitz": 6684,
+    "Douglas": 3708,
+    "Ferry": 399,
+    "Franklin": 12855,
+    "Garfield": 132,
+    "Grant": 9380,
+    "Grays_Harbor": 4589,
+    "Island": 1872,
+    "Jefferson": 449,
+    "Kitsap": 8845,
+    "Kittitas": 3341,
+    "Klickitat": 887,
+    "Lewis": 5329,
+    "Lincoln": 676,
+    "Mason": 2946,
+    "Okanogan": 2798,
+    "Pacific": 1004,
+    "Pend_Oreille": 829,
+    "San_Juan": 186,
+    "Skagit": 6047,
+    "Skamania": 390,
+    "Spokane": 46863,
+    "Stevens": 2392,
+    "Thurston": 11052,
+    "Wahkiakum": 156,
+    "Walla_Walla": 5471,
+    "Whatcom": 9908,
+    "Whitman": 4337,
+    "Unassigned": 1516
   }
 ]
