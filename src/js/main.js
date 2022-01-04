@@ -32,7 +32,7 @@ var dohNumbers = window.DOH_Totals;
 
 
 
-var stateTotal = 7656200;
+var stateTotal = 7766975;
 
 let colors = {
   cases: ["#D8894E"],
