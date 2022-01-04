@@ -11,8 +11,9 @@ const d3 = require("d3");
 // var day_var = "1216";
 
 //// change me every month ////
-var monthTicks = ["3/1/2020", "4/1/2020", "5/1/2020", "6/1/2020", "7/1/2020","8/1/2020","9/1/2020","10/1/2020","11/1/2020","12/1/2020","1/1/2021", "2/1/2021", "3/1/2021", "4/1/2021", "5/1/2021", "6/1/2021"];
+var monthTicks = ["3/1/2020", "4/1/2020", "5/1/2020", "6/1/2020", "7/1/2020","8/1/2020","9/1/2020","10/1/2020","11/1/2020","12/1/2020","1/1/2021", "2/1/2021", "3/1/2021", "4/1/2021", "5/1/2021", "6/1/2021", "7/1/2021", "8/1/2021", "9/1/2021", "10/1/2021", "11/1/2021", "12/1/2021", "1/1/2022"];
 
+var commafy = s => (s * 1).toLocaleString().replace(/\.0+$/, "");
 
 var commaFormat = d3.format(',');
 // var county_counts = window.case_data[`waCountyCases${day_var}`];
@@ -45,10 +46,10 @@ let colors = {
 let buckets = {
   cases: [1],
   deaths: [0.1],
-  casesPop: [0.1, 250.1, 500.1, 750.1,1000.1],
-  deathsPop: [0.1, 3.1, 6.1, 9.1, 12.1],
+  casesPop: [0.1, 400.1, 800.1, 1200.1,1600.1],
+  deathsPop: [0.1, 5.1, 10.1, 15.1, 20.1],
   cases_2Wks: [1],
-  casesPop_2Wks: [0.1, 10.1, 15.1, 20.1, 25.1]
+  casesPop_2Wks: [0.1, 20.1, 40.1, 60.1, 80.1]
 }
 
 // let spot_buckets = {
@@ -189,7 +190,7 @@ if($('#countyMapGraphic').length >0 ){
   var num2 = (deathTotals + unnDeaths) / stateTotal * 10000;
   num2 = num2.toFixed(1);
 
-  $('#casesAdj').empty().append(num);
+  $('#casesAdj').empty().append(commafy(num));
   $('#deathsAdj').empty().append(num2);
 
   var myFunction = function(chosenID) {
