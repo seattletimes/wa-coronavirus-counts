@@ -53,27 +53,23 @@
   },
   {
     "Hospital Occupancy - date range": "",
-    "Percent Hospital Occupancy by COVID patients": 15.56
+    "Percent Hospital Occupancy by COVID patients": 15.5
   },
   {
     "Hospital Occupancy - date range": "",
-    "Percent Hospital Occupancy by COVID patients": 15.63
+    "Percent Hospital Occupancy by COVID patients": 15.57
   },
   {
     "Hospital Occupancy - date range": "",
-    "Percent Hospital Occupancy by COVID patients": 15.55
+    "Percent Hospital Occupancy by COVID patients": 15.46
   },
   {
     "Hospital Occupancy - date range": "",
-    "Percent Hospital Occupancy by COVID patients": 15.47
+    "Percent Hospital Occupancy by COVID patients": 15.38
   },
   {
     "Hospital Occupancy - date range": "",
-    "Percent Hospital Occupancy by COVID patients": 15.26
-  },
-  {
-    "Hospital Occupancy - date range": "",
-    "Percent Hospital Occupancy by COVID patients": 15.18
+    "Percent Hospital Occupancy by COVID patients": 15.17
   },
   {
     "Hospital Occupancy - date range": "",
@@ -81,11 +77,15 @@
   },
   {
     "Hospital Occupancy - date range": "",
-    "Percent Hospital Occupancy by COVID patients": 14.89
+    "Percent Hospital Occupancy by COVID patients": 15
   },
   {
     "Hospital Occupancy - date range": "",
-    "Percent Hospital Occupancy by COVID patients": 14.71
+    "Percent Hospital Occupancy by COVID patients": 14.87
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 14.68
   },
   {
     "Hospital Occupancy - date range": "",
@@ -101,11 +101,11 @@
   },
   {
     "Hospital Occupancy - date range": "",
-    "Percent Hospital Occupancy by COVID patients": 13.88
+    "Percent Hospital Occupancy by COVID patients": 13.87
   },
   {
     "Hospital Occupancy - date range": "",
-    "Percent Hospital Occupancy by COVID patients": 13.52
+    "Percent Hospital Occupancy by COVID patients": 13.51
   },
   {
     "Hospital Occupancy - date range": "",
@@ -1509,6 +1509,74 @@
   },
   {
     "Hospital Occupancy - date range": "1/6",
-    "Percent Hospital Occupancy by COVID patients": 17.91
+    "Percent Hospital Occupancy by COVID patients": 17.96
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 19.31
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 20.64
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 22.01
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 23.36
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 24.55
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 25.67
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 26.71
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 27.63
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 28.52
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 29.37
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 29.93
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 30.43
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 30.85
+  },
+  {
+    "Hospital Occupancy - date range": "1/20",
+    "Percent Hospital Occupancy by COVID patients": 31.12
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 31.33
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 31.52
+  },
+  {
+    "Hospital Occupancy - date range": "",
+    "Percent Hospital Occupancy by COVID patients": 31.54
   }
 ]

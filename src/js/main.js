@@ -46,8 +46,8 @@ let colors = {
 let buckets = {
   cases: [1],
   deaths: [0.1],
-  casesPop: [0.1, 400.1, 800.1, 1200.1,1600.1],
-  deathsPop: [0.1, 5.1, 10.1, 15.1, 20.1],
+  casesPop: [0.1, 1000.1, 1300.1, 1600.1, 1900.1],
+  deathsPop: [0.1, 10.1, 15.1, 20.1, 25.1],
   cases_2Wks: [1],
   casesPop_2Wks: [0.1, 20.1, 40.1, 60.1, 80.1]
 }
