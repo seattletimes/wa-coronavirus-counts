@@ -11,7 +11,7 @@ const d3 = require("d3");
 // var day_var = "1216";
 
 //// change me every month ////
-var monthTicks = ["3/1/2020", "4/1/2020", "5/1/2020", "6/1/2020", "7/1/2020","8/1/2020","9/1/2020","10/1/2020","11/1/2020","12/1/2020","1/1/2021", "2/1/2021", "3/1/2021", "4/1/2021", "5/1/2021", "6/1/2021", "7/1/2021", "8/1/2021", "9/1/2021", "10/1/2021", "11/1/2021", "12/1/2021", "1/1/2022"];
+var monthTicks = ["3/1/2020", "4/1/2020", "5/1/2020", "6/1/2020", "7/1/2020","8/1/2020","9/1/2020","10/1/2020","11/1/2020","12/1/2020","1/1/2021", "2/1/2021", "3/1/2021", "4/1/2021", "5/1/2021", "6/1/2021", "7/1/2021", "8/1/2021", "9/1/2021", "10/1/2021", "11/1/2021", "12/1/2021", "1/1/2022", "2/1/2022"];
 
 var commafy = s => (s * 1).toLocaleString().replace(/\.0+$/, "");
 
@@ -46,10 +46,10 @@ let colors = {
 let buckets = {
   cases: [1],
   deaths: [0.1],
-  casesPop: [0.1, 1000.1, 1300.1, 1600.1, 1900.1],
+  casesPop: [0.1, 1200.1, 1500.1, 1800.1, 2100.1],
   deathsPop: [0.1, 10.1, 15.1, 20.1, 25.1],
   cases_2Wks: [1],
-  casesPop_2Wks: [0.1, 20.1, 40.1, 60.1, 80.1]
+  casesPop_2Wks: [0.1, 200.1, 400.1, 600.1, 800.1]
 }
 
 // let spot_buckets = {
@@ -835,54 +835,55 @@ if($('#countyHotSpots').length >0 ){
 
 var hotSpots = window.case_dataHotSpots;
 
+console.log(hotSpots);
+
 var countyMapGraphic = document.getElementById("HotSpotsMap");
 
 var svgCounty = d3.select("#svg3071"),
       gCounty = svgCounty.append("g");
 
-// console.log(lastest_deaths);
-var unnCases = 0;
-hotSpots.forEach(function (arrayItem) {
-  unnCases = (arrayItem.County === "Unassigned") ? arrayItem.Total_2Weeks_Cases : unnCases;
-});
+
+// var unnCases = 0;
+// hotSpots.forEach(function (arrayItem) {
+//   unnCases = (arrayItem.County === "Unassigned") ? arrayItem.seven_day_rate : unnCases;
+// });
 
 
-$('.unassigned.cases.casesPop span').empty().append(commaFormat(unnCases));
+// $('.unassigned.cases.casesPop span').empty().append(commaFormat(unnCases));
 
-// $('#date').empty().text(dateNew);
 
-var fortnightAway = new Date(Date.now() - 12096e5);
-
-function getSaturday(d) {
-  d = new Date(d);
-  var day = d.getDay();
-  console.log(d.getDate() - day);
-
-  var diff = d.getDate() - day + (day == 0 ? -7:-1); // adjust when day is sunday
-  return new Date(d.setDate(diff));
-}
-
-function getSunday(d) {
-  d = new Date(d);
-  var day = d.getDay();
-  var diff = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
-  return new Date(d.setDate(diff));
-}
-
-var sunday = getSunday(new Date());
-var endSaturday = getSaturday(new Date());
-var begSunday = new Date(sunday - 12096e5);
-
-var begMonth = months[begSunday.getMonth()];
-var begDay = +(begSunday.getDate());
-
-var endMonth = months[endSaturday.getMonth()];
-var endDay = +(endSaturday.getDate());
-
-$('#date-range').empty().append(begMonth + " " + begDay + " - " + endMonth + " " + endDay);
-
-console.log(begDay);
-console.log(endDay);
+// var fortnightAway = new Date(Date.now() - 12096e5);
+//
+// function getSaturday(d) {
+//   d = new Date(d);
+//   var day = d.getDay();
+//   console.log(d.getDate() - day);
+//
+//   var diff = d.getDate() - day + (day == 0 ? -7:-1); // adjust when day is sunday
+//   return new Date(d.setDate(diff));
+// }
+//
+// function getSunday(d) {
+//   d = new Date(d);
+//   var day = d.getDay();
+//   var diff = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
+//   return new Date(d.setDate(diff));
+// }
+//
+// var sunday = getSunday(new Date());
+// var endSaturday = getSaturday(new Date());
+// var begSunday = new Date(sunday - 12096e5);
+//
+// var begMonth = months[begSunday.getMonth()];
+// var begDay = +(begSunday.getDate());
+//
+// var endMonth = months[endSaturday.getMonth()];
+// var endDay = +(endSaturday.getDate());
+//
+// $('#date-range').empty().append(begMonth + " " + begDay + " - " + endMonth + " " + endDay);
+//
+// console.log(begDay);
+// console.log(endDay);
 
 var countyMap = document.getElementById("svg3071");
 var counties = countyMap.getElementsByClassName("county");
@@ -891,31 +892,35 @@ let caseTotals = 0;
 for (let i = 0; i < counties.length; i++) {
     var countyName = counties[i].id;
     var match_name = countyName.split('_').join(' ');
-    match_name = match_name + " County";
+    // match_name = match_name + " County";
+    // console.log(match_name);
 
 
 
     var case_value = 0;
 
     hotSpots.forEach(function (arrayItem) {
-      case_value = (arrayItem.County === match_name) ? arrayItem.Total_2Weeks_Cases : case_value;
+      case_value = (arrayItem.County === match_name) ? arrayItem.seven_day_rate : case_value;
+
+      // console.log(arrayItem.County + " " + case_value);
     });
 
 
-    caseTotals = caseTotals + case_value;
+    // caseTotals = caseTotals + case_value;
 
     var bbox = d3.select("#" + countyName).node().getBBox();
 
-    var countyObj = county_pops[i];
-    var countyPop = countyObj["pop_2020"];
-
-    var popAdjCase = (case_value / countyPop) * 10000;
-    popAdjCase = popAdjCase.toFixed(1);
+    // var countyObj = county_pops[i];
+    // var countyPop = countyObj["pop_2020"];
+    //
+    // var popAdjCase = (case_value / countyPop) * 10000;
+    // popAdjCase = popAdjCase.toFixed(1);
 
 
     let dataset = {
       cases: case_value,
-      casesPop: popAdjCase,
+      casesPop: case_value,
+      // casesPop: popAdjCase,
     };
 
     counties[i].numbers = dataset;
@@ -940,22 +945,30 @@ for (let i = 0; i < counties.length; i++) {
            return ("<tspan class='headerC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar) + "'>" + countyName + "</tspan>");
           });
 
-        var circleCases = svgCounty.selectAll('g').append('text')
-         .attr("class", "covidNum cases")
-         .attr("font-weight","bold")
-         .attr("text-anchor", "middle")
-         .html(function () {
-          return ("<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>" + commaFormat(case_value) + "</tspan>");
-         });
+        // var circleCases = svgCounty.selectAll('g').append('text')
+        //  .attr("class", "covidNum cases")
+        //  .attr("font-weight","bold")
+        //  .attr("text-anchor", "middle")
+        //  .html(function () {
+        //   return ("<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>" + commaFormat(case_value) + "</tspan>");
+        //  });
+
+         var circleAdjCases = svgCounty.selectAll('g').append('text')
+          .attr("class", "covidNum casesPop")
+          .attr("font-weight","bold")
+          .attr("text-anchor", "middle")
+          .html(function () {
+           return ( case_value > 0 ? "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>" + commaFormat(case_value) + "</tspan>" : "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>0</tspan>" );
+          });
 
 
-          var circleAdjCases = svgCounty.selectAll('g').append('text')
-           .attr("class", "covidNum casesPop")
-           .attr("font-weight","bold")
-           .attr("text-anchor", "middle")
-           .html(function () {
-            return ( case_value > 0 ? "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>" + popAdjCase + "</tspan>" : "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>0</tspan>" );
-           });
+          // var circleAdjCases = svgCounty.selectAll('g').append('text')
+          //  .attr("class", "covidNum casesPop")
+          //  .attr("font-weight","bold")
+          //  .attr("text-anchor", "middle")
+          //  .html(function () {
+          //   return ( case_value > 0 ? "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>" + popAdjCase + "</tspan>" : "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>0</tspan>" );
+          //  });
 
 
 } // for loop end
@@ -966,15 +979,15 @@ for (let i = 0; i < counties.length; i++) {
 
 
 
-$('#casesTotal').empty().append(commaFormat(caseTotals + unnCases));
+// $('#casesTotal').empty().append(commaFormat(caseTotals + unnCases));
 
-var num = (caseTotals + unnCases) / stateTotal * 10000;
-num = num.toFixed(1);
-
-$('#casesAdj').empty().append(num);
+// var num = (caseTotals + unnCases) / stateTotal * 10000;
+// num = num.toFixed(1);
+//
+// $('#casesAdj').empty().append(num);
 
 var myFunction = function(chosenID) {
-  document.querySelectorAll('.caseKey, .covidNum').forEach(el => el.classList.remove('active'));
+  // document.querySelectorAll('.caseKey, .covidNum').forEach(el => el.classList.remove('active'));
   document.getElementById(chosenID).classList.add('active');
   document.querySelectorAll(`.${chosenID}`).forEach(el => el.classList.add('active'));
 
@@ -998,7 +1011,7 @@ var colorMap = function(chosenColor) {
   };
 };
 
-document.querySelectorAll(".radioButton1").forEach(el => el.addEventListener('click', () => myFunction(el.value)) );
+// document.querySelectorAll(".radioButton1").forEach(el => el.addEventListener('click', () => myFunction(el.value)) );
  myFunction('casesPop');
 
 } else {}

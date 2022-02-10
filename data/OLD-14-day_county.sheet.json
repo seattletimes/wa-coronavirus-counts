@@ -1,242 +1,246 @@
 [
   {
     "county": "Adams",
-    "14-day count": 28,
+    "14-day count": 1700,
     "pop": "20,450",
-    "per 10K": 13.7
+    "per 10K": 831.3
   },
   {
     "county": "Asotin",
-    "14-day count": 56,
+    "14-day count": 1040,
     "pop": "22,640",
-    "per 10K": 24.7
+    "per 10K": 459.4
   },
   {
     "county": "Benton",
-    "14-day count": 965,
+    "14-day count": 20875,
     "pop": "205,700",
-    "per 10K": 46.9
+    "per 10K": 1014.8
   },
   {
     "county": "Chelan",
-    "14-day count": 424,
+    "14-day count": 9593,
     "pop": "79,660",
-    "per 10K": 53.2
+    "per 10K": 1204.2
   },
   {
     "county": "Clallam",
-    "14-day count": 837,
+    "14-day count": 4812,
     "pop": "76,770",
-    "per 10K": 109
+    "per 10K": 626.8
   },
   {
     "county": "Clark",
-    "14-day count": 3061,
+    "14-day count": 29669,
     "pop": "499,200",
-    "per 10K": 61.3
+    "per 10K": 594.3
   },
   {
     "county": "Columbia",
-    "14-day count": 16,
+    "14-day count": 73,
     "pop": "4,185",
-    "per 10K": 38.2
+    "per 10K": 174.4
   },
   {
     "county": "Cowlitz",
-    "14-day count": 465,
+    "14-day count": 7477,
     "pop": "110,500",
-    "per 10K": 42.1
+    "per 10K": 676.7
   },
   {
     "county": "Douglas",
-    "14-day count": 194,
+    "14-day count": 5109,
     "pop": "43,750",
-    "per 10K": 44.3
+    "per 10K": 1167.8
   },
   {
     "county": "Ferry",
-    "14-day count": 17,
+    "14-day count": 487,
     "pop": "7,910",
-    "per 10K": 21.5
+    "per 10K": 615.7
   },
   {
     "county": "Franklin",
-    "14-day count": 560,
+    "14-day count": 14956,
     "pop": "96,760",
-    "per 10K": 57.9
+    "per 10K": 1545.7
   },
   {
     "county": "Garfield",
-    "14-day count": 4,
+    "14-day count": 114,
     "pop": "2,225",
-    "per 10K": 18
+    "per 10K": 512.4
   },
   {
     "county": "Grant",
-    "14-day count": 347,
+    "14-day count": 10573,
     "pop": "100,130",
-    "per 10K": 34.7
+    "per 10K": 1055.9
   },
   {
     "county": "Grays Harbor",
-    "14-day count": 530,
+    "14-day count": 5357,
     "pop": "74,720",
-    "per 10K": 70.9
+    "per 10K": 716.9
   },
   {
     "county": "Island",
-    "14-day count": 397,
+    "14-day count": 5832,
     "pop": "85,530",
-    "per 10K": 46.4
+    "per 10K": 681.9
   },
   {
     "county": "Jefferson",
-    "14-day count": 177,
+    "14-day count": 1341,
     "pop": "32,190",
-    "per 10K": 55
+    "per 10K": 416.6
   },
   {
     "county": "King",
-    "14-day count": 29645,
+    "14-day count": 169235,
     "pop": "2,260,800",
-    "per 10K": 131.1
+    "per 10K": 748.6
   },
   {
     "county": "Kitsap",
-    "14-day count": 1849,
+    "14-day count": 18440,
     "pop": "272,200",
-    "per 10K": 67.9
+    "per 10K": 677.4
   },
   {
     "county": "Kittitas",
-    "14-day count": 192,
+    "14-day count": 2936,
     "pop": "48,140",
-    "per 10K": 39.9
+    "per 10K": 609.9
   },
   {
     "county": "Klickitat",
-    "14-day count": 67,
+    "14-day count": 1283,
     "pop": "22,770",
-    "per 10K": 29.4
+    "per 10K": 563.5
   },
   {
     "county": "Lewis",
-    "14-day count": 471,
+    "14-day count": 5469,
     "pop": "80,250",
-    "per 10K": 58.7
+    "per 10K": 681.5
   },
   {
     "county": "Lincoln",
-    "14-day count": 29,
+    "14-day count": 852,
     "pop": "11,050",
-    "per 10K": 26.2
+    "per 10K": 771
   },
   {
     "county": "Mason",
-    "14-day count": 379,
+    "14-day count": 5115,
     "pop": "65,650",
-    "per 10K": 57.7
+    "per 10K": 779.1
   },
   {
     "county": "Okanogan",
-    "14-day count": 60,
+    "14-day count": 2551,
     "pop": "43,130",
-    "per 10K": 13.9
+    "per 10K": 591.5
   },
   {
     "county": "Pacific",
-    "14-day count": 87,
+    "14-day count": 1309,
     "pop": "21,840",
-    "per 10K": 39.8
+    "per 10K": 599.4
   },
   {
     "county": "Pend Oreille",
-    "14-day count": 30,
+    "14-day count": 1268,
     "pop": "13,850",
-    "per 10K": 21.7
+    "per 10K": 915.5
   },
   {
     "county": "Pierce",
-    "14-day count": 12878,
+    "14-day count": 68821,
     "pop": "900,700",
-    "per 10K": 143
+    "per 10K": 764.1
   },
   {
     "county": "San Juan",
-    "14-day count": 46,
+    "14-day count": 667,
     "pop": "17,340",
-    "per 10K": 26.5
+    "per 10K": 384.7
   },
   {
     "county": "Skagit",
-    "14-day count": 968,
+    "14-day count": 9589,
     "pop": "130,450",
-    "per 10K": 74.2
+    "per 10K": 735.1
   },
   {
     "county": "Skamania",
-    "14-day count": 40,
+    "14-day count": 670,
     "pop": "12,220",
-    "per 10K": 32.7
+    "per 10K": 548.3
   },
   {
     "county": "Snohomish",
-    "14-day count": 8544,
+    "14-day count": 72849,
     "pop": "830,500",
-    "per 10K": 102.9
+    "per 10K": 877.2
   },
   {
     "county": "Spokane",
-    "14-day count": 2364,
+    "14-day count": 52893,
     "pop": "522,600",
-    "per 10K": 45.2
+    "per 10K": 1012.1
   },
   {
     "county": "Stevens",
-    "14-day count": 152,
+    "14-day count": 618845,
     "pop": "45,920",
-    "per 10K": 33.1
+    "per 10K": 134765.9
   },
   {
     "county": "Thurston",
-    "14-day count": 3509,
+    "14-day count": 2750,
     "pop": "291,000",
-    "per 10K": 120.6
+    "per 10K": 94.5
   },
   {
     "county": "unassigned",
-    "14-day count": 439,
+    "14-day count": 21111,
     "pop": 0,
     "per 10K": "#DIV/0!"
   },
   {
     "county": "Wahkiakum",
-    "14-day count": 4,
+    "14-day count": 3815,
     "pop": "4,210",
-    "per 10K": 9.5
+    "per 10K": 9061.8
   },
   {
     "county": "Walla Walla",
-    "14-day count": 322,
+    "14-day count": 138,
     "pop": "62,580",
-    "per 10K": 51.5
+    "per 10K": 22.1
   },
   {
     "county": "Whatcom",
-    "14-day count": 1817,
+    "14-day count": 6202,
     "pop": "228,000",
-    "per 10K": 79.7
+    "per 10K": 272
   },
   {
     "county": "Whitman",
-    "14-day count": 84,
+    "14-day count": 17674,
     "pop": "50,480",
-    "per 10K": 16.6
+    "per 10K": 3501.2
   },
   {
     "county": "Yakima",
-    "14-day count": 1260,
+    "14-day count": 3122,
     "pop": "258,200",
-    "per 10K": 48.8
+    "per 10K": 120.9
+  },
+  {
+    "county": "",
+    "14-day count": 31078
   }
 ]

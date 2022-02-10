@@ -1,0 +1,158 @@
+[
+  {
+    "county": "Adams",
+    "7-day rate": 425.4
+  },
+  {
+    "county": "Asotin",
+    "7-day rate": 141.3
+  },
+  {
+    "county": "Benton",
+    "7-day rate": 448.7
+  },
+  {
+    "county": "Chelan",
+    "7-day rate": 632.7
+  },
+  {
+    "county": "Clallam",
+    "7-day rate": 399.9
+  },
+  {
+    "county": "Clark",
+    "7-day rate": 354.8
+  },
+  {
+    "county": "Columbia",
+    "7-day rate": 525.7
+  },
+  {
+    "county": "Cowlitz",
+    "7-day rate": 344.8
+  },
+  {
+    "county": "Douglas",
+    "7-day rate": 697.1
+  },
+  {
+    "county": "Ferry",
+    "7-day rate": 341.3
+  },
+  {
+    "county": "Franklin",
+    "7-day rate": 554
+  },
+  {
+    "county": "Garfield",
+    "7-day rate": 853.9
+  },
+  {
+    "county": "Grant",
+    "7-day rate": 568.3
+  },
+  {
+    "county": "Grays Harbor",
+    "7-day rate": 496.5
+  },
+  {
+    "county": "Island",
+    "7-day rate": 343.7
+  },
+  {
+    "county": "Jefferson",
+    "7-day rate": 183.3
+  },
+  {
+    "county": "King",
+    "7-day rate": 287.6
+  },
+  {
+    "county": "Kitsap",
+    "7-day rate": 279.9
+  },
+  {
+    "county": "Kittitas",
+    "7-day rate": 203.6
+  },
+  {
+    "county": "Klickitat",
+    "7-day rate": 347
+  },
+  {
+    "county": "Lewis",
+    "7-day rate": 467.3
+  },
+  {
+    "county": "Lincoln",
+    "7-day rate": 533.9
+  },
+  {
+    "county": "Mason",
+    "7-day rate": 469.2
+  },
+  {
+    "county": "Okanogan",
+    "7-day rate": 340.8
+  },
+  {
+    "county": "Pacific",
+    "7-day rate": 398.4
+  },
+  {
+    "county": "Pend Oreille",
+    "7-day rate": 274.4
+  },
+  {
+    "county": "Pierce",
+    "7-day rate": 280.6
+  },
+  {
+    "county": "San Juan",
+    "7-day rate": 167.2
+  },
+  {
+    "county": "Skagit",
+    "7-day rate": 342.7
+  },
+  {
+    "county": "Skamania",
+    "7-day rate": 384.6
+  },
+  {
+    "county": "Snohomish",
+    "7-day rate": 390
+  },
+  {
+    "county": "Spokane",
+    "7-day rate": 440.5
+  },
+  {
+    "county": "Stevens",
+    "7-day rate": 474.7
+  },
+  {
+    "county": "Thurston",
+    "7-day rate": 323.4
+  },
+  {
+    "county": "Wahkiakum",
+    "7-day rate": 403.8
+  },
+  {
+    "county": "Walla Walla",
+    "7-day rate": 642.4
+  },
+  {
+    "county": "Whatcom",
+    "7-day rate": 426.3
+  },
+  {
+    "county": "Whitman",
+    "7-day rate": 249.6
+  },
+  {
+    "county": "Yakima",
+    "7-day rate": 449.7
+  }
+]
