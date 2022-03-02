@@ -1,0 +1,282 @@
+[
+  {
+    "county": "Adams",
+    "7-day rate": 425.4,
+    "": "",
+    "County": "Adams County",
+    "Total_2Weeks_Cases": 28
+  },
+  {
+    "county": "Asotin",
+    "7-day rate": 141.3,
+    "": "",
+    "County": "Asotin County",
+    "Total_2Weeks_Cases": 56
+  },
+  {
+    "county": "Benton",
+    "7-day rate": 448.7,
+    "": "",
+    "County": "Benton County",
+    "Total_2Weeks_Cases": 965
+  },
+  {
+    "county": "Chelan",
+    "7-day rate": 632.7,
+    "": "",
+    "County": "Chelan County",
+    "Total_2Weeks_Cases": 424
+  },
+  {
+    "county": "Clallam",
+    "7-day rate": 399.9,
+    "": "",
+    "County": "Clallam County",
+    "Total_2Weeks_Cases": 837
+  },
+  {
+    "county": "Clark",
+    "7-day rate": 354.8,
+    "": "",
+    "County": "Clark County",
+    "Total_2Weeks_Cases": 3061
+  },
+  {
+    "county": "Columbia",
+    "7-day rate": 525.7,
+    "": "",
+    "County": "Columbia County",
+    "Total_2Weeks_Cases": 16
+  },
+  {
+    "county": "Cowlitz",
+    "7-day rate": 344.8,
+    "": "",
+    "County": "Cowlitz County",
+    "Total_2Weeks_Cases": 465
+  },
+  {
+    "county": "Douglas",
+    "7-day rate": 697.1,
+    "": "",
+    "County": "Douglas County",
+    "Total_2Weeks_Cases": 194
+  },
+  {
+    "county": "Ferry",
+    "7-day rate": 341.3,
+    "": "",
+    "County": "Ferry County",
+    "Total_2Weeks_Cases": 17
+  },
+  {
+    "county": "Franklin",
+    "7-day rate": 554,
+    "": "",
+    "County": "Franklin County",
+    "Total_2Weeks_Cases": 560
+  },
+  {
+    "county": "Garfield",
+    "7-day rate": 853.9,
+    "": "",
+    "County": "Garfield County",
+    "Total_2Weeks_Cases": 4
+  },
+  {
+    "county": "Grant",
+    "7-day rate": 568.3,
+    "": "",
+    "County": "Grant County",
+    "Total_2Weeks_Cases": 347
+  },
+  {
+    "county": "Grays Harbor",
+    "7-day rate": 496.5,
+    "": "",
+    "County": "Grays Harbor County",
+    "Total_2Weeks_Cases": 530
+  },
+  {
+    "county": "Island",
+    "7-day rate": 343.7,
+    "": "",
+    "County": "Island County",
+    "Total_2Weeks_Cases": 397
+  },
+  {
+    "county": "Jefferson",
+    "7-day rate": 183.3,
+    "": "",
+    "County": "Jefferson County",
+    "Total_2Weeks_Cases": 177
+  },
+  {
+    "county": "King",
+    "7-day rate": 287.6,
+    "": "",
+    "County": "King County",
+    "Total_2Weeks_Cases": 29645
+  },
+  {
+    "county": "Kitsap",
+    "7-day rate": 279.9,
+    "": "",
+    "County": "Kitsap County",
+    "Total_2Weeks_Cases": 1849
+  },
+  {
+    "county": "Kittitas",
+    "7-day rate": 203.6,
+    "": "",
+    "County": "Kittitas County",
+    "Total_2Weeks_Cases": 192
+  },
+  {
+    "county": "Klickitat",
+    "7-day rate": 347,
+    "": "",
+    "County": "Klickitat County",
+    "Total_2Weeks_Cases": 67
+  },
+  {
+    "county": "Lewis",
+    "7-day rate": 467.3,
+    "": "",
+    "County": "Lewis County",
+    "Total_2Weeks_Cases": 471
+  },
+  {
+    "county": "Lincoln",
+    "7-day rate": 533.9,
+    "": "",
+    "County": "Lincoln County",
+    "Total_2Weeks_Cases": 29
+  },
+  {
+    "county": "Mason",
+    "7-day rate": 469.2,
+    "": "",
+    "County": "Mason County",
+    "Total_2Weeks_Cases": 379
+  },
+  {
+    "county": "Okanogan",
+    "7-day rate": 340.8,
+    "": "",
+    "County": "Okanogan County",
+    "Total_2Weeks_Cases": 60
+  },
+  {
+    "county": "Pacific",
+    "7-day rate": 398.4,
+    "": "",
+    "County": "Pacific County",
+    "Total_2Weeks_Cases": 87
+  },
+  {
+    "county": "Pend Oreille",
+    "7-day rate": 274.4,
+    "": "",
+    "County": "Pend Oreille County",
+    "Total_2Weeks_Cases": 30
+  },
+  {
+    "county": "Pierce",
+    "7-day rate": 280.6,
+    "": "",
+    "County": "Pierce County",
+    "Total_2Weeks_Cases": 12878
+  },
+  {
+    "county": "San Juan",
+    "7-day rate": 167.2,
+    "": "",
+    "County": "San Juan County",
+    "Total_2Weeks_Cases": 46
+  },
+  {
+    "county": "Skagit",
+    "7-day rate": 342.7,
+    "": "",
+    "County": "Skagit County",
+    "Total_2Weeks_Cases": 968
+  },
+  {
+    "county": "Skamania",
+    "7-day rate": 384.6,
+    "": "",
+    "County": "Skamania County",
+    "Total_2Weeks_Cases": 40
+  },
+  {
+    "county": "Snohomish",
+    "7-day rate": 390,
+    "": "",
+    "County": "Snohomish County",
+    "Total_2Weeks_Cases": 8544
+  },
+  {
+    "county": "Spokane",
+    "7-day rate": 440.5,
+    "": "",
+    "County": "Spokane County",
+    "Total_2Weeks_Cases": 2364
+  },
+  {
+    "county": "Stevens",
+    "7-day rate": 474.7,
+    "": "",
+    "County": "Stevens County",
+    "Total_2Weeks_Cases": 152
+  },
+  {
+    "county": "Thurston",
+    "7-day rate": 323.4,
+    "": "",
+    "County": "Thurston County",
+    "Total_2Weeks_Cases": 3509
+  },
+  {
+    "county": "Wahkiakum",
+    "7-day rate": 403.8,
+    "": "",
+    "County": "Unassigned",
+    "Total_2Weeks_Cases": 439
+  },
+  {
+    "county": "Walla Walla",
+    "7-day rate": 642.4,
+    "": "",
+    "County": "Wahkiakum County",
+    "Total_2Weeks_Cases": 4
+  },
+  {
+    "county": "Whatcom",
+    "7-day rate": 426.3,
+    "": "",
+    "County": "Walla Walla County",
+    "Total_2Weeks_Cases": 322
+  },
+  {
+    "county": "Whitman",
+    "7-day rate": 249.6,
+    "": "",
+    "County": "Whatcom County",
+    "Total_2Weeks_Cases": 1817
+  },
+  {
+    "county": "Yakima",
+    "7-day rate": 449.7,
+    "": "",
+    "County": "Whitman County",
+    "Total_2Weeks_Cases": 84
+  },
+  {
+    "county": "",
+    "7-day rate": "",
+    "": "",
+    "County": "Yakima County",
+    "Total_2Weeks_Cases": 1260
+  }
+]

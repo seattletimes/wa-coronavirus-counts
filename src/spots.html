@@ -19,44 +19,45 @@
     <% } %>
     <responsive-child>
           <main class="interactive" id="countyHotSpots">
-            <h1 class="graphic-hed">Seven day rates of cases</h1>
+            <h1 class="graphic-hed">7-day case rate</h1>
             <!-- <h1 class="graphic-hed">Statewide cases from December 19 - January 1<span id="date-range"></span></h1> -->
-            <p class="note center">Updated weekly on Mondays</p>
+            <!-- <p class="note center">Updated weekly on Mondays</p> -->
+            <p class="note center">Data as of <span id="date"></span>, 2022 | Updated on Mondays, Wednesdays and Fridays.</p>
 
 
 
-            <!-- <form id="toggle4">
+            <form id="toggle4">
               <div class="cases">
-                <div class="radioHeader">Cases from May 2 - May 16</div>
+                <!-- <div class="radioHeader">Cases from May 2 - May 16</div> -->
 
                 <input type="radio" id="casesCounty" name="toggleCounty" class="radioButton1" value="cases">
                 <label class="toggle__label label--cases2" for="casesCounty"><span id="casesTotal"></span> statewide cases</label>
                 <input type="radio" id="popC" name="toggleCounty" class="radioButton1" value="casesPop" checked>
-                <label class="toggle__label label--cases2" for="popC"><span id="casesAdj"></span> cases per 10,000 residents</label>
+                <label class="toggle__label label--cases2" for="popC"><span id="casesAdj"></span> cases per 100,000 residents</label>
               </div>
-            </form> -->
+            </form>
 
 
             <div class="caseKey" id="casesPop">
               <div class="hed">Cases per 100,000 residents</div>
-              <div class="eachKey"><span class="key" style="background-color:#b30000;"></span> 800.1 or more cases</div>
-              <div class="eachKey"><span class="key" style="background-color:#da492b;"></span> 600.1 - 800.0</div>
-              <div class="eachKey"><span class="key" style="background-color:#f77f50;"></span> 400.1 - 600.0</div>
-              <div class="eachKey"><span class="key" style="background-color:#ffae83;"></span> 200.1 - 400.0</div>
-              <div class="eachKey"><span class="key" style="background-color:#ffe8d6;"></span> Below 200</div>
-              <div class="eachKey"><span class="key" style="background-color:#e2e2e2;"></span> Zero cases</div>
+              <div class="eachKey"><span class="key" style="background-color:#b30000;"></span> 200.1 or more cases</div>
+              <div class="eachKey"><span class="key" style="background-color:#da492b;"></span> 150.1 - 200.0</div>
+              <div class="eachKey"><span class="key" style="background-color:#f77f50;"></span> 100.1 - 150.0</div>
+              <div class="eachKey"><span class="key" style="background-color:#ffae83;"></span> 50.1 - 100.0</div>
+              <div class="eachKey"><span class="key" style="background-color:#ffe8d6;"></span> Below 50</div>
+              <!-- <div class="eachKey"><span class="key" style="background-color:#e2e2e2;"></span> Zero cases</div> -->
             </div>
 
-            <!-- <div class="caseKey" id="cases">
+            <div class="caseKey" id="cases">
               <!-- <div class="hed">Total cases</div> -->
-              <!--<div class="eachKey"><span class="key" style="background-color:#f77f50;"></span> Counties with cases</div>
+              <div class="eachKey"><span class="key" style="background-color:#f77f50;"></span> Counties with cases</div>
               <div class="eachKey"><span class="key" style="background-color:#e2e2e2;"></span> Counties without cases</div>
-            </div> -->
+            </div>
 
 
             <div class="HotSpotsMap">
               <%= t.include("assets/countyMap.svg") %>
-              <!-- <p class="unassigned cases casesPop"><span></span> cases have not been identified by county.</p> -->
+              <p class="unassigned cases casesPop"><span></span> cases have not been identified by county.</p>
             </div>
 
             <div class="caption-container">
@@ -64,7 +65,7 @@
                 Note: The color legend may update based on the break downs of cases. See the data notes for specifics.
               </p>
               <!-- <p class="caption"><br>*Total confirmed cases include deaths.</p> -->
-              <p class="data-source">Source: <a href="https://www.doh.wa.gov/Emergencies/Coronavirus" target="_blank" rel="noreferrer nofollow">Washington State Department of Health</a>. 2021 population estimates from Washington Office of Financial Management</p>
+              <p class="data-source">Source: <a href="https://www.doh.wa.gov/Emergencies/Coronavirus" target="_blank" rel="noreferrer nofollow">Washington State Department of Health</a>. 2020 population estimates from Washington Office of Financial Management</p>
               <p class="art-credit">Lauren Flannery / The Seattle Times</p>
             </div>
           </main>

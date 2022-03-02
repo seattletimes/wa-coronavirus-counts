@@ -382,7 +382,7 @@ main.interactive {
 		}
 		.tick:last-child {
 			// display: inline;
-			@media @mobile { display: inline-block; }
+			@media @mobile { display: inline-block; text-anchor: end; }
 		}
 	}
 }
@@ -397,6 +397,11 @@ main.interactive {
 			font-size: 1.4em;
 		}
 	}
+
+	.tick:nth-child(2) {
+		display: none;
+	}
+
 }
 
 
@@ -599,11 +604,11 @@ main.interactive {
 
 		.tick:nth-child(2) {
 			display: inline;
-			@media @mobile { display: inline-block; }
+			@media @mobile { display: inline-block; text-anchor: start; }
 		}
 		.tick:last-child {
 			// display: none;
-			@media @mobile { display: inline-block; }
+			@media @mobile { display: inline-block; text-anchor: end; }
 		}
 
 	}

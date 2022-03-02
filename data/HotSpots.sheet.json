@@ -1,158 +1,209 @@
 [
   {
-    "County": "Adams",
-    "seven_day_rate": 425.4
+    "County": "Statewide",
+    "seven_day_rate": 80.8,
+    "total_count": 6183
   },
   {
-    "County": "Asotin",
-    "seven_day_rate": 141.3
+    "County": "Adams County",
+    "seven_day_rate": 48.9,
+    "total_count": 10,
+    "for ai chart": "Start: Column D"
   },
   {
-    "County": "Benton",
-    "seven_day_rate": 448.7
+    "County": "Asotin County",
+    "seven_day_rate": 48.6,
+    "total_count": 11
   },
   {
-    "County": "Chelan",
-    "seven_day_rate": 632.7
+    "County": "Benton County",
+    "seven_day_rate": 64.2,
+    "total_count": 132
   },
   {
-    "County": "Clallam",
-    "seven_day_rate": 399.9
+    "County": "Chelan County",
+    "seven_day_rate": 104.2,
+    "total_count": 83
   },
   {
-    "County": "Clark",
-    "seven_day_rate": 354.8
+    "County": "Clallam County",
+    "seven_day_rate": 123.8,
+    "total_count": 95
   },
   {
-    "County": "Columbia",
-    "seven_day_rate": 525.7
+    "County": "Clark County",
+    "seven_day_rate": 63.1,
+    "total_count": 315
   },
   {
-    "County": "Cowlitz",
-    "seven_day_rate": 344.8
+    "County": "Columbia County",
+    "seven_day_rate": 71.7,
+    "total_count": 3
   },
   {
-    "County": "Douglas",
-    "seven_day_rate": 697.1
+    "County": "Cowlitz County",
+    "seven_day_rate": 74.2,
+    "total_count": 82
   },
   {
-    "County": "Ferry",
-    "seven_day_rate": 341.3
+    "County": "Douglas County",
+    "seven_day_rate": 187.4,
+    "total_count": 82
   },
   {
-    "County": "Franklin",
-    "seven_day_rate": 554
+    "County": "Ferry County",
+    "seven_day_rate": 214.9,
+    "total_count": 17
   },
   {
-    "County": "Garfield",
-    "seven_day_rate": 853.9
+    "County": "Franklin County",
+    "seven_day_rate": 94.1,
+    "total_count": 91
   },
   {
-    "County": "Grant",
-    "seven_day_rate": 568.3
+    "County": "Garfield County",
+    "seven_day_rate": 44.9,
+    "total_count": 1
   },
   {
-    "County": "Grays Harbor",
-    "seven_day_rate": 496.5
+    "County": "Grant County",
+    "seven_day_rate": 122.8,
+    "total_count": 123
   },
   {
-    "County": "Island",
-    "seven_day_rate": 343.7
+    "County": "Grays Harbor County",
+    "seven_day_rate": 80.3,
+    "total_count": 60
   },
   {
-    "County": "Jefferson",
-    "seven_day_rate": 183.3
+    "County": "Island County",
+    "seven_day_rate": 43.3,
+    "total_count": 37
   },
   {
-    "County": "King",
-    "seven_day_rate": 287.6
+    "County": "Jefferson County",
+    "seven_day_rate": 118.1,
+    "total_count": 38
   },
   {
-    "County": "Kitsap",
-    "seven_day_rate": 279.9
+    "County": "King County",
+    "seven_day_rate": 77.9,
+    "total_count": 1760
   },
   {
-    "County": "Kittitas",
-    "seven_day_rate": 203.6
+    "County": "Kitsap County",
+    "seven_day_rate": 87.8,
+    "total_count": 239
   },
   {
-    "County": "Klickitat",
-    "seven_day_rate": 347
+    "County": "Kittitas County",
+    "seven_day_rate": 33.2,
+    "total_count": 16
   },
   {
-    "County": "Lewis",
-    "seven_day_rate": 467.3
+    "County": "Klickitat County",
+    "seven_day_rate": 74.7,
+    "total_count": 17
   },
   {
-    "County": "Lincoln",
-    "seven_day_rate": 533.9
+    "County": "Lewis County",
+    "seven_day_rate": 86,
+    "total_count": 69
   },
   {
-    "County": "Mason",
-    "seven_day_rate": 469.2
+    "County": "Lincoln County",
+    "seven_day_rate": 135.8,
+    "total_count": 15
   },
   {
-    "County": "Okanogan",
-    "seven_day_rate": 340.8
+    "County": "Mason County",
+    "seven_day_rate": 65.5,
+    "total_count": 43
   },
   {
-    "County": "Pacific",
-    "seven_day_rate": 398.4
+    "County": "Okanogan County",
+    "seven_day_rate": 60.3,
+    "total_count": 26
   },
   {
-    "County": "Pend Oreille",
-    "seven_day_rate": 274.4
+    "County": "Pacific County",
+    "seven_day_rate": 109.9,
+    "total_count": 24
   },
   {
-    "County": "Pierce",
-    "seven_day_rate": 280.6
+    "County": "Pend Oreille County",
+    "seven_day_rate": 79.4,
+    "total_count": 11
   },
   {
-    "County": "San Juan",
-    "seven_day_rate": 167.2
+    "County": "Pierce County",
+    "seven_day_rate": 65,
+    "total_count": 585
   },
   {
-    "County": "Skagit",
-    "seven_day_rate": 342.7
+    "County": "San Juan County",
+    "seven_day_rate": 23.1,
+    "total_count": 4
   },
   {
-    "County": "Skamania",
-    "seven_day_rate": 384.6
+    "County": "Skagit County",
+    "seven_day_rate": 83.6,
+    "total_count": 109
   },
   {
-    "County": "Snohomish",
-    "seven_day_rate": 390
+    "County": "Skamania County",
+    "seven_day_rate": 90,
+    "total_count": 11
   },
   {
-    "County": "Spokane",
-    "seven_day_rate": 440.5
+    "County": "Snohomish County",
+    "seven_day_rate": 73.7,
+    "total_count": 612
   },
   {
-    "County": "Stevens",
-    "seven_day_rate": 474.7
+    "County": "Spokane County",
+    "seven_day_rate": 88,
+    "total_count": 460
   },
   {
-    "County": "Thurston",
-    "seven_day_rate": 323.4
+    "County": "Stevens County",
+    "seven_day_rate": 152.4,
+    "total_count": 70
   },
   {
-    "County": "Wahkiakum",
-    "seven_day_rate": 403.8
+    "County": "Thurston County",
+    "seven_day_rate": 74.2,
+    "total_count": 216
   },
   {
-    "County": "Walla Walla",
-    "seven_day_rate": 642.4
+    "County": "Wahkiakum County",
+    "seven_day_rate": 95,
+    "total_count": 4
   },
   {
-    "County": "Whatcom",
-    "seven_day_rate": 426.3
+    "County": "Walla Walla County",
+    "seven_day_rate": 103.9,
+    "total_count": 65
   },
   {
-    "County": "Whitman",
-    "seven_day_rate": 249.6
+    "County": "Whatcom County",
+    "seven_day_rate": 100,
+    "total_count": 228
   },
   {
-    "County": "Yakima",
-    "seven_day_rate": 449.7
+    "County": "Whitman County",
+    "seven_day_rate": 27.7,
+    "total_count": 14
+  },
+  {
+    "County": "Yakima County",
+    "seven_day_rate": 89.1,
+    "total_count": 230,
+    "for ai chart": "End: column D"
+  },
+  {
+    "County": "Unassigned",
+    "seven_day_rate": "NA",
+    "total_count": 175
   }
 ]
