@@ -6,10 +6,10 @@
     "undefined": "total"
   },
   {
-    "SARS-CoV-2 Sequencing Data": "Feb 06-Feb 12, 22",
-    "": 130,
+    "SARS-CoV-2 Sequencing Data": "Mar 13-Mar 19, 22",
+    "": 395,
     "Use this column for the chart": "100.0%",
-    "undefined": 130
+    "undefined": 395
   },
   {
     "SARS-CoV-2 Sequencing Data": "",
@@ -59,7 +59,8 @@
   {
     "SARS-CoV-2 Sequencing Data": "",
     "": "",
-    "Use this column for the chart": 0
+    "Use this column for the chart": 0,
+    "undefined": 395
   },
   {
     "SARS-CoV-2 Sequencing Data": "",
