@@ -21,9 +21,8 @@
     <% } %>
     <responsive-child>
           <main class="interactive" id="countyTrendGraphic">
-            <h1 class="graphic-hed">Timeline of new coronavirus counts in Washington state</h1>
-            <p class="note center">Total cases as of 11:59 p.m. on <span id="date"></span>, 2022 | Updated on Mondays, Wednesdays and Fridays.</p>
-            <p class="note center">Use the arrows to see previous days counts.</p>
+            <h1 class="graphic-hed">Trends over time</h1>
+            <p class="note center">Total cases as of 11:59 p.m. on <span id="date"></span>, 2022 | Updated on Mondays, Wednesdays and Fridays.<br>Use the arrows to see previous days counts.</p>
 
             <form id="toggle3">
               <input type="radio" data-type="Cases" id="casesCounty3" name="toggleCounty2" class="radioButton3" value="casesCounty3" checked>
@@ -40,9 +39,8 @@
 
 
                 <div class="newTooltip">
-                  <div><span id="date"></span></div>
-                  <div><span id="total"></span></div>
-                  <div><span id="avg"></span></div>
+                  <div><span id="date"></span>: <span id="total"></span></div>
+<div><span id="avg"></span></div>
 
                   <div class="arrows">
                     <i id="left" class="fas fa-caret-left caret"></i>
@@ -58,7 +56,7 @@
 
             <div class="caption-container">
               <p class="data-source">Source: <a href="https://www.doh.wa.gov/Emergencies/Coronavirus" target="_blank" rel="noreferrer nofollow">Washington State Department of Health</a></p>
-              <p class="art-credit">Lauren Flannery and Hilary Fung / The Seattle Times</p>
+              <p class="art-credit">Lauren Flannery / The Seattle Times</p>
             </div>
           </main>
         </responsive-child>
