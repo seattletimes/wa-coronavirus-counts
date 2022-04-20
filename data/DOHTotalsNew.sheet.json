@@ -2911,16 +2911,16 @@
     "DeathsTotal": 4258,
     "DeathsNew": 30,
     "DeathsNewAvg": 31,
-    "CasesTotal": 290301,
-    "CasesNew": 1621,
-    "CasesNewAvg": 2496
+    "CasesTotal": 290300,
+    "CasesNew": 1620,
+    "CasesNewAvg": 2495
   },
   {
     "Date": "1/18/2021",
     "DeathsTotal": 4290,
     "DeathsNew": 32,
     "DeathsNewAvg": 30,
-    "CasesTotal": 291295,
+    "CasesTotal": 291294,
     "CasesNew": 994,
     "CasesNewAvg": 2433
   },
@@ -2929,7 +2929,7 @@
     "DeathsTotal": 4309,
     "DeathsNew": 19,
     "DeathsNewAvg": 29,
-    "CasesTotal": 292841,
+    "CasesTotal": 292840,
     "CasesNew": 1546,
     "CasesNewAvg": 2366
   },
@@ -2938,7 +2938,7 @@
     "DeathsTotal": 4331,
     "DeathsNew": 22,
     "DeathsNewAvg": 28,
-    "CasesTotal": 294576,
+    "CasesTotal": 294575,
     "CasesNew": 1735,
     "CasesNewAvg": 2314
   },
@@ -2947,7 +2947,7 @@
     "DeathsTotal": 4363,
     "DeathsNew": 32,
     "DeathsNewAvg": 28,
-    "CasesTotal": 297175,
+    "CasesTotal": 297174,
     "CasesNew": 2599,
     "CasesNewAvg": 2183
   },
@@ -2956,7 +2956,7 @@
     "DeathsTotal": 4393,
     "DeathsNew": 30,
     "DeathsNewAvg": 28,
-    "CasesTotal": 298928,
+    "CasesTotal": 298927,
     "CasesNew": 1753,
     "CasesNewAvg": 2114
   },
@@ -2965,16 +2965,16 @@
     "DeathsTotal": 4422,
     "DeathsNew": 29,
     "DeathsNewAvg": 27,
-    "CasesTotal": 300808,
-    "CasesNew": 1880,
-    "CasesNewAvg": 1980
+    "CasesTotal": 300806,
+    "CasesNew": 1879,
+    "CasesNewAvg": 1979
   },
   {
     "Date": "1/24/2021",
     "DeathsTotal": 4448,
     "DeathsNew": 26,
     "DeathsNewAvg": 27,
-    "CasesTotal": 301699,
+    "CasesTotal": 301697,
     "CasesNew": 891,
     "CasesNewAvg": 1913
   },
@@ -2983,7 +2983,7 @@
     "DeathsTotal": 4473,
     "DeathsNew": 25,
     "DeathsNewAvg": 26,
-    "CasesTotal": 302664,
+    "CasesTotal": 302662,
     "CasesNew": 965,
     "CasesNewAvg": 1829
   },
@@ -2992,7 +2992,7 @@
     "DeathsTotal": 4497,
     "DeathsNew": 24,
     "DeathsNewAvg": 26,
-    "CasesTotal": 304256,
+    "CasesTotal": 304254,
     "CasesNew": 1592,
     "CasesNewAvg": 1769
   },
@@ -3001,7 +3001,7 @@
     "DeathsTotal": 4515,
     "DeathsNew": 18,
     "DeathsNewAvg": 26,
-    "CasesTotal": 305736,
+    "CasesTotal": 305734,
     "CasesNew": 1480,
     "CasesNewAvg": 1735
   },
@@ -3010,7 +3010,7 @@
     "DeathsTotal": 4537,
     "DeathsNew": 22,
     "DeathsNewAvg": 26,
-    "CasesTotal": 308559,
+    "CasesTotal": 308557,
     "CasesNew": 2823,
     "CasesNewAvg": 1739
   },
@@ -3019,7 +3019,7 @@
     "DeathsTotal": 4556,
     "DeathsNew": 19,
     "DeathsNewAvg": 25,
-    "CasesTotal": 310279,
+    "CasesTotal": 310277,
     "CasesNew": 1720,
     "CasesNewAvg": 1716
   },
@@ -3028,7 +3028,7 @@
     "DeathsTotal": 4577,
     "DeathsNew": 21,
     "DeathsNewAvg": 25,
-    "CasesTotal": 311957,
+    "CasesTotal": 311955,
     "CasesNew": 1678,
     "CasesNewAvg": 1663
   },
@@ -3037,7 +3037,7 @@
     "DeathsTotal": 4600,
     "DeathsNew": 23,
     "DeathsNewAvg": 24,
-    "CasesTotal": 312961,
+    "CasesTotal": 312959,
     "CasesNew": 1004,
     "CasesNewAvg": 1619
   },
@@ -3046,7 +3046,7 @@
     "DeathsTotal": 4623,
     "DeathsNew": 23,
     "DeathsNewAvg": 24,
-    "CasesTotal": 313921,
+    "CasesTotal": 313919,
     "CasesNew": 960,
     "CasesNewAvg": 1616
   },
@@ -3055,7 +3055,7 @@
     "DeathsTotal": 4646,
     "DeathsNew": 23,
     "DeathsNewAvg": 24,
-    "CasesTotal": 314788,
+    "CasesTotal": 314786,
     "CasesNew": 867,
     "CasesNewAvg": 1568
   },
@@ -3064,7 +3064,7 @@
     "DeathsTotal": 4666,
     "DeathsNew": 20,
     "DeathsNewAvg": 24,
-    "CasesTotal": 316859,
+    "CasesTotal": 316857,
     "CasesNew": 2071,
     "CasesNewAvg": 1592
   },
@@ -3073,7 +3073,7 @@
     "DeathsTotal": 4693,
     "DeathsNew": 27,
     "DeathsNewAvg": 24,
-    "CasesTotal": 318131,
+    "CasesTotal": 318129,
     "CasesNew": 1272,
     "CasesNewAvg": 1497
   },
@@ -3082,7 +3082,7 @@
     "DeathsTotal": 4720,
     "DeathsNew": 27,
     "DeathsNewAvg": 23,
-    "CasesTotal": 319112,
+    "CasesTotal": 319110,
     "CasesNew": 981,
     "CasesNewAvg": 1442
   },
@@ -3091,7 +3091,7 @@
     "DeathsTotal": 4743,
     "DeathsNew": 23,
     "DeathsNewAvg": 23,
-    "CasesTotal": 320917,
+    "CasesTotal": 320915,
     "CasesNew": 1805,
     "CasesNewAvg": 1436
   },
@@ -3100,7 +3100,7 @@
     "DeathsTotal": 4758,
     "DeathsNew": 15,
     "DeathsNewAvg": 22,
-    "CasesTotal": 321790,
+    "CasesTotal": 321788,
     "CasesNew": 873,
     "CasesNewAvg": 1435
   },
@@ -3109,7 +3109,7 @@
     "DeathsTotal": 4772,
     "DeathsNew": 14,
     "DeathsNewAvg": 21,
-    "CasesTotal": 322479,
+    "CasesTotal": 322477,
     "CasesNew": 689,
     "CasesNewAvg": 1415
   },
@@ -3118,7 +3118,7 @@
     "DeathsTotal": 4793,
     "DeathsNew": 21,
     "DeathsNewAvg": 21,
-    "CasesTotal": 323650,
+    "CasesTotal": 323648,
     "CasesNew": 1171,
     "CasesNewAvg": 1385
   },
@@ -3127,7 +3127,7 @@
     "DeathsTotal": 4813,
     "DeathsNew": 20,
     "DeathsNewAvg": 21,
-    "CasesTotal": 325028,
+    "CasesTotal": 325026,
     "CasesNew": 1378,
     "CasesNewAvg": 1378
   },
@@ -3136,7 +3136,7 @@
     "DeathsTotal": 4824,
     "DeathsNew": 11,
     "DeathsNewAvg": 21,
-    "CasesTotal": 326087,
+    "CasesTotal": 326085,
     "CasesNew": 1059,
     "CasesNewAvg": 1252
   },
@@ -3145,7 +3145,7 @@
     "DeathsTotal": 4840,
     "DeathsNew": 16,
     "DeathsNewAvg": 20,
-    "CasesTotal": 326985,
+    "CasesTotal": 326983,
     "CasesNew": 898,
     "CasesNewAvg": 1193
   },
@@ -3154,7 +3154,7 @@
     "DeathsTotal": 4851,
     "DeathsNew": 11,
     "DeathsNewAvg": 20,
-    "CasesTotal": 327695,
+    "CasesTotal": 327693,
     "CasesNew": 710,
     "CasesNewAvg": 1124
   },
@@ -3163,7 +3163,7 @@
     "DeathsTotal": 4861,
     "DeathsNew": 10,
     "DeathsNewAvg": 19,
-    "CasesTotal": 328494,
+    "CasesTotal": 328492,
     "CasesNew": 799,
     "CasesNewAvg": 1110
   },
@@ -3172,7 +3172,7 @@
     "DeathsTotal": 4875,
     "DeathsNew": 14,
     "DeathsNewAvg": 18,
-    "CasesTotal": 329004,
+    "CasesTotal": 329002,
     "CasesNew": 510,
     "CasesNewAvg": 1077
   },
@@ -3181,7 +3181,7 @@
     "DeathsTotal": 4892,
     "DeathsNew": 17,
     "DeathsNewAvg": 18,
-    "CasesTotal": 329757,
+    "CasesTotal": 329755,
     "CasesNew": 753,
     "CasesNewAvg": 1069
   },
@@ -3190,7 +3190,7 @@
     "DeathsTotal": 4913,
     "DeathsNew": 21,
     "DeathsNewAvg": 18,
-    "CasesTotal": 330768,
+    "CasesTotal": 330766,
     "CasesNew": 1011,
     "CasesNewAvg": 994
   },
@@ -3199,7 +3199,7 @@
     "DeathsTotal": 4921,
     "DeathsNew": 8,
     "DeathsNewAvg": 16,
-    "CasesTotal": 332040,
+    "CasesTotal": 332038,
     "CasesNew": 1272,
     "CasesNewAvg": 994
   },
@@ -3208,7 +3208,7 @@
     "DeathsTotal": 4934,
     "DeathsNew": 13,
     "DeathsNewAvg": 15,
-    "CasesTotal": 332869,
+    "CasesTotal": 332867,
     "CasesNew": 829,
     "CasesNewAvg": 983
   },
@@ -3217,7 +3217,7 @@
     "DeathsTotal": 4946,
     "DeathsNew": 12,
     "DeathsNewAvg": 15,
-    "CasesTotal": 333656,
+    "CasesTotal": 333654,
     "CasesNew": 787,
     "CasesNewAvg": 910
   },
@@ -3226,7 +3226,7 @@
     "DeathsTotal": 4960,
     "DeathsNew": 14,
     "DeathsNewAvg": 14,
-    "CasesTotal": 334217,
+    "CasesTotal": 334215,
     "CasesNew": 561,
     "CasesNewAvg": 888
   },
@@ -3235,7 +3235,7 @@
     "DeathsTotal": 4975,
     "DeathsNew": 15,
     "DeathsNewAvg": 15,
-    "CasesTotal": 334731,
+    "CasesTotal": 334729,
     "CasesNew": 514,
     "CasesNewAvg": 875
   },
@@ -3244,7 +3244,7 @@
     "DeathsTotal": 4983,
     "DeathsNew": 8,
     "DeathsNewAvg": 14,
-    "CasesTotal": 335621,
+    "CasesTotal": 335619,
     "CasesNew": 890,
     "CasesNewAvg": 855
   },
@@ -3253,7 +3253,7 @@
     "DeathsTotal": 4997,
     "DeathsNew": 14,
     "DeathsNewAvg": 13,
-    "CasesTotal": 336616,
+    "CasesTotal": 336614,
     "CasesNew": 995,
     "CasesNewAvg": 828
   },
@@ -3262,8 +3262,8 @@
     "DeathsTotal": 5010,
     "DeathsNew": 13,
     "DeathsNewAvg": 13,
-    "CasesTotal": 337789,
-    "CasesNew": 1173,
+    "CasesTotal": 337786,
+    "CasesNew": 1172,
     "CasesNewAvg": 836
   },
   {
@@ -3271,7 +3271,7 @@
     "DeathsTotal": 5020,
     "DeathsNew": 10,
     "DeathsNewAvg": 13,
-    "CasesTotal": 338683,
+    "CasesTotal": 338680,
     "CasesNew": 894,
     "CasesNewAvg": 836
   },
@@ -3280,7 +3280,7 @@
     "DeathsTotal": 5034,
     "DeathsNew": 14,
     "DeathsNewAvg": 13,
-    "CasesTotal": 339515,
+    "CasesTotal": 339512,
     "CasesNew": 832,
     "CasesNewAvg": 844
   },
@@ -3289,7 +3289,7 @@
     "DeathsTotal": 5046,
     "DeathsNew": 12,
     "DeathsNewAvg": 13,
-    "CasesTotal": 339990,
+    "CasesTotal": 339987,
     "CasesNew": 475,
     "CasesNewAvg": 821
   },
@@ -3298,7 +3298,7 @@
     "DeathsTotal": 5050,
     "DeathsNew": 4,
     "DeathsNewAvg": 13,
-    "CasesTotal": 340361,
+    "CasesTotal": 340358,
     "CasesNew": 371,
     "CasesNewAvg": 811
   },
@@ -3307,7 +3307,7 @@
     "DeathsTotal": 5060,
     "DeathsNew": 10,
     "DeathsNewAvg": 12,
-    "CasesTotal": 341374,
+    "CasesTotal": 341371,
     "CasesNew": 1013,
     "CasesNewAvg": 830
   },
@@ -3316,7 +3316,7 @@
     "DeathsTotal": 5067,
     "DeathsNew": 7,
     "DeathsNewAvg": 11,
-    "CasesTotal": 342121,
+    "CasesTotal": 342118,
     "CasesNew": 747,
     "CasesNewAvg": 811
   },
@@ -3325,7 +3325,7 @@
     "DeathsTotal": 5078,
     "DeathsNew": 11,
     "DeathsNewAvg": 11,
-    "CasesTotal": 342963,
+    "CasesTotal": 342960,
     "CasesNew": 842,
     "CasesNewAvg": 780
   },
@@ -3334,7 +3334,7 @@
     "DeathsTotal": 5087,
     "DeathsNew": 9,
     "DeathsNewAvg": 11,
-    "CasesTotal": 343728,
+    "CasesTotal": 343725,
     "CasesNew": 765,
     "CasesNewAvg": 776
   },
@@ -3343,7 +3343,7 @@
     "DeathsTotal": 5095,
     "DeathsNew": 8,
     "DeathsNewAvg": 11,
-    "CasesTotal": 344448,
+    "CasesTotal": 344445,
     "CasesNew": 720,
     "CasesNewAvg": 771
   },
@@ -3352,7 +3352,7 @@
     "DeathsTotal": 5099,
     "DeathsNew": 4,
     "DeathsNewAvg": 10,
-    "CasesTotal": 345059,
+    "CasesTotal": 345056,
     "CasesNew": 611,
     "CasesNewAvg": 774
   },
@@ -3361,7 +3361,7 @@
     "DeathsTotal": 5107,
     "DeathsNew": 8,
     "DeathsNewAvg": 9,
-    "CasesTotal": 345414,
+    "CasesTotal": 345411,
     "CasesNew": 355,
     "CasesNewAvg": 763
   },
@@ -3370,7 +3370,7 @@
     "DeathsTotal": 5117,
     "DeathsNew": 10,
     "DeathsNewAvg": 10,
-    "CasesTotal": 346106,
+    "CasesTotal": 346103,
     "CasesNew": 692,
     "CasesNewAvg": 749
   },
@@ -3379,7 +3379,7 @@
     "DeathsTotal": 5122,
     "DeathsNew": 5,
     "DeathsNewAvg": 9,
-    "CasesTotal": 346780,
+    "CasesTotal": 346777,
     "CasesNew": 674,
     "CasesNewAvg": 726
   },
@@ -3388,7 +3388,7 @@
     "DeathsTotal": 5128,
     "DeathsNew": 6,
     "DeathsNewAvg": 8,
-    "CasesTotal": 347792,
+    "CasesTotal": 347789,
     "CasesNew": 1012,
     "CasesNewAvg": 715
   },
@@ -3397,7 +3397,7 @@
     "DeathsTotal": 5134,
     "DeathsNew": 6,
     "DeathsNewAvg": 8,
-    "CasesTotal": 348486,
+    "CasesTotal": 348483,
     "CasesNew": 694,
     "CasesNewAvg": 700
   },
@@ -3406,7 +3406,7 @@
     "DeathsTotal": 5139,
     "DeathsNew": 5,
     "DeathsNewAvg": 8,
-    "CasesTotal": 349156,
+    "CasesTotal": 349153,
     "CasesNew": 670,
     "CasesNewAvg": 689
   },
@@ -3415,7 +3415,7 @@
     "DeathsTotal": 5145,
     "DeathsNew": 6,
     "DeathsNewAvg": 7,
-    "CasesTotal": 349758,
+    "CasesTotal": 349755,
     "CasesNew": 602,
     "CasesNewAvg": 698
   },
@@ -3424,7 +3424,7 @@
     "DeathsTotal": 5153,
     "DeathsNew": 8,
     "DeathsNewAvg": 7,
-    "CasesTotal": 350367,
+    "CasesTotal": 350364,
     "CasesNew": 609,
     "CasesNewAvg": 715
   },
@@ -3433,7 +3433,7 @@
     "DeathsTotal": 5159,
     "DeathsNew": 6,
     "DeathsNewAvg": 7,
-    "CasesTotal": 351145,
+    "CasesTotal": 351142,
     "CasesNew": 778,
     "CasesNewAvg": 698
   },
@@ -3442,7 +3442,7 @@
     "DeathsTotal": 5161,
     "DeathsNew": 2,
     "DeathsNewAvg": 7,
-    "CasesTotal": 352092,
+    "CasesTotal": 352089,
     "CasesNew": 947,
     "CasesNewAvg": 712
   },
@@ -3451,7 +3451,7 @@
     "DeathsTotal": 5169,
     "DeathsNew": 8,
     "DeathsNewAvg": 7,
-    "CasesTotal": 353013,
+    "CasesTotal": 353010,
     "CasesNew": 921,
     "CasesNewAvg": 718
   },
@@ -3460,7 +3460,7 @@
     "DeathsTotal": 5174,
     "DeathsNew": 5,
     "DeathsNewAvg": 6,
-    "CasesTotal": 354008,
+    "CasesTotal": 354005,
     "CasesNew": 995,
     "CasesNewAvg": 734
   },
@@ -3469,7 +3469,7 @@
     "DeathsTotal": 5183,
     "DeathsNew": 9,
     "DeathsNewAvg": 6,
-    "CasesTotal": 354689,
+    "CasesTotal": 354686,
     "CasesNew": 681,
     "CasesNewAvg": 732
   },
@@ -3478,7 +3478,7 @@
     "DeathsTotal": 5187,
     "DeathsNew": 4,
     "DeathsNewAvg": 6,
-    "CasesTotal": 355215,
+    "CasesTotal": 355212,
     "CasesNew": 526,
     "CasesNewAvg": 725
   },
@@ -3487,7 +3487,7 @@
     "DeathsTotal": 5194,
     "DeathsNew": 7,
     "DeathsNewAvg": 6,
-    "CasesTotal": 355851,
+    "CasesTotal": 355848,
     "CasesNew": 636,
     "CasesNewAvg": 746
   },
@@ -3496,7 +3496,7 @@
     "DeathsTotal": 5201,
     "DeathsNew": 7,
     "DeathsNewAvg": 6,
-    "CasesTotal": 356663,
+    "CasesTotal": 356660,
     "CasesNew": 812,
     "CasesNewAvg": 754
   },
@@ -3505,7 +3505,7 @@
     "DeathsTotal": 5212,
     "DeathsNew": 11,
     "DeathsNewAvg": 6,
-    "CasesTotal": 357458,
+    "CasesTotal": 357455,
     "CasesNew": 795,
     "CasesNewAvg": 763
   },
@@ -3514,7 +3514,7 @@
     "DeathsTotal": 5220,
     "DeathsNew": 8,
     "DeathsNewAvg": 7,
-    "CasesTotal": 358475,
+    "CasesTotal": 358472,
     "CasesNew": 1017,
     "CasesNewAvg": 763
   },
@@ -3523,7 +3523,7 @@
     "DeathsTotal": 5231,
     "DeathsNew": 11,
     "DeathsNewAvg": 7,
-    "CasesTotal": 359806,
+    "CasesTotal": 359803,
     "CasesNew": 1331,
     "CasesNewAvg": 809
   },
@@ -3532,7 +3532,7 @@
     "DeathsTotal": 5238,
     "DeathsNew": 7,
     "DeathsNewAvg": 7,
-    "CasesTotal": 360783,
+    "CasesTotal": 360780,
     "CasesNew": 977,
     "CasesNewAvg": 831
   },
@@ -3541,7 +3541,7 @@
     "DeathsTotal": 5242,
     "DeathsNew": 4,
     "DeathsNewAvg": 7,
-    "CasesTotal": 361695,
+    "CasesTotal": 361692,
     "CasesNew": 912,
     "CasesNewAvg": 853
   },
@@ -3550,7 +3550,7 @@
     "DeathsTotal": 5251,
     "DeathsNew": 9,
     "DeathsNewAvg": 7,
-    "CasesTotal": 362447,
+    "CasesTotal": 362444,
     "CasesNew": 752,
     "CasesNewAvg": 863
   },
@@ -3559,7 +3559,7 @@
     "DeathsTotal": 5256,
     "DeathsNew": 5,
     "DeathsNewAvg": 7,
-    "CasesTotal": 363521,
+    "CasesTotal": 363518,
     "CasesNew": 1074,
     "CasesNewAvg": 884
   },
@@ -3568,7 +3568,7 @@
     "DeathsTotal": 5263,
     "DeathsNew": 7,
     "DeathsNewAvg": 7,
-    "CasesTotal": 364517,
+    "CasesTotal": 364514,
     "CasesNew": 996,
     "CasesNewAvg": 888
   },
@@ -3577,7 +3577,7 @@
     "DeathsTotal": 5268,
     "DeathsNew": 5,
     "DeathsNewAvg": 7,
-    "CasesTotal": 365982,
+    "CasesTotal": 365979,
     "CasesNew": 1465,
     "CasesNewAvg": 926
   },
@@ -3586,7 +3586,7 @@
     "DeathsTotal": 5274,
     "DeathsNew": 6,
     "DeathsNewAvg": 7,
-    "CasesTotal": 367103,
+    "CasesTotal": 367100,
     "CasesNew": 1121,
     "CasesNewAvg": 935
   },
@@ -3595,7 +3595,7 @@
     "DeathsTotal": 5279,
     "DeathsNew": 5,
     "DeathsNewAvg": 7,
-    "CasesTotal": 368366,
+    "CasesTotal": 368363,
     "CasesNew": 1263,
     "CasesNewAvg": 977
   },
@@ -3604,7 +3604,7 @@
     "DeathsTotal": 5285,
     "DeathsNew": 6,
     "DeathsNewAvg": 7,
-    "CasesTotal": 369124,
+    "CasesTotal": 369121,
     "CasesNew": 758,
     "CasesNewAvg": 994
   },
@@ -3613,7 +3613,7 @@
     "DeathsTotal": 5291,
     "DeathsNew": 6,
     "DeathsNewAvg": 7,
-    "CasesTotal": 369839,
+    "CasesTotal": 369836,
     "CasesNew": 715,
     "CasesNewAvg": 999
   },
@@ -3622,7 +3622,7 @@
     "DeathsTotal": 5295,
     "DeathsNew": 4,
     "DeathsNewAvg": 7,
-    "CasesTotal": 370927,
+    "CasesTotal": 370924,
     "CasesNew": 1088,
     "CasesNewAvg": 1019
   },
@@ -3631,7 +3631,7 @@
     "DeathsTotal": 5301,
     "DeathsNew": 6,
     "DeathsNewAvg": 6,
-    "CasesTotal": 371960,
+    "CasesTotal": 371957,
     "CasesNew": 1033,
     "CasesNewAvg": 1036
   },
@@ -3640,7 +3640,7 @@
     "DeathsTotal": 5313,
     "DeathsNew": 12,
     "DeathsNewAvg": 7,
-    "CasesTotal": 373335,
+    "CasesTotal": 373332,
     "CasesNew": 1375,
     "CasesNewAvg": 1061
   },
@@ -3649,7 +3649,7 @@
     "DeathsTotal": 5325,
     "DeathsNew": 12,
     "DeathsNewAvg": 7,
-    "CasesTotal": 374838,
+    "CasesTotal": 374835,
     "CasesNew": 1503,
     "CasesNewAvg": 1074
   },
@@ -3658,7 +3658,7 @@
     "DeathsTotal": 5338,
     "DeathsNew": 13,
     "DeathsNewAvg": 7,
-    "CasesTotal": 376311,
+    "CasesTotal": 376308,
     "CasesNew": 1473,
     "CasesNewAvg": 1109
   },
@@ -3667,7 +3667,7 @@
     "DeathsTotal": 5345,
     "DeathsNew": 7,
     "DeathsNewAvg": 7,
-    "CasesTotal": 376696,
+    "CasesTotal": 376693,
     "CasesNew": 385,
     "CasesNewAvg": 1072
   },
@@ -3676,7 +3676,7 @@
     "DeathsTotal": 5353,
     "DeathsNew": 8,
     "DeathsNewAvg": 7,
-    "CasesTotal": 378128,
+    "CasesTotal": 378125,
     "CasesNew": 1432,
     "CasesNewAvg": 1120
   },
@@ -3685,7 +3685,7 @@
     "DeathsTotal": 5364,
     "DeathsNew": 11,
     "DeathsNewAvg": 8,
-    "CasesTotal": 379236,
+    "CasesTotal": 379233,
     "CasesNew": 1108,
     "CasesNewAvg": 1123
   },
@@ -3694,7 +3694,7 @@
     "DeathsTotal": 5377,
     "DeathsNew": 13,
     "DeathsNewAvg": 8,
-    "CasesTotal": 380577,
+    "CasesTotal": 380574,
     "CasesNew": 1341,
     "CasesNewAvg": 1147
   },
@@ -3703,7 +3703,7 @@
     "DeathsTotal": 5385,
     "DeathsNew": 8,
     "DeathsNewAvg": 8,
-    "CasesTotal": 382289,
+    "CasesTotal": 382286,
     "CasesNew": 1712,
     "CasesNewAvg": 1165
   },
@@ -3712,7 +3712,7 @@
     "DeathsTotal": 5393,
     "DeathsNew": 8,
     "DeathsNewAvg": 9,
-    "CasesTotal": 383954,
+    "CasesTotal": 383951,
     "CasesNew": 1665,
     "CasesNewAvg": 1204
   },
@@ -3721,7 +3721,7 @@
     "DeathsTotal": 5404,
     "DeathsNew": 11,
     "DeathsNewAvg": 9,
-    "CasesTotal": 385721,
+    "CasesTotal": 385718,
     "CasesNew": 1767,
     "CasesNewAvg": 1240
   },
@@ -3730,7 +3730,7 @@
     "DeathsTotal": 5411,
     "DeathsNew": 7,
     "DeathsNewAvg": 9,
-    "CasesTotal": 386244,
+    "CasesTotal": 386241,
     "CasesNew": 523,
     "CasesNewAvg": 1223
   },
@@ -3739,7 +3739,7 @@
     "DeathsTotal": 5421,
     "DeathsNew": 10,
     "DeathsNewAvg": 9,
-    "CasesTotal": 387424,
+    "CasesTotal": 387421,
     "CasesNew": 1180,
     "CasesNewAvg": 1256
   },
@@ -3748,7 +3748,7 @@
     "DeathsTotal": 5428,
     "DeathsNew": 7,
     "DeathsNewAvg": 10,
-    "CasesTotal": 389173,
+    "CasesTotal": 389170,
     "CasesNew": 1749,
     "CasesNewAvg": 1303
   },
@@ -3757,7 +3757,7 @@
     "DeathsTotal": 5430,
     "DeathsNew": 2,
     "DeathsNewAvg": 9,
-    "CasesTotal": 390795,
+    "CasesTotal": 390792,
     "CasesNew": 1622,
     "CasesNewAvg": 1345
   },
@@ -3766,7 +3766,7 @@
     "DeathsTotal": 5443,
     "DeathsNew": 13,
     "DeathsNewAvg": 9,
-    "CasesTotal": 392191,
+    "CasesTotal": 392188,
     "CasesNew": 1396,
     "CasesNewAvg": 1347
   },
@@ -3775,7 +3775,7 @@
     "DeathsTotal": 5450,
     "DeathsNew": 7,
     "DeathsNewAvg": 9,
-    "CasesTotal": 393937,
+    "CasesTotal": 393934,
     "CasesNew": 1746,
     "CasesNewAvg": 1364
   },
@@ -3784,7 +3784,7 @@
     "DeathsTotal": 5461,
     "DeathsNew": 11,
     "DeathsNewAvg": 9,
-    "CasesTotal": 395284,
+    "CasesTotal": 395281,
     "CasesNew": 1347,
     "CasesNewAvg": 1355
   },
@@ -3793,7 +3793,7 @@
     "DeathsTotal": 5471,
     "DeathsNew": 10,
     "DeathsNewAvg": 9,
-    "CasesTotal": 396549,
+    "CasesTotal": 396546,
     "CasesNew": 1265,
     "CasesNewAvg": 1418
   },
@@ -3802,7 +3802,7 @@
     "DeathsTotal": 5481,
     "DeathsNew": 10,
     "DeathsNewAvg": 9,
-    "CasesTotal": 397465,
+    "CasesTotal": 397462,
     "CasesNew": 916,
     "CasesNewAvg": 1381
   },
@@ -3811,7 +3811,7 @@
     "DeathsTotal": 5492,
     "DeathsNew": 11,
     "DeathsNewAvg": 9,
-    "CasesTotal": 398961,
+    "CasesTotal": 398958,
     "CasesNew": 1496,
     "CasesNewAvg": 1409
   },
@@ -3820,7 +3820,7 @@
     "DeathsTotal": 5498,
     "DeathsNew": 6,
     "DeathsNewAvg": 9,
-    "CasesTotal": 399907,
+    "CasesTotal": 399904,
     "CasesNew": 946,
     "CasesNewAvg": 1381
   },
@@ -3829,7 +3829,7 @@
     "DeathsTotal": 5508,
     "DeathsNew": 10,
     "DeathsNewAvg": 9,
-    "CasesTotal": 401537,
+    "CasesTotal": 401534,
     "CasesNew": 1630,
     "CasesNewAvg": 1375
   },
@@ -3838,7 +3838,7 @@
     "DeathsTotal": 5515,
     "DeathsNew": 7,
     "DeathsNewAvg": 9,
-    "CasesTotal": 403681,
+    "CasesTotal": 403678,
     "CasesNew": 2144,
     "CasesNewAvg": 1409
   },
@@ -3847,7 +3847,7 @@
     "DeathsTotal": 5525,
     "DeathsNew": 10,
     "DeathsNewAvg": 9,
-    "CasesTotal": 405120,
+    "CasesTotal": 405117,
     "CasesNew": 1439,
     "CasesNewAvg": 1386
   },
@@ -3856,7 +3856,7 @@
     "DeathsTotal": 5537,
     "DeathsNew": 12,
     "DeathsNewAvg": 9,
-    "CasesTotal": 406293,
+    "CasesTotal": 406290,
     "CasesNew": 1173,
     "CasesNewAvg": 1432
   },
@@ -3865,7 +3865,7 @@
     "DeathsTotal": 5544,
     "DeathsNew": 7,
     "DeathsNewAvg": 9,
-    "CasesTotal": 407208,
+    "CasesTotal": 407205,
     "CasesNew": 915,
     "CasesNewAvg": 1413
   },
@@ -3874,7 +3874,7 @@
     "DeathsTotal": 5549,
     "DeathsNew": 5,
     "DeathsNewAvg": 9,
-    "CasesTotal": 408334,
+    "CasesTotal": 408331,
     "CasesNew": 1126,
     "CasesNewAvg": 1369
   },
@@ -3883,7 +3883,7 @@
     "DeathsTotal": 5558,
     "DeathsNew": 9,
     "DeathsNewAvg": 9,
-    "CasesTotal": 409850,
+    "CasesTotal": 409847,
     "CasesNew": 1516,
     "CasesNewAvg": 1361
   },
@@ -3892,7 +3892,7 @@
     "DeathsTotal": 5571,
     "DeathsNew": 13,
     "DeathsNewAvg": 9,
-    "CasesTotal": 411433,
+    "CasesTotal": 411430,
     "CasesNew": 1583,
     "CasesNewAvg": 1374
   },
@@ -3901,7 +3901,7 @@
     "DeathsTotal": 5575,
     "DeathsNew": 4,
     "DeathsNewAvg": 9,
-    "CasesTotal": 412834,
+    "CasesTotal": 412831,
     "CasesNew": 1401,
     "CasesNewAvg": 1350
   },
@@ -3910,7 +3910,7 @@
     "DeathsTotal": 5587,
     "DeathsNew": 12,
     "DeathsNewAvg": 9,
-    "CasesTotal": 413989,
+    "CasesTotal": 413986,
     "CasesNew": 1155,
     "CasesNewAvg": 1336
   },
@@ -3919,7 +3919,7 @@
     "DeathsTotal": 5595,
     "DeathsNew": 8,
     "DeathsNewAvg": 9,
-    "CasesTotal": 414761,
+    "CasesTotal": 414758,
     "CasesNew": 772,
     "CasesNewAvg": 1301
   },
@@ -3928,7 +3928,7 @@
     "DeathsTotal": 5606,
     "DeathsNew": 11,
     "DeathsNewAvg": 9,
-    "CasesTotal": 415514,
+    "CasesTotal": 415511,
     "CasesNew": 753,
     "CasesNewAvg": 1289
   },
@@ -3937,7 +3937,7 @@
     "DeathsTotal": 5621,
     "DeathsNew": 15,
     "DeathsNewAvg": 9,
-    "CasesTotal": 416927,
+    "CasesTotal": 416924,
     "CasesNew": 1413,
     "CasesNewAvg": 1283
   },
@@ -3946,7 +3946,7 @@
     "DeathsTotal": 5634,
     "DeathsNew": 13,
     "DeathsNewAvg": 10,
-    "CasesTotal": 418028,
+    "CasesTotal": 418025,
     "CasesNew": 1101,
     "CasesNewAvg": 1294
   },
@@ -3955,7 +3955,7 @@
     "DeathsTotal": 5644,
     "DeathsNew": 10,
     "DeathsNewAvg": 10,
-    "CasesTotal": 419569,
+    "CasesTotal": 419566,
     "CasesNew": 1541,
     "CasesNewAvg": 1288
   },
@@ -3964,7 +3964,7 @@
     "DeathsTotal": 5652,
     "DeathsNew": 8,
     "DeathsNewAvg": 10,
-    "CasesTotal": 420561,
+    "CasesTotal": 420558,
     "CasesNew": 992,
     "CasesNewAvg": 1206
   },
@@ -3973,7 +3973,7 @@
     "DeathsTotal": 5665,
     "DeathsNew": 13,
     "DeathsNewAvg": 10,
-    "CasesTotal": 421950,
+    "CasesTotal": 421947,
     "CasesNew": 1389,
     "CasesNewAvg": 1202
   },
@@ -3982,7 +3982,7 @@
     "DeathsTotal": 5673,
     "DeathsNew": 8,
     "DeathsNewAvg": 10,
-    "CasesTotal": 422585,
+    "CasesTotal": 422582,
     "CasesNew": 635,
     "CasesNewAvg": 1164
   },
@@ -3991,7 +3991,7 @@
     "DeathsTotal": 5683,
     "DeathsNew": 10,
     "DeathsNewAvg": 10,
-    "CasesTotal": 423163,
+    "CasesTotal": 423160,
     "CasesNew": 578,
     "CasesNewAvg": 1140
   },
@@ -4000,7 +4000,7 @@
     "DeathsTotal": 5692,
     "DeathsNew": 9,
     "DeathsNewAvg": 10,
-    "CasesTotal": 423994,
+    "CasesTotal": 423991,
     "CasesNew": 831,
     "CasesNewAvg": 1119
   },
@@ -4009,7 +4009,7 @@
     "DeathsTotal": 5699,
     "DeathsNew": 7,
     "DeathsNewAvg": 10,
-    "CasesTotal": 424943,
+    "CasesTotal": 424940,
     "CasesNew": 949,
     "CasesNewAvg": 1078
   },
@@ -4018,7 +4018,7 @@
     "DeathsTotal": 5705,
     "DeathsNew": 6,
     "DeathsNewAvg": 10,
-    "CasesTotal": 426241,
+    "CasesTotal": 426238,
     "CasesNew": 1298,
     "CasesNewAvg": 1058
   },
@@ -4027,7 +4027,7 @@
     "DeathsTotal": 5715,
     "DeathsNew": 10,
     "DeathsNewAvg": 10,
-    "CasesTotal": 427469,
+    "CasesTotal": 427466,
     "CasesNew": 1228,
     "CasesNewAvg": 1045
   },
@@ -4036,7 +4036,7 @@
     "DeathsTotal": 5722,
     "DeathsNew": 7,
     "DeathsNewAvg": 10,
-    "CasesTotal": 427798,
+    "CasesTotal": 427795,
     "CasesNew": 329,
     "CasesNewAvg": 986
   },
@@ -4045,7 +4045,7 @@
     "DeathsTotal": 5737,
     "DeathsNew": 15,
     "DeathsNewAvg": 10,
-    "CasesTotal": 427880,
+    "CasesTotal": 427877,
     "CasesNew": 82,
     "CasesNewAvg": 937
   },
@@ -4054,7 +4054,7 @@
     "DeathsTotal": 5748,
     "DeathsNew": 11,
     "DeathsNewAvg": 10,
-    "CasesTotal": 429394,
+    "CasesTotal": 429391,
     "CasesNew": 1514,
     "CasesNewAvg": 991
   },
@@ -4063,7 +4063,7 @@
     "DeathsTotal": 5758,
     "DeathsNew": 10,
     "DeathsNewAvg": 10,
-    "CasesTotal": 431195,
+    "CasesTotal": 431192,
     "CasesNew": 1801,
     "CasesNewAvg": 1019
   },
@@ -4072,7 +4072,7 @@
     "DeathsTotal": 5771,
     "DeathsNew": 13,
     "DeathsNewAvg": 10,
-    "CasesTotal": 432411,
+    "CasesTotal": 432408,
     "CasesNew": 1216,
     "CasesNewAvg": 1027
   },
@@ -4081,7 +4081,7 @@
     "DeathsTotal": 5776,
     "DeathsNew": 5,
     "DeathsNewAvg": 9,
-    "CasesTotal": 433816,
+    "CasesTotal": 433813,
     "CasesNew": 1405,
     "CasesNewAvg": 1018
   },
@@ -4090,7 +4090,7 @@
     "DeathsTotal": 5785,
     "DeathsNew": 9,
     "DeathsNewAvg": 10,
-    "CasesTotal": 434352,
+    "CasesTotal": 434349,
     "CasesNew": 536,
     "CasesNewAvg": 985
   },
@@ -4099,7 +4099,7 @@
     "DeathsTotal": 5793,
     "DeathsNew": 8,
     "DeathsNewAvg": 9,
-    "CasesTotal": 435192,
+    "CasesTotal": 435189,
     "CasesNew": 840,
     "CasesNewAvg": 946
   },
@@ -4108,7 +4108,7 @@
     "DeathsTotal": 5804,
     "DeathsNew": 11,
     "DeathsNewAvg": 9,
-    "CasesTotal": 435739,
+    "CasesTotal": 435736,
     "CasesNew": 547,
     "CasesNewAvg": 940
   },
@@ -4117,7 +4117,7 @@
     "DeathsTotal": 5809,
     "DeathsNew": 5,
     "DeathsNewAvg": 9,
-    "CasesTotal": 436138,
+    "CasesTotal": 436135,
     "CasesNew": 399,
     "CasesNewAvg": 927
   },
@@ -4126,7 +4126,7 @@
     "DeathsTotal": 5815,
     "DeathsNew": 6,
     "DeathsNewAvg": 9,
-    "CasesTotal": 436847,
+    "CasesTotal": 436844,
     "CasesNew": 709,
     "CasesNewAvg": 918
   },
@@ -4135,7 +4135,7 @@
     "DeathsTotal": 5827,
     "DeathsNew": 12,
     "DeathsNewAvg": 9,
-    "CasesTotal": 437591,
+    "CasesTotal": 437588,
     "CasesNew": 744,
     "CasesNewAvg": 903
   },
@@ -4144,7 +4144,7 @@
     "DeathsTotal": 5834,
     "DeathsNew": 7,
     "DeathsNewAvg": 9,
-    "CasesTotal": 438404,
+    "CasesTotal": 438401,
     "CasesNew": 813,
     "CasesNewAvg": 869
   },
@@ -4153,7 +4153,7 @@
     "DeathsTotal": 5842,
     "DeathsNew": 8,
     "DeathsNewAvg": 9,
-    "CasesTotal": 439085,
+    "CasesTotal": 439082,
     "CasesNew": 681,
     "CasesNewAvg": 830
   },
@@ -4162,7 +4162,7 @@
     "DeathsTotal": 5844,
     "DeathsNew": 2,
     "DeathsNewAvg": 9,
-    "CasesTotal": 439656,
+    "CasesTotal": 439653,
     "CasesNew": 571,
     "CasesNewAvg": 847
   },
@@ -4171,7 +4171,7 @@
     "DeathsTotal": 5851,
     "DeathsNew": 7,
     "DeathsNewAvg": 8,
-    "CasesTotal": 440022,
+    "CasesTotal": 440019,
     "CasesNew": 366,
     "CasesNewAvg": 867
   },
@@ -4180,7 +4180,7 @@
     "DeathsTotal": 5858,
     "DeathsNew": 7,
     "DeathsNewAvg": 8,
-    "CasesTotal": 440544,
+    "CasesTotal": 440541,
     "CasesNew": 522,
     "CasesNewAvg": 796
   },
@@ -4189,7 +4189,7 @@
     "DeathsTotal": 5866,
     "DeathsNew": 8,
     "DeathsNewAvg": 8,
-    "CasesTotal": 441223,
+    "CasesTotal": 441220,
     "CasesNew": 679,
     "CasesNewAvg": 716
   },
@@ -4198,7 +4198,7 @@
     "DeathsTotal": 5878,
     "DeathsNew": 12,
     "DeathsNewAvg": 8,
-    "CasesTotal": 441838,
+    "CasesTotal": 441835,
     "CasesNew": 615,
     "CasesNewAvg": 673
   },
@@ -4207,7 +4207,7 @@
     "DeathsTotal": 5884,
     "DeathsNew": 6,
     "DeathsNewAvg": 8,
-    "CasesTotal": 442533,
+    "CasesTotal": 442530,
     "CasesNew": 695,
     "CasesNewAvg": 623
   },
@@ -4216,7 +4216,7 @@
     "DeathsTotal": 5890,
     "DeathsNew": 6,
     "DeathsNewAvg": 8,
-    "CasesTotal": 443140,
+    "CasesTotal": 443137,
     "CasesNew": 607,
     "CasesNewAvg": 628
   },
@@ -4225,7 +4225,7 @@
     "DeathsTotal": 5906,
     "DeathsNew": 16,
     "DeathsNewAvg": 8,
-    "CasesTotal": 443596,
+    "CasesTotal": 443593,
     "CasesNew": 456,
     "CasesNewAvg": 600
   },
@@ -4234,7 +4234,7 @@
     "DeathsTotal": 5916,
     "DeathsNew": 10,
     "DeathsNewAvg": 8,
-    "CasesTotal": 443879,
+    "CasesTotal": 443876,
     "CasesNew": 283,
     "CasesNewAvg": 581
   },
@@ -4243,7 +4243,7 @@
     "DeathsTotal": 5925,
     "DeathsNew": 9,
     "DeathsNewAvg": 8,
-    "CasesTotal": 444303,
+    "CasesTotal": 444300,
     "CasesNew": 424,
     "CasesNewAvg": 583
   },
@@ -4252,8 +4252,8 @@
     "DeathsTotal": 5930,
     "DeathsNew": 5,
     "DeathsNewAvg": 8,
-    "CasesTotal": 444769,
-    "CasesNew": 466,
+    "CasesTotal": 444765,
+    "CasesNew": 465,
     "CasesNewAvg": 566
   },
   {
@@ -4261,7 +4261,7 @@
     "DeathsTotal": 5939,
     "DeathsNew": 9,
     "DeathsNewAvg": 8,
-    "CasesTotal": 445448,
+    "CasesTotal": 445444,
     "CasesNew": 679,
     "CasesNewAvg": 561
   },
@@ -4270,7 +4270,7 @@
     "DeathsTotal": 5946,
     "DeathsNew": 7,
     "DeathsNewAvg": 8,
-    "CasesTotal": 445960,
+    "CasesTotal": 445956,
     "CasesNew": 512,
     "CasesNewAvg": 540
   },
@@ -4279,7 +4279,7 @@
     "DeathsTotal": 5951,
     "DeathsNew": 5,
     "DeathsNewAvg": 8,
-    "CasesTotal": 446402,
+    "CasesTotal": 446398,
     "CasesNew": 442,
     "CasesNewAvg": 523
   },
@@ -4288,7 +4288,7 @@
     "DeathsTotal": 5954,
     "DeathsNew": 3,
     "DeathsNewAvg": 8,
-    "CasesTotal": 446788,
+    "CasesTotal": 446784,
     "CasesNew": 386,
     "CasesNewAvg": 509
   },
@@ -4297,7 +4297,7 @@
     "DeathsTotal": 5963,
     "DeathsNew": 9,
     "DeathsNewAvg": 8,
-    "CasesTotal": 447042,
+    "CasesTotal": 447038,
     "CasesNew": 254,
     "CasesNewAvg": 501
   },
@@ -4306,7 +4306,7 @@
     "DeathsTotal": 5971,
     "DeathsNew": 8,
     "DeathsNewAvg": 8,
-    "CasesTotal": 447388,
+    "CasesTotal": 447384,
     "CasesNew": 346,
     "CasesNewAvg": 489
   },
@@ -4315,16 +4315,16 @@
     "DeathsTotal": 5972,
     "DeathsNew": 1,
     "DeathsNewAvg": 8,
-    "CasesTotal": 448188,
+    "CasesTotal": 448184,
     "CasesNew": 800,
-    "CasesNewAvg": 498
+    "CasesNewAvg": 497
   },
   {
     "Date": "6/23/2021",
     "DeathsTotal": 5977,
     "DeathsNew": 5,
     "DeathsNewAvg": 7,
-    "CasesTotal": 448763,
+    "CasesTotal": 448759,
     "CasesNew": 575,
     "CasesNewAvg": 495
   },
@@ -4333,7 +4333,7 @@
     "DeathsTotal": 5989,
     "DeathsNew": 12,
     "DeathsNewAvg": 8,
-    "CasesTotal": 449234,
+    "CasesTotal": 449230,
     "CasesNew": 471,
     "CasesNewAvg": 479
   },
@@ -4342,16 +4342,16 @@
     "DeathsTotal": 5995,
     "DeathsNew": 6,
     "DeathsNewAvg": 8,
-    "CasesTotal": 449685,
+    "CasesTotal": 449681,
     "CasesNew": 451,
-    "CasesNewAvg": 468
+    "CasesNewAvg": 467
   },
   {
     "Date": "6/26/2021",
     "DeathsTotal": 6005,
     "DeathsNew": 10,
     "DeathsNewAvg": 7,
-    "CasesTotal": 450018,
+    "CasesTotal": 450014,
     "CasesNew": 333,
     "CasesNewAvg": 459
   },
@@ -4360,7 +4360,7 @@
     "DeathsTotal": 6013,
     "DeathsNew": 8,
     "DeathsNewAvg": 7,
-    "CasesTotal": 450240,
+    "CasesTotal": 450236,
     "CasesNew": 222,
     "CasesNewAvg": 454
   },
@@ -4369,7 +4369,7 @@
     "DeathsTotal": 6015,
     "DeathsNew": 2,
     "DeathsNewAvg": 6,
-    "CasesTotal": 450504,
+    "CasesTotal": 450500,
     "CasesNew": 264,
     "CasesNewAvg": 443
   },
@@ -4378,7 +4378,7 @@
     "DeathsTotal": 6022,
     "DeathsNew": 7,
     "DeathsNewAvg": 7,
-    "CasesTotal": 450858,
+    "CasesTotal": 450854,
     "CasesNew": 354,
     "CasesNewAvg": 435
   },
@@ -4387,7 +4387,7 @@
     "DeathsTotal": 6028,
     "DeathsNew": 6,
     "DeathsNewAvg": 6,
-    "CasesTotal": 451318,
+    "CasesTotal": 451314,
     "CasesNew": 460,
     "CasesNewAvg": 419
   },
@@ -4396,7 +4396,7 @@
     "DeathsTotal": 6033,
     "DeathsNew": 5,
     "DeathsNewAvg": 6,
-    "CasesTotal": 451786,
+    "CasesTotal": 451782,
     "CasesNew": 468,
     "CasesNewAvg": 416
   },
@@ -4405,7 +4405,7 @@
     "DeathsTotal": 6043,
     "DeathsNew": 10,
     "DeathsNewAvg": 7,
-    "CasesTotal": 452170,
+    "CasesTotal": 452166,
     "CasesNew": 384,
     "CasesNewAvg": 412
   },
@@ -4414,7 +4414,7 @@
     "DeathsTotal": 6054,
     "DeathsNew": 11,
     "DeathsNewAvg": 7,
-    "CasesTotal": 452530,
+    "CasesTotal": 452526,
     "CasesNew": 360,
     "CasesNewAvg": 410
   },
@@ -4423,7 +4423,7 @@
     "DeathsTotal": 6058,
     "DeathsNew": 4,
     "DeathsNewAvg": 7,
-    "CasesTotal": 452857,
+    "CasesTotal": 452853,
     "CasesNew": 327,
     "CasesNewAvg": 415
   },
@@ -4432,7 +4432,7 @@
     "DeathsTotal": 6066,
     "DeathsNew": 8,
     "DeathsNewAvg": 7,
-    "CasesTotal": 452991,
+    "CasesTotal": 452987,
     "CasesNew": 134,
     "CasesNewAvg": 400
   },
@@ -4441,7 +4441,7 @@
     "DeathsTotal": 6070,
     "DeathsNew": 4,
     "DeathsNewAvg": 7,
-    "CasesTotal": 453362,
+    "CasesTotal": 453358,
     "CasesNew": 371,
     "CasesNewAvg": 370
   },
@@ -4450,7 +4450,7 @@
     "DeathsTotal": 6075,
     "DeathsNew": 5,
     "DeathsNewAvg": 7,
-    "CasesTotal": 453889,
+    "CasesTotal": 453885,
     "CasesNew": 527,
     "CasesNewAvg": 366
   },
@@ -4459,7 +4459,7 @@
     "DeathsTotal": 6080,
     "DeathsNew": 5,
     "DeathsNewAvg": 7,
-    "CasesTotal": 454409,
+    "CasesTotal": 454405,
     "CasesNew": 520,
     "CasesNewAvg": 370
   },
@@ -4468,7 +4468,7 @@
     "DeathsTotal": 6088,
     "DeathsNew": 8,
     "DeathsNewAvg": 7,
-    "CasesTotal": 455135,
+    "CasesTotal": 455131,
     "CasesNew": 726,
     "CasesNewAvg": 389
   },
@@ -4477,7 +4477,7 @@
     "DeathsTotal": 6091,
     "DeathsNew": 3,
     "DeathsNewAvg": 6,
-    "CasesTotal": 455602,
+    "CasesTotal": 455598,
     "CasesNew": 467,
     "CasesNewAvg": 399
   },
@@ -4486,7 +4486,7 @@
     "DeathsTotal": 6094,
     "DeathsNew": 3,
     "DeathsNewAvg": 6,
-    "CasesTotal": 456065,
+    "CasesTotal": 456061,
     "CasesNew": 463,
     "CasesNewAvg": 416
   },
@@ -4495,7 +4495,7 @@
     "DeathsTotal": 6098,
     "DeathsNew": 4,
     "DeathsNewAvg": 6,
-    "CasesTotal": 457389,
+    "CasesTotal": 457385,
     "CasesNew": 1324,
     "CasesNewAvg": 492
   },
@@ -4504,7 +4504,7 @@
     "DeathsTotal": 6099,
     "DeathsNew": 1,
     "DeathsNewAvg": 6,
-    "CasesTotal": 458091,
+    "CasesTotal": 458087,
     "CasesNew": 702,
     "CasesNewAvg": 517
   },
@@ -4513,7 +4513,7 @@
     "DeathsTotal": 6105,
     "DeathsNew": 6,
     "DeathsNewAvg": 6,
-    "CasesTotal": 458882,
+    "CasesTotal": 458878,
     "CasesNew": 791,
     "CasesNewAvg": 540
   },
@@ -4522,7 +4522,7 @@
     "DeathsTotal": 6110,
     "DeathsNew": 5,
     "DeathsNewAvg": 6,
-    "CasesTotal": 459629,
+    "CasesTotal": 459625,
     "CasesNew": 747,
     "CasesNewAvg": 560
   },
@@ -4531,7 +4531,7 @@
     "DeathsTotal": 6114,
     "DeathsNew": 4,
     "DeathsNewAvg": 5,
-    "CasesTotal": 460249,
+    "CasesTotal": 460245,
     "CasesNew": 620,
     "CasesNewAvg": 577
   },
@@ -4540,7 +4540,7 @@
     "DeathsTotal": 6119,
     "DeathsNew": 5,
     "DeathsNewAvg": 5,
-    "CasesTotal": 460958,
+    "CasesTotal": 460954,
     "CasesNew": 709,
     "CasesNewAvg": 602
   },
@@ -4549,7 +4549,7 @@
     "DeathsTotal": 6124,
     "DeathsNew": 5,
     "DeathsNewAvg": 5,
-    "CasesTotal": 461487,
+    "CasesTotal": 461483,
     "CasesNew": 529,
     "CasesNewAvg": 616
   },
@@ -4558,7 +4558,7 @@
     "DeathsTotal": 6129,
     "DeathsNew": 5,
     "DeathsNewAvg": 5,
-    "CasesTotal": 462210,
+    "CasesTotal": 462206,
     "CasesNew": 723,
     "CasesNewAvg": 659
   },
@@ -4567,7 +4567,7 @@
     "DeathsTotal": 6135,
     "DeathsNew": 6,
     "DeathsNewAvg": 5,
-    "CasesTotal": 463040,
+    "CasesTotal": 463036,
     "CasesNew": 830,
     "CasesNewAvg": 691
   },
@@ -4576,7 +4576,7 @@
     "DeathsTotal": 6139,
     "DeathsNew": 4,
     "DeathsNewAvg": 5,
-    "CasesTotal": 464362,
+    "CasesTotal": 464358,
     "CasesNew": 1322,
     "CasesNewAvg": 748
   },
@@ -4585,7 +4585,7 @@
     "DeathsTotal": 6145,
     "DeathsNew": 6,
     "DeathsNewAvg": 5,
-    "CasesTotal": 465648,
+    "CasesTotal": 465644,
     "CasesNew": 1286,
     "CasesNewAvg": 803
   },
@@ -4594,7 +4594,7 @@
     "DeathsTotal": 6153,
     "DeathsNew": 8,
     "DeathsNewAvg": 5,
-    "CasesTotal": 467003,
+    "CasesTotal": 466999,
     "CasesNew": 1355,
     "CasesNewAvg": 848
   },
@@ -4603,7 +4603,7 @@
     "DeathsTotal": 6157,
     "DeathsNew": 4,
     "DeathsNewAvg": 5,
-    "CasesTotal": 468017,
+    "CasesTotal": 468013,
     "CasesNew": 1014,
     "CasesNewAvg": 887
   },
@@ -4612,7 +4612,7 @@
     "DeathsTotal": 6163,
     "DeathsNew": 6,
     "DeathsNewAvg": 5,
-    "CasesTotal": 468879,
+    "CasesTotal": 468875,
     "CasesNew": 862,
     "CasesNewAvg": 915
   },
@@ -4621,7 +4621,7 @@
     "DeathsTotal": 6165,
     "DeathsNew": 2,
     "DeathsNewAvg": 5,
-    "CasesTotal": 469853,
+    "CasesTotal": 469849,
     "CasesNew": 974,
     "CasesNewAvg": 890
   },
@@ -4630,7 +4630,7 @@
     "DeathsTotal": 6172,
     "DeathsNew": 7,
     "DeathsNewAvg": 5,
-    "CasesTotal": 470918,
+    "CasesTotal": 470914,
     "CasesNew": 1065,
     "CasesNewAvg": 916
   },
@@ -4639,7 +4639,7 @@
     "DeathsTotal": 6179,
     "DeathsNew": 7,
     "DeathsNewAvg": 5,
-    "CasesTotal": 471880,
+    "CasesTotal": 471876,
     "CasesNew": 962,
     "CasesNewAvg": 928
   },
@@ -4648,7 +4648,7 @@
     "DeathsTotal": 6188,
     "DeathsNew": 9,
     "DeathsNewAvg": 6,
-    "CasesTotal": 472581,
+    "CasesTotal": 472577,
     "CasesNew": 701,
     "CasesNewAvg": 925
   },
@@ -4657,7 +4657,7 @@
     "DeathsTotal": 6198,
     "DeathsNew": 10,
     "DeathsNewAvg": 6,
-    "CasesTotal": 473697,
+    "CasesTotal": 473693,
     "CasesNew": 1116,
     "CasesNewAvg": 961
   },
@@ -4666,7 +4666,7 @@
     "DeathsTotal": 6206,
     "DeathsNew": 8,
     "DeathsNewAvg": 6,
-    "CasesTotal": 474352,
+    "CasesTotal": 474348,
     "CasesNew": 655,
     "CasesNewAvg": 957
   },
@@ -4675,7 +4675,7 @@
     "DeathsTotal": 6214,
     "DeathsNew": 8,
     "DeathsNewAvg": 6,
-    "CasesTotal": 475372,
+    "CasesTotal": 475368,
     "CasesNew": 1020,
     "CasesNewAvg": 992
   },
@@ -4684,7 +4684,7 @@
     "DeathsTotal": 6227,
     "DeathsNew": 13,
     "DeathsNewAvg": 7,
-    "CasesTotal": 477491,
+    "CasesTotal": 477487,
     "CasesNew": 2119,
     "CasesNewAvg": 1092
   },
@@ -4693,7 +4693,7 @@
     "DeathsTotal": 6240,
     "DeathsNew": 13,
     "DeathsNewAvg": 8,
-    "CasesTotal": 482886,
+    "CasesTotal": 482882,
     "CasesNew": 5395,
     "CasesNewAvg": 1418
   },
@@ -4702,7 +4702,7 @@
     "DeathsTotal": 6252,
     "DeathsNew": 12,
     "DeathsNewAvg": 8,
-    "CasesTotal": 485361,
+    "CasesTotal": 485357,
     "CasesNew": 2475,
     "CasesNewAvg": 1500
   },
@@ -4711,7 +4711,7 @@
     "DeathsTotal": 6261,
     "DeathsNew": 9,
     "DeathsNewAvg": 8,
-    "CasesTotal": 488035,
+    "CasesTotal": 488031,
     "CasesNew": 2674,
     "CasesNewAvg": 1599
   },
@@ -4720,7 +4720,7 @@
     "DeathsTotal": 6276,
     "DeathsNew": 15,
     "DeathsNewAvg": 9,
-    "CasesTotal": 490382,
+    "CasesTotal": 490378,
     "CasesNew": 2347,
     "CasesNewAvg": 1670
   },
@@ -4729,7 +4729,7 @@
     "DeathsTotal": 6284,
     "DeathsNew": 8,
     "DeathsNewAvg": 9,
-    "CasesTotal": 492541,
+    "CasesTotal": 492537,
     "CasesNew": 2159,
     "CasesNewAvg": 1752
   },
@@ -4738,7 +4738,7 @@
     "DeathsTotal": 6294,
     "DeathsNew": 10,
     "DeathsNewAvg": 9,
-    "CasesTotal": 494515,
+    "CasesTotal": 494511,
     "CasesNew": 1974,
     "CasesNewAvg": 1831
   },
@@ -4747,7 +4747,7 @@
     "DeathsTotal": 6312,
     "DeathsNew": 18,
     "DeathsNewAvg": 11,
-    "CasesTotal": 496077,
+    "CasesTotal": 496073,
     "CasesNew": 1562,
     "CasesNewAvg": 1873
   },
@@ -4756,7 +4756,7 @@
     "DeathsTotal": 6322,
     "DeathsNew": 10,
     "DeathsNewAvg": 11,
-    "CasesTotal": 498997,
+    "CasesTotal": 498993,
     "CasesNew": 2920,
     "CasesNewAvg": 2006
   },
@@ -4765,7 +4765,7 @@
     "DeathsTotal": 6342,
     "DeathsNew": 20,
     "DeathsNewAvg": 12,
-    "CasesTotal": 502933,
+    "CasesTotal": 502929,
     "CasesNew": 3936,
     "CasesNewAvg": 2218
   },
@@ -4774,7 +4774,7 @@
     "DeathsTotal": 6360,
     "DeathsNew": 18,
     "DeathsNewAvg": 12,
-    "CasesTotal": 506469,
+    "CasesTotal": 506465,
     "CasesNew": 3536,
     "CasesNewAvg": 2421
   },
@@ -4783,7 +4783,7 @@
     "DeathsTotal": 6375,
     "DeathsNew": 15,
     "DeathsNewAvg": 13,
-    "CasesTotal": 509690,
+    "CasesTotal": 509686,
     "CasesNew": 3221,
     "CasesNewAvg": 2571
   },
@@ -4792,7 +4792,7 @@
     "DeathsTotal": 6396,
     "DeathsNew": 21,
     "DeathsNewAvg": 14,
-    "CasesTotal": 512356,
+    "CasesTotal": 512352,
     "CasesNew": 2666,
     "CasesNewAvg": 2715
   },
@@ -4801,7 +4801,7 @@
     "DeathsTotal": 6422,
     "DeathsNew": 26,
     "DeathsNewAvg": 15,
-    "CasesTotal": 514442,
+    "CasesTotal": 514438,
     "CasesNew": 2086,
     "CasesNewAvg": 2791
   },
@@ -4810,7 +4810,7 @@
     "DeathsTotal": 6448,
     "DeathsNew": 26,
     "DeathsNewAvg": 16,
-    "CasesTotal": 516614,
+    "CasesTotal": 516610,
     "CasesNew": 2172,
     "CasesNewAvg": 2795
   },
@@ -4819,7 +4819,7 @@
     "DeathsTotal": 6473,
     "DeathsNew": 25,
     "DeathsNewAvg": 17,
-    "CasesTotal": 519326,
+    "CasesTotal": 519322,
     "CasesNew": 2712,
     "CasesNewAvg": 2603
   },
@@ -4828,7 +4828,7 @@
     "DeathsTotal": 6495,
     "DeathsNew": 22,
     "DeathsNewAvg": 17,
-    "CasesTotal": 523632,
+    "CasesTotal": 523628,
     "CasesNew": 4306,
     "CasesNewAvg": 2734
   },
@@ -4837,7 +4837,7 @@
     "DeathsTotal": 6519,
     "DeathsNew": 24,
     "DeathsNewAvg": 18,
-    "CasesTotal": 527456,
+    "CasesTotal": 527452,
     "CasesNew": 3824,
     "CasesNewAvg": 2816
   },
@@ -4846,7 +4846,7 @@
     "DeathsTotal": 6546,
     "DeathsNew": 27,
     "DeathsNewAvg": 19,
-    "CasesTotal": 531027,
+    "CasesTotal": 531023,
     "CasesNew": 3571,
     "CasesNewAvg": 2903
   },
@@ -4855,8 +4855,8 @@
     "DeathsTotal": 6569,
     "DeathsNew": 23,
     "DeathsNewAvg": 20,
-    "CasesTotal": 533891,
-    "CasesNew": 2864,
+    "CasesTotal": 533886,
+    "CasesNew": 2863,
     "CasesNewAvg": 2954
   },
   {
@@ -4864,7 +4864,7 @@
     "DeathsTotal": 6602,
     "DeathsNew": 33,
     "DeathsNewAvg": 22,
-    "CasesTotal": 536274,
+    "CasesTotal": 536269,
     "CasesNew": 2383,
     "CasesNewAvg": 2983
   },
@@ -4873,7 +4873,7 @@
     "DeathsTotal": 6628,
     "DeathsNew": 26,
     "DeathsNewAvg": 23,
-    "CasesTotal": 539048,
+    "CasesTotal": 539043,
     "CasesNew": 2774,
     "CasesNewAvg": 3069
   },
@@ -4882,7 +4882,7 @@
     "DeathsTotal": 6656,
     "DeathsNew": 28,
     "DeathsNewAvg": 24,
-    "CasesTotal": 542055,
+    "CasesTotal": 542050,
     "CasesNew": 3007,
     "CasesNewAvg": 3076
   },
@@ -4891,7 +4891,7 @@
     "DeathsTotal": 6680,
     "DeathsNew": 24,
     "DeathsNewAvg": 24,
-    "CasesTotal": 545873,
+    "CasesTotal": 545868,
     "CasesNew": 3818,
     "CasesNewAvg": 3067
   },
@@ -4900,7 +4900,7 @@
     "DeathsTotal": 6707,
     "DeathsNew": 27,
     "DeathsNewAvg": 25,
-    "CasesTotal": 550090,
+    "CasesTotal": 550085,
     "CasesNew": 4217,
     "CasesNewAvg": 3116
   },
@@ -4909,7 +4909,7 @@
     "DeathsTotal": 6738,
     "DeathsNew": 31,
     "DeathsNewAvg": 26,
-    "CasesTotal": 553648,
+    "CasesTotal": 553643,
     "CasesNew": 3558,
     "CasesNewAvg": 3140
   },
@@ -4918,7 +4918,7 @@
     "DeathsTotal": 6775,
     "DeathsNew": 37,
     "DeathsNewAvg": 27,
-    "CasesTotal": 556639,
+    "CasesTotal": 556634,
     "CasesNew": 2991,
     "CasesNewAvg": 3163
   },
@@ -4927,7 +4927,7 @@
     "DeathsTotal": 6814,
     "DeathsNew": 39,
     "DeathsNewAvg": 28,
-    "CasesTotal": 559065,
+    "CasesTotal": 559060,
     "CasesNew": 2426,
     "CasesNewAvg": 3187
   },
@@ -4936,7 +4936,7 @@
     "DeathsTotal": 6853,
     "DeathsNew": 39,
     "DeathsNewAvg": 29,
-    "CasesTotal": 562385,
+    "CasesTotal": 562380,
     "CasesNew": 3320,
     "CasesNewAvg": 3269
   },
@@ -4945,7 +4945,7 @@
     "DeathsTotal": 6891,
     "DeathsNew": 38,
     "DeathsNewAvg": 30,
-    "CasesTotal": 566129,
+    "CasesTotal": 566124,
     "CasesNew": 3744,
     "CasesNewAvg": 3343
   },
@@ -4954,7 +4954,7 @@
     "DeathsTotal": 6923,
     "DeathsNew": 32,
     "DeathsNewAvg": 31,
-    "CasesTotal": 570339,
+    "CasesTotal": 570334,
     "CasesNew": 4210,
     "CasesNewAvg": 3336
   },
@@ -4963,7 +4963,7 @@
     "DeathsTotal": 6962,
     "DeathsNew": 39,
     "DeathsNewAvg": 32,
-    "CasesTotal": 574677,
+    "CasesTotal": 574672,
     "CasesNew": 4338,
     "CasesNewAvg": 3373
   },
@@ -4972,7 +4972,7 @@
     "DeathsTotal": 7004,
     "DeathsNew": 42,
     "DeathsNewAvg": 33,
-    "CasesTotal": 578652,
+    "CasesTotal": 578647,
     "CasesNew": 3975,
     "CasesNewAvg": 3402
   },
@@ -4981,7 +4981,7 @@
     "DeathsTotal": 7045,
     "DeathsNew": 41,
     "DeathsNewAvg": 34,
-    "CasesTotal": 581614,
+    "CasesTotal": 581609,
     "CasesNew": 2962,
     "CasesNewAvg": 3409
   },
@@ -4990,7 +4990,7 @@
     "DeathsTotal": 7082,
     "DeathsNew": 37,
     "DeathsNewAvg": 34,
-    "CasesTotal": 584176,
+    "CasesTotal": 584171,
     "CasesNew": 2562,
     "CasesNewAvg": 3422
   },
@@ -4999,7 +4999,7 @@
     "DeathsTotal": 7133,
     "DeathsNew": 51,
     "DeathsNewAvg": 36,
-    "CasesTotal": 586317,
+    "CasesTotal": 586312,
     "CasesNew": 2141,
     "CasesNewAvg": 3376
   },
@@ -5008,7 +5008,7 @@
     "DeathsTotal": 7174,
     "DeathsNew": 41,
     "DeathsNewAvg": 37,
-    "CasesTotal": 589247,
+    "CasesTotal": 589242,
     "CasesNew": 2930,
     "CasesNewAvg": 3371
   },
@@ -5017,7 +5017,7 @@
     "DeathsTotal": 7218,
     "DeathsNew": 44,
     "DeathsNewAvg": 38,
-    "CasesTotal": 593114,
+    "CasesTotal": 593109,
     "CasesNew": 3867,
     "CasesNewAvg": 3374
   },
@@ -5026,7 +5026,7 @@
     "DeathsTotal": 7249,
     "DeathsNew": 31,
     "DeathsNewAvg": 39,
-    "CasesTotal": 597462,
+    "CasesTotal": 597457,
     "CasesNew": 4348,
     "CasesNewAvg": 3384
   },
@@ -5035,7 +5035,7 @@
     "DeathsTotal": 7281,
     "DeathsNew": 32,
     "DeathsNewAvg": 39,
-    "CasesTotal": 601246,
+    "CasesTotal": 601241,
     "CasesNew": 3784,
     "CasesNewAvg": 3400
   },
@@ -5044,7 +5044,7 @@
     "DeathsTotal": 7318,
     "DeathsNew": 37,
     "DeathsNewAvg": 39,
-    "CasesTotal": 604166,
+    "CasesTotal": 604161,
     "CasesNew": 2920,
     "CasesNewAvg": 3395
   },
@@ -5053,7 +5053,7 @@
     "DeathsTotal": 7359,
     "DeathsNew": 41,
     "DeathsNewAvg": 39,
-    "CasesTotal": 606959,
+    "CasesTotal": 606954,
     "CasesNew": 2793,
     "CasesNewAvg": 3421
   },
@@ -5062,7 +5062,7 @@
     "DeathsTotal": 7396,
     "DeathsNew": 37,
     "DeathsNewAvg": 39,
-    "CasesTotal": 609805,
+    "CasesTotal": 609800,
     "CasesNew": 2846,
     "CasesNewAvg": 3387
   },
@@ -5071,7 +5071,7 @@
     "DeathsTotal": 7443,
     "DeathsNew": 47,
     "DeathsNewAvg": 39,
-    "CasesTotal": 613543,
+    "CasesTotal": 613538,
     "CasesNew": 3738,
     "CasesNewAvg": 3387
   },
@@ -5080,7 +5080,7 @@
     "DeathsTotal": 7493,
     "DeathsNew": 50,
     "DeathsNewAvg": 41,
-    "CasesTotal": 616729,
+    "CasesTotal": 616724,
     "CasesNew": 3186,
     "CasesNewAvg": 3314
   },
@@ -5089,7 +5089,7 @@
     "DeathsTotal": 7539,
     "DeathsNew": 46,
     "DeathsNewAvg": 41,
-    "CasesTotal": 620782,
+    "CasesTotal": 620777,
     "CasesNew": 4053,
     "CasesNewAvg": 3293
   },
@@ -5098,8 +5098,8 @@
     "DeathsTotal": 7582,
     "DeathsNew": 43,
     "DeathsNewAvg": 41,
-    "CasesTotal": 624344,
-    "CasesNew": 3562,
+    "CasesTotal": 624338,
+    "CasesNew": 3561,
     "CasesNewAvg": 3264
   },
   {
@@ -5107,7 +5107,7 @@
     "DeathsTotal": 7635,
     "DeathsNew": 53,
     "DeathsNewAvg": 42,
-    "CasesTotal": 626735,
+    "CasesTotal": 626729,
     "CasesNew": 2391,
     "CasesNewAvg": 3223
   },
@@ -5116,7 +5116,7 @@
     "DeathsTotal": 7675,
     "DeathsNew": 40,
     "DeathsNewAvg": 42,
-    "CasesTotal": 628712,
+    "CasesTotal": 628706,
     "CasesNew": 1977,
     "CasesNewAvg": 3181
   },
@@ -5125,7 +5125,7 @@
     "DeathsTotal": 7717,
     "DeathsNew": 42,
     "DeathsNewAvg": 42,
-    "CasesTotal": 631244,
+    "CasesTotal": 631238,
     "CasesNew": 2532,
     "CasesNewAvg": 3209
   },
@@ -5134,7 +5134,7 @@
     "DeathsTotal": 7754,
     "DeathsNew": 37,
     "DeathsNewAvg": 41,
-    "CasesTotal": 633575,
+    "CasesTotal": 633569,
     "CasesNew": 2331,
     "CasesNewAvg": 3166
   },
@@ -5143,7 +5143,7 @@
     "DeathsTotal": 7793,
     "DeathsNew": 39,
     "DeathsNewAvg": 41,
-    "CasesTotal": 637744,
+    "CasesTotal": 637738,
     "CasesNew": 4169,
     "CasesNewAvg": 3188
   },
@@ -5152,7 +5152,7 @@
     "DeathsTotal": 7837,
     "DeathsNew": 44,
     "DeathsNewAvg": 42,
-    "CasesTotal": 640853,
+    "CasesTotal": 640847,
     "CasesNew": 3109,
     "CasesNewAvg": 3099
   },
@@ -5161,7 +5161,7 @@
     "DeathsTotal": 7881,
     "DeathsNew": 44,
     "DeathsNewAvg": 43,
-    "CasesTotal": 644214,
+    "CasesTotal": 644208,
     "CasesNew": 3361,
     "CasesNewAvg": 3069
   },
@@ -5170,7 +5170,7 @@
     "DeathsTotal": 7923,
     "DeathsNew": 42,
     "DeathsNewAvg": 43,
-    "CasesTotal": 647317,
+    "CasesTotal": 647311,
     "CasesNew": 3103,
     "CasesNewAvg": 3082
   },
@@ -5179,7 +5179,7 @@
     "DeathsTotal": 7971,
     "DeathsNew": 48,
     "DeathsNewAvg": 44,
-    "CasesTotal": 649755,
+    "CasesTotal": 649749,
     "CasesNew": 2438,
     "CasesNewAvg": 3057
   },
@@ -5188,8 +5188,8 @@
     "DeathsTotal": 7998,
     "DeathsNew": 27,
     "DeathsNewAvg": 43,
-    "CasesTotal": 652479,
-    "CasesNew": 2724,
+    "CasesTotal": 652472,
+    "CasesNew": 2723,
     "CasesNewAvg": 3048
   },
   {
@@ -5197,25 +5197,25 @@
     "DeathsTotal": 8036,
     "DeathsNew": 38,
     "DeathsNewAvg": 42,
-    "CasesTotal": 655228,
+    "CasesTotal": 655221,
     "CasesNew": 2749,
-    "CasesNewAvg": 2978
+    "CasesNewAvg": 2977
   },
   {
     "Date": "9/29/2021",
     "DeathsTotal": 8069,
     "DeathsNew": 33,
     "DeathsNewAvg": 41,
-    "CasesTotal": 658162,
+    "CasesTotal": 658155,
     "CasesNew": 2934,
-    "CasesNewAvg": 2960
+    "CasesNewAvg": 2959
   },
   {
     "Date": "9/30/2021",
     "DeathsTotal": 8099,
     "DeathsNew": 30,
     "DeathsNewAvg": 40,
-    "CasesTotal": 661463,
+    "CasesTotal": 661456,
     "CasesNew": 3301,
     "CasesNewAvg": 2906
   },
@@ -5224,7 +5224,7 @@
     "DeathsTotal": 8145,
     "DeathsNew": 46,
     "DeathsNewAvg": 40,
-    "CasesTotal": 664588,
+    "CasesTotal": 664581,
     "CasesNew": 3125,
     "CasesNewAvg": 2875
   },
@@ -5233,16 +5233,16 @@
     "DeathsTotal": 8173,
     "DeathsNew": 28,
     "DeathsNewAvg": 38,
-    "CasesTotal": 666572,
+    "CasesTotal": 666565,
     "CasesNew": 1984,
-    "CasesNewAvg": 2846
+    "CasesNewAvg": 2845
   },
   {
     "Date": "10/3/2021",
     "DeathsTotal": 8200,
     "DeathsNew": 27,
     "DeathsNewAvg": 38,
-    "CasesTotal": 668457,
+    "CasesTotal": 668450,
     "CasesNew": 1885,
     "CasesNewAvg": 2839
   },
@@ -5251,7 +5251,7 @@
     "DeathsTotal": 8226,
     "DeathsNew": 26,
     "DeathsNewAvg": 36,
-    "CasesTotal": 670851,
+    "CasesTotal": 670844,
     "CasesNew": 2394,
     "CasesNewAvg": 2829
   },
@@ -5260,727 +5260,727 @@
     "DeathsTotal": 8249,
     "DeathsNew": 23,
     "DeathsNewAvg": 35,
-    "CasesTotal": 673444,
+    "CasesTotal": 673437,
     "CasesNew": 2593,
     "CasesNewAvg": 2848
   },
   {
     "Date": "10/6/2021",
-    "DeathsTotal": 8277,
-    "DeathsNew": 28,
+    "DeathsTotal": 8278,
+    "DeathsNew": 29,
     "DeathsNewAvg": 35,
-    "CasesTotal": 676388,
+    "CasesTotal": 676381,
     "CasesNew": 2944,
     "CasesNewAvg": 2760
   },
   {
     "Date": "10/7/2021",
-    "DeathsTotal": 8315,
+    "DeathsTotal": 8316,
     "DeathsNew": 38,
     "DeathsNewAvg": 34,
-    "CasesTotal": 678706,
+    "CasesTotal": 678699,
     "CasesNew": 2318,
     "CasesNewAvg": 2704
   },
   {
     "Date": "10/8/2021",
-    "DeathsTotal": 8355,
+    "DeathsTotal": 8356,
     "DeathsNew": 40,
     "DeathsNewAvg": 34,
-    "CasesTotal": 681168,
+    "CasesTotal": 681161,
     "CasesNew": 2462,
     "CasesNewAvg": 2640
   },
   {
     "Date": "10/9/2021",
-    "DeathsTotal": 8387,
+    "DeathsTotal": 8388,
     "DeathsNew": 32,
     "DeathsNewAvg": 33,
-    "CasesTotal": 683217,
+    "CasesTotal": 683210,
     "CasesNew": 2049,
     "CasesNewAvg": 2564
   },
   {
     "Date": "10/10/2021",
-    "DeathsTotal": 8415,
+    "DeathsTotal": 8416,
     "DeathsNew": 28,
     "DeathsNewAvg": 32,
-    "CasesTotal": 684829,
+    "CasesTotal": 684822,
     "CasesNew": 1612,
     "CasesNewAvg": 2505
   },
   {
     "Date": "10/11/2021",
-    "DeathsTotal": 8447,
+    "DeathsTotal": 8448,
     "DeathsNew": 32,
     "DeathsNewAvg": 32,
-    "CasesTotal": 686618,
+    "CasesTotal": 686611,
     "CasesNew": 1789,
     "CasesNewAvg": 2439
   },
   {
     "Date": "10/12/2021",
-    "DeathsTotal": 8477,
+    "DeathsTotal": 8478,
     "DeathsNew": 30,
     "DeathsNewAvg": 32,
-    "CasesTotal": 689289,
+    "CasesTotal": 689282,
     "CasesNew": 2671,
     "CasesNewAvg": 2433
   },
   {
     "Date": "10/13/2021",
-    "DeathsTotal": 8513,
+    "DeathsTotal": 8514,
     "DeathsNew": 36,
     "DeathsNewAvg": 32,
-    "CasesTotal": 692133,
+    "CasesTotal": 692126,
     "CasesNew": 2844,
     "CasesNewAvg": 2427
   },
   {
     "Date": "10/14/2021",
-    "DeathsTotal": 8541,
+    "DeathsTotal": 8542,
     "DeathsNew": 28,
     "DeathsNewAvg": 32,
-    "CasesTotal": 694735,
+    "CasesTotal": 694728,
     "CasesNew": 2602,
     "CasesNewAvg": 2377
   },
   {
     "Date": "10/15/2021",
-    "DeathsTotal": 8577,
+    "DeathsTotal": 8578,
     "DeathsNew": 36,
     "DeathsNewAvg": 31,
-    "CasesTotal": 697215,
+    "CasesTotal": 697208,
     "CasesNew": 2480,
     "CasesNewAvg": 2331
   },
   {
     "Date": "10/16/2021",
-    "DeathsTotal": 8602,
+    "DeathsTotal": 8603,
     "DeathsNew": 25,
     "DeathsNewAvg": 31,
-    "CasesTotal": 699104,
+    "CasesTotal": 699097,
     "CasesNew": 1889,
     "CasesNewAvg": 2324
   },
   {
     "Date": "10/17/2021",
-    "DeathsTotal": 8631,
+    "DeathsTotal": 8632,
     "DeathsNew": 29,
     "DeathsNewAvg": 31,
-    "CasesTotal": 700461,
+    "CasesTotal": 700454,
     "CasesNew": 1357,
     "CasesNewAvg": 2286
   },
   {
     "Date": "10/18/2021",
-    "DeathsTotal": 8650,
+    "DeathsTotal": 8651,
     "DeathsNew": 19,
     "DeathsNewAvg": 30,
-    "CasesTotal": 702065,
+    "CasesTotal": 702058,
     "CasesNew": 1604,
     "CasesNewAvg": 2230
   },
   {
     "Date": "10/19/2021",
-    "DeathsTotal": 8679,
+    "DeathsTotal": 8680,
     "DeathsNew": 29,
     "DeathsNewAvg": 31,
-    "CasesTotal": 704503,
+    "CasesTotal": 704496,
     "CasesNew": 2438,
     "CasesNewAvg": 2219
   },
   {
     "Date": "10/20/2021",
-    "DeathsTotal": 8700,
+    "DeathsTotal": 8701,
     "DeathsNew": 21,
     "DeathsNewAvg": 30,
-    "CasesTotal": 707633,
+    "CasesTotal": 707626,
     "CasesNew": 3130,
     "CasesNewAvg": 2232
   },
   {
     "Date": "10/21/2021",
-    "DeathsTotal": 8721,
+    "DeathsTotal": 8722,
     "DeathsNew": 21,
     "DeathsNewAvg": 29,
-    "CasesTotal": 710111,
-    "CasesNew": 2478,
+    "CasesTotal": 710105,
+    "CasesNew": 2479,
     "CasesNewAvg": 2243
   },
   {
     "Date": "10/22/2021",
-    "DeathsTotal": 8750,
+    "DeathsTotal": 8751,
     "DeathsNew": 29,
     "DeathsNewAvg": 28,
-    "CasesTotal": 712254,
+    "CasesTotal": 712248,
     "CasesNew": 2143,
-    "CasesNewAvg": 2220
+    "CasesNewAvg": 2221
   },
   {
     "Date": "10/23/2021",
-    "DeathsTotal": 8783,
+    "DeathsTotal": 8784,
     "DeathsNew": 33,
     "DeathsNewAvg": 28,
-    "CasesTotal": 714129,
+    "CasesTotal": 714123,
     "CasesNew": 1875,
     "CasesNewAvg": 2208
   },
   {
     "Date": "10/24/2021",
-    "DeathsTotal": 8817,
-    "DeathsNew": 34,
+    "DeathsTotal": 8816,
+    "DeathsNew": 32,
     "DeathsNewAvg": 29,
-    "CasesTotal": 715880,
+    "CasesTotal": 715874,
     "CasesNew": 1751,
     "CasesNewAvg": 2218
   },
   {
     "Date": "10/25/2021",
-    "DeathsTotal": 8843,
+    "DeathsTotal": 8842,
     "DeathsNew": 26,
     "DeathsNewAvg": 28,
-    "CasesTotal": 717512,
+    "CasesTotal": 717506,
     "CasesNew": 1632,
     "CasesNewAvg": 2207
   },
   {
     "Date": "10/26/2021",
-    "DeathsTotal": 8863,
+    "DeathsTotal": 8862,
     "DeathsNew": 20,
-    "DeathsNewAvg": 28,
-    "CasesTotal": 719106,
+    "DeathsNewAvg": 27,
+    "CasesTotal": 719100,
     "CasesNew": 1594,
     "CasesNewAvg": 2130
   },
   {
     "Date": "10/27/2021",
-    "DeathsTotal": 8885,
+    "DeathsTotal": 8884,
     "DeathsNew": 22,
-    "DeathsNewAvg": 27,
-    "CasesTotal": 722459,
+    "DeathsNewAvg": 26,
+    "CasesTotal": 722453,
     "CasesNew": 3353,
     "CasesNewAvg": 2166
   },
   {
     "Date": "10/28/2021",
-    "DeathsTotal": 8909,
+    "DeathsTotal": 8908,
     "DeathsNew": 24,
     "DeathsNewAvg": 26,
-    "CasesTotal": 725022,
+    "CasesTotal": 725016,
     "CasesNew": 2563,
     "CasesNewAvg": 2163
   },
   {
     "Date": "10/29/2021",
-    "DeathsTotal": 8927,
+    "DeathsTotal": 8926,
     "DeathsNew": 18,
     "DeathsNewAvg": 25,
-    "CasesTotal": 726863,
+    "CasesTotal": 726857,
     "CasesNew": 1841,
     "CasesNewAvg": 2118
   },
   {
     "Date": "10/30/2021",
-    "DeathsTotal": 8958,
+    "DeathsTotal": 8957,
     "DeathsNew": 31,
     "DeathsNewAvg": 25,
-    "CasesTotal": 728524,
+    "CasesTotal": 728518,
     "CasesNew": 1661,
-    "CasesNewAvg": 2101
+    "CasesNewAvg": 2102
   },
   {
     "Date": "10/31/2021",
-    "DeathsTotal": 8980,
+    "DeathsTotal": 8979,
     "DeathsNew": 22,
     "DeathsNewAvg": 25,
-    "CasesTotal": 729704,
+    "CasesTotal": 729698,
     "CasesNew": 1180,
     "CasesNewAvg": 2089
   },
   {
     "Date": "11/1/2021",
-    "DeathsTotal": 9009,
+    "DeathsTotal": 9008,
     "DeathsNew": 29,
     "DeathsNewAvg": 26,
-    "CasesTotal": 731554,
+    "CasesTotal": 731548,
     "CasesNew": 1850,
     "CasesNewAvg": 2106
   },
   {
     "Date": "11/2/2021",
-    "DeathsTotal": 9027,
+    "DeathsTotal": 9026,
     "DeathsNew": 18,
     "DeathsNewAvg": 25,
-    "CasesTotal": 733228,
+    "CasesTotal": 733222,
     "CasesNew": 1674,
     "CasesNewAvg": 2052
   },
   {
     "Date": "11/3/2021",
-    "DeathsTotal": 9055,
+    "DeathsTotal": 9054,
     "DeathsNew": 28,
     "DeathsNewAvg": 25,
-    "CasesTotal": 735585,
+    "CasesTotal": 735579,
     "CasesNew": 2357,
     "CasesNewAvg": 1997
   },
   {
     "Date": "11/4/2021",
-    "DeathsTotal": 9076,
+    "DeathsTotal": 9075,
     "DeathsNew": 21,
     "DeathsNewAvg": 25,
-    "CasesTotal": 737416,
+    "CasesTotal": 737410,
     "CasesNew": 1831,
     "CasesNewAvg": 1950
   },
   {
     "Date": "11/5/2021",
-    "DeathsTotal": 9096,
+    "DeathsTotal": 9095,
     "DeathsNew": 20,
     "DeathsNewAvg": 25,
-    "CasesTotal": 739685,
-    "CasesNew": 2269,
+    "CasesTotal": 739678,
+    "CasesNew": 2268,
     "CasesNewAvg": 1959
   },
   {
     "Date": "11/6/2021",
-    "DeathsTotal": 9118,
+    "DeathsTotal": 9117,
     "DeathsNew": 22,
     "DeathsNewAvg": 24,
-    "CasesTotal": 741425,
+    "CasesTotal": 741418,
     "CasesNew": 1740,
     "CasesNewAvg": 1950
   },
   {
     "Date": "11/7/2021",
-    "DeathsTotal": 9150,
+    "DeathsTotal": 9149,
     "DeathsNew": 32,
     "DeathsNewAvg": 24,
-    "CasesTotal": 742643,
+    "CasesTotal": 742636,
     "CasesNew": 1218,
     "CasesNewAvg": 1912
   },
   {
     "Date": "11/8/2021",
-    "DeathsTotal": 9174,
+    "DeathsTotal": 9173,
     "DeathsNew": 24,
     "DeathsNewAvg": 24,
-    "CasesTotal": 744120,
+    "CasesTotal": 744113,
     "CasesNew": 1477,
     "CasesNewAvg": 1901
   },
   {
     "Date": "11/9/2021",
-    "DeathsTotal": 9205,
+    "DeathsTotal": 9204,
     "DeathsNew": 31,
     "DeathsNewAvg": 24,
-    "CasesTotal": 746112,
+    "CasesTotal": 746105,
     "CasesNew": 1992,
     "CasesNewAvg": 1929
   },
   {
     "Date": "11/10/2021",
-    "DeathsTotal": 9227,
+    "DeathsTotal": 9226,
     "DeathsNew": 22,
     "DeathsNewAvg": 24,
-    "CasesTotal": 747987,
+    "CasesTotal": 747980,
     "CasesNew": 1875,
     "CasesNewAvg": 1823
   },
   {
     "Date": "11/11/2021",
-    "DeathsTotal": 9246,
+    "DeathsTotal": 9245,
     "DeathsNew": 19,
     "DeathsNewAvg": 24,
-    "CasesTotal": 750227,
+    "CasesTotal": 750220,
     "CasesNew": 2240,
     "CasesNewAvg": 1800
   },
   {
     "Date": "11/12/2021",
-    "DeathsTotal": 9260,
+    "DeathsTotal": 9259,
     "DeathsNew": 14,
     "DeathsNewAvg": 24,
-    "CasesTotal": 751918,
+    "CasesTotal": 751911,
     "CasesNew": 1691,
     "CasesNewAvg": 1790
   },
   {
     "Date": "11/13/2021",
-    "DeathsTotal": 9277,
+    "DeathsTotal": 9276,
     "DeathsNew": 17,
     "DeathsNewAvg": 23,
-    "CasesTotal": 753264,
+    "CasesTotal": 753257,
     "CasesNew": 1346,
     "CasesNewAvg": 1767
   },
   {
     "Date": "11/14/2021",
-    "DeathsTotal": 9300,
+    "DeathsTotal": 9299,
     "DeathsNew": 23,
     "DeathsNewAvg": 23,
-    "CasesTotal": 754776,
+    "CasesTotal": 754769,
     "CasesNew": 1512,
     "CasesNewAvg": 1791
   },
   {
     "Date": "11/15/2021",
-    "DeathsTotal": 9328,
+    "DeathsTotal": 9327,
     "DeathsNew": 28,
     "DeathsNewAvg": 23,
-    "CasesTotal": 756081,
+    "CasesTotal": 756074,
     "CasesNew": 1305,
     "CasesNewAvg": 1752
   },
   {
     "Date": "11/16/2021",
-    "DeathsTotal": 9349,
+    "DeathsTotal": 9348,
     "DeathsNew": 21,
     "DeathsNewAvg": 23,
-    "CasesTotal": 758254,
+    "CasesTotal": 758247,
     "CasesNew": 2173,
     "CasesNewAvg": 1788
   },
   {
     "Date": "11/17/2021",
-    "DeathsTotal": 9367,
+    "DeathsTotal": 9366,
     "DeathsNew": 18,
     "DeathsNewAvg": 22,
-    "CasesTotal": 760279,
+    "CasesTotal": 760272,
     "CasesNew": 2025,
     "CasesNewAvg": 1764
   },
   {
     "Date": "11/18/2021",
-    "DeathsTotal": 9382,
+    "DeathsTotal": 9381,
     "DeathsNew": 15,
     "DeathsNewAvg": 22,
-    "CasesTotal": 761990,
+    "CasesTotal": 761983,
     "CasesNew": 1711,
     "CasesNewAvg": 1755
   },
   {
     "Date": "11/19/2021",
-    "DeathsTotal": 9401,
+    "DeathsTotal": 9400,
     "DeathsNew": 19,
     "DeathsNewAvg": 22,
-    "CasesTotal": 763520,
+    "CasesTotal": 763513,
     "CasesNew": 1530,
     "CasesNewAvg": 1703
   },
   {
     "Date": "11/20/2021",
-    "DeathsTotal": 9413,
+    "DeathsTotal": 9412,
     "DeathsNew": 12,
     "DeathsNewAvg": 21,
-    "CasesTotal": 764405,
+    "CasesTotal": 764398,
     "CasesNew": 885,
     "CasesNewAvg": 1641
   },
   {
     "Date": "11/21/2021",
-    "DeathsTotal": 9433,
+    "DeathsTotal": 9432,
     "DeathsNew": 20,
     "DeathsNewAvg": 20,
-    "CasesTotal": 765792,
+    "CasesTotal": 765785,
     "CasesNew": 1387,
     "CasesNewAvg": 1654
   },
   {
     "Date": "11/22/2021",
-    "DeathsTotal": 9465,
+    "DeathsTotal": 9464,
     "DeathsNew": 32,
     "DeathsNewAvg": 21,
-    "CasesTotal": 766843,
-    "CasesNew": 1051,
+    "CasesTotal": 766837,
+    "CasesNew": 1052,
     "CasesNewAvg": 1623
   },
   {
     "Date": "11/23/2021",
-    "DeathsTotal": 9484,
+    "DeathsTotal": 9483,
     "DeathsNew": 19,
     "DeathsNewAvg": 20,
-    "CasesTotal": 767962,
+    "CasesTotal": 767956,
     "CasesNew": 1119,
     "CasesNewAvg": 1561
   },
   {
     "Date": "11/24/2021",
-    "DeathsTotal": 9510,
+    "DeathsTotal": 9509,
     "DeathsNew": 26,
     "DeathsNewAvg": 20,
-    "CasesTotal": 769088,
+    "CasesTotal": 769082,
     "CasesNew": 1126,
     "CasesNewAvg": 1507
   },
   {
     "Date": "11/25/2021",
-    "DeathsTotal": 9524,
+    "DeathsTotal": 9523,
     "DeathsNew": 14,
     "DeathsNewAvg": 20,
-    "CasesTotal": 770857,
+    "CasesTotal": 770851,
     "CasesNew": 1769,
     "CasesNewAvg": 1474
   },
   {
     "Date": "11/26/2021",
-    "DeathsTotal": 9553,
+    "DeathsTotal": 9552,
     "DeathsNew": 29,
     "DeathsNewAvg": 21,
-    "CasesTotal": 771415,
+    "CasesTotal": 771409,
     "CasesNew": 558,
     "CasesNewAvg": 1393
   },
   {
     "Date": "11/27/2021",
-    "DeathsTotal": 9564,
+    "DeathsTotal": 9563,
     "DeathsNew": 11,
     "DeathsNewAvg": 21,
-    "CasesTotal": 772092,
+    "CasesTotal": 772086,
     "CasesNew": 677,
     "CasesNewAvg": 1345
   },
   {
     "Date": "11/28/2021",
-    "DeathsTotal": 9582,
+    "DeathsTotal": 9581,
     "DeathsNew": 18,
     "DeathsNewAvg": 20,
-    "CasesTotal": 772865,
+    "CasesTotal": 772859,
     "CasesNew": 773,
     "CasesNewAvg": 1292
   },
   {
     "Date": "11/29/2021",
-    "DeathsTotal": 9597,
+    "DeathsTotal": 9596,
     "DeathsNew": 15,
     "DeathsNewAvg": 19,
-    "CasesTotal": 774245,
+    "CasesTotal": 774239,
     "CasesNew": 1380,
-    "CasesNewAvg": 1297
+    "CasesNewAvg": 1298
   },
   {
     "Date": "11/30/2021",
-    "DeathsTotal": 9616,
+    "DeathsTotal": 9615,
     "DeathsNew": 19,
     "DeathsNewAvg": 19,
-    "CasesTotal": 776487,
+    "CasesTotal": 776481,
     "CasesNew": 2242,
     "CasesNewAvg": 1302
   },
   {
     "Date": "12/1/2021",
-    "DeathsTotal": 9633,
+    "DeathsTotal": 9632,
     "DeathsNew": 17,
     "DeathsNewAvg": 19,
-    "CasesTotal": 778613,
-    "CasesNew": 2126,
+    "CasesTotal": 778606,
+    "CasesNew": 2125,
     "CasesNewAvg": 1310
   },
   {
     "Date": "12/2/2021",
-    "DeathsTotal": 9653,
+    "DeathsTotal": 9652,
     "DeathsNew": 20,
     "DeathsNewAvg": 19,
-    "CasesTotal": 780654,
+    "CasesTotal": 780647,
     "CasesNew": 2041,
     "CasesNewAvg": 1333
   },
   {
     "Date": "12/3/2021",
-    "DeathsTotal": 9662,
+    "DeathsTotal": 9661,
     "DeathsNew": 9,
     "DeathsNewAvg": 19,
-    "CasesTotal": 782470,
+    "CasesTotal": 782463,
     "CasesNew": 1816,
     "CasesNewAvg": 1354
   },
   {
     "Date": "12/4/2021",
-    "DeathsTotal": 9685,
+    "DeathsTotal": 9684,
     "DeathsNew": 23,
     "DeathsNewAvg": 19,
-    "CasesTotal": 783673,
+    "CasesTotal": 783666,
     "CasesNew": 1203,
     "CasesNewAvg": 1376
   },
   {
     "Date": "12/5/2021",
-    "DeathsTotal": 9698,
+    "DeathsTotal": 9697,
     "DeathsNew": 13,
     "DeathsNewAvg": 19,
-    "CasesTotal": 783921,
+    "CasesTotal": 783914,
     "CasesNew": 248,
     "CasesNewAvg": 1295
   },
   {
     "Date": "12/6/2021",
-    "DeathsTotal": 9715,
+    "DeathsTotal": 9714,
     "DeathsNew": 17,
     "DeathsNewAvg": 18,
-    "CasesTotal": 785858,
+    "CasesTotal": 785851,
     "CasesNew": 1937,
     "CasesNewAvg": 1358
   },
   {
     "Date": "12/7/2021",
-    "DeathsTotal": 9742,
+    "DeathsTotal": 9741,
     "DeathsNew": 27,
     "DeathsNewAvg": 18,
-    "CasesTotal": 787092,
+    "CasesTotal": 787085,
     "CasesNew": 1234,
     "CasesNewAvg": 1366
   },
   {
     "Date": "12/8/2021",
-    "DeathsTotal": 9761,
+    "DeathsTotal": 9760,
     "DeathsNew": 19,
     "DeathsNewAvg": 18,
-    "CasesTotal": 788718,
+    "CasesTotal": 788711,
     "CasesNew": 1626,
     "CasesNewAvg": 1402
   },
   {
     "Date": "12/9/2021",
-    "DeathsTotal": 9778,
+    "DeathsTotal": 9777,
     "DeathsNew": 17,
     "DeathsNewAvg": 18,
-    "CasesTotal": 790256,
+    "CasesTotal": 790249,
     "CasesNew": 1538,
     "CasesNewAvg": 1386
   },
   {
     "Date": "12/10/2021",
-    "DeathsTotal": 9797,
+    "DeathsTotal": 9796,
     "DeathsNew": 19,
     "DeathsNewAvg": 17,
-    "CasesTotal": 791681,
+    "CasesTotal": 791674,
     "CasesNew": 1425,
     "CasesNewAvg": 1448
   },
   {
     "Date": "12/11/2021",
-    "DeathsTotal": 9814,
+    "DeathsTotal": 9813,
     "DeathsNew": 17,
     "DeathsNewAvg": 18,
-    "CasesTotal": 792886,
+    "CasesTotal": 792879,
     "CasesNew": 1205,
     "CasesNewAvg": 1485
   },
   {
     "Date": "12/12/2021",
-    "DeathsTotal": 9825,
+    "DeathsTotal": 9824,
     "DeathsNew": 11,
     "DeathsNewAvg": 17,
-    "CasesTotal": 793678,
+    "CasesTotal": 793671,
     "CasesNew": 792,
     "CasesNewAvg": 1487
   },
   {
     "Date": "12/13/2021",
-    "DeathsTotal": 9842,
+    "DeathsTotal": 9841,
     "DeathsNew": 17,
     "DeathsNewAvg": 18,
-    "CasesTotal": 794766,
+    "CasesTotal": 794759,
     "CasesNew": 1088,
     "CasesNewAvg": 1466
   },
   {
     "Date": "12/14/2021",
-    "DeathsTotal": 9860,
+    "DeathsTotal": 9859,
     "DeathsNew": 18,
     "DeathsNewAvg": 17,
-    "CasesTotal": 796249,
+    "CasesTotal": 796242,
     "CasesNew": 1483,
     "CasesNewAvg": 1412
   },
   {
     "Date": "12/15/2021",
-    "DeathsTotal": 9872,
+    "DeathsTotal": 9871,
     "DeathsNew": 12,
     "DeathsNewAvg": 17,
-    "CasesTotal": 798126,
+    "CasesTotal": 798119,
     "CasesNew": 1877,
     "CasesNewAvg": 1394
   },
   {
     "Date": "12/16/2021",
-    "DeathsTotal": 9889,
+    "DeathsTotal": 9888,
     "DeathsNew": 17,
     "DeathsNewAvg": 17,
-    "CasesTotal": 800223,
+    "CasesTotal": 800216,
     "CasesNew": 2097,
     "CasesNewAvg": 1398
   },
   {
     "Date": "12/17/2021",
-    "DeathsTotal": 9912,
+    "DeathsTotal": 9911,
     "DeathsNew": 23,
     "DeathsNewAvg": 18,
-    "CasesTotal": 802485,
+    "CasesTotal": 802478,
     "CasesNew": 2262,
     "CasesNewAvg": 1430
   },
   {
     "Date": "12/18/2021",
-    "DeathsTotal": 9921,
+    "DeathsTotal": 9920,
     "DeathsNew": 9,
     "DeathsNewAvg": 17,
-    "CasesTotal": 804207,
+    "CasesTotal": 804200,
     "CasesNew": 1722,
     "CasesNewAvg": 1467
   },
   {
     "Date": "12/19/2021",
-    "DeathsTotal": 9929,
+    "DeathsTotal": 9928,
     "DeathsNew": 8,
     "DeathsNewAvg": 17,
-    "CasesTotal": 805663,
+    "CasesTotal": 805656,
     "CasesNew": 1456,
     "CasesNewAvg": 1553
   },
   {
     "Date": "12/20/2021",
-    "DeathsTotal": 9939,
+    "DeathsTotal": 9938,
     "DeathsNew": 10,
     "DeathsNewAvg": 16,
-    "CasesTotal": 807384,
+    "CasesTotal": 807377,
     "CasesNew": 1721,
     "CasesNewAvg": 1538
   },
   {
     "Date": "12/21/2021",
-    "DeathsTotal": 9959,
+    "DeathsTotal": 9958,
     "DeathsNew": 20,
     "DeathsNewAvg": 16,
-    "CasesTotal": 809475,
-    "CasesNew": 2091,
+    "CasesTotal": 809467,
+    "CasesNew": 2090,
     "CasesNewAvg": 1599
   },
   {
     "Date": "12/22/2021",
-    "DeathsTotal": 9976,
+    "DeathsTotal": 9975,
     "DeathsNew": 17,
     "DeathsNewAvg": 15,
-    "CasesTotal": 813677,
+    "CasesTotal": 813669,
     "CasesNew": 4202,
     "CasesNewAvg": 1783
   },
   {
     "Date": "12/23/2021",
-    "DeathsTotal": 9988,
+    "DeathsTotal": 9987,
     "DeathsNew": 12,
     "DeathsNewAvg": 15,
-    "CasesTotal": 819024,
+    "CasesTotal": 819016,
     "CasesNew": 5347,
     "CasesNewAvg": 2055
   },
   {
     "Date": "12/24/2021",
     "DeathsTotal": 9996,
-    "DeathsNew": 8,
+    "DeathsNew": 9,
     "DeathsNewAvg": 14,
-    "CasesTotal": 825166,
+    "CasesTotal": 825158,
     "CasesNew": 6142,
     "CasesNewAvg": 2392
   },
@@ -5989,7 +5989,7 @@
     "DeathsTotal": 10013,
     "DeathsNew": 17,
     "DeathsNewAvg": 14,
-    "CasesTotal": 830212,
+    "CasesTotal": 830204,
     "CasesNew": 5046,
     "CasesNewAvg": 2666
   },
@@ -5998,7 +5998,7 @@
     "DeathsTotal": 10034,
     "DeathsNew": 21,
     "DeathsNewAvg": 15,
-    "CasesTotal": 834052,
+    "CasesTotal": 834044,
     "CasesNew": 3840,
     "CasesNewAvg": 2884
   },
@@ -6007,7 +6007,7 @@
     "DeathsTotal": 10047,
     "DeathsNew": 13,
     "DeathsNewAvg": 15,
-    "CasesTotal": 837298,
+    "CasesTotal": 837290,
     "CasesNew": 3246,
     "CasesNewAvg": 3038
   },
@@ -6016,7 +6016,7 @@
     "DeathsTotal": 10066,
     "DeathsNew": 19,
     "DeathsNewAvg": 15,
-    "CasesTotal": 842073,
+    "CasesTotal": 842065,
     "CasesNew": 4775,
     "CasesNewAvg": 3273
   },
@@ -6025,7 +6025,7 @@
     "DeathsTotal": 10087,
     "DeathsNew": 21,
     "DeathsNewAvg": 15,
-    "CasesTotal": 848937,
+    "CasesTotal": 848929,
     "CasesNew": 6864,
     "CasesNewAvg": 3629
   },
@@ -6034,7 +6034,7 @@
     "DeathsTotal": 10106,
     "DeathsNew": 19,
     "DeathsNewAvg": 16,
-    "CasesTotal": 859304,
+    "CasesTotal": 859296,
     "CasesNew": 10367,
     "CasesNewAvg": 4220
   },
@@ -6043,7 +6043,7 @@
     "DeathsTotal": 10132,
     "DeathsNew": 26,
     "DeathsNewAvg": 16,
-    "CasesTotal": 867441,
+    "CasesTotal": 867433,
     "CasesNew": 8137,
     "CasesNewAvg": 4640
   },
@@ -6052,7 +6052,7 @@
     "DeathsTotal": 10154,
     "DeathsNew": 22,
     "DeathsNewAvg": 17,
-    "CasesTotal": 875144,
+    "CasesTotal": 875136,
     "CasesNew": 7703,
     "CasesNewAvg": 5067
   },
@@ -6060,8 +6060,8 @@
     "Date": "1/2/2022",
     "DeathsTotal": 10173,
     "DeathsNew": 19,
-    "DeathsNewAvg": 17,
-    "CasesTotal": 880734,
+    "DeathsNewAvg": 18,
+    "CasesTotal": 880726,
     "CasesNew": 5590,
     "CasesNewAvg": 5362
   },
@@ -6070,8 +6070,8 @@
     "DeathsTotal": 10195,
     "DeathsNew": 22,
     "DeathsNewAvg": 18,
-    "CasesTotal": 887514,
-    "CasesNew": 6780,
+    "CasesTotal": 887507,
+    "CasesNew": 6781,
     "CasesNewAvg": 5724
   },
   {
@@ -6079,7 +6079,7 @@
     "DeathsTotal": 10216,
     "DeathsNew": 21,
     "DeathsNewAvg": 18,
-    "CasesTotal": 898502,
+    "CasesTotal": 898495,
     "CasesNew": 10988,
     "CasesNewAvg": 6359
   },
@@ -6088,818 +6088,926 @@
     "DeathsTotal": 10241,
     "DeathsNew": 25,
     "DeathsNewAvg": 19,
-    "CasesTotal": 913526,
-    "CasesNew": 15024,
-    "CasesNewAvg": 7132
+    "CasesTotal": 913530,
+    "CasesNew": 15035,
+    "CasesNewAvg": 7133
   },
   {
     "Date": "1/6/2022",
     "DeathsTotal": 10279,
     "DeathsNew": 38,
     "DeathsNewAvg": 21,
-    "CasesTotal": 930547,
-    "CasesNew": 17021,
-    "CasesNewAvg": 7966
+    "CasesTotal": 930554,
+    "CasesNew": 17024,
+    "CasesNewAvg": 7967
   },
   {
     "Date": "1/7/2022",
     "DeathsTotal": 10309,
     "DeathsNew": 30,
     "DeathsNewAvg": 22,
-    "CasesTotal": 945361,
-    "CasesNew": 14814,
-    "CasesNewAvg": 8585
+    "CasesTotal": 945374,
+    "CasesNew": 14820,
+    "CasesNewAvg": 8587
   },
   {
     "Date": "1/8/2022",
     "DeathsTotal": 10340,
     "DeathsNew": 31,
     "DeathsNewAvg": 23,
-    "CasesTotal": 963964,
-    "CasesNew": 18603,
-    "CasesNewAvg": 9554
+    "CasesTotal": 963981,
+    "CasesNew": 18607,
+    "CasesNewAvg": 9556
   },
   {
     "Date": "1/9/2022",
-    "DeathsTotal": 10374,
-    "DeathsNew": 34,
+    "DeathsTotal": 10375,
+    "DeathsNew": 35,
     "DeathsNewAvg": 24,
-    "CasesTotal": 977135,
+    "CasesTotal": 977152,
     "CasesNew": 13171,
-    "CasesNewAvg": 10220
+    "CasesNewAvg": 10222
   },
   {
     "Date": "1/10/2022",
-    "DeathsTotal": 10408,
+    "DeathsTotal": 10409,
     "DeathsNew": 34,
     "DeathsNewAvg": 26,
-    "CasesTotal": 991134,
-    "CasesNew": 13999,
-    "CasesNewAvg": 10988
+    "CasesTotal": 991152,
+    "CasesNew": 14000,
+    "CasesNewAvg": 10990
   },
   {
     "Date": "1/11/2022",
-    "DeathsTotal": 10440,
-    "DeathsNew": 32,
+    "DeathsTotal": 10442,
+    "DeathsNew": 33,
     "DeathsNewAvg": 27,
-    "CasesTotal": 1008475,
-    "CasesNew": 17341,
-    "CasesNewAvg": 11886
+    "CasesTotal": 1008498,
+    "CasesNew": 17346,
+    "CasesNewAvg": 11888
   },
   {
     "Date": "1/12/2022",
-    "DeathsTotal": 10487,
-    "DeathsNew": 47,
+    "DeathsTotal": 10490,
+    "DeathsNew": 48,
     "DeathsNewAvg": 29,
-    "CasesTotal": 1024728,
-    "CasesNew": 16253,
-    "CasesNewAvg": 12557
+    "CasesTotal": 1024758,
+    "CasesNew": 16260,
+    "CasesNewAvg": 12559
   },
   {
     "Date": "1/13/2022",
-    "DeathsTotal": 10526,
-    "DeathsNew": 39,
+    "DeathsTotal": 10530,
+    "DeathsNew": 40,
     "DeathsNewAvg": 30,
-    "CasesTotal": 1041080,
-    "CasesNew": 16352,
-    "CasesNewAvg": 12984
+    "CasesTotal": 1041123,
+    "CasesNew": 16365,
+    "CasesNewAvg": 12988
   },
   {
     "Date": "1/14/2022",
-    "DeathsTotal": 10566,
-    "DeathsNew": 40,
+    "DeathsTotal": 10572,
+    "DeathsNew": 42,
     "DeathsNewAvg": 31,
-    "CasesTotal": 1057558,
-    "CasesNew": 16478,
-    "CasesNewAvg": 13580
+    "CasesTotal": 1057607,
+    "CasesNew": 16484,
+    "CasesNewAvg": 13584
   },
   {
     "Date": "1/15/2022",
-    "DeathsTotal": 10616,
+    "DeathsTotal": 10622,
     "DeathsNew": 50,
     "DeathsNewAvg": 33,
-    "CasesTotal": 1074467,
-    "CasesNew": 16909,
-    "CasesNewAvg": 14237
+    "CasesTotal": 1074522,
+    "CasesNew": 16915,
+    "CasesNewAvg": 14242
   },
   {
     "Date": "1/16/2022",
-    "DeathsTotal": 10660,
+    "DeathsTotal": 10666,
     "DeathsNew": 44,
     "DeathsNewAvg": 35,
-    "CasesTotal": 1091075,
-    "CasesNew": 16608,
-    "CasesNewAvg": 15024
+    "CasesTotal": 1091132,
+    "CasesNew": 16610,
+    "CasesNewAvg": 15029
   },
   {
     "Date": "1/17/2022",
-    "DeathsTotal": 10704,
+    "DeathsTotal": 10710,
     "DeathsNew": 44,
-    "DeathsNewAvg": 36,
-    "CasesTotal": 1098482,
-    "CasesNew": 7407,
-    "CasesNewAvg": 15069
+    "DeathsNewAvg": 37,
+    "CasesTotal": 1098541,
+    "CasesNew": 7409,
+    "CasesNewAvg": 15074
   },
   {
     "Date": "1/18/2022",
-    "DeathsTotal": 10750,
+    "DeathsTotal": 10756,
     "DeathsNew": 46,
-    "DeathsNewAvg": 38,
-    "CasesTotal": 1112471,
-    "CasesNew": 13989,
-    "CasesNewAvg": 15284
+    "DeathsNewAvg": 39,
+    "CasesTotal": 1112532,
+    "CasesNew": 13991,
+    "CasesNewAvg": 15288
   },
   {
     "Date": "1/19/2022",
-    "DeathsTotal": 10787,
+    "DeathsTotal": 10793,
     "DeathsNew": 37,
     "DeathsNewAvg": 39,
-    "CasesTotal": 1130919,
-    "CasesNew": 18448,
-    "CasesNewAvg": 15528
+    "CasesTotal": 1130989,
+    "CasesNew": 18457,
+    "CasesNewAvg": 15533
   },
   {
     "Date": "1/20/2022",
-    "DeathsTotal": 10832,
+    "DeathsTotal": 10838,
     "DeathsNew": 45,
     "DeathsNewAvg": 40,
-    "CasesTotal": 1148582,
-    "CasesNew": 17663,
-    "CasesNewAvg": 15574
+    "CasesTotal": 1148656,
+    "CasesNew": 17667,
+    "CasesNewAvg": 15579
   },
   {
     "Date": "1/21/2022",
-    "DeathsTotal": 10865,
+    "DeathsTotal": 10871,
     "DeathsNew": 33,
     "DeathsNewAvg": 40,
-    "CasesTotal": 1166914,
-    "CasesNew": 18332,
-    "CasesNewAvg": 15825
+    "CasesTotal": 1167000,
+    "CasesNew": 18344,
+    "CasesNewAvg": 15830
   },
   {
     "Date": "1/22/2022",
-    "DeathsTotal": 10920,
+    "DeathsTotal": 10926,
     "DeathsNew": 55,
-    "DeathsNewAvg": 41,
-    "CasesTotal": 1184261,
-    "CasesNew": 17347,
-    "CasesNewAvg": 15736
+    "DeathsNewAvg": 42,
+    "CasesTotal": 1184350,
+    "CasesNew": 17350,
+    "CasesNewAvg": 15741
   },
   {
     "Date": "1/23/2022",
-    "DeathsTotal": 10975,
+    "DeathsTotal": 10981,
     "DeathsNew": 55,
     "DeathsNewAvg": 43,
-    "CasesTotal": 1200243,
-    "CasesNew": 15982,
-    "CasesNewAvg": 15936
+    "CasesTotal": 1200333,
+    "CasesNew": 15983,
+    "CasesNewAvg": 15942
   },
   {
     "Date": "1/24/2022",
-    "DeathsTotal": 11019,
+    "DeathsTotal": 11025,
     "DeathsNew": 44,
     "DeathsNewAvg": 44,
-    "CasesTotal": 1208730,
-    "CasesNew": 8487,
-    "CasesNewAvg": 15543
+    "CasesTotal": 1208825,
+    "CasesNew": 8492,
+    "CasesNewAvg": 15548
   },
   {
     "Date": "1/25/2022",
-    "DeathsTotal": 11067,
+    "DeathsTotal": 11073,
     "DeathsNew": 48,
     "DeathsNewAvg": 45,
-    "CasesTotal": 1223032,
-    "CasesNew": 14302,
-    "CasesNewAvg": 15326
+    "CasesTotal": 1223138,
+    "CasesNew": 14313,
+    "CasesNewAvg": 15331
   },
   {
     "Date": "1/26/2022",
-    "DeathsTotal": 11105,
+    "DeathsTotal": 11111,
     "DeathsNew": 38,
     "DeathsNewAvg": 44,
-    "CasesTotal": 1245900,
-    "CasesNew": 22868,
-    "CasesNewAvg": 15798
+    "CasesTotal": 1246010,
+    "CasesNew": 22872,
+    "CasesNewAvg": 15804
   },
   {
     "Date": "1/27/2022",
-    "DeathsTotal": 11146,
-    "DeathsNew": 41,
+    "DeathsTotal": 11151,
+    "DeathsNew": 40,
     "DeathsNewAvg": 44,
-    "CasesTotal": 1259640,
-    "CasesNew": 13740,
-    "CasesNewAvg": 15611
+    "CasesTotal": 1259759,
+    "CasesNew": 13749,
+    "CasesNewAvg": 15617
   },
   {
     "Date": "1/28/2022",
-    "DeathsTotal": 11190,
-    "DeathsNew": 44,
+    "DeathsTotal": 11196,
+    "DeathsNew": 45,
     "DeathsNewAvg": 45,
-    "CasesTotal": 1278593,
-    "CasesNew": 18953,
-    "CasesNewAvg": 15788
+    "CasesTotal": 1278720,
+    "CasesNew": 18961,
+    "CasesNewAvg": 15794
   },
   {
     "Date": "1/29/2022",
-    "DeathsTotal": 11236,
-    "DeathsNew": 46,
+    "DeathsTotal": 11241,
+    "DeathsNew": 45,
     "DeathsNewAvg": 44,
-    "CasesTotal": 1294981,
-    "CasesNew": 16388,
-    "CasesNewAvg": 15751
+    "CasesTotal": 1295111,
+    "CasesNew": 16391,
+    "CasesNewAvg": 15756
   },
   {
     "Date": "1/30/2022",
-    "DeathsTotal": 11286,
-    "DeathsNew": 50,
+    "DeathsTotal": 11292,
+    "DeathsNew": 51,
     "DeathsNewAvg": 45,
-    "CasesTotal": 1303710,
-    "CasesNew": 8729,
-    "CasesNewAvg": 15188
+    "CasesTotal": 1303845,
+    "CasesNew": 8734,
+    "CasesNewAvg": 15194
   },
   {
     "Date": "1/31/2022",
-    "DeathsTotal": 11321,
+    "DeathsTotal": 11327,
     "DeathsNew": 35,
     "DeathsNewAvg": 44,
-    "CasesTotal": 1310885,
-    "CasesNew": 7175,
-    "CasesNewAvg": 15172
+    "CasesTotal": 1311030,
+    "CasesNew": 7185,
+    "CasesNewAvg": 15178
   },
   {
     "Date": "2/1/2022",
-    "DeathsTotal": 11370,
-    "DeathsNew": 49,
+    "DeathsTotal": 11377,
+    "DeathsNew": 50,
     "DeathsNewAvg": 44,
-    "CasesTotal": 1320499,
-    "CasesNew": 9614,
-    "CasesNewAvg": 14859
+    "CasesTotal": 1320652,
+    "CasesNew": 9622,
+    "CasesNewAvg": 14866
   },
   {
     "Date": "2/2/2022",
-    "DeathsTotal": 11414,
+    "DeathsTotal": 11421,
     "DeathsNew": 44,
     "DeathsNewAvg": 45,
-    "CasesTotal": 1329554,
-    "CasesNew": 9055,
-    "CasesNewAvg": 14188
+    "CasesTotal": 1329721,
+    "CasesNew": 9069,
+    "CasesNewAvg": 14195
   },
   {
     "Date": "2/3/2022",
-    "DeathsTotal": 11465,
-    "DeathsNew": 51,
+    "DeathsTotal": 11473,
+    "DeathsNew": 52,
     "DeathsNewAvg": 45,
-    "CasesTotal": 1336998,
-    "CasesNew": 7444,
-    "CasesNewAvg": 13458
+    "CasesTotal": 1337173,
+    "CasesNew": 7452,
+    "CasesNewAvg": 13466
   },
   {
     "Date": "2/4/2022",
-    "DeathsTotal": 11496,
+    "DeathsTotal": 11504,
     "DeathsNew": 31,
     "DeathsNewAvg": 45,
-    "CasesTotal": 1345926,
-    "CasesNew": 8928,
-    "CasesNewAvg": 12787
+    "CasesTotal": 1346104,
+    "CasesNew": 8931,
+    "CasesNewAvg": 12793
   },
   {
     "Date": "2/5/2022",
-    "DeathsTotal": 11530,
-    "DeathsNew": 34,
+    "DeathsTotal": 11540,
+    "DeathsNew": 36,
     "DeathsNewAvg": 44,
-    "CasesTotal": 1350713,
-    "CasesNew": 4787,
-    "CasesNewAvg": 11889
+    "CasesTotal": 1350893,
+    "CasesNew": 4789,
+    "CasesNewAvg": 11896
   },
   {
     "Date": "2/6/2022",
-    "DeathsTotal": 11578,
-    "DeathsNew": 48,
+    "DeathsTotal": 11589,
+    "DeathsNew": 49,
     "DeathsNewAvg": 43,
-    "CasesTotal": 1353928,
-    "CasesNew": 3215,
-    "CasesNewAvg": 10978
+    "CasesTotal": 1354112,
+    "CasesNew": 3219,
+    "CasesNewAvg": 10984
   },
   {
     "Date": "2/7/2022",
-    "DeathsTotal": 11609,
+    "DeathsTotal": 11620,
     "DeathsNew": 31,
-    "DeathsNewAvg": 42,
-    "CasesTotal": 1358016,
-    "CasesNew": 4088,
-    "CasesNewAvg": 10663
+    "DeathsNewAvg": 43,
+    "CasesTotal": 1358210,
+    "CasesNew": 4098,
+    "CasesNewAvg": 10670
   },
   {
     "Date": "2/8/2022",
-    "DeathsTotal": 11662,
-    "DeathsNew": 53,
+    "DeathsTotal": 11674,
+    "DeathsNew": 54,
     "DeathsNewAvg": 43,
-    "CasesTotal": 1365181,
-    "CasesNew": 7165,
-    "CasesNewAvg": 10154
+    "CasesTotal": 1365374,
+    "CasesNew": 7164,
+    "CasesNewAvg": 10160
   },
   {
     "Date": "2/9/2022",
-    "DeathsTotal": 11710,
-    "DeathsNew": 48,
-    "DeathsNewAvg": 43,
-    "CasesTotal": 1370945,
-    "CasesNew": 5764,
-    "CasesNewAvg": 8932
+    "DeathsTotal": 11723,
+    "DeathsNew": 49,
+    "DeathsNewAvg": 44,
+    "CasesTotal": 1371144,
+    "CasesNew": 5770,
+    "CasesNewAvg": 8938
   },
   {
     "Date": "2/10/2022",
-    "DeathsTotal": 11751,
+    "DeathsTotal": 11764,
     "DeathsNew": 41,
-    "DeathsNewAvg": 43,
-    "CasesTotal": 1375040,
-    "CasesNew": 4095,
-    "CasesNewAvg": 8243
+    "DeathsNewAvg": 44,
+    "CasesTotal": 1375240,
+    "CasesNew": 4096,
+    "CasesNewAvg": 8249
   },
   {
     "Date": "2/11/2022",
-    "DeathsTotal": 11790,
+    "DeathsTotal": 11803,
     "DeathsNew": 39,
     "DeathsNewAvg": 43,
-    "CasesTotal": 1380144,
-    "CasesNew": 5104,
-    "CasesNewAvg": 7254
+    "CasesTotal": 1380347,
+    "CasesNew": 5107,
+    "CasesNewAvg": 7259
   },
   {
     "Date": "2/12/2022",
-    "DeathsTotal": 11818,
-    "DeathsNew": 28,
+    "DeathsTotal": 11832,
+    "DeathsNew": 29,
     "DeathsNewAvg": 42,
-    "CasesTotal": 1382386,
-    "CasesNew": 2242,
-    "CasesNewAvg": 6243
+    "CasesTotal": 1382590,
+    "CasesNew": 2243,
+    "CasesNewAvg": 6249
   },
   {
     "Date": "2/13/2022",
-    "DeathsTotal": 11853,
+    "DeathsTotal": 11867,
     "DeathsNew": 35,
     "DeathsNewAvg": 41,
-    "CasesTotal": 1384384,
+    "CasesTotal": 1384588,
     "CasesNew": 1998,
-    "CasesNewAvg": 5762
+    "CasesNewAvg": 5767
   },
   {
     "Date": "2/14/2022",
-    "DeathsTotal": 11881,
-    "DeathsNew": 28,
-    "DeathsNewAvg": 40,
-    "CasesTotal": 1386859,
-    "CasesNew": 2475,
-    "CasesNewAvg": 5427
+    "DeathsTotal": 11896,
+    "DeathsNew": 29,
+    "DeathsNewAvg": 41,
+    "CasesTotal": 1387068,
+    "CasesNew": 2480,
+    "CasesNewAvg": 5431
   },
   {
     "Date": "2/15/2022",
-    "DeathsTotal": 11913,
+    "DeathsTotal": 11928,
     "DeathsNew": 32,
     "DeathsNewAvg": 39,
-    "CasesTotal": 1390367,
-    "CasesNew": 3508,
-    "CasesNewAvg": 4991
+    "CasesTotal": 1390577,
+    "CasesNew": 3509,
+    "CasesNewAvg": 4995
   },
   {
     "Date": "2/16/2022",
-    "DeathsTotal": 11943,
-    "DeathsNew": 30,
+    "DeathsTotal": 11959,
+    "DeathsNew": 31,
     "DeathsNewAvg": 38,
-    "CasesTotal": 1393712,
-    "CasesNew": 3345,
-    "CasesNewAvg": 4583
+    "CasesTotal": 1393920,
+    "CasesNew": 3343,
+    "CasesNewAvg": 4586
   },
   {
     "Date": "2/17/2022",
-    "DeathsTotal": 11972,
+    "DeathsTotal": 11988,
     "DeathsNew": 29,
-    "DeathsNewAvg": 36,
-    "CasesTotal": 1396335,
-    "CasesNew": 2623,
-    "CasesNewAvg": 4238
+    "DeathsNewAvg": 37,
+    "CasesTotal": 1396544,
+    "CasesNew": 2624,
+    "CasesNewAvg": 4241
   },
   {
     "Date": "2/18/2022",
-    "DeathsTotal": 12002,
+    "DeathsTotal": 12018,
     "DeathsNew": 30,
-    "DeathsNewAvg": 36,
-    "CasesTotal": 1399522,
-    "CasesNew": 3187,
-    "CasesNewAvg": 3828
+    "DeathsNewAvg": 37,
+    "CasesTotal": 1399728,
+    "CasesNew": 3184,
+    "CasesNewAvg": 3830
   },
   {
     "Date": "2/19/2022",
-    "DeathsTotal": 12026,
+    "DeathsTotal": 12042,
     "DeathsNew": 24,
-    "DeathsNewAvg": 35,
-    "CasesTotal": 1404091,
-    "CasesNew": 4569,
-    "CasesNewAvg": 3813
+    "DeathsNewAvg": 36,
+    "CasesTotal": 1404294,
+    "CasesNew": 4566,
+    "CasesNewAvg": 3814
   },
   {
     "Date": "2/20/2022",
-    "DeathsTotal": 12054,
+    "DeathsTotal": 12070,
     "DeathsNew": 28,
     "DeathsNewAvg": 34,
-    "CasesTotal": 1405072,
+    "CasesTotal": 1405275,
     "CasesNew": 981,
-    "CasesNewAvg": 3653
+    "CasesNewAvg": 3655
   },
   {
     "Date": "2/21/2022",
-    "DeathsTotal": 12079,
+    "DeathsTotal": 12095,
     "DeathsNew": 25,
     "DeathsNewAvg": 34,
-    "CasesTotal": 1405804,
+    "CasesTotal": 1406007,
     "CasesNew": 732,
-    "CasesNewAvg": 3413
+    "CasesNewAvg": 3414
   },
   {
     "Date": "2/22/2022",
-    "DeathsTotal": 12104,
+    "DeathsTotal": 12120,
     "DeathsNew": 25,
     "DeathsNewAvg": 32,
-    "CasesTotal": 1408857,
-    "CasesNew": 3053,
+    "CasesTotal": 1409058,
+    "CasesNew": 3051,
     "CasesNewAvg": 3120
   },
   {
     "Date": "2/23/2022",
-    "DeathsTotal": 12130,
+    "DeathsTotal": 12146,
     "DeathsNew": 26,
     "DeathsNewAvg": 30,
-    "CasesTotal": 1412346,
-    "CasesNew": 3489,
+    "CasesTotal": 1412543,
+    "CasesNew": 3485,
     "CasesNewAvg": 2957
   },
   {
     "Date": "2/24/2022",
-    "DeathsTotal": 12154,
+    "DeathsTotal": 12170,
     "DeathsNew": 24,
     "DeathsNewAvg": 29,
-    "CasesTotal": 1415434,
-    "CasesNew": 3088,
+    "CasesTotal": 1415629,
+    "CasesNew": 3086,
     "CasesNewAvg": 2885
   },
   {
     "Date": "2/25/2022",
-    "DeathsTotal": 12169,
+    "DeathsTotal": 12185,
     "DeathsNew": 15,
     "DeathsNewAvg": 27,
-    "CasesTotal": 1417875,
+    "CasesTotal": 1418070,
     "CasesNew": 2441,
     "CasesNewAvg": 2695
   },
   {
     "Date": "2/26/2022",
-    "DeathsTotal": 12194,
+    "DeathsTotal": 12210,
     "DeathsNew": 25,
     "DeathsNewAvg": 27,
-    "CasesTotal": 1422473,
-    "CasesNew": 4598,
-    "CasesNewAvg": 2863
+    "CasesTotal": 1422659,
+    "CasesNew": 4589,
+    "CasesNewAvg": 2862
   },
   {
     "Date": "2/27/2022",
-    "DeathsTotal": 12210,
+    "DeathsTotal": 12226,
     "DeathsNew": 16,
     "DeathsNewAvg": 26,
-    "CasesTotal": 1423210,
-    "CasesNew": 737,
-    "CasesNewAvg": 2773
+    "CasesTotal": 1423395,
+    "CasesNew": 736,
+    "CasesNewAvg": 2772
   },
   {
     "Date": "2/28/2022",
-    "DeathsTotal": 12226,
+    "DeathsTotal": 12242,
     "DeathsNew": 16,
     "DeathsNewAvg": 25,
-    "CasesTotal": 1424645,
-    "CasesNew": 1435,
-    "CasesNewAvg": 2699
+    "CasesTotal": 1424828,
+    "CasesNew": 1433,
+    "CasesNewAvg": 2697
   },
   {
     "Date": "3/1/2022",
-    "DeathsTotal": 12246,
+    "DeathsTotal": 12262,
     "DeathsNew": 20,
     "DeathsNewAvg": 24,
-    "CasesTotal": 1426504,
-    "CasesNew": 1859,
-    "CasesNewAvg": 2581
+    "CasesTotal": 1426685,
+    "CasesNew": 1857,
+    "CasesNewAvg": 2579
   },
   {
     "Date": "3/2/2022",
-    "DeathsTotal": 12275,
+    "DeathsTotal": 12291,
     "DeathsNew": 29,
     "DeathsNewAvg": 24,
-    "CasesTotal": 1428249,
-    "CasesNew": 1745,
-    "CasesNewAvg": 2467
+    "CasesTotal": 1428429,
+    "CasesNew": 1744,
+    "CasesNewAvg": 2465
   },
   {
     "Date": "3/3/2022",
-    "DeathsTotal": 12294,
+    "DeathsTotal": 12310,
     "DeathsNew": 19,
     "DeathsNewAvg": 23,
-    "CasesTotal": 1429886,
-    "CasesNew": 1637,
-    "CasesNewAvg": 2397
+    "CasesTotal": 1430065,
+    "CasesNew": 1636,
+    "CasesNewAvg": 2394
   },
   {
     "Date": "3/4/2022",
-    "DeathsTotal": 12308,
-    "DeathsNew": 14,
+    "DeathsTotal": 12323,
+    "DeathsNew": 13,
     "DeathsNewAvg": 22,
-    "CasesTotal": 1431299,
-    "CasesNew": 1413,
-    "CasesNewAvg": 2270
+    "CasesTotal": 1431474,
+    "CasesNew": 1409,
+    "CasesNewAvg": 2268
   },
   {
     "Date": "3/5/2022",
-    "DeathsTotal": 12330,
+    "DeathsTotal": 12345,
     "DeathsNew": 22,
     "DeathsNewAvg": 22,
-    "CasesTotal": 1431997,
+    "CasesTotal": 1432172,
     "CasesNew": 698,
-    "CasesNewAvg": 1993
+    "CasesNewAvg": 1991
   },
   {
     "Date": "3/6/2022",
-    "DeathsTotal": 12339,
+    "DeathsTotal": 12354,
     "DeathsNew": 9,
     "DeathsNewAvg": 20,
-    "CasesTotal": 1432128,
+    "CasesTotal": 1432303,
     "CasesNew": 131,
-    "CasesNewAvg": 1933
+    "CasesNewAvg": 1931
   },
   {
     "Date": "3/7/2022",
-    "DeathsTotal": 12355,
+    "DeathsTotal": 12370,
     "DeathsNew": 16,
     "DeathsNewAvg": 20,
-    "CasesTotal": 1433167,
-    "CasesNew": 1039,
-    "CasesNewAvg": 1955
+    "CasesTotal": 1433344,
+    "CasesNew": 1041,
+    "CasesNewAvg": 1953
   },
   {
     "Date": "3/8/2022",
-    "DeathsTotal": 12366,
+    "DeathsTotal": 12381,
     "DeathsNew": 11,
     "DeathsNewAvg": 19,
-    "CasesTotal": 1434740,
-    "CasesNew": 1573,
-    "CasesNewAvg": 1849
+    "CasesTotal": 1434919,
+    "CasesNew": 1575,
+    "CasesNewAvg": 1847
   },
   {
     "Date": "3/9/2022",
-    "DeathsTotal": 12377,
+    "DeathsTotal": 12392,
     "DeathsNew": 11,
     "DeathsNewAvg": 18,
-    "CasesTotal": 1436391,
-    "CasesNew": 1651,
-    "CasesNewAvg": 1718
+    "CasesTotal": 1436568,
+    "CasesNew": 1649,
+    "CasesNewAvg": 1716
   },
   {
     "Date": "3/10/2022",
-    "DeathsTotal": 12384,
+    "DeathsTotal": 12399,
     "DeathsNew": 7,
     "DeathsNewAvg": 16,
-    "CasesTotal": 1437892,
-    "CasesNew": 1501,
-    "CasesNewAvg": 1604
+    "CasesTotal": 1438068,
+    "CasesNew": 1500,
+    "CasesNewAvg": 1603
   },
   {
     "Date": "3/11/2022",
-    "DeathsTotal": 12396,
-    "DeathsNew": 12,
+    "DeathsTotal": 12412,
+    "DeathsNew": 13,
     "DeathsNewAvg": 16,
-    "CasesTotal": 1439399,
-    "CasesNew": 1507,
-    "CasesNewAvg": 1537
+    "CasesTotal": 1439577,
+    "CasesNew": 1509,
+    "CasesNewAvg": 1536
   },
   {
     "Date": "3/12/2022",
-    "DeathsTotal": 12414,
-    "DeathsNew": 18,
+    "DeathsTotal": 12429,
+    "DeathsNew": 17,
     "DeathsNewAvg": 16,
-    "CasesTotal": 1440355,
+    "CasesTotal": 1440533,
     "CasesNew": 956,
     "CasesNewAvg": 1277
   },
   {
     "Date": "3/13/2022",
-    "DeathsTotal": 12427,
+    "DeathsTotal": 12442,
     "DeathsNew": 13,
-    "DeathsNewAvg": 16,
-    "CasesTotal": 1440658,
+    "DeathsNewAvg": 15,
+    "CasesTotal": 1440836,
     "CasesNew": 303,
     "CasesNewAvg": 1246
   },
   {
     "Date": "3/14/2022",
-    "DeathsTotal": 12440,
-    "DeathsNew": 13,
+    "DeathsTotal": 12456,
+    "DeathsNew": 14,
     "DeathsNewAvg": 15,
-    "CasesTotal": 1441806,
+    "CasesTotal": 1441984,
     "CasesNew": 1148,
-    "CasesNewAvg": 1226
+    "CasesNewAvg": 1225
   },
   {
     "Date": "3/15/2022",
-    "DeathsTotal": 12452,
-    "DeathsNew": 12,
+    "DeathsTotal": 12467,
+    "DeathsNew": 11,
     "DeathsNewAvg": 15,
-    "CasesTotal": 1443005,
+    "CasesTotal": 1443183,
     "CasesNew": 1199,
-    "CasesNewAvg": 1179
+    "CasesNewAvg": 1178
   },
   {
     "Date": "3/16/2022",
-    "DeathsTotal": 12458,
+    "DeathsTotal": 12473,
     "DeathsNew": 6,
     "DeathsNewAvg": 13,
-    "CasesTotal": 1444054,
+    "CasesTotal": 1444232,
     "CasesNew": 1049,
     "CasesNewAvg": 1129
   },
   {
     "Date": "3/17/2022",
-    "DeathsTotal": 12466,
+    "DeathsTotal": 12481,
     "DeathsNew": 8,
     "DeathsNewAvg": 12,
-    "CasesTotal": 1445212,
-    "CasesNew": 1158,
+    "CasesTotal": 1445388,
+    "CasesNew": 1156,
     "CasesNewAvg": 1095
   },
   {
     "Date": "3/18/2022",
-    "DeathsTotal": 12475,
+    "DeathsTotal": 12490,
     "DeathsNew": 9,
     "DeathsNewAvg": 12,
-    "CasesTotal": 1446201,
-    "CasesNew": 989,
+    "CasesTotal": 1446374,
+    "CasesNew": 986,
     "CasesNewAvg": 1064
   },
   {
     "Date": "3/19/2022",
-    "DeathsTotal": 12482,
+    "DeathsTotal": 12497,
     "DeathsNew": 7,
     "DeathsNewAvg": 11,
-    "CasesTotal": 1446652,
+    "CasesTotal": 1446825,
     "CasesNew": 451,
     "CasesNewAvg": 1047
   },
   {
     "Date": "3/20/2022",
-    "DeathsTotal": 12493,
+    "DeathsTotal": 12508,
     "DeathsNew": 11,
     "DeathsNewAvg": 11,
-    "CasesTotal": 1446865,
+    "CasesTotal": 1447038,
     "CasesNew": 213,
     "CasesNewAvg": 1053
   },
   {
     "Date": "3/21/2022",
-    "DeathsTotal": 12498,
+    "DeathsTotal": 12513,
     "DeathsNew": 5,
     "DeathsNewAvg": 10,
-    "CasesTotal": 1447720,
-    "CasesNew": 855,
-    "CasesNewAvg": 1040
+    "CasesTotal": 1447894,
+    "CasesNew": 856,
+    "CasesNewAvg": 1039
   },
   {
     "Date": "3/22/2022",
-    "DeathsTotal": 12506,
-    "DeathsNew": 8,
+    "DeathsTotal": 12522,
+    "DeathsNew": 9,
     "DeathsNewAvg": 10,
-    "CasesTotal": 1448788,
-    "CasesNew": 1068,
+    "CasesTotal": 1448958,
+    "CasesNew": 1064,
     "CasesNewAvg": 1003
   },
   {
     "Date": "3/23/2022",
-    "DeathsTotal": 12513,
+    "DeathsTotal": 12529,
     "DeathsNew": 7,
     "DeathsNewAvg": 10,
-    "CasesTotal": 1449856,
-    "CasesNew": 1068,
-    "CasesNewAvg": 962
+    "CasesTotal": 1450027,
+    "CasesNew": 1069,
+    "CasesNewAvg": 961
   },
   {
     "Date": "3/24/2022",
-    "DeathsTotal": 12518,
-    "DeathsNew": 5,
+    "DeathsTotal": 12536,
+    "DeathsNew": 7,
     "DeathsNewAvg": 10,
-    "CasesTotal": 1451198,
-    "CasesNew": 1342,
+    "CasesTotal": 1451368,
+    "CasesNew": 1341,
     "CasesNewAvg": 950
   },
   {
     "Date": "3/25/2022",
-    "DeathsTotal": 12523,
+    "DeathsTotal": 12541,
     "DeathsNew": 5,
     "DeathsNewAvg": 9,
-    "CasesTotal": 1452127,
-    "CasesNew": 929,
+    "CasesTotal": 1452298,
+    "CasesNew": 930,
     "CasesNewAvg": 909
   },
   {
     "Date": "3/26/2022",
-    "DeathsTotal": 12529,
-    "DeathsNew": 6,
-    "DeathsNewAvg": 8,
-    "CasesTotal": 1452706,
+    "DeathsTotal": 12550,
+    "DeathsNew": 9,
+    "DeathsNewAvg": 9,
+    "CasesTotal": 1452877,
     "CasesNew": 579,
     "CasesNewAvg": 882
   },
   {
     "Date": "3/27/2022",
-    "DeathsTotal": 12530,
-    "DeathsNew": 1,
-    "DeathsNewAvg": 7,
-    "CasesTotal": 1453269,
+    "DeathsTotal": 12552,
+    "DeathsNew": 2,
+    "DeathsNewAvg": 8,
+    "CasesTotal": 1453440,
     "CasesNew": 563,
-    "CasesNewAvg": 901
+    "CasesNewAvg": 900
   },
   {
     "Date": "3/28/2022",
-    "DeathsTotal": 12532,
-    "DeathsNew": 2,
+    "DeathsTotal": 12555,
+    "DeathsNew": 3,
     "DeathsNewAvg": 7,
-    "CasesTotal": 1453892,
-    "CasesNew": 623,
+    "CasesTotal": 1454065,
+    "CasesNew": 625,
     "CasesNewAvg": 863
   },
   {
     "Date": "3/29/2022",
-    "DeathsTotal": 12536,
-    "DeathsNew": 4,
-    "DeathsNewAvg": 6,
-    "CasesTotal": 1454827,
-    "CasesNew": 935,
+    "DeathsTotal": 12560,
+    "DeathsNew": 5,
+    "DeathsNewAvg": 7,
+    "CasesTotal": 1455001,
+    "CasesNew": 936,
     "CasesNewAvg": 844
   },
   {
     "Date": "3/30/2022",
-    "DeathsTotal": 12539,
+    "DeathsTotal": 12563,
     "DeathsNew": 3,
     "DeathsNewAvg": 6,
-    "CasesTotal": 1455653,
+    "CasesTotal": 1455827,
     "CasesNew": 826,
-    "CasesNewAvg": 829
+    "CasesNewAvg": 828
   },
   {
     "Date": "3/31/2022",
-    "DeathsTotal": 12539,
-    "DeathsNew": 0,
-    "DeathsNewAvg": 5,
-    "CasesTotal": 1456530,
-    "CasesNew": 877,
+    "DeathsTotal": 12566,
+    "DeathsNew": 3,
+    "DeathsNewAvg": 6,
+    "CasesTotal": 1456703,
+    "CasesNew": 876,
     "CasesNewAvg": 808
   },
   {
     "Date": "4/1/2022",
-    "DeathsTotal": 12540,
-    "DeathsNew": 1,
-    "DeathsNewAvg": 5,
-    "CasesTotal": 1457289,
+    "DeathsTotal": 12572,
+    "DeathsNew": 6,
+    "DeathsNewAvg": 6,
+    "CasesTotal": 1457462,
     "CasesNew": 759,
     "CasesNewAvg": 792
   },
   {
     "Date": "4/2/2022",
-    "DeathsTotal": 12543,
-    "DeathsNew": 3,
-    "DeathsNewAvg": 4,
-    "CasesTotal": 1457841,
+    "DeathsTotal": 12577,
+    "DeathsNew": 5,
+    "DeathsNewAvg": 6,
+    "CasesTotal": 1458014,
     "CasesNew": 552,
     "CasesNewAvg": 799
   },
   {
     "Date": "4/3/2022",
-    "DeathsTotal": 12544,
-    "DeathsNew": 1,
-    "DeathsNewAvg": 4,
-    "CasesTotal": 1458462,
-    "CasesNew": 621,
+    "DeathsTotal": 12584,
+    "DeathsNew": 7,
+    "DeathsNewAvg": 5,
+    "CasesTotal": 1458633,
+    "CasesNew": 619,
     "CasesNewAvg": 828
   },
   {
     "Date": "4/4/2022",
-    "DeathsTotal": 12544,
-    "DeathsNew": 0,
-    "DeathsNewAvg": 3,
-    "CasesTotal": 1459179,
-    "CasesNew": 717,
-    "CasesNewAvg": 819
+    "DeathsTotal": 12589,
+    "DeathsNew": 5,
+    "DeathsNewAvg": 5,
+    "CasesTotal": 1459349,
+    "CasesNew": 716,
+    "CasesNewAvg": 818
   },
   {
     "Date": "4/5/2022",
-    "DeathsTotal": 12544,
+    "DeathsTotal": 12597,
+    "DeathsNew": 8,
+    "DeathsNewAvg": 5,
+    "CasesTotal": 1464562,
+    "CasesNew": 5213,
+    "CasesNewAvg": 1115
+  },
+  {
+    "Date": "4/6/2022",
+    "DeathsTotal": 12601,
+    "DeathsNew": 4,
+    "DeathsNewAvg": 5,
+    "CasesTotal": 1465663,
+    "CasesNew": 1101,
+    "CasesNewAvg": 1117
+  },
+  {
+    "Date": "4/7/2022",
+    "DeathsTotal": 12603,
+    "DeathsNew": 2,
+    "DeathsNewAvg": 5,
+    "CasesTotal": 1467092,
+    "CasesNew": 1429,
+    "CasesNewAvg": 1123
+  },
+  {
+    "Date": "4/8/2022",
+    "DeathsTotal": 12605,
+    "DeathsNew": 2,
+    "DeathsNewAvg": 5,
+    "CasesTotal": 1468260,
+    "CasesNew": 1168,
+    "CasesNewAvg": 1140
+  },
+  {
+    "Date": "4/9/2022",
+    "DeathsTotal": 12612,
+    "DeathsNew": 7,
+    "DeathsNewAvg": 4,
+    "CasesTotal": 1469149,
+    "CasesNew": 889,
+    "CasesNewAvg": 1162
+  },
+  {
+    "Date": "4/10/2022",
+    "DeathsTotal": 12617,
+    "DeathsNew": 5,
+    "DeathsNewAvg": 5,
+    "CasesTotal": 1469789,
+    "CasesNew": 640,
+    "CasesNewAvg": 1168
+  },
+  {
+    "Date": "4/11/2022",
+    "DeathsTotal": 12620,
+    "DeathsNew": 3,
+    "DeathsNewAvg": 5,
+    "CasesTotal": 1470543,
+    "CasesNew": 754,
+    "CasesNewAvg": 1177
+  },
+  {
+    "Date": "4/12/2022",
+    "DeathsTotal": 12624,
+    "DeathsNew": 4,
+    "DeathsNewAvg": 5,
+    "CasesTotal": 1471673,
+    "CasesNew": 1130,
+    "CasesNewAvg": 1191
+  },
+  {
+    "Date": "4/13/2022",
+    "DeathsTotal": 12625,
+    "DeathsNew": 1,
+    "DeathsNewAvg": 4,
+    "CasesTotal": 1473185,
+    "CasesNew": 1512,
+    "CasesNewAvg": 1240
+  },
+  {
+    "Date": "4/14/2022",
+    "DeathsTotal": 12626,
+    "DeathsNew": 1,
+    "DeathsNewAvg": 4,
+    "CasesTotal": 1474487,
+    "CasesNew": 1302,
+    "CasesNewAvg": 1270
+  },
+  {
+    "Date": "4/15/2022",
+    "DeathsTotal": 12626,
+    "DeathsNew": 0,
+    "DeathsNewAvg": 4,
+    "CasesTotal": 1475970,
+    "CasesNew": 1483,
+    "CasesNewAvg": 1322
+  },
+  {
+    "Date": "4/16/2022",
+    "DeathsTotal": 12626,
+    "DeathsNew": 0,
+    "DeathsNewAvg": 4,
+    "CasesTotal": 1476938,
+    "CasesNew": 968,
+    "CasesNewAvg": 1352
+  },
+  {
+    "Date": "4/17/2022",
+    "DeathsTotal": 12626,
     "DeathsNew": 0,
     "DeathsNewAvg": 3,
-    "CasesTotal": 1464398,
-    "CasesNew": 5219,
-    "CasesNewAvg": 1115
+    "CasesTotal": 1477863,
+    "CasesNew": 925,
+    "CasesNewAvg": 1374
   }
 ]

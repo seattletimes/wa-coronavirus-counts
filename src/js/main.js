@@ -12,6 +12,8 @@ const d3 = require("d3");
 
 //// change me every month ////
 var monthTicks = ["3/1/20", "4/1/2020", "5/1/2020", "6/1/2020", "7/1/2020","8/1/2020","9/1/2020","10/1/2020","11/1/2020","12/1/2020","1/1/2021", "2/1/2021", "3/1/2021", "4/1/2021", "5/1/2021", "6/1/2021", "7/1/2021", "8/1/2021", "9/1/2021", "10/1/2021", "11/1/2021", "12/1/2021", "1/1/2022", "2/1/2022", "3/1/2022", "4/1/2022"];
+var hos_monthTicks = ["1/1/2021", "2/1/2021", "3/1/2021", "4/1/2021", "5/1/2021", "6/1/2021", "7/1/2021", "8/1/2021", "9/1/2021", "10/1/2021", "11/1/2021", "12/1/2021", "1/1/2022", "2/1/2022", "3/1/2022", "4/1/2022"];
+
 
 var commafy = s => (s * 1).toLocaleString().replace(/\.0+$/, "");
 
@@ -22,15 +24,9 @@ var commaFormat = d3.format(',');
 var county_pops = require("../assets/waPop2020.json");
 
 var county_counts = window.CountyCounts;
-
 var county_deaths = window.CountyDeaths;
-
 var dohNumbers = window.DOH_Totals;
-// var county_pops = window.case_dataTwo['waPop2020'];
-
-
-
-
+var hospitalData = window.Hospitals;
 
 var stateTotal = 7656200;
 
@@ -64,6 +60,7 @@ day_var = day_var.split("/");
 
 
 var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+var ap_months = ["Jan.","Feb.","March","April","May","June","July","Aug.","Sept.","Oct.","Nov.","Dec."];
 // var dataMonth = day_var.slice(0, 2);
 // var dataDay = day_var.slice(2, 4);
 var dataMonth = day_var[0];
@@ -278,18 +275,6 @@ if($('#countyTrendGraphic').length >0 ){
      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
  var yBegin;
-
- // var innerColumns = {
- //   "column1" : ["Adams","Asotin","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Ferry","Franklin","Garfield","Grant","Grays_Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Okanogan","Pacific","Pend_Oreille","Pierce","San_Juan","Skagit","Skamania","Snohomish","Spokane","Stevens","Thurston","Wahkiakum","Walla_Walla","Whatcom","Whitman","Yakima","Unassigned"],
- // }
-
-
-
- // var innerColumns = {"column1" : ["CasesTotal"]}
-
-
-
-
  var caseColors = ["#F3C882", "#E98729", "#B75317", "#7b2003", "#360d01", '#aaa'];
  var deathColors = ['#f6cac1', '#db8f87', '#ae5c5c', '#7c2f38', "#330107", '#aaa'];
 
@@ -542,8 +527,6 @@ if($('#newbarChart').length >0 ){
        var prevDayData = 0;
 
        var columnHeaders = d3.keys(updateData[0]).filter(function(key) { return (key === countyLabel) && (key === `${countyLabel}Avg`) });
-
-       // console.log(columnHeaders);
        var totalCases = 0;
        var prevDay = 0;
        var allCoun = 0;
@@ -551,16 +534,7 @@ if($('#newbarChart').length >0 ){
        var kingPrev = 0;
 
        updateData.forEach(function(d) {
-
-
-
-         // kingNew = parseInt(d.King) - kingPrev;
-         // kingPrev = parseInt(d.King);
-
          allCoun = countyLabel === "CasesNew" ? parseInt(d.CasesNew) : parseInt(d.DeathsNew);
-
-
-         // allCoun = parseInt(d.CasesNew);
          var thisThing;
 
          var yColumn = new Array();
@@ -781,53 +755,7 @@ if($('#newbarChart').length >0 ){
 
   });
 
-//   document.querySelector(".dropdownCon").addEventListener('click', () => {
-//     if (document.querySelector(".dropdownCon").classList.contains('show')) {
-//       document.querySelector(".dropdownCon").classList.remove('show');
-//       document.querySelector(".dropdownItems").classList.remove('show');
-//       document.querySelector(".dropdownCon .fa-caret-down").classList.add('show');
-//       document.querySelector(".dropdownCon .fa-caret-up").classList.remove('show');
-//     } else {
-//       document.querySelector(".dropdownCon").classList.add('show');
-//       document.querySelector(".dropdownItems").classList.add('show');
-//       document.querySelector(".dropdownCon .fa-caret-up").classList.add('show');
-//       document.querySelector(".dropdownCon .fa-caret-down").classList.remove('show');
-//     }
-//
-// });
-
-// document.querySelectorAll(".county").forEach(el => el.addEventListener('click', () => {
-//   document.querySelectorAll(".county").forEach(el => el.classList.remove('active'));
-//   document.querySelector(".dropdownItems").classList.remove('show');
-//   document.querySelector(".dropdownCon").classList.remove('show');
-//   document.querySelector(".dropdownCon .fa-caret-up").classList.remove('show');
-//   document.querySelector(".dropdownCon .fa-caret-down").classList.add('show');
-//   el.classList.add('active');
-//   var county = el.getAttribute('data-county');
-//   var countyWSpace = county.replace(/_/g, ' ');
-//   var caseOrDeath = document.querySelector('input[name="toggleCounty2"]:checked').value;
-//
-//   document.getElementById("fillCounty").innerHTML = (county === "New" ? "All" : countyWSpace);
-//
-//
-//   let dataSet2 = document.querySelector('input[name="toggleCounty2"]:checked').getAttribute('data-type');
-//   dataSet2  = 'assets/' + dataSet2 + day_var + '.csv';
-//   // console.log(dataSet2);
-//
-//   myFunction1(dohNumbers, `${caseOrDeath}`, `${county}`);
-//
-// }));
-
-
-// window.onresize = function(event) {
-//   myFunction1(dohNumbers, "casesCounty3", "CasesNew");
-// };
-
-
 myFunction1(dohNumbers, "casesCounty3", "CasesNew");
-
-
-
 
 } else {}
 
@@ -855,40 +783,6 @@ hotSpots.forEach(function (arrayItem) {
 
 $('.unassigned.cases.casesPop span').empty().append(commaFormat(unnCases));
 
-
-// var fortnightAway = new Date(Date.now() - 12096e5);
-//
-// function getSaturday(d) {
-//   d = new Date(d);
-//   var day = d.getDay();
-//   console.log(d.getDate() - day);
-//
-//   var diff = d.getDate() - day + (day == 0 ? -7:-1); // adjust when day is sunday
-//   return new Date(d.setDate(diff));
-// }
-//
-// function getSunday(d) {
-//   d = new Date(d);
-//   var day = d.getDay();
-//   var diff = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
-//   return new Date(d.setDate(diff));
-// }
-//
-// var sunday = getSunday(new Date());
-// var endSaturday = getSaturday(new Date());
-// var begSunday = new Date(sunday - 12096e5);
-//
-// var begMonth = months[begSunday.getMonth()];
-// var begDay = +(begSunday.getDate());
-//
-// var endMonth = months[endSaturday.getMonth()];
-// var endDay = +(endSaturday.getDate());
-//
-// $('#date-range').empty().append(begMonth + " " + begDay + " - " + endMonth + " " + endDay);
-//
-// console.log(begDay);
-// console.log(endDay);
-
 var countyMap = document.getElementById("svg3071");
 var counties = countyMap.getElementsByClassName("county");
 let caseTotals = 0;
@@ -897,39 +791,23 @@ for (let i = 0; i < counties.length; i++) {
     var countyName = counties[i].id;
     var match_name = countyName.split('_').join(' ');
     match_name = match_name + " County";
-    // console.log(match_name);
-
-
 
     var case_value = 0;
     var popAdjCase = 0;
 
-
-    //
-    // var popAdjCase = (case_value / countyPop) * 10000;
-    // popAdjCase = popAdjCase.toFixed(1);
-
     hotSpots.forEach(function (arrayItem) {
       popAdjCase = (arrayItem.County === match_name) ? arrayItem.seven_day_rate : popAdjCase;
-
-      // console.log(arrayItem.County + " " + case_value);
     });
 
     var countyObj = county_pops[i];
     var countyPop = countyObj["pop_2020"];
     case_value = Math.round((countyPop / 100000) * popAdjCase);
 
-
-    // caseTotals = caseTotals + case_value;
-
     var bbox = d3.select("#" + countyName).node().getBBox();
-
-
 
     let dataset = {
       cases: case_value,
       casesPop: popAdjCase,
-      // casesPop: popAdjCase,
     };
 
     counties[i].numbers = dataset;
@@ -962,37 +840,17 @@ for (let i = 0; i < counties.length; i++) {
           return ("<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>" + commaFormat(case_value) + "</tspan>");
          });
 
-         // var circleAdjCases = svgCounty.selectAll('g').append('text')
-         //  .attr("class", "covidNum casesPop")
-         //  .attr("font-weight","bold")
-         //  .attr("text-anchor", "middle")
-         //  .html(function () {
-         //   return ( case_value > 0 ? "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>" + commaFormat(case_value) + "</tspan>" : "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>0</tspan>" );
-         //  });
-
-
-          var circleAdjCases = svgCounty.selectAll('g').append('text')
-           .attr("class", "covidNum casesPop")
-           .attr("font-weight","bold")
-           .attr("text-anchor", "middle")
-           .html(function () {
-            return ( case_value > 0 ? "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>" + commaFormat(popAdjCase) + "</tspan>" : "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>0</tspan>" );
-           });
-
-
+        var circleAdjCases = svgCounty.selectAll('g').append('text')
+         .attr("class", "covidNum casesPop")
+         .attr("font-weight","bold")
+         .attr("text-anchor", "middle")
+         .html(function () {
+          return ( case_value > 0 ? "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>" + commaFormat(popAdjCase) + "</tspan>" : "<tspan class='valueC' x='" + centroid[0] + "' y='" + (centroid[1] + pushVar + 20) + "'>0</tspan>" );
+         });
 } // for loop end
 
 
-
-
-
-
-
 $('#casesTotal').empty().append(commaFormat(total_state));
-
-// var num = (caseTotals) / stateTotal * 100000;
-// num = num.toFixed(1);
-
 $('#casesAdj').empty().append(total_rate_state);
 
 var myFunction = function(chosenID) {
@@ -1022,5 +880,222 @@ var colorMap = function(chosenColor) {
 
 document.querySelectorAll(".radioButton1").forEach(el => el.addEventListener('click', () => myFunction(el.value)) );
  myFunction('casesPop');
+
+} else {}
+
+//////////////////////// HOSPITALS TREND GRAPH //////////////
+
+
+
+if($('#hospitalsGraphic').length >0 ){
+  $('#date').empty().text(dateNew);
+  $('#hos_tooltip .date').empty().append(dateNew);
+  const lastDayData = hospitalData[hospitalData.length - 1];
+  $('#hos_tooltip .rate').append(lastDayData.Per_Hospital_Occ_COVID + "%");
+  var hos_con_Width = $("#hospitalsGraphic").width();
+  var hos_con_Height = (hos_con_Width > 500) ? 450 : 220;
+
+  var margin = {top: 20, right: 0, bottom: 30, left: 40},
+     hos_width = hos_con_Width - margin.left - margin.right,
+     hos_height = hos_con_Height - margin.top - margin.bottom;
+
+     // var x0 = d3.scaleLinear().domain([0, hospitalData.map(function(d) { return d.Date; })]).range([0, hos_width]);
+      var x0 = d3.scaleBand().range([0, hos_width]);
+      // .domain(hospitalData.map(function(d) { return d.Date; }));
+     // var x1 = d3.scaleBand().padding(.05);
+
+     var y = d3.scaleLinear()
+         .range([hos_height, 0]);
+
+     var xAxis = d3.axisBottom()
+         .scale(x0)
+         .tickValues(hos_monthTicks)
+         .tickFormat((d, i) => ["1/21", "2/21", "3/21", "4/21", "5/21", "6/21", "7/21", "8/21", "9/21", "10/21", "11/21", "12/21", "1/22", "2/22", "3/22", "4/22"][i]);
+
+
+     var yAxis = d3.axisLeft()
+         .scale(y).ticks(5).tickFormat((d, i) => d + "%");
+
+         xAxis.tickSizeOuter(0);
+
+
+         // x1.domain(d3.keys(innerColumns2)).range([0, x0.bandwidth()]);
+         y.domain([0, d3.max(hospitalData, function(d) { return d.Per_Hospital_Occ_COVID;  })]);
+         x0.domain(hospitalData.map(function(d) { return d.Date; }));
+
+
+     var svg_hos = d3.select("#hospitalsGraphic #hospital_graph").append("svg")
+         .attr("width", hos_width + margin.left + margin.right)
+         .attr("height", hos_height + margin.top + margin.bottom)
+       .append("g")
+         .attr("class","hos_Graphic")
+         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+         svg_hos.append("g")
+             .attr("class", "x axis")
+             .attr("transform", "translate(0," + (hos_height + 0) + ")")
+             .call(xAxis);
+
+         svg_hos.append("g")
+             .attr("class", "y axis")
+             .call(yAxis)
+           .append("text")
+             .attr("transform", "rotate(-90)")
+             // .attr("y", 6)
+             .attr("dy", ".7em")
+             .style("text-anchor", "end")
+             .text("");
+
+         var valueline = d3.line()
+             .x(function(d) { return x0(d.Date) })
+             .y(function(d) {
+               return y(d.Per_Hospital_Occ_COVID);
+               // return y(d.Roll_avg);
+               // var theRightAvg = (countyLabel === "CasesNew") ?  y(d.CasesNewAvg) :  y(d.DeathsNewAvg);
+               //
+               // return theRightAvg;
+             });
+
+
+         svg_hos.append("path")
+             .data([hospitalData])
+             .attr("class", "line")
+             .attr("fill", "none")
+             .attr("stroke", "blue")
+             .attr("stroke-width", 2)
+             .attr("d", valueline);
+
+             //   This allows to find the closest X index of the mouse:
+               // var bisect = d3.bisector(d => d.Date).left;
+
+               var focusContainer = svg_hos
+                 .append('g')
+                 .attr("class", "focusCon");
+
+             //   // Create the circle that travels along the curve of chart
+               var focus = focusContainer
+                 .append('circle')
+                   .style("fill", "skyblue")
+                   .attr("stroke", "black")
+                   .attr('r', 8.5)
+                   .style("opacity", 0);
+
+             //   // Create the text that travels along the curve of chart
+               // var focusText = focusContainer
+               //   .append('text')
+               //     .attr("class", "focusText")
+               //     .attr('dy', '.35em')
+               //     .style("opacity", 0)
+               //     .attr("text-anchor", "center")
+               //     .attr("alignment-baseline", "middle")
+
+               var guideLine = focusContainer.append("line")
+                    .attr("class", "guideLine")
+                    .attr("x1", hos_width)
+                    .attr("y1", 0)
+                    .attr("x2", hos_width)
+                    .attr("y2", hos_height)
+                    .attr("stroke", "red")
+
+              //  var focusTooltip = focusContainer.append("rect")
+              //     .attr("class", "tooltip")
+              //     .attr("width", 100)
+              //     .attr("height", 50)
+              //     .attr("x", 10)
+              //     .attr("y", -22)
+              //     .attr("rx", 4)
+              //     .attr("ry", 4);
+              //
+              // focusTooltip.append("text")
+              //     .attr("class", "tooltip-date")
+              //     .attr("x", 18)
+              //     .attr('dy', '.35em');
+              //
+              // focusTooltip.append("text")
+              //     .attr("x", 18)
+              //     // .attr("y", 18)
+              //     .attr('dy', '.35em')
+              //     .text("Likes:");
+              //
+              // focusTooltip.append("text")
+              //     .attr("class", "tooltip-likes")
+              //     .attr("x", 60)
+              //     .attr("y", 18)
+              //     .attr('dy', '.35em');
+
+             //   // Create a rect on top of the svg area: this rectangle recovers mouse position
+               var eventCapture = svg_hos
+                 .append('rect')
+                 .style("fill", "none")
+                 .style("pointer-events", "all")
+                 .attr('width', hos_width)
+                 .attr('height', hos_height)
+                 .on('mouseover', mouseover)
+                 .on('mousemove', mousemove)
+                 .on('mouseout', mouseout);
+
+
+                 x0.invert = (function(){
+                  var domain = x0.domain()
+                  var range = x0.range()
+                  var scale = d3.scaleQuantize().domain(range).range(domain)
+
+                    return function(x){
+                        return scale(x)
+                    }
+                })()
+
+              // What happens when the mouse move -> show the annotations at the right positions.
+               function mouseover() {
+                 focus.style("opacity", 1)
+                 // focusContainer.style("opacity",1)
+               }
+
+               function mousemove(e) {
+
+
+                 var xy = d3.mouse(eventCapture.node());
+                 var d = x0.invert(xy[0]);
+
+                 // i = bisect(hospitalData, d, 1);
+                 // console.log(d + " " + i);
+                 var nx = x0(d) + (x0.bandwidth()/2);
+
+                  guideLine.transition().duration(10).attr("x1", nx).attr("x2", nx)
+
+                 const isDateTheSame = (element) => element.Date === d;
+
+                 var i = hospitalData.findIndex(isDateTheSame);
+
+                 selectedData = hospitalData[i];
+                 var rawDate = selectedData.Date;
+
+                 rawDate = rawDate.split("/");
+                 var h_Month = rawDate[0];
+                 var h_Day = rawDate[1];
+
+
+                 h_Month = parseInt(h_Month) - 1;
+                 var formatted_date = ap_months[h_Month] + " " + h_Day;
+
+                 $('#hos_tooltip .date').empty().append(formatted_date);
+                 $('#hos_tooltip .rate').empty().append(selectedData.Per_Hospital_Occ_COVID + "%");
+
+
+                 focus
+                   .attr("cx", x0(selectedData.Date))
+                   .attr("cy", y(selectedData.Per_Hospital_Occ_COVID))
+
+                 // focusTooltip
+                 //   .attr("x", x0(selectedData.Date)+15)
+                 //   .attr("y", y(selectedData.Per_Hospital_Occ_COVID))
+                 //   .html("x:" + selectedData.Date + "  -  " + "y:" + selectedData.Per_Hospital_Occ_COVID);
+
+                 }
+               function mouseout() {
+                 focus.style("opacity", 0)
+                 // focusContainer.style("opacity", 0)
+               }
+
 
 } else {}
