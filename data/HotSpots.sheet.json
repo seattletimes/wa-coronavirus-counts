@@ -1,39 +1,39 @@
 [
   {
     "County": "Statewide",
-    "seven_day_rate": 84.9,
-    "total_count": 6501
+    "seven_day_rate": 78.1,
+    "total_count": 5981
   },
   {
     "County": "Adams County",
-    "seven_day_rate": 0,
-    "total_count": 0,
+    "seven_day_rate": 9.8,
+    "total_count": 2,
     "for ai chart": "Start: Column D"
   },
   {
     "County": "Asotin County",
-    "seven_day_rate": 0,
-    "total_count": 0
+    "seven_day_rate": 22.1,
+    "total_count": 5
   },
   {
     "County": "Benton County",
-    "seven_day_rate": 27.7,
-    "total_count": 57
+    "seven_day_rate": 25.3,
+    "total_count": 52
   },
   {
     "County": "Chelan County",
-    "seven_day_rate": 45.2,
-    "total_count": 36
+    "seven_day_rate": 42.7,
+    "total_count": 34
   },
   {
     "County": "Clallam County",
-    "seven_day_rate": 57.3,
-    "total_count": 44
+    "seven_day_rate": 24.8,
+    "total_count": 19
   },
   {
     "County": "Clark County",
-    "seven_day_rate": 36.5,
-    "total_count": 182
+    "seven_day_rate": 59.7,
+    "total_count": 298
   },
   {
     "County": "Columbia County",
@@ -42,23 +42,23 @@
   },
   {
     "County": "Cowlitz County",
-    "seven_day_rate": 25.3,
-    "total_count": 28
+    "seven_day_rate": 16.3,
+    "total_count": 18
   },
   {
     "County": "Douglas County",
-    "seven_day_rate": 18.3,
-    "total_count": 8
+    "seven_day_rate": 38.9,
+    "total_count": 17
   },
   {
     "County": "Ferry County",
-    "seven_day_rate": 12.6,
-    "total_count": 1
+    "seven_day_rate": 50.6,
+    "total_count": 4
   },
   {
     "County": "Franklin County",
-    "seven_day_rate": 14.5,
-    "total_count": 14
+    "seven_day_rate": 13.4,
+    "total_count": 13
   },
   {
     "County": "Garfield County",
@@ -67,68 +67,68 @@
   },
   {
     "County": "Grant County",
-    "seven_day_rate": 15,
-    "total_count": 15
-  },
-  {
-    "County": "Grays Harbor County",
-    "seven_day_rate": 40.2,
-    "total_count": 30
-  },
-  {
-    "County": "Island County",
-    "seven_day_rate": 83,
-    "total_count": 71
-  },
-  {
-    "County": "Jefferson County",
-    "seven_day_rate": 65.2,
-    "total_count": 21
-  },
-  {
-    "County": "King County",
-    "seven_day_rate": 165.6,
-    "total_count": 3744
-  },
-  {
-    "County": "Kitsap County",
-    "seven_day_rate": 63.2,
-    "total_count": 172
-  },
-  {
-    "County": "Kittitas County",
-    "seven_day_rate": 41.6,
-    "total_count": 20
-  },
-  {
-    "County": "Klickitat County",
-    "seven_day_rate": 30.7,
-    "total_count": 7
-  },
-  {
-    "County": "Lewis County",
-    "seven_day_rate": 22.4,
+    "seven_day_rate": 18,
     "total_count": 18
   },
   {
+    "County": "Grays Harbor County",
+    "seven_day_rate": 48.2,
+    "total_count": 36
+  },
+  {
+    "County": "Island County",
+    "seven_day_rate": 79.5,
+    "total_count": 68
+  },
+  {
+    "County": "Jefferson County",
+    "seven_day_rate": 59,
+    "total_count": 19
+  },
+  {
+    "County": "King County",
+    "seven_day_rate": 132,
+    "total_count": 2985
+  },
+  {
+    "County": "Kitsap County",
+    "seven_day_rate": 87.8,
+    "total_count": 239
+  },
+  {
+    "County": "Kittitas County",
+    "seven_day_rate": 31.2,
+    "total_count": 15
+  },
+  {
+    "County": "Klickitat County",
+    "seven_day_rate": 17.6,
+    "total_count": 4
+  },
+  {
+    "County": "Lewis County",
+    "seven_day_rate": 18.7,
+    "total_count": 15
+  },
+  {
     "County": "Lincoln County",
-    "seven_day_rate": 9.1,
-    "total_count": 1
+    "seven_day_rate": 0,
+    "total_count": 0
   },
   {
     "County": "Mason County",
-    "seven_day_rate": 44.2,
-    "total_count": 29
+    "seven_day_rate": 48.7,
+    "total_count": 32
   },
   {
     "County": "Okanogan County",
-    "seven_day_rate": 11.6,
-    "total_count": 5
+    "seven_day_rate": 18.6,
+    "total_count": 8
   },
   {
     "County": "Pacific County",
-    "seven_day_rate": 22.9,
-    "total_count": 5
+    "seven_day_rate": 50.4,
+    "total_count": 11
   },
   {
     "County": "Pend Oreille County",
@@ -137,43 +137,43 @@
   },
   {
     "County": "Pierce County",
-    "seven_day_rate": 57.3,
-    "total_count": 516
+    "seven_day_rate": 61,
+    "total_count": 549
   },
   {
     "County": "San Juan County",
-    "seven_day_rate": 57.7,
-    "total_count": 10
+    "seven_day_rate": 103.8,
+    "total_count": 18
   },
   {
     "County": "Skagit County",
-    "seven_day_rate": 36,
-    "total_count": 47
+    "seven_day_rate": 40.6,
+    "total_count": 53
   },
   {
     "County": "Skamania County",
-    "seven_day_rate": 0,
-    "total_count": 0
+    "seven_day_rate": 8.2,
+    "total_count": 1
   },
   {
     "County": "Snohomish County",
-    "seven_day_rate": 91.6,
-    "total_count": 761
+    "seven_day_rate": 97.4,
+    "total_count": 809
   },
   {
     "County": "Spokane County",
-    "seven_day_rate": 32.9,
-    "total_count": 172
+    "seven_day_rate": 30.4,
+    "total_count": 159
   },
   {
     "County": "Stevens County",
-    "seven_day_rate": 24,
-    "total_count": 11
+    "seven_day_rate": 52.3,
+    "total_count": 24
   },
   {
     "County": "Thurston County",
-    "seven_day_rate": 69.1,
-    "total_count": 201
+    "seven_day_rate": 71.5,
+    "total_count": 208
   },
   {
     "County": "Wahkiakum County",
@@ -182,28 +182,28 @@
   },
   {
     "County": "Walla Walla County",
-    "seven_day_rate": 32,
-    "total_count": 20
+    "seven_day_rate": 44.7,
+    "total_count": 28
   },
   {
     "County": "Whatcom County",
-    "seven_day_rate": 86.8,
-    "total_count": 198
+    "seven_day_rate": 72.4,
+    "total_count": 165
   },
   {
     "County": "Whitman County",
-    "seven_day_rate": 9.9,
-    "total_count": 5
+    "seven_day_rate": 19.8,
+    "total_count": 10
   },
   {
     "County": "Yakima County",
-    "seven_day_rate": 12.8,
-    "total_count": 33,
+    "seven_day_rate": 14.3,
+    "total_count": 37,
     "for ai chart": "End: column D"
   },
   {
     "County": "Unassigned",
     "seven_day_rate": "NA",
-    "total_count": 18
+    "total_count": 7
   }
 ]

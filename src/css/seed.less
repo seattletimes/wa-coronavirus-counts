@@ -57,9 +57,10 @@
 @newStroke: #f77f50;
 
 main.interactive {
-	max-width: 960px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	max-width: 700px;
+	// padding-top: 15px;
+	// padding-bottom: 15px;
+	padding: 0px;
 }
 
 .graphic-hed {
@@ -113,7 +114,7 @@ main.interactive {
 
 	@media @mobile {
 		margin: 3px auto;
-		width: 75%;
+		width: 49%;
 	}
 
 	&:hover {
@@ -145,7 +146,7 @@ main.interactive {
 
 
 #toggle, #toggle2, #toggle3, #toggle4 {
-	margin-bottom: 15px;
+	margin-top: 10px;
 	text-align: center;
 }
 
@@ -193,7 +194,7 @@ main.interactive {
 }
 
 .caption-container {
-	margin-top: 10px;
+	// margin-top: 10px;
 	margin-bottom: 10px;
 	&:after {
 		clear: both;
@@ -253,6 +254,7 @@ main.interactive {
 
 
 .caseKey {
+	margin-top: 10px;
 	height: 80px;
 	line-height: 1em;
 	display: none;
@@ -346,19 +348,20 @@ main.interactive {
 }
 
 #countyTrendGraphic {
-  max-width: 980px;
+  max-width: 700px;
 	margin: auto;
 
 
 }
 
 #barChart {
-	width: 84%;
-	display: inline-block;
-	@media @tablet {
-		display: block;
-		width: 100%;
-	}
+	position: relative;
+	// // width: 84%;
+	// // display: inline-block;
+	// @media @tablet {
+	// 	display: block;
+	// 	width: 100%;
+	// }
 
 
 
@@ -406,14 +409,18 @@ main.interactive {
 
 
 .counter {
-	width: 15%;
-	text-align: center;
-	display: inline-block;
+	// width: 15%;
+	position: absolute;
+	top: 7%;
+	left: 15%;
+	text-align: left;
+	// display: inline-block;
 	vertical-align: top;
 
 	@media @tablet {
 		display: block;
-		width: 100%;
+		width: 150px;
+		left: 32%;
 	}
 
 	.head {
@@ -450,13 +457,9 @@ main.interactive {
 
 
 		.entry {
-			display: inline-block;
-			width: 50%;
+			// display: inline-block;
+			// width: 50%;
 			font-size: 16px;
-
-			.count {
-				display: inline-block;
-			}
 
 			.colorKey {
 				display: inline-block;
@@ -484,16 +487,6 @@ main.interactive {
 
 			}
 		}
-
-		.entry:last-child {
-			// margin-top: 7px;
-			// font-weight: bold;
-			padding-top: 5px;
-			// border-top: 3px solid black;
-			display: block;
-			width: 100%;
-			text-align: center;
-		}
 	}
 }
 
@@ -508,11 +501,12 @@ main.interactive {
 
 #newbarChart {
 	position: relative;
+	padding-top: 10px;
 	// height: 450px;
 
-	// .gBar {
-	// 	cursor: pointer;
-	// }
+	.gBar {
+		fill-opacity: 0.6;
+	}
 
 
 .arrows {
@@ -555,11 +549,12 @@ main.interactive {
 			// width: 300px;
 			// display: inline-block;
 
+
 			width: 260px;
 			margin: auto;
 			// width: 69%;
 			line-height: 1em;
-			font-size: 1.2em;
+			font-size: 20px;
 			border: 1px solid #ccc;
 			padding: 0.3em;
 			padding-top: 0.5em;
@@ -577,9 +572,18 @@ main.interactive {
 			#date {
 				font-weight: bold;
 			}
-			#avg {
+			.avg_note {
+				padding-top: 5px;
 				color: #aaa;
 				font-size: 0.8em;
+
+				.line {
+					display: inline-block;
+					width: 25px;
+					height: 6px;
+					margin-right: 7px;
+					border-top: 2px solid #aaa;
+				}
 			}
 		}
 
@@ -614,19 +618,8 @@ main.interactive {
 	}
 }
 
-.avg {
-	display: inline-block;
-	font-size: 0.9em;
-	color: #777676;
 
-	span {
-		display: inline-block;
-		width: 25px;
-		height: 6px;
-		margin-right: 7px;
-		border-top: 2px solid #aaa;
-	}
-}
+
 
 .dropdown {
 		// padding: 3px 5px;
@@ -714,11 +707,12 @@ main.interactive {
 
 
 #hospital_chart {
+	padding-top: 10px;
 	#hos_tooltip {
 		width: 260px;
 		margin: auto;
 		line-height: 1em;
-		font-size: 1.2em;
+		font-size: 20px;
 		border: 1px solid #ccc;
 		padding: 0.3em;
 		padding-top: 0.5em;
@@ -727,7 +721,8 @@ main.interactive {
 
 		.hos_note {
 			color: #aaa;
-    font-size: 0.8em;
+    	font-size: 0.8em;
+			padding-top: 5px;
 		}
 	}
 

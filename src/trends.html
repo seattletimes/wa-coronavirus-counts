@@ -21,8 +21,7 @@
     <responsive-child>
           <main class="interactive" id="countyTrendGraphic">
             <h1 class="graphic-hed">Cumulative coronavirus counts in Washington state</h1>
-            <p class="note center">Total cases as of 11:59 p.m. on <span id="date"></span>, 2022 | Updated on Mondays, Wednesdays and Fridays.</p>
-            <!-- <p class="note center">Click on each bar to see that day's county breakdown.</p> -->
+            <p class="note center">Click on each bar to see that day's county breakdown.</p>
 
 
             <form id="toggle3">
@@ -32,32 +31,19 @@
               <label class="toggle__label label--deaths" for="deathsCounty2">Deaths</label><br>
             </form>
 
-            <div class="CountyTrends" id="barChart"></div>
-            <div class="counter">
-              <div class="head"><div class="title cases showMe">Statewide cases</div><div class="title deaths">Statewide deaths</div> <span class="date"></span></div>
-              <div class="body">
+            <div class="CountyTrends" id="barChart">
+
+              <div class="counter">
+                <div class="head"><div class="title cases showMe">Statewide cases</div><div class="title deaths">Statewide deaths</div> <span class="date"></span></div>
+                <div class="body">
+                </div>
               </div>
+
+
             </div>
 
-            <!-- <div class="note">
-              <p>Washington's health department experienced data processing issues on October 10 and 11 didn't provide a daily update.</p>
-              <p>Washington's health department was severely impacted by wind storm damage on September 8, and didn't provide a daily update.</p>
-              <p>Data for Aug. 16 is as of 4:30 p.m., not 11:59 p.m., because routine maintenance interrupted lab-report processing at the state Department of Health (DOH) on that day. This likely caused a lower count of cases and deaths for Aug. 16.</p>
-              <br>
-              <p><b>CONFIRMED CASES:</b></p>
-              <p>Total confirmed cases includes deaths. Number of recoveries is currently not being recorded by the DOH.</p>
-
-              <p>Both July 31 and July 11 included the previous day’s data and March 28 had two updates. None are shown, as they skewed the graph.</p>
-              DOH data cleaning on April 18 removed 190 confirmed cases that were discovered to be out-of-state residents.</p>
-              <br>
-              <p><b>DEATHS:</b></p>
-              <p>The daily total shows the net change per day in the state’s death count. DOH reports new deaths while also removing wrongly assigned deaths.</p>
-              <p>The high death count on July 27 is the result of a backlog.
-              <p>On the graph: DOH removes deaths from the total when the primary cause of death is not COVID-19.</p>
-            </div> -->
-
             <div class="caption-container">
-              <p class="data-source">Source: <a href="https://www.doh.wa.gov/Emergencies/Coronavirus" target="_blank" rel="noreferrer nofollow">Washington State Department of Health</a></p>
+              <p class="data-source">Data updated on Fridays. Source: <a href="https://www.doh.wa.gov/Emergencies/Coronavirus" target="_blank" rel="noreferrer nofollow">Washington State Department of Health</a></p>
               <p class="art-credit">Lauren Flannery / The Seattle Times</p>
             </div>
           </main>

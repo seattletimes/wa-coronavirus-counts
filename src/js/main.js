@@ -11,7 +11,7 @@ const d3 = require("d3");
 // var day_var = "1216";
 
 //// change me every month ////
-var monthTicks = ["3/1/20", "4/1/2020", "5/1/2020", "6/1/2020", "7/1/2020","8/1/2020","9/1/2020","10/1/2020","11/1/2020","12/1/2020","1/1/2021", "2/1/2021", "3/1/2021", "4/1/2021", "5/1/2021", "6/1/2021", "7/1/2021", "8/1/2021", "9/1/2021", "10/1/2021", "11/1/2021", "12/1/2021", "1/1/2022", "2/1/2022", "3/1/2022", "4/1/2022"];
+var monthTicks = ["3/1/2020", "4/1/2020", "5/1/2020", "6/1/2020", "7/1/2020","8/1/2020","9/1/2020","10/1/2020","11/1/2020","12/1/2020","1/1/2021", "2/1/2021", "3/1/2021", "4/1/2021", "5/1/2021", "6/1/2021", "7/1/2021", "8/1/2021", "9/1/2021", "10/1/2021", "11/1/2021", "12/1/2021", "1/1/2022", "2/1/2022", "3/1/2022", "4/1/2022"];
 var hos_monthTicks = ["1/1/2021", "2/1/2021", "3/1/2021", "4/1/2021", "5/1/2021", "6/1/2021", "7/1/2021", "8/1/2021", "9/1/2021", "10/1/2021", "11/1/2021", "12/1/2021", "1/1/2022", "2/1/2022", "3/1/2022", "4/1/2022"];
 
 
@@ -43,7 +43,7 @@ let buckets = {
   cases: [1],
   deaths: [0.1],
   casesPop: [0.1, 1200.1, 1500.1, 1800.1, 2100.1],
-  deathsPop: [0.1, 10.1, 15.1, 20.1, 25.1],
+  deathsPop: [0.1, 10.1, 20.1, 30.1, 40.1],
   cases_2Wks: [1],
   casesPop_2Wks: [0.1, 20.1, 40.1, 60.1, 80.1]
 }
@@ -68,7 +68,7 @@ var dataDay = day_var[1];
 
 
 dataMonth = parseInt(dataMonth) - 1;
-var dateNew = months[dataMonth] + " " + dataDay;
+var dateNew = months[dataMonth] + " " + dataDay + ", " + day_var[2];
 
 
 if($('#countyMapGraphic').length >0 ){
@@ -221,19 +221,10 @@ if($('#countyMapGraphic').length >0 ){
 
 
 
-
-
-
-
-
  //////////////////////// TRENDS COUNTY CHART //////////////
-
-
-
 if($('#countyTrendGraphic').length >0 ){
   var conWidth = $("#barChart").width();
-
-  var conHeight = (conWidth > 500) ? 500 : 300;
+  var conHeight = (conWidth > 500) ? 350 : 220;
 
 
   var tooltip = d3.select(".counter .body");
@@ -243,7 +234,7 @@ if($('#countyTrendGraphic').length >0 ){
   var toolData = textBox.append("div").attr("class","toolData");
 
 
- var margin = {top: 20, right: 0, bottom: 20, left: 80},
+ var margin = {top: 20, right: 0, bottom: 20, left: 70},
      width = conWidth - margin.left - margin.right,
      height = conHeight - margin.top - margin.bottom;
 
@@ -257,7 +248,12 @@ if($('#countyTrendGraphic').length >0 ){
  var xAxis = d3.axisBottom()
      .scale(x0)
      .tickValues(monthTicks)
-     .tickFormat((d, i) => ["3/20", "4/20", "5/20", "6/20", "7/20","8/20","9/20","10/20","11/20","12/20","1/21", "2/21", "3/21", "4/21", "5/21", "6/21", "7/21", "8/21", "9/21", "10/21", "11/21", "12/21", "1/22", "2/22", "3/22", "4/22"][i]);
+     .tickFormat((d, i) => {
+       var split_date = d.split("/");
+       var year = split_date[2];
+       year = year.slice(2);
+       return `${split_date[0]}/${year}`;
+     });
 
  var yAxis = d3.axisLeft()
      .scale(y);
@@ -279,7 +275,7 @@ if($('#countyTrendGraphic').length >0 ){
  var deathColors = ['#f6cac1', '#db8f87', '#ae5c5c', '#7c2f38', "#330107", '#aaa'];
 
 
- $('#date').empty().text(dateNew);
+ // $('#date').empty().text(dateNew);
 
 
 var myFunction = function(updateData, idClicked) {
@@ -361,7 +357,7 @@ var myFunction = function(updateData, idClicked) {
             clickedDate = d.Date;
             clickedDate = clickedDate.split("/");
             var clickedMonth = parseInt(clickedDate[0]) - 1;
-            dateBox.text(months[clickedMonth] + " " + clickedDate[1]);
+            dateBox.text(ap_months[clickedMonth] + " " + clickedDate[1] + ", " + clickedDate[2]);
 
             d3.selectAll('.g').style("opacity","0.5");
             d3.select(this).style("opacity","1");
@@ -459,7 +455,6 @@ var myFunction = function(updateData, idClicked) {
    } else {
      myFunction(county_deaths, thisID);
    };
-
 });
 
 
@@ -469,35 +464,23 @@ var myFunction = function(updateData, idClicked) {
 } else {}
 
 /////////////////// NEW CASES AND DEATHS CHART /////////////
-
 if($('#newbarChart').length >0 ){
 
-
-
  var myFunction1 = function(updateData, idClicked, countyLabel) {
-
-
-
    var conWidth = $("#newbarChart").width();
-   var conHeight = (conWidth > 500) ? 450 : 220;
+   var conHeight = (conWidth > 500) ? 350 : 220;
 
    var innerColumns2 = {
      "column1" : [`${countyLabel}`],
    }
 
-   // d3.csv(updateData).then(
-   //   function(data) {
+      $('#graph').empty();
 
-       $('#graph').empty();
-
-
-
-      var margin = {top: 20, right: 0, bottom: 40, left: 55},
+      var margin = {top: 0, right: 0, bottom: 20, left: 55},
           width = conWidth - margin.left - margin.right,
           height = conHeight - margin.top - margin.bottom;
 
       var x0 = d3.scaleBand().range([0, width]).padding(.05);
-
       var x1 = d3.scaleBand().padding(.05);
 
       var y = d3.scaleLinear()
@@ -506,7 +489,12 @@ if($('#newbarChart').length >0 ){
       var xAxis = d3.axisBottom()
           .scale(x0)
           .tickValues(monthTicks)
-          .tickFormat((d, i) => ["3/20", "4/20", "5/20", "6/20", "7/20","8/20","9/20","10/20","11/20","12/20","1/21", "2/21", "3/21", "4/21", "5/21", "6/21", "7/21", "8/21", "9/21", "10/21", "11/21", "12/21", "1/22", "2/22", "3/22", "4/22"][i]);
+          .tickFormat((d, i) => {
+            var split_date = d.split("/");
+            var year = split_date[2];
+            year = year.slice(2);
+            return `${split_date[0]}/${year}`;
+          });
 
 
       var yAxis = d3.axisLeft()
@@ -548,27 +536,18 @@ if($('#newbarChart').length >0 ){
                yBegin = yColumn[ic];
                yColumn[ic] += +d[name];
 
-
-
                if (name === countyLabel) {
                  totalCases = parseInt(d[name]);
                } else {
                  totalCases = parseInt(d[name]) - prevDay;
                  prevDay = parseInt(d[name]);
                }
-
-
               thisThing = ic;
 
-
-
-               return {name: name, column: ic, yBegin: yBegin, yEnd: +d[name] + yBegin};
-
+              return {name: name, column: ic, yBegin: yBegin, yEnd: +d[name] + yBegin};
              }
            }
          });
-
-
 
          d.total = allCoun;
          d.allCoun = allCoun;
@@ -579,16 +558,14 @@ if($('#newbarChart').length >0 ){
 
        x0.domain(updateData.map(function(d) { return d.Date; }));
        x1.domain(d3.keys(innerColumns2)).range([0, x0.bandwidth()]);
-
        y.domain([0, d3.max(updateData, function(d) { return d.allCoun;  })]);
-
-
        svg1.selectAll(".axis").remove();
 
        svg1.append("g")
            .attr("class", "x axis")
            .attr("transform", "translate(0," + (height + 0) + ")")
            .call(xAxis);
+
 
        svg1.append("g")
            .attr("class", "y axis")
@@ -625,7 +602,7 @@ if($('#newbarChart').length >0 ){
                  clickedDate = clickedDate.split("/");
                  var clickedMonth = parseInt(clickedDate[0]) - 1;
 
-                 return (months[clickedMonth] + " " + clickedDate[1]);
+                 return (ap_months[clickedMonth] + " " + clickedDate[1]);
                })
                .transition()
                .duration(600)
@@ -648,87 +625,84 @@ if($('#newbarChart').length >0 ){
                 return ((idClicked === "casesCounty3") ? "#D8894E" : "#D15959");
               });
 
+                // var allBars = document.getElementsByClassName('gBar');
+                // var lastBar = allBars[allBars.length - 1];
+                // var lastID = lastBar.id;
+                // var selID = lastID.split("g");
+                // selID = parseInt( selID[1] );
+                // var endNum = selID;
+
+                const lastDayData2 = updateData[updateData.length - 1];
+                // var lastDate = lastDayData2.Date
+                // lastDate = lastDate.split("/");
+                // var h_Month2 = lastDate[0];
+                // var h_Day2 = lastDate[1];
+                // h_Month2 = parseInt(h_Month2) - 1;
+                // var formatted_first_date = ap_months[h_Month2] + " " + h_Day2 + " " + lastDate;
+                //
+                $('.newTooltip #date').empty().append(dateNew);
+                var theRightNumber2 = (countyLabel === "CasesNew") ? lastDayData2.CasesNew : lastDayData2.DeathsNew;
+                var newFollow2 = (countyLabel === "CasesNew") ? " cases" : " deaths";
+                var newAvg2 = (countyLabel === "CasesNew") ? lastDayData2.CasesNewAvg : lastDayData2.DeathsNewAvg;
+                $('.newTooltip #total').empty().append(commafy(theRightNumber2) + newFollow2);
+                $('.newTooltip #avg').empty().append(commafy(newAvg2));
 
 
 
-                var allBars = document.getElementsByClassName('gBar');
-                var lastBar = allBars[allBars.length - 1];
-                var lastID = lastBar.id;
-                var selID = lastID.split("g");
-                selID = parseInt( selID[1] );
-                var endNum = selID;
-
-              $( ".caret" ).click(function() {
-                if ( this.id === "left" && selID > 0 ){
-                  $( "#right" ).css("opacity",0.8) ;
-                  selID === 1 ? $( "#left" ).css("opacity",0.1) : $( "#left" ).css("opacity",0.9) ;
-                  selID -= 1;
-                  selectBar( selID );
-                } else if ( this.id === "right" && (selID < endNum) ) {
-                  $( "#left" ).css("opacity",0.8) ;
-                  selID === (endNum - 1) ? $( "#right" ).css("opacity",0.1) : $( "#right" ).css("opacity",0.9) ;
-                  selID += 1;
-                  selectBar( selID );
-                } else {}
-              });
-
-              var selectBar = function(prevID){
-                var newSel = "#g" + prevID;
-
-                var dailyTotal = $(newSel).attr("data-total");
-                var dailyDate = $(newSel).attr("data-date");
-                var dailyAvg = $(newSel).attr("data-avg");
-
-                $( ".gBar" ).css("opacity",0.5);
-                $( newSel ).css("opacity",1);
-
-                dailyTotal = commaFormat( parseInt(dailyTotal) );
-                dailyAvg = commaFormat( parseInt(dailyAvg) );
-
-                var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
-                $('.newTooltip #date').empty().append(dailyDate);
-                $('.newTooltip #total').empty().append(dailyTotal + follow);
-
-                if (idClicked === "casesCounty3") {
-                  $('.newTooltip #avg').empty().append("State 14-day average: " + dailyAvg);
-                } else {
-                  $('.newTooltip #avg').empty().append("Past 12 days of deaths are incomplete");
-                }
-
-              };
-
-              selectBar( selID );
-              $( "#right" ).css("opacity",0.1) ;
 
 
+
+              // $( ".caret" ).click(function() {
+              //   if ( this.id === "left" && selID > 0 ){
+              //     $( "#right" ).css("opacity",0.8) ;
+              //     selID === 1 ? $( "#left" ).css("opacity",0.1) : $( "#left" ).css("opacity",0.9) ;
+              //     selID -= 1;
+              //     selectBar( selID );
+              //   } else if ( this.id === "right" && (selID < endNum) ) {
+              //     $( "#left" ).css("opacity",0.8) ;
+              //     selID === (endNum - 1) ? $( "#right" ).css("opacity",0.1) : $( "#right" ).css("opacity",0.9) ;
+              //     selID += 1;
+              //     selectBar( selID );
+              //   } else {}
+              // });
+
+              // var selectBar = function(prevID){
+              //   var newSel = "#g" + prevID;
+              //
+              //   var dailyTotal = $(newSel).attr("data-total");
+              //   var dailyDate = $(newSel).attr("data-date");
+              //   var dailyAvg = $(newSel).attr("data-avg");
+              //
+              //   $( ".gBar" ).css("opacity",0.5);
+              //   $( newSel ).css("opacity",1);
+              //
+              //   dailyTotal = commaFormat( parseInt(dailyTotal) );
+              //   dailyAvg = commaFormat( parseInt(dailyAvg) );
+              //
+              //   var follow = (idClicked === "casesCounty3") ? " cases" : " deaths";
+              //   $('.newTooltip #date').empty().append(dailyDate);
+              //   $('.newTooltip #total').empty().append(dailyTotal + follow);
+              //
+              //   // if (idClicked === "casesCounty3") {
+              //   //   $('.newTooltip #avg').empty().append("State 14-day average: " + dailyAvg);
+              //   // } else {
+              //   //   $('.newTooltip #avg').empty().append("Past 12 days of deaths are incomplete");
+              //   // }
+              //   $('.newTooltip #avg').empty().append(dailyAvg);
+              //
+              // };
+
+              // selectBar( selID );
+              // $( "#right" ).css("opacity",0.1) ;
 
                 //define the line
                 var valueline = d3.line()
                     .x(function(d) { return x0(d.Date) + (x0.bandwidth() / 2); })
                     .y(function(d) {
-                      // return y(d.Roll_avg);
-                      // return y(d.Roll_avg);
                       var theRightAvg = (countyLabel === "CasesNew") ?  y(d.CasesNewAvg) :  y(d.DeathsNewAvg);
-
                       return theRightAvg;
                     });
 
-                // var zeroLine = d3.line()
-                //     .x(function(d) { return x0(d.Date) + (x0.bandwidth() / 2); })
-                //     .y(function(d) {
-                //       return y(0);
-                //     });
-                //
-                // svg1.append("path")
-                //     .data([updateData])
-                //     .attr("class", "line")
-                //     .attr("fill", "none")
-                //     .attr("stroke", "#bbb")
-                //     .attr("stroke-width", 1)
-                //     .attr("d", zeroLine);
-
-              // if (countyLabel === "CasesNew") {
-                // Add the valueline path.
                 svg1.append("path")
                     .data([updateData])
                     .attr("class", "line")
@@ -736,11 +710,78 @@ if($('#newbarChart').length >0 ){
                     .attr("stroke", "#aaa")
                     .attr("stroke-width", 2)
                     .attr("d", valueline);
-              // }
 
 
-         // }); d3 csv func
 
+                    //   // Create a rect on top of the svg area: this rectangle recovers mouse position
+                  var eventCapture2 = svg1
+                    .append('rect')
+                    .style("fill", "none")
+                    .style("pointer-events", "all")
+                    .attr('width', width)
+                    .attr('height', height)
+                    .on('mousemove', mousemoveMe);
+
+                    var focusContainer2 = svg1
+                      .append('g')
+                      .attr("class", "focusCon2");
+
+                  var guideLine2 = focusContainer2.append("line")
+                     .attr("class", "guideLine")
+                     .attr("x1", width)
+                     .attr("y1", 0)
+                     .attr("x2", width)
+                     .attr("y2", height)
+                     .attr("stroke", "#7b7b7b")
+                     .attr("stroke-dasharray","4");
+
+
+                  x0.invert = (function(){
+                   var domain = x0.domain()
+                   var range = x0.range()
+                   var scale = d3.scaleQuantize().domain(range).range(domain)
+
+                     return function(x){
+                         return scale(x)
+                     }
+                 })();
+
+                 function mousemoveMe(e) {
+                   var xy = d3.mouse(eventCapture2.node());
+                   var d = x0.invert(xy[0]);
+                   var nx = x0(d) + (x0.bandwidth()/2);
+
+                   guideLine2.transition().duration(10).attr("x1", nx).attr("x2", nx);
+                   const isDateTheSame = (element) => element.Date === d;
+
+                   var i = updateData.findIndex(isDateTheSame);
+
+                   selectedData = updateData[i];
+                   var rawDate = selectedData.Date;
+
+                   rawDate = rawDate.split("/");
+                   var h_Month = rawDate[0];
+                   var h_Day = rawDate[1];
+
+
+                   h_Month = parseInt(h_Month) - 1;
+                   var formatted_date = ap_months[h_Month] + " " + h_Day + ", " + rawDate[2];
+
+                   $('.newTooltip #date').empty().append(formatted_date);
+                   var theRightNumber = (countyLabel === "CasesNew") ? selectedData.CasesNew : selectedData.DeathsNew;
+                   var newFollow = (countyLabel === "CasesNew") ? " cases" : " deaths";
+                   var newAvg = (countyLabel === "CasesNew") ? selectedData.CasesNewAvg : selectedData.DeathsNewAvg;
+                   // var newAvgFollow = (countyLabel === "CasesNew") ? selectedData.CasesNewAvg : selectedData.DeathsNewAvg;
+                   // console.log(theRightNumber);
+                   $('.newTooltip #total').empty().append(commafy(theRightNumber) + newFollow);
+                   // if (idClicked === "casesCounty3") {
+                   //   $('.newTooltip #avg').empty().append("State 14-day average: " + commafy(newAvg));
+                   // } else {
+                   //   $('.newTooltip #avg').empty().append("Past 12 days of deaths are incomplete");
+                   // }
+                   $('.newTooltip #avg').empty().append(commafy(newAvg));
+
+                   }
        }
 
 
@@ -751,8 +792,6 @@ if($('#newbarChart').length >0 ){
           $('.title').toggleClass("showMe");
 
           myFunction1(dohNumbers, thisID, `${cOrD}New`);
-
-
   });
 
 myFunction1(dohNumbers, "casesCounty3", "CasesNew");
@@ -893,7 +932,7 @@ if($('#hospitalsGraphic').length >0 ){
   const lastDayData = hospitalData[hospitalData.length - 1];
   $('#hos_tooltip .rate').append(lastDayData.Per_Hospital_Occ_COVID + "%");
   var hos_con_Width = $("#hospitalsGraphic").width();
-  var hos_con_Height = (hos_con_Width > 500) ? 450 : 220;
+  var hos_con_Height = (hos_con_Width > 500) ? 350 : 220;
 
   var margin = {top: 20, right: 0, bottom: 30, left: 40},
      hos_width = hos_con_Width - margin.left - margin.right,
@@ -910,7 +949,13 @@ if($('#hospitalsGraphic').length >0 ){
      var xAxis = d3.axisBottom()
          .scale(x0)
          .tickValues(hos_monthTicks)
-         .tickFormat((d, i) => ["1/21", "2/21", "3/21", "4/21", "5/21", "6/21", "7/21", "8/21", "9/21", "10/21", "11/21", "12/21", "1/22", "2/22", "3/22", "4/22"][i]);
+         .tickFormat((d, i) => {
+           var split_date = d.split("/");
+           var year = split_date[2];
+           year = year.slice(2);
+           return `${split_date[0]}/${year}`;
+         }
+       );
 
 
      var yAxis = d3.axisLeft()
@@ -950,10 +995,6 @@ if($('#hospitalsGraphic').length >0 ){
              .x(function(d) { return x0(d.Date) })
              .y(function(d) {
                return y(d.Per_Hospital_Occ_COVID);
-               // return y(d.Roll_avg);
-               // var theRightAvg = (countyLabel === "CasesNew") ?  y(d.CasesNewAvg) :  y(d.DeathsNewAvg);
-               //
-               // return theRightAvg;
              });
 
 
@@ -965,29 +1006,17 @@ if($('#hospitalsGraphic').length >0 ){
              .attr("stroke-width", 2)
              .attr("d", valueline);
 
-             //   This allows to find the closest X index of the mouse:
-               // var bisect = d3.bisector(d => d.Date).left;
-
                var focusContainer = svg_hos
                  .append('g')
                  .attr("class", "focusCon");
 
              //   // Create the circle that travels along the curve of chart
-               var focus = focusContainer
-                 .append('circle')
-                   .style("fill", "skyblue")
-                   .attr("stroke", "black")
-                   .attr('r', 8.5)
-                   .style("opacity", 0);
-
-             //   // Create the text that travels along the curve of chart
-               // var focusText = focusContainer
-               //   .append('text')
-               //     .attr("class", "focusText")
-               //     .attr('dy', '.35em')
-               //     .style("opacity", 0)
-               //     .attr("text-anchor", "center")
-               //     .attr("alignment-baseline", "middle")
+               // var focus = focusContainer
+               //   .append('circle')
+               //     .style("fill", "skyblue")
+               //     .attr("stroke", "black")
+               //     .attr('r', 8.5)
+               //     .style("opacity", 0);
 
                var guideLine = focusContainer.append("line")
                     .attr("class", "guideLine")
@@ -995,33 +1024,8 @@ if($('#hospitalsGraphic').length >0 ){
                     .attr("y1", 0)
                     .attr("x2", hos_width)
                     .attr("y2", hos_height)
-                    .attr("stroke", "red")
-
-              //  var focusTooltip = focusContainer.append("rect")
-              //     .attr("class", "tooltip")
-              //     .attr("width", 100)
-              //     .attr("height", 50)
-              //     .attr("x", 10)
-              //     .attr("y", -22)
-              //     .attr("rx", 4)
-              //     .attr("ry", 4);
-              //
-              // focusTooltip.append("text")
-              //     .attr("class", "tooltip-date")
-              //     .attr("x", 18)
-              //     .attr('dy', '.35em');
-              //
-              // focusTooltip.append("text")
-              //     .attr("x", 18)
-              //     // .attr("y", 18)
-              //     .attr('dy', '.35em')
-              //     .text("Likes:");
-              //
-              // focusTooltip.append("text")
-              //     .attr("class", "tooltip-likes")
-              //     .attr("x", 60)
-              //     .attr("y", 18)
-              //     .attr('dy', '.35em');
+                    .attr("stroke", "#7b7b7b")
+                    .attr("stroke-dasharray","4");
 
              //   // Create a rect on top of the svg area: this rectangle recovers mouse position
                var eventCapture = svg_hos
@@ -1030,9 +1034,7 @@ if($('#hospitalsGraphic').length >0 ){
                  .style("pointer-events", "all")
                  .attr('width', hos_width)
                  .attr('height', hos_height)
-                 .on('mouseover', mouseover)
-                 .on('mousemove', mousemove)
-                 .on('mouseout', mouseout);
+                 .on('mousemove', mousemove);
 
 
                  x0.invert = (function(){
@@ -1043,26 +1045,14 @@ if($('#hospitalsGraphic').length >0 ){
                     return function(x){
                         return scale(x)
                     }
-                })()
-
-              // What happens when the mouse move -> show the annotations at the right positions.
-               function mouseover() {
-                 focus.style("opacity", 1)
-                 // focusContainer.style("opacity",1)
-               }
+                })();
 
                function mousemove(e) {
-
-
                  var xy = d3.mouse(eventCapture.node());
                  var d = x0.invert(xy[0]);
-
-                 // i = bisect(hospitalData, d, 1);
-                 // console.log(d + " " + i);
                  var nx = x0(d) + (x0.bandwidth()/2);
 
-                  guideLine.transition().duration(10).attr("x1", nx).attr("x2", nx)
-
+                 guideLine.transition().duration(10).attr("x1", nx).attr("x2", nx);
                  const isDateTheSame = (element) => element.Date === d;
 
                  var i = hospitalData.findIndex(isDateTheSame);
@@ -1073,29 +1063,13 @@ if($('#hospitalsGraphic').length >0 ){
                  rawDate = rawDate.split("/");
                  var h_Month = rawDate[0];
                  var h_Day = rawDate[1];
-
-
                  h_Month = parseInt(h_Month) - 1;
-                 var formatted_date = ap_months[h_Month] + " " + h_Day;
+                 var formatted_date = ap_months[h_Month] + " " + h_Day + ", " + rawDate[2];
 
                  $('#hos_tooltip .date').empty().append(formatted_date);
                  $('#hos_tooltip .rate').empty().append(selectedData.Per_Hospital_Occ_COVID + "%");
 
-
-                 focus
-                   .attr("cx", x0(selectedData.Date))
-                   .attr("cy", y(selectedData.Per_Hospital_Occ_COVID))
-
-                 // focusTooltip
-                 //   .attr("x", x0(selectedData.Date)+15)
-                 //   .attr("y", y(selectedData.Per_Hospital_Occ_COVID))
-                 //   .html("x:" + selectedData.Date + "  -  " + "y:" + selectedData.Per_Hospital_Occ_COVID);
-
                  }
-               function mouseout() {
-                 focus.style("opacity", 0)
-                 // focusContainer.style("opacity", 0)
-               }
 
 
 } else {}

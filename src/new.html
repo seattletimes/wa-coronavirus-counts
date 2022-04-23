@@ -12,7 +12,6 @@
       window.DOH_Totals = <%= JSON.stringify(grunt.data.json.DOHTotalsNew) %>;
       window.CountyCounts = <%= JSON.stringify(grunt.data.json.county_counts) %>;
       window.CountyDeaths = <%= JSON.stringify(grunt.data.json.death_counts) %>;
-      console.log(window.CountyCounts);
     </script>
   </head>
   <body>
@@ -21,18 +20,13 @@
     <% } %>
     <responsive-child>
           <main class="interactive" id="countyTrendGraphic">
-            <h1 class="graphic-hed">Trends over time</h1>
-            <p class="note center">Total cases as of 11:59 p.m. on <span id="date"></span>, 2022 | Updated on Mondays, Wednesdays and Fridays.<br>Use the arrows to view daily case counts.</p>
+            <h1 class="graphic-hed">CORONAVIRUS TRENDS</h1>
 
             <form id="toggle3">
               <input type="radio" data-type="Cases" id="casesCounty3" name="toggleCounty2" class="radioButton3" value="casesCounty3" checked>
               <label class="toggle__label label--cases" for="casesCounty3">Cases</label>
               <input type="radio" data-type="Deaths" id="deathsCounty3" name="toggleCounty2" class="radioButton3" value="deathsCounty3">
               <label class="toggle__label label--deaths" for="deathsCounty3">Deaths</label><br>
-              <div class="avg">
-                <div class="caseAvg"><span class="line"></span>14-day rolling average</div>
-                <!-- <div class="deathAvg">Incomplete for previous 12 days</div> -->
-              </div>
             </form>
 
             <div class="newTrends" id="newbarChart">
@@ -40,12 +34,12 @@
 
                 <div class="newTooltip">
                   <div><span id="date"></span>: <span id="total"></span></div>
-<div><span id="avg"></span></div>
+                  <div class="avg_note"><span class="line"></span> 14-day average: <span id="avg"></span></div>
 
-                  <div class="arrows">
+                  <!-- <div class="arrows">
                     <i id="left" class="fas fa-caret-left caret"></i>
                     <i id="right" class="fas fa-caret-right caret"></i>
-                  </div>
+                  </div> -->
                 </div>
 
 
@@ -55,7 +49,7 @@
 
 
             <div class="caption-container">
-              <p class="data-source">Source: <a href="https://www.doh.wa.gov/Emergencies/Coronavirus" target="_blank" rel="noreferrer nofollow">Washington State Department of Health</a></p>
+              <p class="data-source">Data updated on Fridays, past 12 days of deaths are incomplete. Source: <a href="https://www.doh.wa.gov/Emergencies/Coronavirus" target="_blank" rel="noreferrer nofollow">Washington State Department of Health</a></p>
               <p class="art-credit">Lauren Flannery / The Seattle Times</p>
             </div>
           </main>
